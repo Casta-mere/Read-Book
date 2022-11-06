@@ -1,0 +1,14 @@
+{
+    "Bookid":"",
+    "question": "xxxx",
+    "type": "xxxx",
+    "options": [
+        "xxxx",
+        "x",
+        "xx",
+        "xxx"
+    ],
+    "Ans_type1": "xxxx",
+    "Ans_type2": "True",
+    "category": "author"
+}
