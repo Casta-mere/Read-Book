@@ -58,11 +58,11 @@
               <li class="nav-item">
                 <a class="nav-link" href="/statistics"> Statistics </a>
               </li>
-              {%if status == 0%}
+              {%if status == 0 or status == 1%}
               <li class="nav-item active">
                 <a class="nav-link" href="/login">Login <span class="sr-only">(current)</span> </a>
               </li>
-              {%elif status == 1%}
+              {%elif status == 2%}
               <li class="nav-item active">
                 <a class="nav-link" href="/profile">Profile <span class="sr-only">(current)</span> </a>
               </li>

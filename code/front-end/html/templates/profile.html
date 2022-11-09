@@ -58,11 +58,11 @@
               <li class="nav-item">
                 <a class="nav-link" href="/statistics"> Statistics </a>
               </li>
-              {%if status == 0%}
+              {%if status == 0 or status == 1%}
               <li class="nav-item active">
                 <a class="nav-link" href="/login">Login <span class="sr-only">(current)</span> </a>
               </li>
-              {%elif status == 1%}
+              {%elif status == 2%}
               <li class="nav-item active">
                 <a class="nav-link" href="/profile">Profile <span class="sr-only">(current)</span> </a>
               </li>
@@ -82,36 +82,99 @@
   </div>
 
   <!-- contact section -->
-
+  
   <section class="contact_section layout_padding">
     <div class="container">
       <div class="row">
+        {%if status == 2%}
+        <div class="col-md-6 ">
+          <div class="heading_container ">
+            <h1 class="">
+            <b>Profile</b>
+            </h1> <br><br>
+          </div>
+            <h4>
+              <b>ID:</b> {{id}}
+            </h4> <br>
+            <h4>
+              <b>Name:</b> {{name}}
+            </h4> <br>
+            <h4>
+              <b>Gender:</b> {{gender}}
+            </h4> <br>
+            <h4>
+              <b>Tele:</b> {{tele}}
+            </h4> <br>
+            <h4>
+              <b>Brief introduction:</b> {{brief}}
+            </h4>
+        </div>
+        {%elif status == 1%}
         <div class="col-md-6 ">
           <div class="heading_container ">
             <h2 class="">
-              Contact Us
+            Please login first ^_^
             </h2>
           </div>
-          <form action="#">
+          <form action="/validation">
             <div>
-              <input type="text" placeholder="Name" />
+              <input type="text" placeholder="ID" />
             </div>
             <div>
-              <input type="email" placeholder="Email" />
-            </div>
-            <div>
-              <input type="text" placeholder="Pone Number" />
-            </div>
-            <div>
-              <input type="text" class="message-box" placeholder="Message" />
+              <input type="text" placeholder="Passwords" />
             </div>
             <div class="btn-box">
               <button>
                 SEND
               </button>
             </div>
+            <div>
+              <br>
+              <br>
+              <h6>No account? Sign up <a href="/register">here</a> ^_^</h6> <!--多写个route函数给signup-->
+            </div>
           </form>
         </div>
+        {%elif status == 0%}
+        <div class="col-md-6 ">
+          <div class="heading_container ">
+            <h2 class="">
+            Please register first ^_^
+            </h2>
+          </div>
+          <form action="/validation">
+            <div id="nameID" name="nameID">
+              <input id="nameID" name="nameID" value="{{nameID}}" type="text" placeholder="Name" />
+            </div>
+            <div id="gender" name="gender">
+              <input id="gender" name="gender" value="{{gender}}" type="text" placeholder="Gender" />
+            </div>
+     
+            <div id="pw" name="pw">
+              <input id="pw" name="pw" value="{{pw}}" type="password" placeholder="Passwords" />
+            </div>
+            <div id="pw2" name="pw2">
+              <input id="pw2" name="pw2" value="{{pw2}}" type="password" placeholder="Confirm passwords" />
+            </div>
+            <div id="tele" name="tele">
+              <input id="tele" name="tele" value="{{tele}}" type="text" placeholder="Phone Number" />
+            </div>
+            <div id="brief" name="brief">
+              <input id="brief" name="brief" value="{{brief}}" type="text" class="message-box" placeholder="Brief introduction" />
+            </div>
+            <div class="btn-box">
+              <button>
+                SEND
+              </button>
+            </div>
+            <div>
+              <br>
+              <br>
+              <h6>Already have an account? Login <a href="/login">here</a>^_^</h6> <!--多写个route函数给signup-->
+            </div>
+          </form>
+        </div>
+        {%endif%}
         <div class="col-md-6">
           <div class="img-box">
             <img src="static/images/contact-img.png" alt="">

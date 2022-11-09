@@ -6,8 +6,8 @@ from flask import (
 
 search = Flask(__name__)
 
-# login/reg--0|info--1
-globals.status = 0
+# register--0|login--1|info--2
+globals.status = 1
 
 @search.route('/', methods=['GET', 'POST'])
 def index():
@@ -41,6 +41,30 @@ def statistics():
 def profile():
     return render_template(
         'profile.html',
+        status=globals.status
+        )
+    
+@search.route('/login', methods=['GET', 'POST'])
+def login():
+    globals.status = 1
+    return render_template(
+        'profile.html',
+        status=globals.status
+        )
+
+@search.route('/register', methods=['GET', 'POST'])
+def register():
+    globals.status=0
+    return render_template(
+        "profile.html",
+        status=globals.status
+        )
+    
+@search.route('/validation', methods=['GET', 'POST'])
+def validation():
+    globals.status = 2
+    return render_template(
+        "validation.html",
         status=globals.status
         )
     
