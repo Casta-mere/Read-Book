@@ -8,7 +8,7 @@
   <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- Site Metas -->
-  <link rel="icon" href="images/favicon.png" type="image/gif" />
+  <link rel="icon" href="static/images/favicon.png" type="image/gif" />
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
@@ -16,14 +16,14 @@
   <title>Bostorek</title>
 
   <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="static/css/bootstrap.css" />
   <!-- font awesome style -->
-  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <link href="static/css/font-awesome.min.css" rel="stylesheet" />
 
   <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
+  <link href="static/css/style.css" rel="stylesheet" />
   <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+  <link href="static/css/responsive.css" rel="stylesheet" />
 
 </head>
 
@@ -34,7 +34,7 @@
     <header class="header_section">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="/">
             <span>
               Bostorek
             </span>
@@ -46,21 +46,27 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
-              <li class="nav-item ">
-                <a class="nav-link pl-lg-0" href="index.html">Home </a>
+              <li class="nav-item">
+                <a class="nav-link pl-lg-0" href="/">Home </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html"> About</a>
+                <a class="nav-link" href="/books"> Books</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/test">Test</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/statistics"> Statistics </a>
+              </li>
+              {%if status == 0%}
               <li class="nav-item active">
-                <a class="nav-link" href="categories.html">Categories <span class="sr-only">(current)</span> </a>
+                <a class="nav-link" href="/login">Login <span class="sr-only">(current)</span> </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="blog.html"> Blog </a>
+              {%elif status == 1%}
+              <li class="nav-item active">
+                <a class="nav-link" href="/profile">Profile <span class="sr-only">(current)</span> </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
-              </li>
+              {%endif%}
             </ul>
             <from class="search_form">
               <input type="text" class="form-control" placeholder="Search here...">
@@ -93,7 +99,7 @@
           <div class="col-sm-6 col-md-4 ">
             <div class="box ">
               <div class="img-box">
-                <img src="images/cat1.png" alt="">
+                <img src="static/images/cat1.png" alt="">
               </div>
               <div class="detail-box">
                 <h5>
@@ -110,7 +116,7 @@
           <div class="col-sm-6 col-md-4 ">
             <div class="box ">
               <div class="img-box">
-                <img src="images/cat2.png" alt="">
+                <img src="static/images/cat2.png" alt="">
               </div>
               <div class="detail-box">
                 <h5>
@@ -127,7 +133,7 @@
           <div class="col-sm-6 col-md-4 ">
             <div class="box ">
               <div class="img-box">
-                <img src="images/cat3.png" alt="">
+                <img src="static/images/cat3.png" alt="">
               </div>
               <div class="detail-box">
                 <h5>
@@ -144,7 +150,7 @@
           <div class="col-sm-6 col-md-4 ">
             <div class="box ">
               <div class="img-box">
-                <img src="images/cat4.png" alt="">
+                <img src="static/images/cat4.png" alt="">
               </div>
               <div class="detail-box">
                 <h5>
@@ -161,7 +167,7 @@
           <div class="col-sm-6 col-md-4 ">
             <div class="box ">
               <div class="img-box">
-                <img src="images/cat5.png" alt="">
+                <img src="static/images/cat5.png" alt="">
               </div>
               <div class="detail-box">
                 <h5>
@@ -178,7 +184,7 @@
           <div class="col-sm-6 col-md-4 ">
             <div class="box ">
               <div class="img-box">
-                <img src="images/cat6.png" alt="">
+                <img src="static/images/cat6.png" alt="">
               </div>
               <div class="detail-box">
                 <h5>
@@ -293,11 +299,11 @@
   <!-- footer section -->
 
   <!-- jQery -->
-  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="static/js/jquery-3.4.1.min.js"></script>
   <!-- bootstrap js -->
-  <script src="js/bootstrap.js"></script>
+  <script src="static/js/bootstrap.js"></script>
   <!-- custom js -->
-  <script src="js/custom.js"></script>
+  <script src="static/js/custom.js"></script>
   <!-- Google Map -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
   </script>
