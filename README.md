@@ -31,3 +31,9 @@
 | code     | 代码     |
 | report   | 报告     |
 | resource | 相关材料 |
+
+## Requirement
+
+- flask
+- pymysql
+- beautifulsoup4
