@@ -37,3 +37,4 @@
 - flask
 - pymysql
 - beautifulsoup4
+- requests

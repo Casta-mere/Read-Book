@@ -87,7 +87,7 @@ def preload():
     column_book.append(['publisher','varchar(50)'])
     column_book.append(['year','varchar(50)'])
     column_book.append(['page','int'])
-    column_book.append(['price','float'])
+    column_book.append(['price','varchar(50)'])
     column_book.append(['frame','varchar(50)'])
     column_book.append(['category','varchar(50)'])
     column_book.append(['isbn','varchar(50)'])
@@ -113,7 +113,8 @@ def preload():
     sql.Create_table(tabname_book,column_book)
     sql.Create_table(tabname_user,column_user)
 
-    book1=[1,'"冰与火之歌"','"Geoge RR Martin"','"US"','"xxx"','"1996"',3000,300,'"精装版"','"魔幻"','"1234-5678-910"',9.9,100,'"xxx"','"124578"','"sadadaw.wad.com"','"A song of ice and fire"','"屈畅"']
+    book1=[1,'"冰与火之歌"','"Geoge RR Martin"','"US"','"xxx"','"1996"',3000,'"300"','"精装版"','"魔幻"','"1234-5678-910"',9.9,100,'"xxx"','"124578"','"sadadaw.wad.com"','"A song of ice and fire"','"屈畅"']
+    
     user1=[1,'"castamere"','"M"','"13834230484"','"aaa6953217"','"xxxx"']
     sql.Update_table(tabname_book,book1)
     sql.Update_table(tabname_user,user1)
