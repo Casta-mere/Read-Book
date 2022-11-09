@@ -4,17 +4,21 @@ import pymysql
 # Change the following to your own database connection info
 host = 'localhost'
 user = 'root'
-# password = ''
-password = '123456'
+password = ''
+# password = '123456'
 
 
 class my_sql():
     def __init__(self, database_name):
         self.database_name = database_name
 
+
+        
+
     def Create_Database(self):
         conn = pymysql.connect(host=host, user=user,
                                password=password, charset='utf8')
+
         cursor = conn.cursor()
         cursor.execute("DROP DATABASE IF EXISTS %s" % self.database_name)
         cursor.execute("CREATE DATABASE %s" % self.database_name)
@@ -24,6 +28,7 @@ class my_sql():
     def Drop_Database(self):
         conn = pymysql.connect(host=host, user=user,
                                password=password, charset='utf8')
+
         cursor = conn.cursor()
         cursor.execute("DROP DATABASE IF EXISTS %s" % self.database_name)
         cursor.close()
@@ -38,10 +43,10 @@ class my_sql():
         conn.close()
 
     def Create_table(self, table_name, columns):
-        self.Drop_table(table_name)
         conn = pymysql.connect(host=host, user=user, password=password,
                                database=self.database_name, charset='utf8')
         cursor = conn.cursor()
+        self.Drop_table(table_name)
         cursor.execute("CREATE TABLE %s (%s)" %
                        (table_name, self.translate(columns)))
         cursor.close()
@@ -82,6 +87,27 @@ class my_sql():
         return data
 
 
+    def get_data_by_attr(self, table_name, attr_name, attr_value):
+        conn = pymysql.connect(host=host, user=user, password=password,
+                               database=self.database_name, charset='utf8')
+        cursor = conn.cursor()
+        cursor.execute(
+            f'select * from {table_name} where {attr_name}={attr_value}')
+        data = cursor.fetchall()
+        cursor.close()
+        conn.close()
+        return data
+
+    def Update_user(self,id,name,gender,telephone,password,brief):
+        item=[]
+        item.append(id)
+        item.append(name)
+        item.append(gender)
+        item.append(telephone)
+        item.append(password)
+        item.append(brief)
+        self.Update_table("user",item)
+
 def preload():
     tabname_book = "book"
     column_book = []
@@ -118,20 +144,16 @@ def preload():
     sql.Create_table(tabname_book, column_book)
     sql.Create_table(tabname_user, column_user)
 
-    # book1=[1,'"冰与火之歌"','"Geoge RR Martin"','"US"','"xxx"','"1996"',3000,'"300"','"精装版"','"魔幻"','"1234-5678-910"',9.9,100,'"xxx"','"124578"','"sadadaw.wad.com"','"A song of ice and fire"','"屈畅"']
+    book1 = [1, '"冰与火之歌"', '"Geoge RR Martin"', '"US"', '"xxx"', '"1996"', 3000, '"300"', '"精装版"', '"魔幻"',
+             '"1234-5678-910"', 9.9, 100, '"xxx"', '"124578"', '"sadadaw.wad.com"', '"A song of ice and fire"', '"屈畅"']
 
     user1 = [1, '"castamere"', '"M"',
              '"13834230484"', '"aaa6953217"', '"xxxx"']
     user2 = [2, '"today_red"', '"F"',
              '"13834230484"', '"aaa6953217"', '"xxxx"']
-    # sql.Update_table(tabname_book,book1)
+    sql.Update_table(tabname_book, book1)
     sql.Update_table(tabname_user, user1)
     sql.Update_table(tabname_user, user2)
 
 
-def get_info(id):
-    sql = my_sql("readbook")
-    ans = list(sql.get_data("user"))
-    for i in ans:
-        if i[0] == id:
-            return list(i)
+preload()
