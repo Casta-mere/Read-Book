@@ -15,7 +15,11 @@ class control():
         return exist
 
     def get_user_info_by_id(self, id):
-        ans = list(self.database.get_data_by_attr("user", 'id', id)[0])
+        try:
+            ans = list(self.database.get_data_by_attr("user", 'id', id)[0])
+        # print(ans)
+        except:
+            ans = []
         return ans
 
     def new_user(self, name, gender, tele, pw, brief):
@@ -30,4 +34,4 @@ class control():
 c = control()
 
 # print(c.get_user_info_by_id(1))
-print(c.new_user(1, 2, 3, 4, 5))
+# print(c.new_user(1, 2, 3, 4, 5))

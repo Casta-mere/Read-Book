@@ -4,8 +4,8 @@ import pymysql
 # Change the following to your own database connection info
 host = 'localhost'
 user = 'root'
-password = ''
-# password = '123456'
+# password = ''
+password = '123456'
 
 
 class my_sql():
@@ -92,7 +92,7 @@ class my_sql():
                                database=self.database_name, charset='utf8')
         cursor = conn.cursor()
         cursor.execute(
-            f'select * from {table_name} where {attr_name}={attr_value}')
+            f'select * from {table_name} where {attr_name}="{attr_value}"')
         data = cursor.fetchall()
         cursor.close()
         conn.close()
@@ -101,11 +101,11 @@ class my_sql():
     def Update_user(self,id,name,gender,telephone,password,brief):
         item=[]
         item.append(id)
-        item.append(name)
-        item.append(gender)
-        item.append(telephone)
-        item.append(password)
-        item.append(brief)
+        item.append(f'"{name}"')
+        item.append(f'"{gender}"')
+        item.append(f'"{telephone}"')
+        item.append(f'"{password}"')
+        item.append(f'"{brief}"')
         self.Update_table("user",item)
 
 def preload():
@@ -156,4 +156,4 @@ def preload():
     sql.Update_table(tabname_user, user2)
 
 
-preload()
+# preload()
