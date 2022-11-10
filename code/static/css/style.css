@@ -637,6 +637,35 @@ a:focus {
   width: 100%;
 }
 
+.about_section .btn-box {
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+.about_section button {
+  display: inline-block;
+  padding: 12px 45px;
+  background-color: #44b89d;
+  color: #ffffff;
+  border-radius: 45px;
+  border: 1px solid #44b89d;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 100%;
+}
+
+.about_section button:hover {
+  background-color: transparent;
+  color: #44b89d;
+}
+
+.about_section .img-box img {
+  width: 100%;
+}
+
 .info_section {
   background-color: #063547;
   color: #ffffff;

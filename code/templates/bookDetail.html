@@ -84,7 +84,7 @@
   <!-- about section -->
 
   <section class="about_section layout_padding">
-    <div class="container ">
+    <div class="container">
         <div class="row">
             <div class="col-md-4">
                 <div class="img-box">
@@ -95,6 +95,10 @@
                 <h5 class ="text-center">排名：{{detail[0]}}</h5>
                 <h5 class ="text-center">书名：{{detail[1]}}</h5>
                 <h5 class ="text-center">作者：{{detail[2]}}</h5>
+                {%if foreign == 1%}
+                <h5 class ="text-center">原作名：{{detail[16]}}</h5>
+                <h5 class ="text-center">译者：{{detail[17]}}</h5>
+                {%endif%}
                 <h5 class ="text-center">国家：{{detail[3]}}</h5>
                 <h5 class ="text-center">出版社：{{detail[4]}}</h5>
                 <h5 class ="text-center">出版年份：{{detail[5]}}</h5>
@@ -105,22 +109,23 @@
                 <h5 class ="text-center">isbn码：{{detail[10]}}</h5>
                 <h5 class ="text-center">评分：{{detail[11]}}</h5>
                 <h5 class ="text-center">评论数：{{detail[12]}}</h5>
-                <h5 class ="text-center">简介：{{detail[13]}}</h5>
-                {%if foreign == 1%}
-                <h5 class ="text-center">原作名：{{detail[14]}}</h5>
-                <h5 class ="text-center">译者：{{detail[15]}}</h5>
-                {%endif%}
-                <div class="btn-box">
-                    <p class="text-center">
-                        <a href="/books">
-                            <button>
-                            返回
-                            </button>
-                        </a>
-                    </p>
-                </div>
+                
             </div>
-        </div>           
+        </div>    
+        <div class="row">
+          <div class="col-md-12">
+            <h5 class ="text-center">简介：{{detail[13]}}</h5>
+            <p class="text-center">
+            <div class="btn-box">
+              <a href="/books">
+                <button>
+                  返回
+                </button>
+              </a>
+            </div>
+            </p>
+          </div>
+      </div>       
     </div>
   </section>
 
@@ -192,6 +197,7 @@
               <button type="submit">
                 Subscribe
               </button>
+              
             </form>
           </div>
         </div>

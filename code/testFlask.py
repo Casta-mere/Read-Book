@@ -29,13 +29,28 @@ def index():
     
 @search.route('/books', methods=['GET', 'POST'])
 def books():
-    books=[['1','1',''],['1','1',''],['1','1',''],['1','1',''],['1','1',''],['1','1',''],['1','1',''],['1','1','']]
-    print(books[0][0])
+    books=globals.ctrl.get_book_brief_info()
+    print(books)
     return render_template(
         'books.html',
         status=globals.status,
         book=books
-        )
+    )
+
+# 书籍详情页
+@search.route('/bookDetail/<int:id>', methods=['GET', 'POST'])
+def bookDetail(id):
+    detail=globals.ctrl.get_book_detail_info(id+1)
+    if (detail[16] or detail[17]):
+        foreign=1
+    else:
+        foreign=0
+    return render_template(
+        "bookDetail.html",
+        detail=detail,
+        foreign=foreign,
+        status=globals.status
+    )
 
 @search.route('/test', methods=['GET', 'POST'])
 def test():
