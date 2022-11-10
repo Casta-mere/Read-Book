@@ -109,23 +109,38 @@
                 <h5 class ="text-center">isbn码：{{detail[10]}}</h5>
                 <h5 class ="text-center">评分：{{detail[11]}}</h5>
                 <h5 class ="text-center">评论数：{{detail[12]}}</h5>
-                
             </div>
         </div>    
+        <br>
+        <br>
         <div class="row">
           <div class="col-md-12">
-            <h5 class ="text-center">简介：{{detail[13]}}</h5>
-            <p class="text-center">
-            <div class="btn-box">
+            <h5>简介：{{detail[13]}}</h5>
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="row align-items-center">
+          {%for j in range(0,5)%} 
+          <div class="col">
+            <h5 class ="text-center">&nbsp;</h5>
+          </div>   
+          {%endfor%}
+          <div class="col-md-offset-1">
+            <div class="btn-box m-auto">
               <a href="/books">
                 <button>
                   返回
                 </button>
               </a>
             </div>
-            </p>
-          </div>
-      </div>       
+          </div> 
+          {%for j in range(0,5)%}  
+          <div class="col">
+            <h5 class ="text-center">&nbsp;</h5>
+          </div>   
+          {%endfor%}
+
     </div>
   </section>
 
