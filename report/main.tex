@@ -53,13 +53,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-\newcommand\courseName{Software Eningeering}
+\newcommand\courseName{Programming in Python}
 \newcommand\semester{Fall 2022}
 \newcommand\assignmentNumber{1}
-\newcommand\studentName{Wang Xugang}
+\newcommand\studentName{\Large \centering 任课教师: 张涵翠\\王旭刚 2020329621074\\韦杨婧 2020329621199\\池胤杰 2020329621049\\计算机科学与技术全英文授课班20(1)\\}
 \newcommand\studentEmail{Email:castamerego@gmail.com}
-\newcommand\studentNumber{2020329621074}
-\newcommand\studentClass{English-Only Computer Science and Technology class 20(1)}
+\newcommand\studentNumber{2020329621074, 2020329621199, 2020329621049}
+\newcommand\projectname{Read-Book "智能知识侦查助手"}
+\newcommand\studentClass{\centering}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
 \newenvironment{boxedlaw}[1]
@@ -71,28 +72,30 @@
 
 
 
-\ShortHeadings{Coursework of ZSTU - \courseName}{\studentName - \studentNumber}
-    \firstpageno{1}
+\ShortHeadings{Coursework of ZSTU - \courseName}{\projectname}
     
 \begin{document}
 
-\title{\Huge Scenario-Based Safehome \\ Project Design}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\columnwidth]{figures/zstu-logo.png}
+\end{figure}
 
-\author{\name \studentName \email \studentEmail \\
-    \studentNumber \class  \studentClass
+\title{\Huge Python 程序设计\\ \vspace{1.5cm} Read-Book ``智能知识侦查助手"(9) \\ \vspace{1.5cm} \huge 2022-2023-1 \\ \vspace{0.8cm}}
+
+\author{\name \studentName{}
     \addr
 }
 
 \maketitle
+\thispagestyle{empty}
+\newpage
 
 \phantomsection\addcontentsline{toc}{section}{Abstruct}\tolerance=500
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\columnwidth]{figures/safehome2.png}
-\end{figure}
-
-\textbf{Abstruct} 
+\begin{center}
+    \Large\textbf{Abstruct}
+\end{center}
 
 In this Safehome Project Design, there are four parts : 1. Determine actors and the corresponding functions 2. For each function write story to extract actions 3. Write formal (Structured) use-cases 4. Create swimlane diagram for each use-case.
 
@@ -100,6 +103,28 @@ In this Safehome Project Design, there are four parts : 1. Determine actors and 
 
 \newpage
 
+
+\phantomsection\addcontentsline{toc}{section}{课题执行(文档修订)记录表}\tolerance=500
+
+\begin{center}
+    \Large \textbf{课题执行(文档修订)记录表}
+\end{center}
+
+\begin{table}[H]
+    \centering
+    \caption{课题执行(文档修订)记录表}
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        日期       & 版本 & 修订内容 & 执行人 & 修订人 \\
+        \hline
+        2022.11.06 & 1.0  & 分析需求 & 王旭刚 & 韦杨婧 \\
+        \hline
+    \end{tabular}
+
+    \label{tab:tab1}
+\end{table}
+
+\newpage
 
 \begin{center}
     \tableofcontents
@@ -414,7 +439,7 @@ If the Sensor detected an Emergency or the Homeowner pressed the Emergency butto
                 \textbf{Open issues:}
 
                 \begin{enumerate}
-                    \item Is security sufficient? 
+                    \item Is security sufficient?
                     \item Maybe we can add a captcha(Completely Automated Public Turing test to tell Computers and Humans Apart) to the login page.
                     \item When client commucating with server, the ID and password should be encrypted.
                 \end{enumerate}
