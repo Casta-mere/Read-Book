@@ -30,9 +30,10 @@
 | :------- | :------- |
 | code     | 代码     |
 | report   | 报告     |
+| record   | 过程记录 |
 | resource | 相关材料 |
 
-## Requirement
+## Environment Requirement
 
 - flask
 - pymysql
