@@ -9,7 +9,7 @@
 | Country       | 国家        | varchar |   &check;    |   &check;    |
 | Publisher     | 出版社      | varchar |   &check;    |   &check;    |
 | Year          | 出版日期    | varchar |   &check;    |   &check;    |
-| Page          | 页数        | int     |   &check;    |   &check;    |
+| Page          | 页数        | varchar     |   &check;    |   &check;    |
 | Price         | 定价        | varchar   |   &check;    |   &check;    |
 | Frame         | 装帧        | varchar |   &check;    |   &check;    |
 | Category      | 丛书        | varchar |   &check;    |   &check;    |

@@ -12,9 +12,6 @@ class my_sql():
     def __init__(self, database_name):
         self.database_name = database_name
 
-
-        
-
     def Create_Database(self):
         conn = pymysql.connect(host=host, user=user,
                                password=password, charset='utf8')
@@ -71,7 +68,8 @@ class my_sql():
             conn.commit()
         except:
             conn.rollback()
-            print(sql)
+            with open ("err.txt","a",encoding="utf-8")as f:
+                f.write(sql+"\n")
             print("error")
         cursor.close()
         conn.close()
@@ -86,7 +84,6 @@ class my_sql():
         conn.close()
         return data
 
-
     def get_data_by_attr(self, table_name, attr_name, attr_value):
         conn = pymysql.connect(host=host, user=user, password=password,
                                database=self.database_name, charset='utf8')
@@ -98,15 +95,29 @@ class my_sql():
         conn.close()
         return data
 
-    def Update_user(self,id,name,gender,telephone,password,brief):
-        item=[]
+    def get_specific_data(self, table_name, item):
+        conn = pymysql.connect(host=host, user=user, password=password,
+                               database=self.database_name, charset='utf8')
+        cursor = conn.cursor()
+        values = ""
+        for i in item:
+            values += f'{i},'
+        cursor.execute(f'select {values[:-1]} from {table_name}')
+        data = cursor.fetchall()
+        cursor.close()
+        conn.close()
+        return list(data)
+
+    def Update_user(self, id, name, gender, telephone, password, brief):
+        item = []
         item.append(id)
         item.append(f'"{name}"')
         item.append(f'"{gender}"')
         item.append(f'"{telephone}"')
         item.append(f'"{password}"')
         item.append(f'"{brief}"')
-        self.Update_table("user",item)
+        self.Update_table("user", item)
+
 
 def preload():
     tabname_book = "book"
@@ -117,14 +128,14 @@ def preload():
     column_book.append(['country', 'varchar(50)'])
     column_book.append(['publisher', 'varchar(50)'])
     column_book.append(['year', 'varchar(50)'])
-    column_book.append(['page', 'int'])
+    column_book.append(['page', 'varchar(50)'])
     column_book.append(['price', 'varchar(50)'])
     column_book.append(['frame', 'varchar(50)'])
     column_book.append(['category', 'varchar(50)'])
     column_book.append(['isbn', 'varchar(50)'])
     column_book.append(['star', 'float'])
     column_book.append(['comment_num', 'int'])
-    column_book.append(['brief', 'varchar(1000)'])
+    column_book.append(['brief', 'varchar(9999)'])
     column_book.append(['douban_bookid', 'varchar(50)'])
     column_book.append(['link', 'varchar(50)'])
     column_book.append(['name_o', 'varchar(50)'])
@@ -144,14 +155,14 @@ def preload():
     sql.Create_table(tabname_book, column_book)
     sql.Create_table(tabname_user, column_user)
 
-    book1 = [1, '"冰与火之歌"', '"Geoge RR Martin"', '"US"', '"xxx"', '"1996"', 3000, '"300"', '"精装版"', '"魔幻"',
-             '"1234-5678-910"', 9.9, 100, '"xxx"', '"124578"', '"sadadaw.wad.com"', '"A song of ice and fire"', '"屈畅"']
+    # book1 = [1, '"冰与火之歌"', '"Geoge RR Martin"', '"US"', '"xxx"', '"1996"', "3000", '"300"', '"精装版"', '"魔幻"',
+    #          '"1234-5678-910"', 9.9, 100, '"xxx"', '"124578"', '"sadadaw.wad.com"', '"A song of ice and fire"', '"屈畅"']
 
     user1 = [1, '"castamere"', '"M"',
              '"13834230484"', '"aaa6953217"', '"xxxx"']
     user2 = [2, '"today_red"', '"F"',
              '"13834230484"', '"aaa6953217"', '"xxxx"']
-    sql.Update_table(tabname_book, book1)
+    # sql.Update_table(tabname_book, book1)
     sql.Update_table(tabname_user, user1)
     sql.Update_table(tabname_user, user2)
 

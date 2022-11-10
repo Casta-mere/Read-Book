@@ -9,7 +9,7 @@ class book():
         self.country=""
         self.publisher=""
         self.year=""
-        self.page=0
+        self.page=""
         self.price=""
         self.frame=""
         self.category=""
@@ -30,7 +30,7 @@ class book():
         ans.append(f'"{self.country}"')
         ans.append(f'"{self.publisher}"')
         ans.append(f'"{self.year}"')
-        ans.append(self.page)
+        ans.append(f'"{self.page}"')
         ans.append(f'"{self.price}"')
         ans.append(f'"{self.frame}"')
         ans.append(f'"{self.category}"')
@@ -85,12 +85,12 @@ def get_detail_info(count,url):
     b.name = soup.find('span', property="v:itemreviewed").text
 
     div = str(soup.find('div', id='info')).replace("\n", "").replace(
-        "br/", "br").replace("/br", "br").replace("\xa0", "").replace("·","-")
+        "br/", "br").replace("/br", "br").replace("\xa0", "")
     ans = div.split("<br>")
     for i in ans:
         x = Bs(i, 'html.parser')
         x=x.text.split(":")
-        if(x[0]==' 作者'):
+        if('作者' in x[0]):
             x[1]=x[1].replace(" ","")
             b.author=x[1]
             if(x[1][0]=='['):
@@ -127,7 +127,10 @@ def get_detail_info(count,url):
     b.star=float(soup.find('strong', class_="ll rating_num").text)
     b.comment_num=int(soup.find('span', property="v:votes").text)
     div=soup.find('div',id="link-report")
-    b.brief=div.find_all('div', class_="intro")[-1].text.replace("\n","").replace("\r","").replace("\t","").replace(" ","").replace("--","")
+    try:
+        b.brief=div.find_all('div', class_="intro")[-1].text.replace("\n","").replace("\r","").replace("\t","").replace(" ","").replace("--","")
+    except:
+        print("no brief")
     b.link=url
     b.douban_bookid=url.split("/")[-2]
 
@@ -135,5 +138,5 @@ def get_detail_info(count,url):
     return ans
 
 
-# get_bookherf()
+get_bookherf()
 # get_detail_info()
