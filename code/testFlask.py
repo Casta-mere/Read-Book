@@ -29,9 +29,12 @@ def index():
     
 @search.route('/books', methods=['GET', 'POST'])
 def books():
+    books=[['1','1',''],['1','1',''],['1','1',''],['1','1',''],['1','1',''],['1','1',''],['1','1',''],['1','1','']]
+    print(books[0][0])
     return render_template(
         'books.html',
-        status=globals.status
+        status=globals.status,
+        book=books
         )
 
 @search.route('/test', methods=['GET', 'POST'])
@@ -83,8 +86,10 @@ def register():
         retry=globals.retry
         )
 
+# 注册确认
 @search.route('/registration',methods=['GET', 'POST'])
 def registration():
+    globals.error=0
     globals.retry=0
     pw=request.args.get('pwReg')
     pw2=request.args.get('pw2Reg')
@@ -100,7 +105,6 @@ def registration():
             return render_template(
                 "validation.html",
                 status=globals.status,
-                retry=globals.retry,
                 id=id
             )
         else:
@@ -118,7 +122,7 @@ def registration():
             retry=globals.retry
         )
 
-    
+# 登录确认
 @search.route('/validation', methods=['GET', 'POST'])
 def validation():
     globals.error=0
@@ -151,6 +155,7 @@ def validation():
             error=globals.error
             )
 
+# 下线
 @search.route("/logout",methods=['GET', 'POST'])
 def logout():
     globals.status=1

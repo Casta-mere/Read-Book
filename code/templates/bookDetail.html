@@ -8,7 +8,7 @@
   <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- Site Metas -->
-  <link rel="icon" href="static/images/favicon.png" type="image/gif" />
+  <link rel="icon" href="/static/images/favicon.png" type="image/gif" />
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
@@ -85,35 +85,42 @@
 
   <section class="about_section layout_padding">
     <div class="container ">
-      <div class="row">
-        {%for i in range(0,8)%}
-        <div class="col-md-3">
-          <div class="img-box">
-            <img src="/static/images/about-img.png" alt="">
-          </div>
-          <h5 class ="text-center">书名：{{book[i][0]}}</h5>
-          <h5 class ="text-center">作者：{{book[i][1]}}</h5>
-          <h6 class ="text-center"><a href="/bookDetail/{{i}}">点击详情</a></h6>
-          <h5 class ="text-center">&nbsp;</h5>
-          <h5 class ="text-center">&nbsp;</h5>
-        </div>
-        {%endfor%}
-        <!--<div class="col-md-6">
-          <div class="detail-box">
-            <div class="heading_container">
-              <h2>
-                About Our Bookstore
-              </h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="img-box">
+                    <img src="/static/images/about-img.png" alt="">
+                </div>
             </div>
-            <p>
-              At cumque tenetur iste molestiae, vel eum reiciendis assumenda! Numquam, repudiandae. Consequuntur obcaecati recusandae aliquam, amet doloribus eius dolores officiis cumque? Quibusdam praesentium pariatur sapiente mollitia, amet hic iusto voluptas! Iusto quo earum vitae excepturi, ipsam aliquid deleniti assumenda culpa deserunt.
-            </p>
-            <a href="">
-              Read More
-            </a>
-          </div>
-        </div>-->
-      </div>
+            <div class="col-md-6">
+                <h5 class ="text-center">排名：{{detail[0]}}</h5>
+                <h5 class ="text-center">书名：{{detail[1]}}</h5>
+                <h5 class ="text-center">作者：{{detail[2]}}</h5>
+                <h5 class ="text-center">国家：{{detail[3]}}</h5>
+                <h5 class ="text-center">出版社：{{detail[4]}}</h5>
+                <h5 class ="text-center">出版年份：{{detail[5]}}</h5>
+                <h5 class ="text-center">页数：{{detail[6]}}</h5>
+                <h5 class ="text-center">价格：{{detail[7]}}</h5>
+                <h5 class ="text-center">装帧：{{detail[8]}}</h5>
+                <h5 class ="text-center">丛书：{{detail[9]}}</h5>
+                <h5 class ="text-center">isbn码：{{detail[10]}}</h5>
+                <h5 class ="text-center">评分：{{detail[11]}}</h5>
+                <h5 class ="text-center">评论数：{{detail[12]}}</h5>
+                <h5 class ="text-center">简介：{{detail[13]}}</h5>
+                {%if foreign == 1%}
+                <h5 class ="text-center">原作名：{{detail[14]}}</h5>
+                <h5 class ="text-center">译者：{{detail[15]}}</h5>
+                {%endif%}
+                <div class="btn-box">
+                    <p class="text-center">
+                        <a href="/books">
+                            <button>
+                            返回
+                            </button>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>           
     </div>
   </section>
 
