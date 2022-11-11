@@ -4,8 +4,8 @@ import pymysql
 # Change the following to your own database connection info
 host = 'localhost'
 user = 'root'
-# password = ''
-password = '123456'
+password = ''
+# password = '123456'
 
 
 class my_sql():
@@ -118,53 +118,66 @@ class my_sql():
         item.append(f'"{brief}"')
         self.Update_table("user", item)
 
+def reset_book():
+    tabname = "book"
+    column = []
+    column.append(['id', 'int'])
+    column.append(['name', 'varchar(50)'])
+    column.append(['author', 'varchar(50)'])
+    column.append(['country', 'varchar(50)'])
+    column.append(['publisher', 'varchar(50)'])
+    column.append(['year', 'varchar(50)'])
+    column.append(['page', 'varchar(50)'])
+    column.append(['price', 'varchar(50)'])
+    column.append(['frame', 'varchar(50)'])
+    column.append(['category', 'varchar(50)'])
+    column.append(['isbn', 'varchar(50)'])
+    column.append(['star', 'float'])
+    column.append(['comment_num', 'int'])
+    column.append(['brief', 'varchar(9999)'])
+    column.append(['douban_bookid', 'varchar(50)'])
+    column.append(['link', 'varchar(50)'])
+    column.append(['name_o', 'varchar(50)'])
+    column.append(['trans', 'varchar(50)'])
 
-def preload():
-    tabname_book = "book"
-    column_book = []
-    column_book.append(['id', 'int'])
-    column_book.append(['name', 'varchar(50)'])
-    column_book.append(['author', 'varchar(50)'])
-    column_book.append(['country', 'varchar(50)'])
-    column_book.append(['publisher', 'varchar(50)'])
-    column_book.append(['year', 'varchar(50)'])
-    column_book.append(['page', 'varchar(50)'])
-    column_book.append(['price', 'varchar(50)'])
-    column_book.append(['frame', 'varchar(50)'])
-    column_book.append(['category', 'varchar(50)'])
-    column_book.append(['isbn', 'varchar(50)'])
-    column_book.append(['star', 'float'])
-    column_book.append(['comment_num', 'int'])
-    column_book.append(['brief', 'varchar(9999)'])
-    column_book.append(['douban_bookid', 'varchar(50)'])
-    column_book.append(['link', 'varchar(50)'])
-    column_book.append(['name_o', 'varchar(50)'])
-    column_book.append(['trans', 'varchar(50)'])
+    
+    sql = my_sql("readbook")
+    sql.Create_table(tabname, column)
 
-    tabname_user = "user"
-    column_user = []
-    column_user.append(['id', 'int'])
-    column_user.append(['name', 'varchar(50)'])
-    column_user.append(['gender', 'char'])
-    column_user.append(['telephone', 'varchar(50)'])
-    column_user.append(['password', 'varchar(50)'])
-    column_user.append(['brief', 'varchar(1000)'])
+def reset_user():
+    tabname = "user"
+    column = []
+    column.append(['id', 'int'])
+    column.append(['name', 'varchar(50)'])
+    column.append(['gender', 'char'])
+    column.append(['telephone', 'varchar(50)'])
+    column.append(['password', 'varchar(50)'])
+    column.append(['brief', 'varchar(1000)'])
 
     sql = my_sql("readbook")
-    sql.Create_Database()
-    sql.Create_table(tabname_book, column_book)
-    sql.Create_table(tabname_user, column_user)
-
-    # book1 = [1, '"冰与火之歌"', '"Geoge RR Martin"', '"US"', '"xxx"', '"1996"', "3000", '"300"', '"精装版"', '"魔幻"',
-    #          '"1234-5678-910"', 9.9, 100, '"xxx"', '"124578"', '"sadadaw.wad.com"', '"A song of ice and fire"', '"屈畅"']
+    sql.Create_table(tabname, column)
 
     user1 = [1, '"castamere"', '"M"',
              '"13834230484"', '"aaa6953217"', '"xxxx"']
     user2 = [2, '"today_red"', '"F"',
-             '"13834230484"', '"aaa6953217"', '"xxxx"']
-    # sql.Update_table(tabname_book, book1)
-    sql.Update_table(tabname_user, user1)
-    sql.Update_table(tabname_user, user2)
+             '"13686521434"', '"ZzZ123456"', '"xxxx"']
+    sql.Update_table(tabname, user1)
+    sql.Update_table(tabname, user2)
 
+def reset_question():
+    tabname="question"
+    column=[]
+    column.append(['Bookid','int'])
+    column.append(['Question','varchar(2000)'])
+    column.append(['Tpye','int'])
+    column.append(['Option_num','int'])
+    column.append(['Option1','varchar(2000)'])
+    column.append(['Option2','varchar(2000)'])
+    column.append(['Option3','varchar(2000)'])
+    column.append(['Option4','varchar(2000)'])
+    column.append(['Answer','varchar(2000)'])
+    column.append(['Category','varchar(2000)'])
 
-# preload()
+    sql = my_sql("readbook")
+    sql.Create_table(tabname, column)
+
