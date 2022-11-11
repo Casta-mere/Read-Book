@@ -26,7 +26,8 @@ def index():
         'index.html',
         status=globals.status
         )
-    
+
+# 书籍概览    
 @search.route('/books', methods=['GET', 'POST'])
 def books():
     books=globals.ctrl.get_book_brief_info()
@@ -52,12 +53,19 @@ def bookDetail(id):
         status=globals.status
     )
 
+
 @search.route('/test', methods=['GET', 'POST'])
 def test():
-    return render_template(
-        'test.html',
-        status=globals.status
+    if globals.status == 1:
+        return render_template(
+            "profile.html",
+            status=globals.status
         )
+    if globals.status == 2:
+        return render_template(
+            'test.html',
+            status=globals.status
+            )
     
 @search.route('/statistics', methods=['GET', 'POST'])
 def statistics():
