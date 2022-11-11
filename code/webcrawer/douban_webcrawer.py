@@ -138,5 +138,5 @@ def get_detail_info(count,url):
     return ans
 
 
-get_bookherf()
+# get_bookherf()
 # get_detail_info()
