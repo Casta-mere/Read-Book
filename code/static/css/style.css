@@ -346,6 +346,22 @@ a:focus {
   transition: all .2s;
 }
 
+.catagory_section .box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+  margin-top: 45px;
+  background-color: #ffffff;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
 .catagory_section .box .img-box {
   width: 110px;
   min-width: 110px;

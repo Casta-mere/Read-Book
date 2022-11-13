@@ -84,7 +84,7 @@
 
   <!-- catagory section -->
 
-  <section class="catagory_section layout_padding">
+  <section id="0" class="catagory_section layout_padding">
     <div class="catagory_container">
       <div class="container ">
         <div class="heading_container heading_center">
@@ -203,6 +203,47 @@
     </div>
   </section>
 
+  {%for i in range(0,2)%}
+  <section id="{{i}}" class="catagory_section layout_padding">
+    <div class="catagory_container">
+      <div class="container ">
+        <div class="heading_container heading_center">
+          {%if i == 0%}
+          <h2>
+            测试开始
+          </h2>
+          <p>
+            tips
+          </p>
+          {%endif%}
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-md-3 ">
+            <div class="box ">
+              <div class="img-box">
+                <h3><b>{{i+1}}</b></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-9 ">
+            <div>
+                <h5>
+                  &emsp;{{test[i]["Question"]}}
+                </h5>
+                <div class="box1 ">
+                  {%for j in range(0,test[i]["Option_num"])%}
+                <p>
+                  {{test[i]["Options"][j]}}
+                </p>
+                {%endfor%}
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {%endfor%}
   <!-- end catagory section -->
 
   <!-- info section -->
