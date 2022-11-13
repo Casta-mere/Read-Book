@@ -62,4 +62,5 @@ def test():
 
 
 c = control.control()
-c.load_question(dir)
+# c.load_question(dir)
+question=c.get_question_random()

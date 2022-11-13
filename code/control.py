@@ -1,4 +1,6 @@
 from database import Database_conn as db
+from question import question as q
+import random
 # from webcrawer import douban_webcrawer as dw
 
 
@@ -69,6 +71,15 @@ class control():
                     self.database.Update_table("question", info)
                 except:
                     print(f"error on {filename}, question {i}")
+
+    def get_question_random(self):
+        questions=list(self.database.get_data("question"))
+        ans=[]
+        for i in questions:
+            ques=q.question(list(i))
+            ans.append(ques.output())
+        random.shuffle(ans)
+        return ans
 # print(c.get_user_info_by_id(1))
 # print(c.new_user(1, 2, 3, 4, 5))
 # with open("book.txt", "w", encoding="utf-8") as f:
