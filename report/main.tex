@@ -1,3 +1,4 @@
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \documentclass[twoside,11pt]{article}
     %%%%% PACKAGES %%%%%%
@@ -22,6 +23,7 @@
 	\usepackage{comment}
 	\usepackage{fancybox}
     \usepackage[hidelinks]{hyperref}
+    \usepackage{bbding}
 
     %%%%% MACROS %%%%%%
     \algrenewcommand\Return{\State \algorithmicreturn{} }
@@ -109,7 +111,7 @@
     \\
     \bigskip
     %
-    \end{center}
+\end{center}
 
 
 
@@ -135,13 +137,14 @@ In this Safehome Project Design, there are four parts : 1. Determine actors and 
 \begin{table}[H]
     \centering
     \caption{课题执行(文档修订)记录表}
-    \begin{tabular}{|c|c|c|c|c|}
-        \hline
-        日期       & 版本 & 修订内容 & 执行人 & 修订人 \\
-        \hline
-        2022.11.06 & 1.0  & 分析需求 & 王旭刚 & 韦杨婧 \\
-        \hline
-    \end{tabular}
+    \setlength{\tabcolsep}{9mm}{
+        \begin{tabular}{|c|c|c|c|c|}
+            \hline
+            日期       & 版本 & 修订内容 & 执行人 & 修订人 \\
+            \hline
+            2022.11.06 & 1.0  & 分析需求 & 王旭刚 & 韦杨婧 \\
+            \hline
+        \end{tabular}}
 
     \label{tab:tab1}
 \end{table}
@@ -170,6 +173,111 @@ In this Safehome Project Design, there are four parts : 1. Determine actors and 
 \subsubsection{功能2}
 \subsection{数据库设计}
 
+\begin{table}[H]
+    \centering
+    \caption{书籍储数据存-数据库设计}
+    \begin{tabular}{|l|l|c|c|c|}
+        \hline
+        Attribute     & Translation & Type    & Chinese Book & Foreign Book \\
+        \hline
+        Id            & 排名        & int     & \Checkmark   & \Checkmark   \\
+        \hline
+        Name          & 书名        & varchar & \Checkmark   & \Checkmark   \\
+        \hline
+        Author        & 作者        & varchar & \Checkmark   & \Checkmark   \\
+        \hline
+        Country       & 国家        & varchar & \Checkmark   & \Checkmark   \\
+        \hline
+        Publisher     & 出版社      & varchar & \Checkmark   & \Checkmark   \\
+        \hline
+        Year          & 出版日期    & varchar & \Checkmark   & \Checkmark   \\
+        \hline
+        Page          & 页数        & varchar & \Checkmark   & \Checkmark   \\
+        \hline
+        Price         & 定价        & varchar & \Checkmark   & \Checkmark   \\
+        \hline
+        Frame         & 装帧        & varchar & \Checkmark   & \Checkmark   \\
+        \hline
+        Category      & 丛书        & varchar & \Checkmark   & \Checkmark   \\
+        \hline
+        Isbn          & isbn码      & varchar & \Checkmark   & \Checkmark   \\
+        \hline
+        Star          & 评分        & float   & \Checkmark   & \Checkmark   \\
+        \hline
+        Comment num   & 评价数量    & int     & \Checkmark   & \Checkmark   \\
+        \hline
+        Brief         & 简介        & varchar & \Checkmark   & \Checkmark   \\
+        \hline
+        Douban bookid & 豆瓣id      & varchar & \Checkmark   & \Checkmark   \\
+        \hline
+        Link          & 链接        & varchar & \Checkmark   & \Checkmark   \\
+        \hline
+        Name o        & 原作名      & varchar & \XSolid      & \Checkmark   \\
+        \hline
+        Trans         & 译者        & varchar & \XSolid      & \Checkmark   \\
+        \hline
+    \end{tabular}
+
+    \label{tab:tabforbook}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{用户数据储存-数据库设计}
+    \setlength{\tabcolsep}{11mm}{
+        \begin{tabular}{|c|c|c|}
+            \hline
+            Attribute & Type    & Translation \\
+
+            \hline
+            Id        & int     & 编号        \\
+            \hline
+            Name      & varchar & 姓名        \\
+            \hline
+            Gender    & char    & 性别        \\
+            \hline
+            Telephone & varchar & 电话        \\
+            \hline
+            Password  & varchar & 密码        \\
+            \hline
+            Brief     & varchar & 简介        \\
+            \hline
+        \end{tabular}
+    }
+    \label{tab:tabforuser}
+\end{table}
+
+
+\begin{table}[H]
+    \centering
+    \caption{问题储存-数据库设计}
+    \setlength{\tabcolsep}{7mm}{
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            Attribute & Type    & Translation    & Note                       \\
+            \hline
+            Id        & int     & 关联书本的id   &                            \\
+            \hline
+            Question  & varchar & 问题           &                            \\
+            \hline
+            Type      & int     & 类别           & 0-判断, 1-单选, 2-多选     \\
+            \hline
+            C1        & varchar & 选项1          &                            \\
+            \hline
+            C2        & varchar & 选项2          &                            \\
+            \hline
+            C3        & varchar & 选项3          &                            \\
+            \hline
+            C4        & varchar & 选项4          &                            \\
+            \hline
+            Ans       & varchar & 正确选项       & 必须与某个选项完全相同     \\
+            \hline
+            Category  & varchar & 问题内容的类别 & 如: 问作者, 书中人物, 情节 \\
+            \hline
+        \end{tabular}
+    }
+    \label{tab:tabforquestion}
+\end{table}
 
 \section{系统实现}
 \subsection{前端实现}

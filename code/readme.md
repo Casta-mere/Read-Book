@@ -14,6 +14,11 @@
 - profile  
   存放用户的信息
 
+## 相关网页
+- Flask+雷达图  https://blog.csdn.net/weixin_43836098/article/details/91347483
+- 禁止html页面滚动  https://www.php.cn/div-tutorial-484001.html
+- html内容固定不滚动  https://blog.csdn.net/qq_44034384/article/details/94180393
+
 
 ## 文件描述
 

@@ -1,7 +1,7 @@
 # Design for database
 
 ## Books
-| Attrbute      | Translation | Type    | Chinese book | Foreign book |
+| Attribute      | Translation | Type    | Chinese book | Foreign book |
 | :------------ | :---------- | :------ | :----------: | :----------: |
 | Id            | 排名        | int     |   &check;    |   &check;    |
 | Name          | 书名        | varchar |   &check;    |   &check;    |
@@ -24,7 +24,7 @@
 
 ## Questions
 
-| Attrbute | Type    | Translation    | Note                       |
+| Attribute | Type    | Translation    | Note                       |
 | :------- | :------ | :------------- | :------------------------- |
 | Id       | int     | 关联书本的id   |                            |
 | Question | varchar | 问题           |                            |
@@ -39,7 +39,7 @@
 
 ## User Data
 
-| Attrubute | Type    | Translation |
+| Attriubute | Type    | Translation |
 | :-------- | :------ | :---------- |
 | Id        | int     | 编号        |
 | Name      | varchar | 姓名        |
