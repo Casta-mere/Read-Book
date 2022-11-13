@@ -232,9 +232,10 @@
                 </h5>
                 <div class="box1 ">
                   {%for j in range(0,test[i]["Option_num"])%}
-                <p>
-                  {{test[i]["Options"][j]}}
-                </p>
+                  <!--bootstrap.css 2427行附近-->
+                  <button type="button" class="btn btn-choice btn-block">
+                    {{test[i]["Options"][j]}}
+                  </button>
                 {%endfor%}
                 </div>
             </div>

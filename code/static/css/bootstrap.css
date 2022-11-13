@@ -2419,6 +2419,17 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
+.btn-choice {
+  color: #fff;
+  background-color: #44B89D;
+  border-color: #44B89D;
+}
+
+.btn-choice:hover {
+  color: #44B89D;
+  background-color: transparent;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #007bff;
