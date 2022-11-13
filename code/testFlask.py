@@ -59,32 +59,7 @@ def bookDetail(id):
 @search.route('/test', methods=['GET', 'POST'])
 def test():
     globals.test=1
-    # test=globals.ctrl.get_test()
-    test=[{
-        "Bookid": 2,
-        "Question": "《活着》采用的是第一人称叙事，以主人公福贵的口吻，从讲述“一个老百姓自己的故事”的角度，表现原先难以表述的对人及时代真相的认识。",
-        "Type": 1,
-        "Option_num": 2,
-        "Options": [
-            "T",
-            "F"
-        ],
-        "Ans": "T",
-        "Category": "content"
-    },{
-        "Bookid": 2,
-        "Question": "下列关于《活着》中的人物表述，不正确的一项是",
-        "Type": 2,
-        "Option_num": 4,
-        "Options": [
-            "春生，比较精明会生存的人。春生在无数次的战争中活下来，从第一次在长江附近打仗到抗美援朝，顽强地和命运抗争着，甚至在文化大革命的时候，也可以九死一生。",
-            "福贵一生是充满苦难。他的人生经历了从富裕到贫穷的巨大变化，甚至承受了亲人死在自己前面的残酷现实，面对一次又一次苦难遭遇的沉重打击，他总是忍耐、坚强、乐观的活着。",
-            "二喜，善良，憨厚勤劳，他人残志不残。他是一个工人，有一定的阶级觉悟性，时代的觉悟性。",
-            "福贵父亲，旧时的地主，他对福贵的教育反映了一种典型的中国式父子教育——表面上严格，其实包含着纵容溺爱。"
-        ],
-        "Ans": "春生，比较精明会生存的人。春生在无数次的战争中活下来，从第一次在长江附近打仗到抗美援朝，顽强地和命运抗争着，甚至在文化大革命的时候，也可以九死一生。",
-        "Category": "figure"
-    }]
+    test=globals.ctrl.get_question_random()
     if globals.status == 1:
         return render_template(
             "profile.html",
