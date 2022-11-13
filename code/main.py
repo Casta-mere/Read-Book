@@ -3,9 +3,6 @@ import control
 import json
 
 # databse=db.my_sql("readbook")
-db.reset_question()
-
-
 dir = "record/database_design/question.json"
 mkdir2 = "record/questions/data"
 
@@ -13,8 +10,10 @@ mkdir2 = "record/questions/data"
 def mkdir():
     for i in range(1, 201):
         with open(f"{mkdir2}/{i}.json", "w", encoding="utf-8") as f:
-            f.write('{"0": {"Bookid": 2,"Question": "xxx","Type": 3,"Options": ["xxxx","x","xx","xxx"],"Ans": "xxxx","Category": "xxxx"},}')
+            f.write(
+                '{"0": {"Bookid": 2,"Question": "xxx","Type": 3,"Options": ["xxxx","x","xx","xxx"],"Ans": "xxxx","Category": "xxxx"},}')
             f.close()
+
 
 def load():
     with open(dir, encoding="utf-8") as f:
@@ -60,3 +59,7 @@ def test():
                 print(data[i]["Category"])
             except:
                 print(f"error on {i}")
+
+
+c = control.control()
+c.load_question(dir)
