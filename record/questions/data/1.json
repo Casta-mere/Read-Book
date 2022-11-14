@@ -1,1 +1,80 @@
-{"0": {"Bookid": 2,"Question": "xxx","Type": 3,"Options": ["xxxx","x","xx","xxx"],"Ans": "xxxx","Category": "xxxx"},}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "xxx",
+        "Type": 3,
+        "Options": [
+            "xxxx",
+            "x",
+            "xx",
+            "xxx"
+        ],
+        "Ans": "xxxx",
+        "Category": "xxxx"
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "《红楼梦》多少回是曹雪芹手笔？",
+        "Type": 2,
+        "Options": [
+            "80回",
+            "120回",
+            "60回",
+            "100回"
+        ],
+        "Ans": "80回",
+        "Category": "anecdote"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "在《红楼梦》中“金陵十二钗”中，带发修行的是哪位女子？",
+        "Type": 2,
+        "Options": [
+            "贾惜春",
+            "妙玉",
+            "巧姐",
+            "史湘云"
+        ],
+        "Ans": "妙玉",
+        "Category": "figure"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "在《红楼梦》中大观园原名叫什么？",
+        "Type": 2,
+        "Options": [
+            "省亲别墅",
+            "怡红院",
+            "有凤来仪",
+            "天仙宝镜"
+        ],
+        "Ans": "省亲别墅",
+        "Category": "detail"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "《红楼梦》的第一个印本是哪个版本？",
+        "Type": 2,
+        "Options": [
+            "程甲本",
+            "程乙本",
+            "甲戌本",
+            "庚辰本"
+        ],
+        "Ans": "程甲本",
+        "Category": "anecdote"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "在《红楼梦》中下列什么情节发生在中秋节里？",
+        "Type": 2,
+        "Options": [
+            "撕扇子作千金一笑",
+            "王熙凤效戏彩斑衣",
+            "杏子阴假凤泣虚凰",
+            "凸碧堂品笛感凄清"
+        ],
+        "Ans": "凸碧堂品笛感凄清",
+        "Category": "content"
+    }
+}
