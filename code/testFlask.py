@@ -74,14 +74,16 @@ def test():
             head=head
             )
  
+# 提交
 @search.route('/submit', methods=['GET', 'POST'])
 def submit():
-    val=request.args.get('select1')
-    val2=request.args.get('select2')
-    print(val)
-    print(val2)    
+    con=request.args
+    print(con)
+    con=request.values
+    print(con)
     return render_template(
-        "index.html"
+        "index.html",
+        status=globals.status
     )
 @search.route('/statistics', methods=['GET', 'POST'])
 def statistics():
