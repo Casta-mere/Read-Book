@@ -203,6 +203,7 @@
     </div>
   </section>
 
+  <!--根据选项的多少空出相应大小的位置-->
   {%for i in range(0,10)%}
   {%if test[i]["Option_num"] == 4%}
   <section id="{{i}}" class="catagory_section layout_padding3">
@@ -243,7 +244,8 @@
                 <div class="box1 ">
                   {%for j in range(0,test[i]["Option_num"])%}
                   <!--bootstrap.css 2427行附近-->
-                  <button type="button" class="btn btn-choice btn-block active" value="{{i}}">
+                  <!--怎么选中啊啊啊啊-->
+                  <button type="button" class="btn btn-choice btn-block" value="{{i}}">
                     {{head[j]}}.{{test[i]["Options"][j]}}
                   </button>
                 {%endfor%}
@@ -251,13 +253,13 @@
             </div>
           </div>
         </div>
+        <!--最后一个加总提交样式-->
         {%if i == 9%}
           <br><br>
           <div class="btn-box">
+            <!--a标签的样式已经被改成跟button差不多的玩意儿了-->
             <a href="/submit">
-              <button>
                 Submit
-              </button>
             </a>
           </div>
           {%endif%}

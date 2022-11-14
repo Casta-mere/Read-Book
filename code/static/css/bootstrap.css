@@ -4,7 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-:root {
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -2430,10 +2430,12 @@ fieldset:disabled a.btn {
   background-color: transparent;
 }
 
-.btn-choice:checked{
+.btn-choice:focus{
   color: #fff;
   background-color: #44B89D;
-  border-color: #44B89D;
+  border-color: #000000;
+  border-width: 2px;
+  box-shadow: 0 0 0 0.2rem rgba(68, 184, 157, 0.5);
 }
 
 .btn-primary {
@@ -2456,18 +2458,6 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: #007bff;
   border-color: #007bff;
-}
-
-.btn-choice:not(:disabled):not(.disabled):active, .btn-choice:not(:disabled):not(.disabled).active,
-.show > .btn-choice.dropdown-toggle {
-  color: #fff;
-  background-color: #44B89D;
-  border-color: #44B89D;
-}
-
-.btn-choice:not(:disabled):not(.disabled):active:focus, .btn-choice:not(:disabled):not(.disabled).active:focus,
-.show > .btn-choice.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5)
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
