@@ -2430,6 +2430,12 @@ fieldset:disabled a.btn {
   background-color: transparent;
 }
 
+.btn-choice:checked{
+  color: #fff;
+  background-color: #44B89D;
+  border-color: #44B89D;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #007bff;
@@ -2450,6 +2456,18 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: #007bff;
   border-color: #007bff;
+}
+
+.btn-choice:not(:disabled):not(.disabled):active, .btn-choice:not(:disabled):not(.disabled).active,
+.show > .btn-choice.dropdown-toggle {
+  color: #fff;
+  background-color: #44B89D;
+  border-color: #44B89D;
+}
+
+.btn-choice:not(:disabled):not(.disabled):active:focus, .btn-choice:not(:disabled):not(.disabled).active:focus,
+.show > .btn-choice.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5)
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
