@@ -204,7 +204,16 @@
   </section>
 
   {%for i in range(0,10)%}
-  <section id="{{i}}" class="catagory_section layout_padding">
+  {%if test[i]["Option_num"] == 4%}
+  <section id="{{i}}" class="catagory_section layout_padding3">
+  {%endif%}
+  {%if test[i]["Option_num"] == 2%}
+  <section id="{{i}}" class="catagory_section layout_padding4">
+  {%endif%}
+  <!--样式在style.css 57行附近-->
+  {%if test[i]["Option_num"] == 3%}
+  <section id="{{i}}" class="catagory_section layout_padding5">
+  {%endif%}
     <div class="catagory_container">
       <div class="container ">
         <div class="heading_container heading_center">
@@ -215,6 +224,7 @@
           <p>
             tips
           </p>
+          <br><br>
           {%endif%}
         </div>
         <div class="row">
@@ -228,19 +238,29 @@
           <div class="col-sm-6 col-md-9 ">
             <div>
                 <h5>
-                  &emsp;{{test[i]["Question"]}}
+                  题目：{{test[i]["Question"]}}
                 </h5>
                 <div class="box1 ">
                   {%for j in range(0,test[i]["Option_num"])%}
                   <!--bootstrap.css 2427行附近-->
-                  <button type="button" class="btn btn-choice btn-block">
-                    {{test[i]["Options"][j]}}
+                  <button type="button" class="btn btn-choice btn-block active" value="{{i}}">
+                    {{head[j]}}.{{test[i]["Options"][j]}}
                   </button>
                 {%endfor%}
                 </div>
             </div>
           </div>
         </div>
+        {%if i == 9%}
+          <br><br>
+          <div class="btn-box">
+            <a href="/submit">
+              <button>
+                Submit
+              </button>
+            </a>
+          </div>
+          {%endif%}
       </div>
     </div>
   </section>

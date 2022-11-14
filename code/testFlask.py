@@ -60,6 +60,7 @@ def bookDetail(id):
 def test():
     globals.test=1
     test=globals.ctrl.get_question_random()
+    head=['A','B','C','D']
     if globals.status == 1:
         return render_template(
             "profile.html",
@@ -69,9 +70,19 @@ def test():
         return render_template(
             'test.html',
             status=globals.status,
-            test=test
+            test=test,
+            head=head
             )
-    
+ 
+@search.route('/submit', methods=['GET', 'POST'])
+def submit():
+    val=request.args.get('select1')
+    val2=request.args.get('select2')
+    print(val)
+    print(val2)    
+    return render_template(
+        "index.html"
+    )
 @search.route('/statistics', methods=['GET', 'POST'])
 def statistics():
     return render_template(
