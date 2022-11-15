@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Insert title here</title>
+<style type="text/css">
+	.selected{font-weight:bold; background: #ff99cc; color:#fff;}
+</style>
+
+<!--原来是我没有引用库，不是model的问题-->
+<!--如果是flask，可以直接static，因为flask默认会在static中找，但如果是jQuery，就得用../static，相当于是普通文件去找-->
+</head>
+<body>
+    <script src="../static/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">
+        $(function(){  
+            $("#test li").click(function() {
+                $(this).siblings('li').removeClass('selected');  
+                $(this).addClass('selected');                                   
+            });
+        }); 
+        </script>
+	<ul id="test">
+		<li class="selected">A</li>
+		<li>B</li>
+		<li>C</li>
+		
+	</ul>
+	
+	<button class="btn">sss</button>
+ 
+</body>
+</html>
