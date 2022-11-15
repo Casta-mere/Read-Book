@@ -151,6 +151,10 @@ sub {
 sup {
   top: -.5em;
 }
+/*新增*/
+li {
+  list-style: none;
+}
 
 a {
   color: #007bff;
