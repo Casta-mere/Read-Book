@@ -94,7 +94,7 @@
 
   <!-- catagory section -->
 
-  <section id="0" class="catagory_section layout_padding">
+  <section id="s0" class="catagory_section layout_padding">
     <div class="catagory_container">
       <div class="container ">
         <div class="heading_container heading_center">
@@ -209,80 +209,17 @@
             </div>
           </div>
         </div>
+        <div class="catagory_container">
+          <div class="btn-box">
+            <!--a标签的样式已经被改成跟button差不多的玩意儿了-->
+            <a href="/testStart">开始测试</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
-  <!--根据选项的多少空出相应大小的位置-->
-  {%for i in range(0,10)%}
-  {%if test[i]["Option_num"] == 4%}
-  <section id="{{i}}" class="catagory_section layout_padding3">
-  {%endif%}
-  {%if test[i]["Option_num"] == 2%}
-  <section id="{{i}}" class="catagory_section layout_padding4">
-  {%endif%}
-  <!--样式在style.css 57行附近-->
-  {%if test[i]["Option_num"] == 3%}
-  <section id="{{i}}" class="catagory_section layout_padding5">
-  {%endif%}
-    <div class="catagory_container">
-      <div class="container ">
-        <div class="heading_container heading_center">
-          {%if i == 0%}
-          <h2>
-            测试开始
-          </h2>
-          <p>
-            tips
-          </p>
-          <br><br>
-          {%endif%}
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-3 ">
-            <div class="box ">
-              <div class="img-box">
-                <h3><b>{{i+1}}</b></h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-9 ">
-            <div>
-                <h5>
-                  题目：{{test[i]["Question"]}}
-                </h5>
-                <div class="box1 ">
-                  <ul id="test">
-                  {%for j in range(0,test[i]["Option_num"])%}
-                  <!--bootstrap.css 2427行附近-->
-                  <!--怎么选中啊啊啊啊-->
-                  <!--<button type="button" class="btn btn-choice btn-block" value="{{i}}">
-                    {{head[j]}}.{{test[i]["Options"][j]}}
-                  </button>-->
-                  <li class="li-ori">
-                    <!--<input type="radio" name="{{i}}" value="{{j}}" id="{{i}}{{j}}" >
-                    <label for="{{i}}{{j}}" class="btn btn-choice active">-->{{head[j]}}.{{test[i]["Options"][j]}}<!--</label>-->
-                  </li>
-                {%endfor%}
-                  </ul>
-                </div>
-            </div>
-          </div>
-        </div>
-        <!--最后一个加总提交样式-->
-        {%if i == 9%}
-          <br><br>
-          <div class="btn-box">
-            <!--a标签的样式已经被改成跟button差不多的玩意儿了-->
-            <a href="/submit">
-                Submit
-            </a>
-          </div>
-          {%endif%}
-      </div>
-    </div>
-  </section>
-  {%endfor%}
+
   <!-- end catagory section -->
 
   <!-- info section -->
