@@ -73,14 +73,30 @@ def test():
 
 @search.route('/testStart', methods=['GET', 'POST'])
 def testStart():
+    whole=0
     head=['A','B','C','D']
     test=globals.ctrl.get_question_random()
     return render_template(
         "testStart.html",
         status=globals.status,
         test=test,
-        head=head
+        head=head,
+        whole=whole
     )
+
+@search.route('/testLook', methods=['GET', 'POST'])
+def testLook():
+    whole=1
+    head=['A','B','C','D']
+    test=globals.ctrl.get_question_random()
+    return render_template(
+        "testStart.html",
+        status=globals.status,
+        test=test,
+        head=head,
+        whole=whole
+    )
+
 
 # 提交
 @search.route('/submit', methods=['GET', 'POST'])

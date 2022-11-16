@@ -94,7 +94,7 @@
 
   <!-- catagory section -->
 
-  <section id="s0" class="catagory_section layout_padding">
+  <section id="s0" class="catagory_section layout_padding0">
     <div class="catagory_container">
         <div class="container ">
             <div class="heading_container heading_center">
@@ -106,6 +106,15 @@
                 </p>
                   <br><br>
             </div>
+            {%if whole == 0%}
+            <div class="row">
+              <div class="col-sm-1 col-md-12">
+                <div class="btn-box">
+                  <a href="#s1">确认</a>
+                </div>
+              </div>
+            </div>
+            {%endif%}
         </div>
     </div>
   </section>
@@ -139,7 +148,7 @@
                 </h5>
                 <div class="box1 ">
                   <ul id="test">
-                  {%for j in range(0,test[i]["Option_num"])%}
+                {%for j in range(0,test[i]["Option_num"])%}
                   <!--bootstrap.css 2427行附近-->
                   <li class="ori">
                     {{head[j]}}.{{test[i]["Options"][j]}}
@@ -152,30 +161,37 @@
         </div>
         <!--最后一个加总提交样式-->
         <!-- 题数-1 -->
-        {%if i == 9%}
+        {%if whole == 0%}
+          {%if i == 9%}
           <br><br>
           <div class="btn-box">
             <!--a标签的样式已经被改成跟button差不多的玩意儿了-->
             <a href="#s{{i}}">上一题</a>
             <div>&emsp;</div>
             <!--整卷阅览需要把所有的上下题按钮藏起来-->
-            <a href="#s1">整卷阅览</a>
+            <a href="/testLook">整卷阅览</a>
             <div>&emsp;</div>
             <a href="/submit">提交</a>
           </div>
           <!-- i>0, i<题数-1 -->
-        {%elif i>0 and i<9%}
+          {%elif i>0 and i<9%}
           <div class="btn-box">
             <!--a标签的样式已经被改成跟button差不多的玩意儿了-->
             <a href="#s{{i}}">上一题</a>
             <div>&emsp;</div>
             <a href="#s{{i+2}}">下一题</a>
           </div>
-        {%else%}
+          {%else%}
           <div class="btn-box">
             <a href="#s{{i+2}}">下一题</a>
           </div>
           {%endif%}
+        {%elif whole == 1 and i == 9%}
+        <div class="btn-box">
+          <a href="/testLook">整卷阅览</a>
+          <div>&emsp;</div>
+          <a href="/submit">提交</a>
+        {%endif%}
       </div>
     </div>
   </section>
