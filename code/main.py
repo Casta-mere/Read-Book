@@ -1,4 +1,5 @@
 from database import Database_conn as db
+from webcrawer import douban_webcrawer as dw
 import control
 import json
 
@@ -6,6 +7,7 @@ import json
 dir = "record/database_design/question.json"
 dir2 = "record/questions/data/1.json"
 mkdir2 = "record/questions/data"
+bookherfdir = "code/webcrawer/ans/bookherf.txt"
 
 
 def mkdir():
@@ -61,12 +63,26 @@ def test():
                 print(f"error on {i}")
 
 
+def get_bookpic():
+    with open(bookherfdir, 'r', encoding="utf-8") as f:
+        r = f.readline().strip('\n')
+        count = 1
+        while(r):
+            try:
+                dw.get_bookpic(count, r)
+                print(f"get {count} book pic")
+            except:
+                print(f"error on {count} book pic")
+
+            count += 1
+            r = f.readline().strip('\n')
+
 # mkdir()
-db.reset_question()
+# db.reset_question()
+# c = control.control()
+# for i in range (1, 29):
+#     c.load_question(f"record/questions/data/{i}.json")
 # c = control.control()
 # c.load_question(dir)
-c = control.control()
-for i in range (1, 29):
-    c.load_question(f"record/questions/data/{i}.json")
 # c.load_question(dir2)
 # question=c.get_question_random()
