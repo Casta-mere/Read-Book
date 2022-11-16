@@ -4,14 +4,14 @@ import json
 
 # databse=db.my_sql("readbook")
 dir = "record/database_design/question.json"
+dir2 = "record/questions/data/1.json"
 mkdir2 = "record/questions/data"
 
 
 def mkdir():
-    for i in range(1, 201):
+    for i in range(2, 201):
         with open(f"{mkdir2}/{i}.json", "w", encoding="utf-8") as f:
-            f.write(
-                '{"0": {"Bookid": 2,"Question": "xxx","Type": 3,"Options": ["xxxx","x","xx","xxx"],"Ans": "xxxx","Category": "xxxx"},}')
+            f.write('{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}')
             f.close()
 
 
@@ -61,6 +61,12 @@ def test():
                 print(f"error on {i}")
 
 
-c = control.control()
+# mkdir()
+db.reset_question()
+# c = control.control()
 # c.load_question(dir)
-question=c.get_question_random()
+c = control.control()
+for i in range (1, 29):
+    c.load_question(f"record/questions/data/{i}.json")
+# c.load_question(dir2)
+# question=c.get_question_random()
