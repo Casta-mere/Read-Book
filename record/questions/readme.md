@@ -8,6 +8,7 @@
 -  detail 细节
 -  style 风格
 -  symbol 象征
+-  anecdote (实在看不出来算啥就放这个)
 
 
 ## 搜索词
