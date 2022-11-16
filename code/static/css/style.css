@@ -17,7 +17,7 @@ body {
 .layout_padding-bottom {
   padding-bottom: 90px;
 }
-
+/*新增*/
 .layout_padding2 {
   padding: 75px 0;
 }
@@ -31,27 +31,27 @@ body {
 }
 
 .layout_padding3 {
-  padding: 200px 0;
+  padding: 100px 0;
 }
 
 .layout_padding3-top {
-  padding-top: 200px;
+  padding-top: 50px;
 }
 
 .layout_padding3-bottom {
-  padding-bottom: 200px;
+  padding-bottom: 150px;
 }
 
 .layout_padding4 {
-  padding: 281px 0;
+  padding: 200px 0;
 }
 
 .layout_padding4-top {
-  padding-top: 281px;
+  padding-top: 200px;
 }
 
 .layout_padding4-bottom {
-  padding-bottom: 281px;
+  padding-bottom: 200px;
 }
 
 .layout_padding5 {
@@ -65,7 +65,7 @@ body {
 .layout_padding5-bottom {
   padding-bottom: 281px;
 }
-
+/*新增结束*/
 .heading_container {
   display: -webkit-box;
   display: -ms-flexbox;

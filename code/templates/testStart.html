@@ -29,6 +29,16 @@
 
 <body class="sub_page">
 
+  <script src="/static/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">
+        $(function(){  
+            $("#test li").click(function() {
+                $(this).siblings('li').removeClass('li-selected');  
+                $(this).addClass('li-selected');                                   
+            });
+        }); 
+        </script>
+        
   <div class="hero_area">
     <!-- header section strats -->
     <header class="header_section">
@@ -81,70 +91,96 @@
     <!-- end header section -->
   </div>
 
-  <!-- about section -->
 
-  <section class="about_section layout_padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="img-box">
-                    <img src="/static/images/pic/{{i+1}}.jpg" alt="">
-                </div>
+  <!-- catagory section -->
+
+  <section id="s0" class="catagory_section layout_padding">
+    <div class="catagory_container">
+        <div class="container ">
+            <div class="heading_container heading_center">
+                <h2>
+                    测试开始
+                  </h2>
+                <p>
+                tips
+                </p>
+                  <br><br>
             </div>
-            <div class="col-md-6">
-                <h5 class ="text-center">排名：{{detail[0]}}</h5>
-                <h5 class ="text-center">书名：{{detail[1]}}</h5>
-                <h5 class ="text-center">作者：{{detail[2]}}</h5>
-                {%if foreign == 1%}
-                <h5 class ="text-center">原作名：{{detail[16]}}</h5>
-                <h5 class ="text-center">译者：{{detail[17]}}</h5>
-                {%endif%}
-                <h5 class ="text-center">国家：{{detail[3]}}</h5>
-                <h5 class ="text-center">出版社：{{detail[4]}}</h5>
-                <h5 class ="text-center">出版年份：{{detail[5]}}</h5>
-                <h5 class ="text-center">页数：{{detail[6]}}</h5>
-                <h5 class ="text-center">价格：{{detail[7]}}</h5>
-                <h5 class ="text-center">装帧：{{detail[8]}}</h5>
-                <h5 class ="text-center">丛书：{{detail[9]}}</h5>
-                <h5 class ="text-center">isbn码：{{detail[10]}}</h5>
-                <h5 class ="text-center">评分：{{detail[11]}}</h5>
-                <h5 class ="text-center">评论数：{{detail[12]}}</h5>
-            </div>
-        </div>    
-        <br>
-        <br>
-        <div class="row">
-          <div class="col-md-12">
-            <h5>简介：{{detail[13]}}</h5>
-          </div>
         </div>
-        <br>
-        <br>
-        <div class="row align-items-center">
-          {%for j in range(0,5)%} 
-          <div class="col">
-            <h5 class ="text-center">&nbsp;</h5>
-          </div>   
-          {%endfor%}
-          <div class="col-md-offset-1">
-            <div class="btn-box m-auto">
-              <a href="/books">
-                <button>
-                  返回
-                </button>
-              </a>
-            </div>
-          </div> 
-          {%for j in range(0,5)%}  
-          <div class="col">
-            <h5 class ="text-center">&nbsp;</h5>
-          </div>   
-          {%endfor%}
-
     </div>
   </section>
 
-  <!-- end about section -->
+  <!--根据选项的多少空出相应大小的位置-->
+  {%for i in range(0,10)%}
+  {%if test[i]["Option_num"] == 4%}
+  <section id="s{{i+1}}" class="catagory_section layout_padding3">
+  {%endif%}
+  {%if test[i]["Option_num"] == 2%}
+  <section id="s{{i+1}}" class="catagory_section layout_padding4">
+  {%endif%}
+  <!--样式在style.css 57行附近-->
+  {%if test[i]["Option_num"] == 3%}
+  <section id="s{{i+1}}" class="catagory_section layout_padding5">
+  {%endif%}
+    <div class="catagory_container">
+      <div class="container ">
+        <div class="row">
+          <div class="col-sm-6 col-md-3 ">
+            <div class="box ">
+              <div class="img-box">
+                <h3><b>{{i+1}}</b></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-9 ">
+            <div>
+                <h5>
+                  题目：{{test[i]["Question"]}}
+                </h5>
+                <div class="box1 ">
+                  <ul id="test">
+                  {%for j in range(0,test[i]["Option_num"])%}
+                  <!--bootstrap.css 2427行附近-->
+                  <li class="li-ori">
+                    {{head[j]}}.{{test[i]["Options"][j]}}
+                  </li>
+                {%endfor%}
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!--最后一个加总提交样式-->
+        <!-- 题数-1 -->
+        {%if i == 9%}
+          <br><br>
+          <div class="btn-box">
+            <!--a标签的样式已经被改成跟button差不多的玩意儿了-->
+            <a href="#s{{i}}">上一题</a>
+            <div>&emsp;</div>
+            <!--整卷阅览需要把所有的上下题按钮藏起来-->
+            <a href="#s1">整卷阅览</a>
+            <div>&emsp;</div>
+            <a href="/submit">提交</a>
+          </div>
+          <!-- i>0, i<题数-1 -->
+        {%elif i>0 and i<9%}
+          <div class="btn-box">
+            <!--a标签的样式已经被改成跟button差不多的玩意儿了-->
+            <a href="#s{{i}}">上一题</a>
+            <div>&emsp;</div>
+            <a href="#s{{i+2}}">下一题</a>
+          </div>
+        {%else%}
+          <div class="btn-box">
+            <a href="#s{{i+2}}">下一题</a>
+          </div>
+          {%endif%}
+      </div>
+    </div>
+  </section>
+  {%endfor%}
+  <!-- end catagory section -->
 
   <!-- info section -->
 
@@ -212,7 +248,6 @@
               <button type="submit">
                 Subscribe
               </button>
-              
             </form>
           </div>
         </div>
@@ -234,15 +269,11 @@
   <!-- footer section -->
 
   <!-- jQery -->
-  <script src="static/js/jquery-3.4.1.min.js"></script>
+  <script src="/static/js/jquery-3.4.1.min.js"></script>
   <!-- bootstrap js -->
-  <script src="static/js/bootstrap.js"></script>
+  <script src="/static/js/bootstrap.js"></script>
   <!-- custom js -->
-  <script src="static/js/custom.js"></script>
-  <!-- Google Map -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
-  </script>
-  <!-- End Google Map -->
+  <script src="/static/js/custom.js"></script>
 
 </body>
 

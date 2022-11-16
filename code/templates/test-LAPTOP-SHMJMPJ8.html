@@ -29,6 +29,16 @@
 
 <body class="sub_page">
 
+  <script src="/static/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">
+        $(function(){  
+            $("#test li").click(function() {
+                $(this).siblings('li').removeClass('li-selected');  
+                $(this).addClass('li-selected');                                   
+            });
+        }); 
+        </script>
+        
   <div class="hero_area">
     <!-- header section strats -->
     <header class="header_section">
@@ -81,70 +91,136 @@
     <!-- end header section -->
   </div>
 
-  <!-- about section -->
 
-  <section class="about_section layout_padding">
-    <div class="container">
+  <!-- catagory section -->
+
+  <section id="s0" class="catagory_section layout_padding">
+    <div class="catagory_container">
+      <div class="container ">
+        <div class="heading_container heading_center">
+          <h2>
+            Books Categories
+          </h2>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+          </p>
+        </div>
         <div class="row">
-            <div class="col-md-4">
-                <div class="img-box">
-                    <img src="/static/images/pic/{{i+1}}.jpg" alt="">
-                </div>
+          <div class="col-sm-6 col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="/static/images/cat1.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Textbooks
+                </h5>
+                <p>
+                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                  The
+                  point of using
+                </p>
+              </div>
             </div>
-            <div class="col-md-6">
-                <h5 class ="text-center">排名：{{detail[0]}}</h5>
-                <h5 class ="text-center">书名：{{detail[1]}}</h5>
-                <h5 class ="text-center">作者：{{detail[2]}}</h5>
-                {%if foreign == 1%}
-                <h5 class ="text-center">原作名：{{detail[16]}}</h5>
-                <h5 class ="text-center">译者：{{detail[17]}}</h5>
-                {%endif%}
-                <h5 class ="text-center">国家：{{detail[3]}}</h5>
-                <h5 class ="text-center">出版社：{{detail[4]}}</h5>
-                <h5 class ="text-center">出版年份：{{detail[5]}}</h5>
-                <h5 class ="text-center">页数：{{detail[6]}}</h5>
-                <h5 class ="text-center">价格：{{detail[7]}}</h5>
-                <h5 class ="text-center">装帧：{{detail[8]}}</h5>
-                <h5 class ="text-center">丛书：{{detail[9]}}</h5>
-                <h5 class ="text-center">isbn码：{{detail[10]}}</h5>
-                <h5 class ="text-center">评分：{{detail[11]}}</h5>
-                <h5 class ="text-center">评论数：{{detail[12]}}</h5>
+          </div>
+          <div class="col-sm-6 col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="/static/images/cat2.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Science
+                </h5>
+                <p>
+                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                  The
+                  point of using
+                </p>
+              </div>
             </div>
-        </div>    
-        <br>
-        <br>
-        <div class="row">
-          <div class="col-md-12">
-            <h5>简介：{{detail[13]}}</h5>
+          </div>
+          <div class="col-sm-6 col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="/static/images/cat3.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  History
+                </h5>
+                <p>
+                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                  The
+                  point of using
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="/static/images/cat4.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Biography
+                </h5>
+                <p>
+                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                  The
+                  point of using
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="/static/images/cat5.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Adventure
+                </h5>
+                <p>
+                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                  The
+                  point of using
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="/static/images/cat6.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Fantasy
+                </h5>
+                <p>
+                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                  The
+                  point of using
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-        <br>
-        <br>
-        <div class="row align-items-center">
-          {%for j in range(0,5)%} 
-          <div class="col">
-            <h5 class ="text-center">&nbsp;</h5>
-          </div>   
-          {%endfor%}
-          <div class="col-md-offset-1">
-            <div class="btn-box m-auto">
-              <a href="/books">
-                <button>
-                  返回
-                </button>
-              </a>
-            </div>
-          </div> 
-          {%for j in range(0,5)%}  
-          <div class="col">
-            <h5 class ="text-center">&nbsp;</h5>
-          </div>   
-          {%endfor%}
-
+        <div class="catagory_container">
+          <div class="btn-box">
+            <!--a标签的样式已经被改成跟button差不多的玩意儿了-->
+            <a href="/testStart">开始测试</a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- end about section -->
+
+  <!-- end catagory section -->
 
   <!-- info section -->
 
@@ -212,7 +288,6 @@
               <button type="submit">
                 Subscribe
               </button>
-              
             </form>
           </div>
         </div>
@@ -234,15 +309,11 @@
   <!-- footer section -->
 
   <!-- jQery -->
-  <script src="static/js/jquery-3.4.1.min.js"></script>
+  <script src="/static/js/jquery-3.4.1.min.js"></script>
   <!-- bootstrap js -->
-  <script src="static/js/bootstrap.js"></script>
+  <script src="/static/js/bootstrap.js"></script>
   <!-- custom js -->
-  <script src="static/js/custom.js"></script>
-  <!-- Google Map -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
-  </script>
-  <!-- End Google Map -->
+  <script src="/static/js/custom.js"></script>
 
 </body>
 

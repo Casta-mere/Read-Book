@@ -89,8 +89,9 @@
         {%for i in range(0,200)%}
         <div class="col-md-3">
           <div class="img-box">
-            <img src="/static/images/about-img.png" alt="">
+            <img src="/static/images/pic/{{i+1}}.jpg" alt="">
           </div>
+          <br>
           <h5 class ="text-center">排名：{{book[i][0]}}</h5>
           <h5 class ="text-center">书名：{{book[i][1]}}</h5>
           <h5 class ="text-center">作者：{{book[i][2]}}</h5>

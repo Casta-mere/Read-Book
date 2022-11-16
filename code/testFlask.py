@@ -52,15 +52,14 @@ def bookDetail(id):
         "bookDetail.html",
         detail=detail,
         foreign=foreign,
-        status=globals.status
+        status=globals.status,
+        i=id
     )
 
 # 测试界面
 @search.route('/test', methods=['GET', 'POST'])
 def test():
     globals.test=1
-    test=globals.ctrl.get_question_random()
-    head=['A','B','C','D']
     if globals.status == 1:
         return render_template(
             "profile.html",
@@ -70,10 +69,19 @@ def test():
         return render_template(
             'test.html',
             status=globals.status,
-            test=test,
-            head=head
             )
- 
+
+@search.route('/testStart', methods=['GET', 'POST'])
+def testStart():
+    head=['A','B','C','D']
+    test=globals.ctrl.get_question_random()
+    return render_template(
+        "testStart.html",
+        status=globals.status,
+        test=test,
+        head=head
+    )
+
 # 提交
 @search.route('/submit', methods=['GET', 'POST'])
 def submit():
@@ -85,6 +93,7 @@ def submit():
         "index.html",
         status=globals.status
     )
+
 @search.route('/statistics', methods=['GET', 'POST'])
 def statistics():
     return render_template(
