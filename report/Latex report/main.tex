@@ -24,7 +24,7 @@
 	\usepackage{fancybox}
     \usepackage[hidelinks]{hyperref}
     \usepackage{bbding}
-
+    \usepackage{hyperref}
     %%%%% MACROS %%%%%%
     \algrenewcommand\Return{\State \algorithmicreturn{} }
     \algnewcommand{\LineComment}[1]{\State \(\triangleright\) #1}
@@ -61,7 +61,7 @@
 \newcommand\studentName{\Large \centering 任课教师: 张涵翠\\王旭刚 2020329621074\\韦杨婧 2020329621199\\池胤杰 2020329621049\\计算机科学与技术全英文授课班20(1)\\}
 \newcommand\studentEmail{Email:castamerego@gmail.com}
 \newcommand\studentNumber{2020329621074, 2020329621199, 2020329621049}
-\newcommand\projectname{Read-Book "智能知识侦查助手"}
+\newcommand\projectname{Read-Book ``智能知识侦查助手''}
 \newcommand\studentClass{\centering}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
@@ -83,7 +83,7 @@
     \includegraphics[width=1\columnwidth]{figures/zstu-logo.png}
 \end{figure}
 
-\title{\Huge Python 程序设计\\ \vspace{1.5cm} Read-Book ``智能知识侦查助手"(9) \\ \vspace{1.5cm} \huge 2022-2023-1 \\ \vspace{0.8cm}}
+\title{\Huge Python 程序设计\\ \vspace{1.5cm} Read-Book ``智能知识侦查助手''(9) \\ \vspace{1.5cm} \huge 2022-2023-1 \\ \vspace{0.8cm}}
 
 \author{\name \studentName{}
     \addr
@@ -103,7 +103,7 @@
     池胤杰\textsuperscript{3}
     \\
     \bigskip
-    \textbf{1} Leader, back-end design and implementation
+    \textbf{1*} Leader, back-end design and implementation
     \\
     \textbf{2} Team member, front-end design and implementation
     \\
@@ -121,7 +121,19 @@
     \Large\textbf{Abstruct}
 \end{center}
 
-In this Safehome Project Design, there are four parts : 1. Determine actors and the corresponding functions 2. For each function write story to extract actions 3. Write formal (Structured) use-cases 4. Create swimlane diagram for each use-case.
+
+
+In this Projcet, we designed an ``Intelligent Knowledge Scouting Assistant''.
+Using \emph{Python} as the main programming language. Use \emph{flask} library to manipulate html, css; javascript for front-end, \emph{requests, BeautifulSoup4} library for webcrawing data; and \emph{pymysql} library for back-end programming.
+
+For more information, you can click  \href{https://github.com/Casta-mere/Read-Book}{\textbf{\emph{here}}} to view our Github Repository. \\ \vspace{1.0cm}
+
+\begin{center}
+    \Large\textbf{Key words}
+\end{center}
+
+\textbf{Python, Webcrawer, Questionnaire Generating, Object-Orinted Programming, Webapp}
+
 
 \pagenumbering{Roman}
 \newpage
@@ -131,7 +143,7 @@ In this Safehome Project Design, there are four parts : 1. Determine actors and 
 \phantomsection\addcontentsline{toc}{section}{课题执行(文档修订)记录表}\tolerance=500
 
 \begin{center}
-    \Large \textbf{课题执行(文档修订)记录表}
+    \Large\textbf{课题执行(文档修订)记录表}
 \end{center}
 
 \begin{table}[H]
@@ -140,11 +152,11 @@ In this Safehome Project Design, there are four parts : 1. Determine actors and 
     \setlength{\tabcolsep}{9mm}{
         \begin{tabular}{|c|c|c|c|c|}
             \hline
-            日期       & 版本 & 修订内容 & 执行人 & 修订人 \\
+            日期       & 版本 & 修订内容   & 执行人 & 修订人 \\
             \hline
-            2022.11.06 & 1.0  & 分析需求 & 王旭刚 & 韦杨婧 \\
+            2022.11.06 & 1.0  & 分析需求   & 王旭刚 & 韦杨婧 \\
             \hline
-            2022.11.16 &2.1 &修改README & 王旭刚 & 韦杨婧 \\
+            2022.11.16 & 2.1  & 修改README & 王旭刚 & 韦杨婧 \\
             \hline
         \end{tabular}}
 
@@ -248,7 +260,6 @@ In this Safehome Project Design, there are four parts : 1. Determine actors and 
     }
     \label{tab:tabforuser}
 \end{table}
-
 
 \begin{table}[H]
     \centering
