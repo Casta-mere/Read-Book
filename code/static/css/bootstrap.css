@@ -156,24 +156,38 @@ li {
   list-style: none;
 }
 
-.li-ori {
-  color: #fff;
-  background-color: #44B89D;
-  border-color: #44B89D;
+.ori {
+  background-color: #f1f2f3;
+  border-color: #f1f2f3;
+  margin: 8px;
+  Border-radius: 4px; 
+  padding: 4px;
+  color: #000;
 }
 
-.li-ori:hover {
-  color: #44B89D;
+.ori:hover {
+  color: #A6ACAF;
   background-color: transparent;
+  color:#000
 }
 
 .li-selected {
-  color: #fff;
-  background-color: #44B89D;
+  color: #000;
+  background-color: #A6ACAF;
   border-color: #000000;
   border-width: 2px;
-  box-shadow: 0 0 0 0.2rem rgba(68, 184, 157, 0.5);
+  box-shadow: 0 0 0 0.2rem #063547;
+  margin: 8px;
+  Border-radius: 4px;
+  padding: 4px;
 }
+/*可以把前面的.li-ori的transparent覆盖*/
+.li-selected:hover {
+  color: #A6ACAF;
+  background-color: #A6ACAF;
+  color:#000
+}
+
 /*新增结束*/
 a {
   color: #007bff;
@@ -2441,7 +2455,7 @@ a.btn.disabled,
 fieldset:disabled a.btn {
   pointer-events: none;
 }
-
+/*新增开始*/
 .btn-choice {
   color: #fff;
   background-color: #44B89D;
@@ -2460,7 +2474,7 @@ fieldset:disabled a.btn {
   border-width: 2px;
   box-shadow: 0 0 0 0.2rem rgba(68, 184, 157, 0.5);
 }
-
+/*新增结束*/
 .btn-primary {
   color: #fff;
   background-color: #007bff;
