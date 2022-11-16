@@ -151,11 +151,30 @@ sub {
 sup {
   top: -.5em;
 }
-/*新增*/
+/*新增开始*/
 li {
   list-style: none;
 }
 
+.li-ori {
+  color: #fff;
+  background-color: #44B89D;
+  border-color: #44B89D;
+}
+
+.li-ori:hover {
+  color: #44B89D;
+  background-color: transparent;
+}
+
+.li-selected {
+  color: #fff;
+  background-color: #44B89D;
+  border-color: #000000;
+  border-width: 2px;
+  box-shadow: 0 0 0 0.2rem rgba(68, 184, 157, 0.5);
+}
+/*新增结束*/
 a {
   color: #007bff;
   text-decoration: none;

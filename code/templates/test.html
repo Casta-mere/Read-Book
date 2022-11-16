@@ -29,6 +29,16 @@
 
 <body class="sub_page">
 
+  <script src="/static/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">
+        $(function(){  
+            $("#test li").click(function() {
+                $(this).siblings('li').removeClass('li-selected');  
+                $(this).addClass('li-selected');                                   
+            });
+        }); 
+        </script>
+        
   <div class="hero_area">
     <!-- header section strats -->
     <header class="header_section">
@@ -242,16 +252,16 @@
                   题目：{{test[i]["Question"]}}
                 </h5>
                 <div class="box1 ">
-                  <ul>
+                  <ul id="test">
                   {%for j in range(0,test[i]["Option_num"])%}
                   <!--bootstrap.css 2427行附近-->
                   <!--怎么选中啊啊啊啊-->
                   <!--<button type="button" class="btn btn-choice btn-block" value="{{i}}">
                     {{head[j]}}.{{test[i]["Options"][j]}}
                   </button>-->
-                  <li>
-                    <input type="radio" name="{{i}}" value="{{j}}" id="{{i}}{{j}}" >
-                    <label for="{{i}}{{j}}" class="btn btn-choice active">{{head[j]}}.{{test[i]["Options"][j]}}</label>
+                  <li class="li-ori">
+                    <!--<input type="radio" name="{{i}}" value="{{j}}" id="{{i}}{{j}}" >
+                    <label for="{{i}}{{j}}" class="btn btn-choice active">-->{{head[j]}}.{{test[i]["Options"][j]}}<!--</label>-->
                   </li>
                 {%endfor%}
                   </ul>
