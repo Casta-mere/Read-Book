@@ -28,6 +28,7 @@
 - Flask+雷达图  https://blog.csdn.net/weixin_43836098/article/details/91347483
 - 禁止html页面滚动  https://www.php.cn/div-tutorial-484001.html
 - html内容固定不滚动  https://blog.csdn.net/qq_44034384/article/details/94180393
+- html 内容根据屏幕大小变 https://blog.csdn.net/qq_38004125/article/details/108060396
 
 
 ## 文件描述
