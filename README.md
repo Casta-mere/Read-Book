@@ -28,16 +28,8 @@
 + [x] 选项打乱 -- ascii码 11.06
 + [ ] 多选题
 + [ ] 问题可从书评中摘取
++ [ ] 通过数据库内数据生成概念性问题，比如书对应作者，以及相反
 
-
-## 文件描述
-
-| 文件名   | 文件描述 |
-| :------- | :------- |
-| code     | 代码     |
-| report   | 报告     |
-| record   | 过程记录 |
-| resource | 相关材料 |
 
 ## Environment Requirement
 
@@ -45,3 +37,13 @@
 - pymysql
 - beautifulsoup4
 - requests
+
+
+## 文件描述
+
+| 文件名   | 文件描述  |
+| :------- | :-------- |
+| code     | 代码      |
+| report   | 报告, PPT |
+| record   | 过程记录  |
+| resource | 相关材料  |
