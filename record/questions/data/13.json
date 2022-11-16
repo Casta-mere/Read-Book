@@ -1,1 +1,78 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "下列对《小王子》一书的表述，不正确的一项是（　　）",
+        "Type": 2,
+        "Options": [
+            "《小王子》的作者是法国作家对圣埃克苏佩里。",
+            "小王子旅行了七个星球，并在第二个星球遇见了酒鬼。",
+            "小王子自己所在的星球有一种可怕的种子，那就是猴面包树的种子。",
+            "小王子到过的第一颗星球上住着一位国王。"
+        ],
+        "Ans": "小王子旅行了七个星球，并在第二个星球遇见了酒鬼。",
+        "Category": "content"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "《小王子》中，小王子与狐狸告别时，狐狸作为礼物送给小王子的那个“秘密”是：凡事只有用心去观察才能看的清楚，只用眼睛去看是看不到事物的本质的。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "《小王子》中地理学家建议小王子去的星球是（　　）",
+        "Type": 2,
+        "Options": [
+            "地球",
+            "火星",
+            "金星",
+            "木星"
+        ],
+        "Ans": "地球",
+        "Category": "content"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "《小王子》中，小王子在穿越沙漠时（   ）",
+        "Type": 2,
+        "Options": [
+            "没遇到任何人",
+            "只遇见一朵花",
+            "只遇见一支沙漠商队",
+            "遇见了一只骆驼"
+        ],
+        "Ans": "只遇见一朵花",
+        "Category": "content"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "小王子在地球上呆了多久（   ）",
+        "Type": 2,
+        "Options": [
+            "一年",
+            "一个月",
+            "一天",
+            "不知道"
+        ],
+        "Ans": "一年",
+        "Category": "detail"
+    }
+}

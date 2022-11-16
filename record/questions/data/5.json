@@ -1,1 +1,80 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "在三体中，汪淼和丁仪在房子里打台球时，共打了几（ ）次。",
+        "Type": 2,
+        "Options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "Ans": "5",
+        "Category": "detail"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "在三体中，杨冬的男朋友是谁？",
+        "Type": 2,
+        "Options": [
+            "汪淼",
+            "丁仪",
+            "魏成",
+            "潘寒"
+        ],
+        "Ans": "丁仪",
+        "Category": "figure"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "在三体星系的历史上，有多少颗行星已经被三体太阳气态层膨胀时毁灭了？",
+        "Type": 2,
+        "Options": [
+            "7",
+            "12",
+            "9",
+            "11"
+        ],
+        "Ans": "11",
+        "Category": "detail"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "朝叶哲泰的脑壳上抽了最要命一鞭子的人是：（  ）",
+        "Type": 2,
+        "Options": [
+            "唐红静",
+            "绍琳",
+            "白沐霖",
+            "程丽华"
+        ],
+        "Ans": "唐红静",
+        "Category": "figure"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "第（ ）号文明是三体文明的里程碑？",
+        "Type": 2,
+        "Options": [
+            "191",
+            "192",
+            "184",
+            "202"
+        ],
+        "Ans": "192",
+        "Category": "detail"
+    }
+}

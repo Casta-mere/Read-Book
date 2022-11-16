@@ -1,1 +1,72 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "下列关于《百年孤独》的表述不正确的一项是（ ）",
+        "Type": 2,
+        "Options": [
+            "《百年孤独》讲述了何塞·阿尔卡蒂奥·布恩迪亚和妻子乌尔苏拉在一块空地上建立马孔多小镇以及这个家族逐渐兴盛、衰败，最后在一夜之间消失的百年故事。",
+            "《百年孤独》被称为魔幻现实主义文学的杰出代表小说描述了大量魔幻、离奇的事件，但马尔克斯却认为整部小说没有一行字不是建立在现实的基础上的。",
+            "小说中奥雷里亚诺上校从小就开始就在炼金室里制作小金鱼。他痴迷于这项活动，年复一年，并且从不销毁，试图以永不停止的制作来抗争挥之不去的孤独。",
+            "小说中多次出现冰块、玻璃之城或镜子之城等说法，一方面可以看出马孔多人对新事物的好奇，另一方面它们易碎、易消亡并且冰冷，暗示着故事的悲剧结局。"
+        ],
+        "Ans": "小说中奥雷里亚诺上校从小就开始就在炼金室里制作小金鱼。他痴迷于这项活动，年复一年，并且从不销毁，试图以永不停止的制作来抗争挥之不去的孤独。",
+        "Category": "content"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "《百年孤独》中的两个流浪汉是被社会挤压扁了的“非人”象征。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "false",
+        "Category": "main"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "《百年孤独》中的大大小小的循环怪圈，象征了哥伦比亚甚至整个拉美的社会现实。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "main"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "《百年孤独》中描写了各种各样黄色的东西，预示着新生、兴盛。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "false",
+        "Category": "main"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "1982年，马尔克斯凭借《百年孤独》夺得诺贝尔文学奖",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "anecdote"
+    }
+}

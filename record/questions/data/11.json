@@ -1,1 +1,72 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "《黄面人》中的黑人是郝龙伯夫人的（  ）。",
+        "Type": 2,
+        "Options": [
+            "儿子",
+            "女儿",
+            "舅舅",
+            "父亲"
+        ],
+        "Ans": "女儿",
+        "Category": "content"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "《血字的研究》中华生的叙述和福尔摩斯的推测相同。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "false",
+        "Category": "content"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "《歪唇男人》中的院长兄弟是艾萨惠特尼。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "《四签名》的作案者是两个正常人。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "false",
+        "Category": "content"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "英国政府在1981年按《福尔摩斯》的地址设立了福尔摩斯寓所。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "anecdote"
+    }
+}

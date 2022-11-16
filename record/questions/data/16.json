@@ -1,1 +1,70 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "军曹是《撒哈拉的故事》一书中《沙巴军曹》中的人物。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "figure"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "三毛的丈夫叫荷西,是西班牙人。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "anecdote"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "《沙漠中的饭店》一文中,荷西将粉丝称作春雨。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "《死果》中的“毛里塔尼亚“的巫术牌子是由铜牌子、果核和小布包组成。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "《撒哈拉的故事》一书中《芳邻》中賃道:三毛因不借二个撒哈威人东西,这个人说:“你伤害了我的骄傲。“",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    }
+}

@@ -1,1 +1,80 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "《活着》中，福贵的老婆叫什么名字？",
+        "Type": 2,
+        "Options": [
+            "家慧",
+            "巧珍",
+            "慧珍",
+            "家珍"
+        ],
+        "Ans": "家珍",
+        "Category": "figure"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "《活着》中，福贵的老婆得了什么病？",
+        "Type": 2,
+        "Options": [
+            "软骨病",
+            "甲状腺",
+            "败血症",
+            "风湿病"
+        ],
+        "Ans": "软骨病",
+        "Category": "detail"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "《活着》中，福贵靠什么谋过生？",
+        "Type": 2,
+        "Options": [
+            "摆摊卖小吃",
+            "演皮影戏",
+            "打铁",
+            "当郎中"
+        ],
+        "Ans": "演皮影戏",
+        "Category": "detail"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "《活着》中，凤霞是怎么死的？",
+        "Type": 2,
+        "Options": [
+            "被县长的车撞死的",
+            "饥荒饿死的",
+            "难产死的",
+            "得肺病死的"
+        ],
+        "Ans": "难产死的",
+        "Category": "content"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "《活着》中，故事中的“我”是干什么的？",
+        "Type": 2,
+        "Options": [
+            "收集故事的",
+            "下乡支教的",
+            "放牛的",
+            "收田租的"
+        ],
+        "Ans": "收集故事的",
+        "Category": "detail"
+    }
+}

@@ -1,1 +1,70 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "《哈利·波特》中，海格带着真哈利骑着轻型摩托车成功逃离食死徒的包围圈，安全转移。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "《哈利·波特》中,为了帮助哈利·波特转移，疯眼汉不幸牺牲了。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "《哈利·波特》中,伏地魔的势力占领了魔法部，哈利与罗恩、赫敏逃离陋居后，在格里莫广场12号暂时躲避起来，在这里，他们找到了小精灵克利切。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "《哈利·波特》中,伏地魔为求永生而制造了六个魂器,但是后来,他在无意间又制造了第七个魂器，这个魂器就是死亡圣器。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "false",
+        "Category": "detail"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "《哈利·波特》中，斯内普一直深爱着哈利·波特的母亲，并且一直默默保护着哈利。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "figure"
+    }
+}

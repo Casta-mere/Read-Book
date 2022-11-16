@@ -1,1 +1,70 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "鲁迅的《呐喊》中的很多篇章运用外貌、语言、动作和心理描写，塑造了典型环境中的典型人物，比如阿Q、孔乙己、祥林嫂等。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "false",
+        "Category": "figure"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "《呐喊》是伟大的鲁迅先生1918年至1922年所写的14个短篇小说的结集。取名为“呐喊”，意在为革命“喊几声助助威”，以鼓舞“奔驰的猛士，使他不惮于前驱”。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "main"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "《呐喊》是鲁迅先生的一部短篇小说集。其中《狂人日记》描写了一个“迫害狂”患者的精神状态和心理活动，狂人说的每一句话都是疯话，但是话里又包含着深刻的道理。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "鲁迅的《狂人日记》收录在小说集《彷徨》中，是中国现代文学史上第一部白话小说，作品鲜明地表现了对愚弱国民“哀其不幸，怒其不争”的态度。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "false",
+        "Category": "main"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "《呐喊》是鲁迅创作的短篇小说的结集，共收录小说15篇，其中《狂人El记》《孔乙己》《阿Q正传》《拿来主义》等文章都为鲁迅的代表作。他的作品大都对封建制度及陈腐的传统观念进行了深刻的剖析和彻底的否定，表现出对民族生存的忧患意识和对社会变革的强烈渴望。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "false",
+        "Category": "main"
+    }
+}

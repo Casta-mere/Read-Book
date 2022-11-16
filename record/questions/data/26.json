@@ -1,1 +1,70 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "在哈佛有着“中国先生”称号的傅高义，被中国人所熟知，是缘于他的著作《邓小平时代》在中国的出版。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "1961年，傅高义进入哈佛大学东亚研究中心(现名“费正清中国研究中心”)学习中文和中国历史、社会和政治，并为自己取了“傅高义”这个中文名字——“‘义’在中文里意味着有很高的道德标准，这正是我想追求的”。费正清1973年从东亚中心退休，比他小25岁的傅高义接任中心主任一职。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "让美国人更好地了解中国，是傅高义写《邓小平时代》（Deng Xiaoping and the Transformation of China）这本书的初衷",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "《邓小平时代》出版后，傅高义从未停止过修改。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "《邓小平时代》中对于许多中国问题的解读，在当时的中国读者看来是新鲜的，其中也存在偏颇。而正如傅高义在这本书的中文序言中所言：“时代在变，看法也在变，不过，我相信，讨论的过程和不同的见解会为增进理解提供更多的新机会。”",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    }
+}

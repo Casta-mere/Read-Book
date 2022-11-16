@@ -1,1 +1,80 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "“少林派七十二绝技，只须一门绝技便已足够，用不着七十二项”这句话是谁说的？",
+        "Type": 2,
+        "Options": [
+            "玄慈",
+            "鸠摩智",
+            "扫地僧",
+            "慕容博"
+        ],
+        "Ans": "慕容博",
+        "Category": "figure"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "在解“珍珑棋局”时，第一个看得口吐鲜血的是谁？",
+        "Type": 2,
+        "Options": [
+            "段延庆",
+            "慕容复",
+            "范百龄",
+            "鸠摩智"
+        ],
+        "Ans": "范百龄",
+        "Category": "content"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "当年带头大哥第一批在雁门关外伏击的共有多少人？",
+        "Type": 2,
+        "Options": [
+            "19",
+            "20",
+            "21",
+            "22"
+        ],
+        "Ans": "21",
+        "Category": "detail"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "第一个告知乔峰姓“萧”的是谁？",
+        "Type": 2,
+        "Options": [
+            "赵钱孙",
+            "智光大师",
+            "徐长老",
+            "玄苦"
+        ],
+        "Ans": "智光大师",
+        "Category": "content"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "萧峰为了救素不相识的阿朱，来到聚贤庄向薛慕华求医，被天下群雄所逼，不得已和众人为敌。他提议跟昔日旧交喝绝情酒，第一个上前饮酒的是？",
+        "Type": 2,
+        "Options": [
+            "白世镜",
+            "徐长老",
+            "宋长老",
+            "康敏"
+        ],
+        "Ans": "康敏",
+        "Category": "content"
+    }
+}

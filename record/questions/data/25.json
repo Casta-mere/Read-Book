@@ -1,1 +1,72 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "《人类简史:从动物到上帝》的作者是尤瓦尔·赫拉利。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "赫拉利在《人类简史》中说到,饥荒、战争、()这三大命题,就是千百年来,人类最重要的事。",
+        "Type": 2,
+        "Options": [
+            "技术",
+            "瘟疫"
+        ],
+        "Ans": "瘟疫",
+        "Category": "content"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "《人类简史》一书中提到,人类文明到目前为止经历了三次重要的变革,分别是认知革命、农业革命和()?",
+        "Type": 2,
+        "Options": [
+            "文学革命",
+            "思想革命",
+            "工具革命",
+            "工业革命"
+        ],
+        "Ans": "工业革命",
+        "Category": "content"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "《人类简史：从动物到上帝》以演化生物学的角度介绍了人类的历史。赫拉利认为生物学限定了人类活动的极限，而文化则塑造了在极限以内所发生的事情，历史学科则是对文化变迁的记录。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "《人类简史：从动物到上帝》将从石器时代至今天智人的演化历史分为了四个阶段：认知革命（约公元前70000年，智人演化产生了想象力，出现能够描述故事的语言）、农业革命（约公元前12000年，农业开始发展，智人开始驯化动植物）、人类的融合统一（人类政治组织逐渐融合统一为一个“全球帝国”）、科学革命（约公元1500年至今，出现了现代科学）。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    }
+}

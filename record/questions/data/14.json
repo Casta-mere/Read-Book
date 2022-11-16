@@ -1,1 +1,78 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "下面对安徒生的叙述错误的一项是(   )",
+        "Type": 2,
+        "Options": [
+            "安徒生是19世纪丹麦童话作家。",
+            "安徒生被誉为”世界儿童文学的太阳”",
+            "安徒生只写过童话，没有写过其他体裁的文学作品。",
+            "《野天鹅》是安徒生童话的代表作品之一。"
+        ],
+        "Ans": "安徒生只写过童话，没有写过其他体裁的文学作品。",
+        "Category": "anecdote"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "下面书目和故事对应不正确的是（　　）。",
+        "Type": 2,
+        "Options": [
+            "安徒生童话》——《卖火柴的小女孩》",
+            "《格林童话》——《睡美人》",
+            "《安徒生童话》——《白雪公主》",
+            "《格林童话》——《青蛙王子》"
+        ],
+        "Ans": "《安徒生童话》——《白雪公主》",
+        "Category": "content"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "下列不属于安徒生童话的是（   ）",
+        "Type": 2,
+        "Options": [
+            "《丑小鸭》",
+            "《小红帽》",
+            "《小锡兵》",
+            "《海的女儿》"
+        ],
+        "Ans": "《小红帽》",
+        "Category": "content"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "安徒生是丹麦的作家。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "以下不属于《安徒生童话》里的故事主人公是（　　）",
+        "Type": 2,
+        "Options": [
+            "卖火柴的小女孩",
+            "历经磨难的丑小鸭",
+            "真诚待人的灰姑娘",
+            "小锡兵"
+        ],
+        "Ans": "真诚待人的灰姑娘",
+        "Category": "content"
+    }
+}

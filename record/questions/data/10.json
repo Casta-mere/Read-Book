@@ -1,1 +1,70 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "在《房思琪的初恋乐园》中，如果你连性都不能面对，如何面对更加血淋淋的自我。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "main"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "在《房思琪的初恋乐园》中，性与暴力，都处于人性的幽暗之地，有美，有沉沦，有欺骗和自欺。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "main"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "在《房思琪的初恋乐园》中，不能露出的不只是瘀青的皮肤，还有即将要瘀青的皮肤。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "main"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "在《房思琪的初恋乐园》中，话语本能地在美女面前膨胀，像阳具一样。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "main"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "在《房思琪的初恋乐园》中，墨水可以稀释情绪。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "main"
+    }
+}

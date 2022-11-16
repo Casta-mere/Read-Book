@@ -1,1 +1,70 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "《围城》用现实主义态度和讽刺的手法,描绘了二十世纪半封建半殖民地中国社会所有的知识分子群,被誉为新儒林外史。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "main"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "《围城》用“鸟笼”、“城堡“围城”等意象来表达人生一种矛盾的窘境。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "main"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "在《围城》里,作者运用严肃的语言和毫不留情的讽刺手法,描写了主人公方鸿渐等人在城镇与学校、家庭的一座座“围城”间颠沛流离、无家可归的人生境遇。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "false",
+        "Category": "main"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "《围城》的主人公方鸿渐是江南某县一个乡绅的儿子,性格善良懦弱。读大学时,他听从父命,与一位银行家的女儿周淑英订了婚。怎奈未婚妻早逝,岳父便资助他去欧洲读了四年书。留学期间,他生活散漫,学无所成,临回国之前,只得买了个子虚乌有的假博士头衔来搪塞家人。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "在《围城》里,回沪后,方鸿渐找不到合适的工作,在一家报社做些杂活,但不久又失了业,夫妻二人又因为生活中的琐事争吵不休,他们都想按着自己的意志行事,结果经常发生冲突。他们为了择职吵,为了亲戚吵,为了朋友吵,甚至无缘无故,为了随便一句话也要吵,有时更是互相把对方当作出气筒,终于导致无可避免的分手。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    }
+}

@@ -1,1 +1,70 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "《新名字的故事》是意大利作家埃莱娜·费兰特创作的长篇小说。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "《新名字的故事》是“那不勒斯四部曲”的第二部，2012年首次出版。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "anecdote"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "《新名字的故事》描述了埃莱娜和莉拉的青年时代。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "main"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "《新名字的故事》表现了女性尽管生活在暴力的漩涡之中，却敢于反抗社会的不公，追逐自己的信念，为当时的女性运动添上浓墨重彩的一笔。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "main"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "《新名字的故事》开头是16岁的莉拉和堂·阿奇勒的儿子斯特凡诺·卡拉奇的婚礼。随着婚礼的进行，莉拉意识到她不爱斯特凡诺，永远也不会，她突然明白，他并非完全自由的，他和这个街区的所有人一样受制于索拉拉一家，在婚礼上那家人不请自来，在表面上看似优雅的礼节后面，是暴力的恐吓。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "main"
+    }
+}

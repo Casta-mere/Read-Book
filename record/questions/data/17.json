@@ -1,1 +1,80 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "在《杀死一只知更鸟》中，在南北战争时期有一个人的子孙后代被窃掠一空，只剩下土地。这个人是谁？",
+        "Type": 2,
+        "Options": [
+            "迪尔",
+            "西蒙",
+            "杰姆",
+            "哈罗"
+        ],
+        "Ans": "西蒙",
+        "Category": "content"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "在《杀死一只知更鸟》中，梅科姆镇是一个老镇，一到下雨天，街道就成了烂泥坑。这个烂泥坑是什么颜色的？",
+        "Type": 2,
+        "Options": [
+            "红色",
+            "蓝色",
+            "黑色",
+            "黄色"
+        ],
+        "Ans": "红色",
+        "Category": "detail"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "在《杀死一只知更鸟》中，卡罗琳小姐至多有二十一岁，她长着一头光滑的红褐色头发，脸颊白里透红，指甲上也涂了甲油。卡罗琳小姐的甲油是什么颜色？",
+        "Type": 2,
+        "Options": [
+            "墨绿色",
+            "深蓝色",
+            "浅灰色",
+            "深红色"
+        ],
+        "Ans": "深红色",
+        "Category": "detail"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "在《杀死一只知更鸟》中，斯库特的同学沃尔特·坎宁安患了一种病。这种病是什么？",
+        "Type": 2,
+        "Options": [
+            "钩虫病",
+            "狂热病",
+            "结核病",
+            "白血病"
+        ],
+        "Ans": "钩虫病",
+        "Category": "detail"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "在《杀死一只知更鸟》中，对斯库特而言，她所学到的所有知识都来自一本杂志，和其他在家里能读到的书报。那本杂志叫什么？",
+        "Type": 2,
+        "Options": [
+            "《时代》",
+            "《世界》",
+            "《博物》",
+            "《科学》"
+        ],
+        "Ans": "《时代》",
+        "Category": "detail"
+    }
+}

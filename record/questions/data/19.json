@@ -1,1 +1,80 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "在《明朝那些事儿》中，1635年，洪承畴手下将领不包括：",
+        "Type": 2,
+        "Options": [
+            "曹文诏 ",
+            "艾万年",
+            "杨文岳",
+            "尤世威"
+        ],
+        "Ans": "曹文诏 ",
+        "Category": "figure"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "在《明朝那些事儿》中，下列人物与杨嗣昌无关的是：",
+        "Type": 2,
+        "Options": [
+            "孙传庭",
+            "卢象升",
+            "曹文诏",
+            "熊文灿"
+        ],
+        "Ans": "熊文灿",
+        "Category": "figure"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "在《明朝那些事儿》中，下列人物没有当过督师的是：",
+        "Type": 2,
+        "Options": [
+            "侯恂",
+            "孙传庭",
+            "杨嗣昌",
+            "吴三桂"
+        ],
+        "Ans": "侯恂",
+        "Category": "figure"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "在《明朝那些事儿》中，下列不属于东林三君的是：",
+        "Type": 2,
+        "Options": [
+            "顾宪成",
+            "黄尊素",
+            "邹元彪",
+            "赵南星"
+        ],
+        "Ans": "黄尊素",
+        "Category": "figure"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "在《明朝那些事儿》中，下列没做过帝师的是：",
+        "Type": 2,
+        "Options": [
+            "徐阶",
+            "高拱",
+            "张居正",
+            "孙承宗"
+        ],
+        "Ans": "徐阶",
+        "Category": "figure"
+    }
+}
