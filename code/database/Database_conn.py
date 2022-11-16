@@ -68,7 +68,7 @@ class my_sql():
             conn.commit()
         except:
             conn.rollback()
-            with open ("err.txt","a",encoding="utf-8")as f:
+            with open("err.txt", "a", encoding="utf-8")as f:
                 f.write(sql+"\n")
             print("error")
         cursor.close()
@@ -118,6 +118,7 @@ class my_sql():
         item.append(f'"{brief}"')
         self.Update_table("user", item)
 
+
 def reset_book():
     tabname = "book"
     column = []
@@ -140,9 +141,9 @@ def reset_book():
     column.append(['name_o', 'varchar(50)'])
     column.append(['trans', 'varchar(50)'])
 
-    
     sql = my_sql("readbook")
     sql.Create_table(tabname, column)
+
 
 def reset_user():
     tabname = "user"
@@ -154,29 +155,30 @@ def reset_user():
     column.append(['password', 'varchar(50)'])
     column.append(['brief', 'varchar(1000)'])
 
-    sql = my_sql("readbook")
-    sql.Create_table(tabname, column)
-
     user1 = [1, '"castamere"', '"M"',
              '"13834230484"', '"aaa6953217"', '"xxxx"']
     user2 = [2, '"today_red"', '"F"',
              '"13686521434"', '"ZzZ123456"', '"xxxx"']
+
+    sql = my_sql("readbook")
+    sql.Create_table(tabname, column)
     sql.Update_table(tabname, user1)
     sql.Update_table(tabname, user2)
 
+
 def reset_question():
-    tabname="question"
-    column=[]
-    column.append(['Bookid','int'])
-    column.append(['Question','varchar(2000)'])
-    column.append(['Tpye','int'])
-    column.append(['Option_num','int'])
-    column.append(['Option1','varchar(2000)'])
-    column.append(['Option2','varchar(2000)'])
-    column.append(['Option3','varchar(2000)'])
-    column.append(['Option4','varchar(2000)'])
-    column.append(['Answer','varchar(2000)'])
-    column.append(['Category','varchar(2000)'])
+    tabname = "question"
+    column = []
+    column.append(['Bookid', 'int'])
+    column.append(['Question', 'varchar(2000)'])
+    column.append(['Tpye', 'int'])
+    column.append(['Option_num', 'int'])
+    column.append(['Option1', 'varchar(2000)'])
+    column.append(['Option2', 'varchar(2000)'])
+    column.append(['Option3', 'varchar(2000)'])
+    column.append(['Option4', 'varchar(2000)'])
+    column.append(['Answer', 'varchar(2000)'])
+    column.append(['Category', 'varchar(2000)'])
 
     sql = my_sql("readbook")
     sql.Create_table(tabname, column)
