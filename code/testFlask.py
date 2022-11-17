@@ -21,10 +21,8 @@ globals.User = {"id":"","name":"","pw":"","gender":"","tele":"","brief":""}
 globals.test = 0
 # 从statistics进入
 globals.stat = 0
-
+# 从题库抽出的问题
 globals.ques = 0
-
-globals.choice = 0
 
 globals.ctrl=control.control()
 
@@ -101,8 +99,10 @@ def testStart():
 def testLook():
     whole=1
     head=['A','B','C','D']
-    test=globals.ctrl.get_question_random()
-    print(test)
+    # 在这里就把选项都摘出来    
+    # for item in returnData["choice"]:
+    #     item = item.split(".")[1].rstrip()
+    
     return render_template(
         "testStart.html",
         status=globals.status,
@@ -125,12 +125,15 @@ def submit():
     # 多个就写循环
 
     returnData=json.loads(list(request.args.to_dict().keys())[0])
-    print(returnData)
+    # print(returnData)
+    choice=dict()
     
-    for item in returnData["choice"]:
-        item = item.split(".")[1].rstrip()
-        
-    print(returnData)
+    for item in returnData["titleID_choice"]:
+        temp = int(item.split("_")[0])
+        temp1 = item.split("_")[1]
+        choice[temp]=temp1
+    print(choice)
+    # {'题目id':'选项文本'}
     
     return render_template(
         "index.html",

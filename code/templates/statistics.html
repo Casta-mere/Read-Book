@@ -87,8 +87,11 @@
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
-          From Our Blog
+          历史数据
         </h2>
+      </div>
+      <div class="row">
+        <progress value="100" max="100" id="start" ></progress>     <!--value="{{percentage}}"-->
       </div>
       <div class="row">
         <div class="col-md-6">
@@ -242,10 +245,16 @@
   <script src="static/js/bootstrap.js"></script>
   <!-- custom js -->
   <script src="static/js/custom.js"></script>
-  <!-- Google Map -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
-  </script>
   <!-- End Google Map -->
+
+  <script>
+    $(function(){
+      /*$('#start').attr('value')*/
+      $("#start").animate({
+          width:"50%"   /*传进来*/
+      },1000);
+  });
+  </script>
 
 </body>
 
