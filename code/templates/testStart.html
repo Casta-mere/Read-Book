@@ -299,7 +299,7 @@
     function sub(){
         var arr = [];
         $(".li-selected").each(function(){
-                var val = $(this).attr("value");
+                var val = $(this).text();
                 arr.push(val);
         });
         $.ajax({

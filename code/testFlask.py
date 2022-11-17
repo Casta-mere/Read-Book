@@ -108,16 +108,19 @@ def testLook():
 @search.route('/submit', methods=['GET', 'POST'])
 def submit():
     # ImmutableMultiDict([('{"choice":["9_3"]}', '')]) -- 原始数据
-    # con=request.args.to_dict() -- {'{"choice":["9_3"]}': ''}
-    # temp=json.loads(list(con.keys())[0]) -- {'choice': ['9_3']}
-    # temp1=temp["choice"][0] -- 9_3 -->多个temp["choice"][i]
-    # temp2=temp1.split("_")[1] -- 3
+    # con=request.args.to_dict() # -- {'{"choice":["9_3"]}': ''}
+    # temp=json.loads(list(con.keys())[0]) # -- {'choice': ['9_3']}
+    # temp1=temp["choice"][0] # -- 9_3 -->多个temp["choice"][i]
+    # temp2=temp1.split(".")[1] # -- 3
+    # temp3=temp2.rstrip()
+    
+    # print(temp3)
     
     # 多个就写循环
     choice=list()
-    temp=json.loads(list(request.args.to_dict().keys())[0])["choice"][0].split("_")[1]
-    choice.append(int(temp))
-    choice.append(int(temp))
+    temp=str(json.loads(list(request.args.to_dict().keys())[0])["choice"][0].split(".")[1].rstrip())
+    choice.append(temp)
+    choice.append(temp)
     
     # 所有的选择
     print(choice)
