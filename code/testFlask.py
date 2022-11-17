@@ -4,6 +4,7 @@ from telnetlib import STATUS
 from flask import (
     Flask, render_template, request, redirect, url_for, globals)
 import control 
+import json
 
 
 search = Flask(__name__)
@@ -104,10 +105,8 @@ def testLook():
 # 提交
 @search.route('/submit', methods=['GET', 'POST'])
 def submit():
-    con=request.args
-    print(con)
-    con=request.values.get('li-selected')
-    print(con)
+    con=json.loads(request.get_json())
+    print(con["choice"])
     return render_template(
         "index.html",
         status=globals.status

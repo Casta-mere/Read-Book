@@ -153,7 +153,7 @@
                     <ul id="test">
                   {%for j in range(0,test[i]["Option_num"])%}
                     <!--bootstrap.css 2427行附近-->
-                    <li name="" class="ori" value="{{j}}">
+                    <li name="" class="ori" value="{{i}}_{{j}}">
                       {{head[j]}}.{{test[i]["Options"][j]}}
                     </li>
                   {%endfor%}
@@ -175,7 +175,7 @@
             <!--整卷阅览需要把所有的上下题按钮藏起来-->
             <a href="/testLook">整卷阅览</a>
             <div>&emsp;</div>
-            <a href="/testStart">提交</a>
+            <button onclick="login()">提交</button>
           </div>
           <!-- i>0, i<题数-1 -->
           {%elif i>0 and i<9%}
@@ -194,7 +194,7 @@
         <div class="btn-box">
           <a href="/testLook">整卷阅览</a>
           <div>&emsp;</div>
-          <a href="/testStart">提交</a>
+          <button onclick="login()">提交</button>
         {%endif%}
       </div>
     </div>
@@ -294,6 +294,33 @@
   <script src="/static/js/bootstrap.js"></script>
   <!-- custom js -->
   <script src="/static/js/custom.js"></script>
+
+  <script>
+    function login(){
+        var arr = [];
+        $(".li-selected").each(function(){
+                var val = $(this).attr("value");
+                arr.push(val);
+        });
+        $.ajax({
+            url:"http://127.0.0.1:5000/testLook",
+            type:"post",
+            dataType:"application/json; charset=utf-8",
+ 
+            //data为要传递给后端的数据，使用JSON.stringify()转换为json格式
+            data:JSON.stringify({
+                    "choice":   arr,
+                }),
+            success:function (data){
+                alert("登录成功")
+            },
+            error:function (){
+                alert($(".selected").val())
+                console.log("***********")
+            }
+        })
+    }
+</script>
 
 </body>
 

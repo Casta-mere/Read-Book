@@ -22,36 +22,40 @@
         </script>
     <form>
         <ul id="test">
-            <li class="selected" name="{{1}}" value="{{A}}">A</li>
-            <input type="hidden" name="{{1}}" value="{{A}}"/>
+            <li class="selected" name="1" value="A">A</li>
+            <input type="hidden" name="1" value="A"/>
             <li name="2" value="B">B</li>
             <li name="3" value="C">C</li>	
         </ul>
 	<form>
-	<button class="btn"><a href="/test">sss</a></button>
+	<button class="btn" onclick="login()"><a href="/">sss</a></button>
 
     <script>
-    var OneVal = $(".selected").text();
-    </script>
-
-    <script>
-        function checkUser() {
-            var usercookie = $.cookie("validate");
-            Udata = JSON.stringify({"Uid": usercookie});
+        function login(){
+            var arr = [];
+            $(".selected").each(function(){
+                    var val = $(this).text()
+                    arr.push(val);
+            });
             $.ajax({
-                  url: "http://127.0.0.1:5000/checkCookie",
-                  type: "POST",
-                  contentType: 'application/json; charset=UTF-8',
-                  data: Udata,
-                  success: function(data){
-                      console.log(data);
-                  },
-                  error: function(err) {
-                      console.log("验证失败");
-                  }
-              });
+                url:"http://127.0.0.1:5000/test",
+                type:"post",
+                dataType:"json",
+     
+                //data为要传递给后端的数据，使用JSON.stringify()转换为json格式
+                data:JSON.stringify({
+                        "choice":   arr,
+                    }),
+                success:function (data){
+                    alert("登录成功")
+                },
+                error:function (){
+                    alert($(".selected").val())
+                    console.log("***********")
+                }
+            })
         }
-  </script>
+    </script>
  
 </body>
 </html>

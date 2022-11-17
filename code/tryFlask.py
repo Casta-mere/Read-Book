@@ -4,6 +4,7 @@ from telnetlib import STATUS
 from flask import (
     Flask, render_template, request, redirect, url_for, globals)
 import control 
+import json
 
 search = Flask(__name__)
 
@@ -15,8 +16,8 @@ def index():
     
 @search.route('/test', methods=['GET', 'POST'])
 def test():
-    con=request.form.get('1')
-    print(con)
+    con=json.loads(request.get_data(as_text=True))
+    print(con["choice"][0])
     return render_template(
         'model.html'
         )
