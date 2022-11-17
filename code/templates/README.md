@@ -12,3 +12,4 @@
 | profile.html    | 个人信息页（也是登录/注册界面）                   |
 | validation.html | 认证html                                          |
 | model.html      | 用于debug的html（现存test li选择更改class的内容） |
+

@@ -153,8 +153,8 @@
                     <ul id="test">
                   {%for j in range(0,test[i]["Option_num"])%}
                     <!--bootstrap.css 2427行附近-->
-                    <li name="" class="ori" value="{{i}}_{{j}}">
-                      {{head[j]}}.{{test[i]["Options"][j]}}
+                    <li name="" class="ori" value="{{test[i]["Question"]}}">
+                      {{head[j]}}. &nbsp; {{test[i]["Options"][j]}}
                     </li>
                   {%endfor%}
                     </ul>
@@ -175,7 +175,7 @@
             <!--整卷阅览需要把所有的上下题按钮藏起来-->
             <a href="/testLook">整卷阅览</a>
             <div>&emsp;</div>
-            <button onclick="sub()">提交</button>
+            <a onclick="sub()">提交</a>
           </div>
           <!-- i>0, i<题数-1 -->
           {%elif i>0 and i<9%}
@@ -194,7 +194,7 @@
         <div class="btn-box">
           <a href="/testLook">整卷阅览</a>
           <div>&emsp;</div>
-          <button onclick="sub()">提交</button>
+          <a onclick="sub()">提交</a>
         {%endif%}
       </div>
     </div>
@@ -297,10 +297,14 @@
 
   <script>
     function sub(){
+        var num = [];
         var arr = [];
+
         $(".li-selected").each(function(){
-                var val = $(this).text();
-                arr.push(val);
+          var va1 = $(this).attr('value');
+          num.push(va1);
+          var val = $(this).text();
+          arr.push(val);
         });
         $.ajax({
             url:"http://127.0.0.1:5000/submit",
@@ -313,6 +317,7 @@
             dataType:"text",
             contentType:"application/json",
             data:JSON.stringify({
+                    "title":    num,
                     "choice":   arr,
                 }),
             success:function (data){

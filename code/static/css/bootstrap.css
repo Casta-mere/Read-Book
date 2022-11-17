@@ -157,8 +157,8 @@ li {
 }
 
 .ori {
-  background-color: #f1f2f3;
-  border-color: #f1f2f3;
+  background-color: #D5DBDB;
+  border-color: #D5DBDB;
   margin: 8px;
   Border-radius: 4px; 
   padding: 4px;
@@ -166,9 +166,10 @@ li {
 }
 
 .ori:hover {
-  color: #A6ACAF;
-  background-color: transparent;
-  color:#000
+  cursor: pointer;
+  background-color: #A6ACAF;
+  color:#000;
+  transition: 0.5s;
 }
 
 .li-selected {

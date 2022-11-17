@@ -81,7 +81,7 @@ def testStart():
     whole=0
     head=['A','B','C','D']
     test=globals.ctrl.get_question_random()
-
+    
     return render_template(
         "testStart.html",
         status=globals.status,
@@ -113,17 +113,18 @@ def submit():
     # temp1=temp["choice"][0] # -- 9_3 -->多个temp["choice"][i]
     # temp2=temp1.split(".")[1] # -- 3
     # temp3=temp2.rstrip()
-    
     # print(temp3)
     
     # 多个就写循环
-    choice=list()
-    temp=str(json.loads(list(request.args.to_dict().keys())[0])["choice"][0].split(".")[1].rstrip())
-    choice.append(temp)
-    choice.append(temp)
+
+    returnData=json.loads(list(request.args.to_dict().keys())[0])
+    print(returnData)
     
-    # 所有的选择
-    print(choice)
+    for item in returnData["choice"]:
+        item = item.split(".")[1].rstrip()
+        
+    print(returnData)
+    
     return render_template(
         "index.html",
         status=globals.status
