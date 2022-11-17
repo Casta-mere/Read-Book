@@ -78,8 +78,7 @@ def testStart():
     whole=0
     head=['A','B','C','D']
     test=globals.ctrl.get_question_random()
-    con = request.values.get('li-selected')
-    print(con)
+    print(2)
     return render_template(
         "testStart.html",
         status=globals.status,
@@ -106,6 +105,7 @@ def testLook():
 @search.route('/submit', methods=['GET', 'POST'])
 def submit():
     con=json.loads(request.get_json())
+    print(1)
     print(con["choice"])
     return render_template(
         "index.html",

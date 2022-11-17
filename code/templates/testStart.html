@@ -303,16 +303,19 @@
                 arr.push(val);
         });
         $.ajax({
-            url:"http://127.0.0.1:5000/testLook",
-            type:"post",
-            dataType:"application/json; charset=utf-8",
- 
+            url:"http://127.0.0.1:5000/testStart",
+            type:"GET",
+            /*请求方法是get不是post，why*/     
+            /*headers: {
+              "Content-Type": "application/json",
+            } */              
             //data为要传递给后端的数据，使用JSON.stringify()转换为json格式
             data:JSON.stringify({
                     "choice":   arr,
                 }),
             success:function (data){
-                alert("登录成功")
+                alert("提交成功")
+                window.location.href = "/submit";
             },
             error:function (){
                 alert($(".selected").val())
