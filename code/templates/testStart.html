@@ -34,7 +34,9 @@
         $(function(){  
             $("#test li").click(function() {
                 $(this).siblings('li').removeClass('li-selected');  
-                $(this).addClass('li-selected');                                   
+                $(this).addClass('li-selected'); 
+                $(this).siblings('li').attr('name','');
+                $(this).attr('name','li-selected');
             });
         }); 
         </script>
@@ -147,14 +149,16 @@
                   题目：{{test[i]["Question"]}}
                 </h5>
                 <div class="box1 ">
-                  <ul id="test">
-                {%for j in range(0,test[i]["Option_num"])%}
-                  <!--bootstrap.css 2427行附近-->
-                  <li class="ori">
-                    {{head[j]}}.{{test[i]["Options"][j]}}
-                  </li>
-                {%endfor%}
-                  </ul>
+                  <form method="post">
+                    <ul id="test">
+                  {%for j in range(0,test[i]["Option_num"])%}
+                    <!--bootstrap.css 2427行附近-->
+                    <li name="" class="ori" value="{{j}}">
+                      {{head[j]}}.{{test[i]["Options"][j]}}
+                    </li>
+                  {%endfor%}
+                    </ul>
+                  </form>
                 </div>
             </div>
           </div>
@@ -171,7 +175,7 @@
             <!--整卷阅览需要把所有的上下题按钮藏起来-->
             <a href="/testLook">整卷阅览</a>
             <div>&emsp;</div>
-            <a href="/submit">提交</a>
+            <a href="/testStart">提交</a>
           </div>
           <!-- i>0, i<题数-1 -->
           {%elif i>0 and i<9%}
@@ -190,14 +194,14 @@
         <div class="btn-box">
           <a href="/testLook">整卷阅览</a>
           <div>&emsp;</div>
-          <a href="/submit">提交</a>
+          <a href="/testStart">提交</a>
         {%endif%}
       </div>
     </div>
   </section>
   {%endfor%}
   <!-- end catagory section -->
-
+  
   <!-- info section -->
 
   <section class="info_section layout_padding2">

@@ -20,14 +20,38 @@
             });
         }); 
         </script>
-	<ul id="test">
-		<li class="selected">A</li>
-		<li>B</li>
-		<li>C</li>
-		
-	</ul>
-	
-	<button class="btn">sss</button>
+    <form>
+        <ul id="test">
+            <li class="selected" name="{{1}}" value="{{A}}">A</li>
+            <input type="hidden" name="{{1}}" value="{{A}}"/>
+            <li name="2" value="B">B</li>
+            <li name="3" value="C">C</li>	
+        </ul>
+	<form>
+	<button class="btn"><a href="/test">sss</a></button>
+
+    <script>
+    var OneVal = $(".selected").text();
+    </script>
+
+    <script>
+        function checkUser() {
+            var usercookie = $.cookie("validate");
+            Udata = JSON.stringify({"Uid": usercookie});
+            $.ajax({
+                  url: "http://127.0.0.1:5000/checkCookie",
+                  type: "POST",
+                  contentType: 'application/json; charset=UTF-8',
+                  data: Udata,
+                  success: function(data){
+                      console.log(data);
+                  },
+                  error: function(err) {
+                      console.log("验证失败");
+                  }
+              });
+        }
+  </script>
  
 </body>
 </html>

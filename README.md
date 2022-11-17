@@ -30,6 +30,7 @@
 + [ ] 问题可从书评中摘取
 + [ ] 通过数据库内数据生成概念性问题，比如书对应作者，以及相反
 + [ ] 可以添加admin, 让admin可以手动添加题目？
++ [ ] 借用script，写个function，获取选中的li --> 传给后端  --> 后端用request.get_json()获取 --> 用一个globals存好 --> 传入testLook --> 最终提交
 
 ## Environment Requirement
 

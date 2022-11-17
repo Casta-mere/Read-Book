@@ -71,11 +71,14 @@ def test():
             status=globals.status,
             )
 
+# 正式测试
 @search.route('/testStart', methods=['GET', 'POST'])
 def testStart():
     whole=0
     head=['A','B','C','D']
     test=globals.ctrl.get_question_random()
+    con = request.values.get('li-selected')
+    print(con)
     return render_template(
         "testStart.html",
         status=globals.status,
@@ -84,6 +87,7 @@ def testStart():
         whole=whole
     )
 
+# 整卷阅览
 @search.route('/testLook', methods=['GET', 'POST'])
 def testLook():
     whole=1
@@ -97,13 +101,12 @@ def testLook():
         whole=whole
     )
 
-
 # 提交
 @search.route('/submit', methods=['GET', 'POST'])
 def submit():
     con=request.args
     print(con)
-    con=request.values
+    con=request.values.get('li-selected')
     print(con)
     return render_template(
         "index.html",
@@ -162,6 +165,7 @@ def registration():
     if pw==pw2:
         name=request.args.get("nameReg")
         gender=request.args.get("genderReg")
+        print(1)
         tele=request.args.get("teleReg")
         brief=request.args.get("briefReg")
         if(name and gender and tele and brief and pw and pw2):
