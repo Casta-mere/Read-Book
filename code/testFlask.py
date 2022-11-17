@@ -75,12 +75,13 @@ def test():
 # 正式测试
 @search.route('/testStart', methods=['GET', 'POST'])
 def testStart():
+    # con=json.loads(request.get_json())
+    # print(1)
+    # print(con["choice"])
     whole=0
     head=['A','B','C','D']
     test=globals.ctrl.get_question_random()
-    print(2)
-    con=request.args
-    print(con)
+
     return render_template(
         "testStart.html",
         status=globals.status,
@@ -106,9 +107,17 @@ def testLook():
 # 提交
 @search.route('/submit', methods=['GET', 'POST'])
 def submit():
-    con=json.loads(request.get_json())
+    con=request.args.to_dict()
     print(1)
-    print(con["choice"])
+    print(con)
+    return render_template(
+        "index.html",
+        status=globals.status
+    )
+
+# 处理数据
+@search.route('/process', methods=['GET', 'POST'])
+def process():
     return render_template(
         "index.html",
         status=globals.status

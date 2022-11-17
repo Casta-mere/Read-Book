@@ -303,21 +303,21 @@
                 arr.push(val);
         });
         $.ajax({
-            url:"http://127.0.0.1:5000/testStart",
+            url:"http://127.0.0.1:5000/submit",
             type:"GET",
             /*请求方法是get不是post，why*/     
             /*headers: {
               "Content-Type": "application/json",
             } */              
             //data为要传递给后端的数据，使用JSON.stringify()转换为json格式
-            dataType:"json",
+            dataType:"text",
             contentType:"application/json",
             data:JSON.stringify({
                     "choice":   arr,
                 }),
             success:function (data){
                 alert("提交成功")
-                location.href = "/submit";
+                $(window).attr("location","/process");
             },
             error:function (){
                 alert("error")
