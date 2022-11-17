@@ -175,7 +175,7 @@
             <!--整卷阅览需要把所有的上下题按钮藏起来-->
             <a href="/testLook">整卷阅览</a>
             <div>&emsp;</div>
-            <button onclick="login()">提交</button>
+            <button onclick="sub()">提交</button>
           </div>
           <!-- i>0, i<题数-1 -->
           {%elif i>0 and i<9%}
@@ -194,7 +194,7 @@
         <div class="btn-box">
           <a href="/testLook">整卷阅览</a>
           <div>&emsp;</div>
-          <button onclick="login()">提交</button>
+          <button onclick="sub()">提交</button>
         {%endif%}
       </div>
     </div>
@@ -296,7 +296,7 @@
   <script src="/static/js/custom.js"></script>
 
   <script>
-    function login(){
+    function sub(){
         var arr = [];
         $(".li-selected").each(function(){
                 var val = $(this).attr("value");
@@ -310,15 +310,17 @@
               "Content-Type": "application/json",
             } */              
             //data为要传递给后端的数据，使用JSON.stringify()转换为json格式
+            dataType:"json",
+            contentType:"application/json",
             data:JSON.stringify({
                     "choice":   arr,
                 }),
             success:function (data){
                 alert("提交成功")
-                window.location.href = "/submit";
+                location.href = "/submit";
             },
             error:function (){
-                alert($(".selected").val())
+                alert("error")
                 console.log("***********")
             }
         })

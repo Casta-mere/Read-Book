@@ -79,6 +79,8 @@ def testStart():
     head=['A','B','C','D']
     test=globals.ctrl.get_question_random()
     print(2)
+    con=request.args
+    print(con)
     return render_template(
         "testStart.html",
         status=globals.status,
