@@ -13,17 +13,7 @@
   数据界面
 - profile  
   存放用户的信息
-
-## templates
-- index.html  主页
-- books.html  书籍简介
-- bookDetail.html  书籍详情
-- test.html  测试页
-- statistics.html 数据页
-- profile.html 个人信息页（也是登录/注册界面）
-- validation.html 认证html
-- model.html 用于debug的html（现存test li选择更改class的内容）
-
+  
 ## 相关网页
 - Flask+雷达图  https://blog.csdn.net/weixin_43836098/article/details/91347483
 - 禁止html页面滚动  https://www.php.cn/div-tutorial-484001.html
