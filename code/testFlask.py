@@ -107,9 +107,20 @@ def testLook():
 # 提交
 @search.route('/submit', methods=['GET', 'POST'])
 def submit():
-    con=request.args.to_dict()
-    print(1)
-    print(con)
+    # ImmutableMultiDict([('{"choice":["9_3"]}', '')]) -- 原始数据
+    # con=request.args.to_dict() -- {'{"choice":["9_3"]}': ''}
+    # temp=json.loads(list(con.keys())[0]) -- {'choice': ['9_3']}
+    # temp1=temp["choice"][0] -- 9_3 -->多个temp["choice"][i]
+    # temp2=temp1.split("_")[1] -- 3
+    
+    # 多个就写循环
+    choice=list()
+    temp=json.loads(list(request.args.to_dict().keys())[0])["choice"][0].split("_")[1]
+    choice.append(int(temp))
+    choice.append(int(temp))
+    
+    # 所有的选择
+    print(choice)
     return render_template(
         "index.html",
         status=globals.status
