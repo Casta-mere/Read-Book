@@ -12,6 +12,15 @@ class my_sql():
     def __init__(self, database_name):
         self.database_name = database_name
 
+    def execute_sql(self, sql):
+        conn = pymysql.connect(host=host, user=user, password=password,
+                               database=self.database_name, charset='utf8')
+        cursor = conn.cursor()
+        cursor.execute(sql)
+        cursor.close()
+        conn.commit()
+        conn.close()
+
     def Create_Database(self):
         conn = pymysql.connect(host=host, user=user,
                                password=password, charset='utf8')

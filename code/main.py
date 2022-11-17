@@ -1,5 +1,5 @@
 from database import Database_conn as db
-from webcrawer import douban_webcrawer as dw
+# from webcrawer import douban_webcrawer as dw
 import control
 import json
 
@@ -77,11 +77,24 @@ def get_bookpic():
             count += 1
             r = f.readline().strip('\n')
 
+
+d=db.my_sql("readbook")
+d.Create_Database()
+
+db.reset_book()
+db.reset_question()
+db.reset_user()
+
+with open('code/database/book_info.sql', 'r', encoding="utf-8") as f:
+    sql = f.readline().strip('\n')
+    while(sql):
+        d.execute_sql(sql)
+        sql = f.readline().strip('\n')
 # mkdir()
 # db.reset_question()
-# c = control.control()
-# for i in range (1, 29):
-#     c.load_question(f"record/questions/data/{i}.json")
+c = control.control()
+for i in range (1, 29):
+    c.load_question(f"../record/questions/data/{i}.json")
 # c = control.control()
 # c.load_question(dir)
 # c.load_question(dir2)

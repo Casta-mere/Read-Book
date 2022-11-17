@@ -19,6 +19,12 @@ globals.retry = 0
 globals.User = {"id":"","name":"","pw":"","gender":"","tele":"","brief":""}
 # 从test进入
 globals.test = 0
+# 从statistics进入
+globals.stat = 0
+
+globals.ques = 0
+
+globals.choice = 0
 
 globals.ctrl=control.control()
 
@@ -61,6 +67,8 @@ def bookDetail(id):
 @search.route('/test', methods=['GET', 'POST'])
 def test():
     globals.test=1
+    test=globals.ctrl.get_question_random()
+    globals.ques=test
     if globals.status == 1:
         return render_template(
             "profile.html",
@@ -80,12 +88,10 @@ def testStart():
     # print(con["choice"])
     whole=0
     head=['A','B','C','D']
-    test=globals.ctrl.get_question_random()
-    
     return render_template(
         "testStart.html",
         status=globals.status,
-        test=test,
+        test=globals.ques,
         head=head,
         whole=whole
     )
@@ -96,10 +102,11 @@ def testLook():
     whole=1
     head=['A','B','C','D']
     test=globals.ctrl.get_question_random()
+    print(test)
     return render_template(
         "testStart.html",
         status=globals.status,
-        test=test,
+        test=globals.ques,
         head=head,
         whole=whole
     )
@@ -140,6 +147,13 @@ def process():
 
 @search.route('/statistics', methods=['GET', 'POST'])
 def statistics():
+    # globals.stat = 1
+    # if globals.status == 1:
+    #     return render_template(
+    #         "profile.html",
+    #         status=globals.status
+    #     )
+    # if globals.status == 2:
     return render_template(
         'statistics.html',
         status=globals.status
@@ -230,9 +244,15 @@ def validation():
             globals.User={"id":temp[0],"name":temp[1],"gender":temp[2],"tele":temp[3],"pw":temp[4],"brief":temp[5]}
             print(globals.User)
             globals.status = 2
+            
             if globals.test == 1:
                 globals.test = 0
                 return redirect(url_for('test'))
+            
+            # elif globals.stat == 1:
+            #     globals.stat = 0
+            #     return redirect(url_for('statistics'))
+            
             return render_template(
                 "index.html",
                 status=globals.status,
