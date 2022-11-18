@@ -5,7 +5,7 @@ import pymysql
 host = 'localhost'
 user = 'root'
 password = ''
-# password = '123456'
+# password = 'wgAkYmSE'
 
 
 class my_sql():

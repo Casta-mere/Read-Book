@@ -52,3 +52,12 @@
         database 密码 wgAkYmSE
         main 中的相对路径
         上面那条 改host和port
+        
+- [x] ssh关闭时不结束进程
+
+        screen -S 窗口名 :新建窗口
+        screen -ls : 列出当前窗口
+        screen -r 窗口号 : 回到指定窗口
+        exit : 删除当前窗口
+        Ctrl+a d : 退出当前窗口
+        https://blog.csdn.net/m0_46159309/article/details/108355180
