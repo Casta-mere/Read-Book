@@ -159,7 +159,11 @@ def statistics():
     # if globals.status == 2:
     return render_template(
         'statistics.html',
-        status=globals.status
+        status=globals.status,
+        username=globals.User["name"],
+        testRecently=0,
+        timeCost=0,
+        accuracy=0
         )
 
 # 个人信息    
