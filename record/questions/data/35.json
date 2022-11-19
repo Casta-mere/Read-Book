@@ -1,1 +1,74 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "《肖申克的救赎》讲述的不只是安迪一个人的越狱自我救赎,更多的是对其他人的救赎",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "main"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "《肖申克的救赎》中安迪花了多长时间挖通了通道?",
+        "Type": 2,
+        "Options": [
+            "10年",
+            "20年",
+            "30年",
+            "40年"
+        ],
+        "Ans": "20年",
+        "Category": "detail"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "《肖申克的救赎》中穿插有莫扎特的作品()A.《你们可知道什么是爱情》",
+        "Type": 2,
+        "Options": [
+            "《你们可知道什么是爱情》",
+            "《西风颂》",
+            "《再不要去做情郎》",
+            "《女人心》"
+        ],
+        "Ans": "《西风颂》",
+        "Category": "detail"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "《肖申克的救赎》中男主角越狱后去了墨西哥。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "《肖申克的救赎》的作者是史蒂芬·金。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    }
+}

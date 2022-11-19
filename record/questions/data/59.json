@@ -1,1 +1,70 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "《黄金时代》是作家王小波创作的中篇小说，是作品系列之“时代三部曲”中的一部作品，该系列入选《亚洲周刊》“二十世纪中文小说一百强”。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "王小波《黄金时代》的问世，实现了知青文学的突破。作品中对性爱的正面书写，对现实的批判和嘲讽，对人生存状态的反思，对人性自由和本真的彰显，迥异于20世纪90年代之前的知青小说。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "《黄金时代》开篇便写陈清扬找王二证明她不是破鞋：“我在山下14队，她在山上15队。有一天她从山上下来，和我讨论她不是破鞋的问题”，但王二偏要说陈清扬是破鞋，“所谓破鞋，乃是一个指称，大家说你是破鞋，你就是破鞋，没什么道理可讲。大家说你偷了汉，你就是偷了汉，这也没什么道理可讲”。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "在《黄金时代》中，王二的是一个典型的“小人物”，也是“多余人”。他是个21岁的青年，思想敏锐，忍受着饥饿、蚂蝗、繁重的劳动对肉体的折磨、忍受着军代表这样的恶人的压迫，却无法逃避，内心里滋生了仇恨意识、陷入孤独与苦闷。王二的性格刻画出人的本能需求与物质精神贫乏现实间的某种冲突。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "1982年三十岁大学毕业后，王小波在中国人民大学一分校教书，教师生活是《黄金时代》等小说的写作背景。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "false",
+        "Category": "writer"
+    }
+}

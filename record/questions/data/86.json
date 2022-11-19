@@ -1,1 +1,80 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "在《呼兰河传》中，不断给呼兰河小城的人们带来不便,并充满危险的是( ）",
+        "Type": 2,
+        "Options": [
+            "黑龙江",
+            "呼兰河",
+            "西二街",
+            "东二街道上的大泥坑"
+        ],
+        "Ans": "东二街道上的大泥坑",
+        "Category": "detail"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "在《呼兰河传》中，团圆媳妇的惨死的原因是（ ）",
+        "Type": 2,
+        "Options": [
+            "病死",
+            "老弱",
+            "意外死亡",
+            "婆婆折磨而死"
+        ],
+        "Ans": "婆婆折磨而死",
+        "Category": "detail"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "在《呼兰河传》中，作者的祖父是一个( )的老人。",
+        "Type": 2,
+        "Options": [
+            "严厉",
+            "和蔼可亲",
+            "说话不算数",
+            "不诚实"
+        ],
+        "Ans": "和蔼可亲",
+        "Category": "detail"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "萧红在《呼兰河传》中多次提到我的院子( )的。",
+        "Type": 2,
+        "Options": [
+            "非常热闹的",
+            "异常美丽的",
+            "很荒凉的",
+            "幽静整洁的"
+        ],
+        "Ans": "很荒凉的",
+        "Category": "detail"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "火烧云上来了,颜色变化极多,而且变化极（ ）",
+        "Type": 2,
+        "Options": [
+            "慢",
+            "快",
+            "广",
+            "大"
+        ],
+        "Ans": "快",
+        "Category": "detail"
+    }
+}

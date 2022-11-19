@@ -1,1 +1,70 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "《离开的，留下的》是意大利作家埃莱娜·费兰特创作的长篇小说，“那不勒斯四部曲”的第三部。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "《离开的，留下的》转向“我”的个人事业和感情生活，婚后的莱农离开了那不勒斯，而且顺利成为一名职业作家，过上了心向往之的体面生活，然而无所顾忌的爱情冲动正在打破来之不易的平静生活。小说展现了在二战后意大利男权社会的压迫下，女性突破身上的枷锁从而实现独立与自由。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "《离开的，留下的》聚焦“我”（埃莱娜）和莉拉躁动、紧密相依的中年。“我”在未婚夫彼得罗一家人的帮助下，出版了第一本小说，享受着成功的喜悦，而留在那不勒斯的莉拉却身陷卑贱的工厂生活。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "在《离开的，留下的》中，莉拉对“我”的新作品的指责更是让我产生彻底的自我怀疑：我接受的教育和拥有的知识是否只是让我的作品徒有其表，却永远无法拥有莉拉有时粗野的表达中具有的那些实质内容、那些令人不安的真相。直到有一天，“我”丈夫突然将尼诺带回了家，平静的生活即将被打破。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "埃莱娜·费兰特2016年入选《时代周刊》评选的“当今世界100个最具影响力的人物”榜单。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    }
+}

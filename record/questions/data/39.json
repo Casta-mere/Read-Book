@@ -1,1 +1,80 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "《我与地坛》表达的中心是()。",
+        "Type": 2,
+        "Options": [
+            "人生哲理",
+            "社会心态",
+            "文物历史",
+            "古迹风貌"
+        ],
+        "Ans": "人生哲理",
+        "Category": "main"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "《我与地坛》中写地坛“荒芜而并不衰败”让人联想到()。",
+        "Type": 2,
+        "Options": [
+            "地坛的坚牢",
+            "“我”的自强不屈",
+            "自然界的生机",
+            "“我”的好运"
+        ],
+        "Ans": "“我”的自强不屈",
+        "Category": "main"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "《我与地坛》中写地坛“历尽沧桑在那儿等待了四百多年”,让人联想到的深意是()",
+        "Type": 2,
+        "Options": [
+            "地坛的古老",
+            "“我”的艰难坎坷的人生道路",
+            "地坛的遭遇",
+            "“我”的持久不变的不懈追求"
+        ],
+        "Ans": "“我”的艰难坎坷的人生道路",
+        "Category": "main"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "《我与地坛》中描绘的落日光辉、雨燕高歌、孩童脚印、苍劲的古柏、夏雨秋风,象征()。",
+        "Type": 2,
+        "Options": [
+            "地坛绚丽多姿",
+            "地坛并不衰败",
+            "“我”倔强的心魂",
+            "“我”对生命的礼赞"
+        ],
+        "Ans": "“我”倔强的心魂",
+        "Category": "main"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "《我与地坛》中怕是活多久就要想它多久了,“像是伴你终生的魔鬼和恋人”指()。",
+        "Type": 2,
+        "Options": [
+            "怎样活的问题",
+            "关于死的事",
+            "为什么出生的问题",
+            "关于自强不息的事"
+        ],
+        "Ans": "怎样活的问题",
+        "Category": "main"
+    }
+}

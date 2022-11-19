@@ -1,1 +1,80 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "《朝花夕拾》是一本（ ）",
+        "Type": 2,
+        "Options": [
+            "散文集",
+            "论文集",
+            "文学评论集",
+            "杂文集"
+        ],
+        "Ans": "散文集",
+        "Category": "writer"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "《从百草园到三味书屋》中的“三味书屋”是作者何时求学的地方（ ）",
+        "Type": 2,
+        "Options": [
+            "少年",
+            "青年",
+            "壮年",
+            "老年"
+        ],
+        "Ans": "少年",
+        "Category": "detail"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "《朝花夕拾》中寿镜吾先生是鲁迅在何处求学时的老师（ ）",
+        "Type": 2,
+        "Options": [
+            "本城书塾",
+            "南京水师学堂",
+            "东京“清国留学生速成班”",
+            "仙台医专"
+        ],
+        "Ans": "本城书塾",
+        "Category": "detail"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "朝花夕拾》中藤野先生是鲁迅在何处求学时的老师（ ）",
+        "Type": 2,
+        "Options": [
+            "本城书塾",
+            "南京水师学堂",
+            "东京“清国留学生速成班”",
+            "仙台医专"
+        ],
+        "Ans": "仙台医专",
+        "Category": "detail"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "《朝花夕拾》在报上连载时的栏目叫（ ）",
+        "Type": 2,
+        "Options": [
+            "《朝花夕拾》",
+            "《花边文学》",
+            "《旧事重提》",
+            "《伪自由谈》"
+        ],
+        "Ans":  "《朝花夕拾》",
+        "Category": "anecdote"
+    }
+}

@@ -1,1 +1,70 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "《长日留痕》是英籍日裔小说家石黑一雄创作的长篇小说。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "《长日留痕》围绕英国典型传统男管家史蒂文斯的六天驾车旅行展开，以传统的英式贵族府邸达林顿府为空间背景，以第二次世界大战后的英国为现实背景，以两次世界大战之间的英国为叙事背景，展现了主人公对职业历程的回顾和人生价值的思考。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "《长日留痕》通过史蒂文斯的叙事，表现出史蒂文斯在贵族绅士传统文化和大英帝国没落时期对往昔辉煌的怀旧与思考，更是揭示了二战后英国社会普遍存在的对贵族传统、绅士文化传统、贵族政治传统以及举世瞩目的大英帝国殖民霸主地位的怀旧情结",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "main"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "《长日留痕》延续了石黑一雄前两部小说反思战争的主题，通过一个英国管家的视角来展现两次世界大战期间英国中上层社会的生活。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "main"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "《长日留痕》中，管家史蒂文斯的回忆超越了个人的回忆层面，延伸至更深刻的集体记忆层面、民族记忆层面。主人公不仅是在回忆中追述自己的一生，也在回忆中追寻自己的存在的文化记忆、身份记忆、甚至是隐藏在背后的历史记忆。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    }
+}

@@ -1,1 +1,80 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "在《时间简史》中，关于宇宙起源,霍金曾经在经典物理的框架里,证明了（ )将不可避免地产生。",
+        "Type": 2,
+        "Options": [
+            "奇点",
+            "虫洞",
+            "引力波",
+            "时空弯曲"
+        ],
+        "Ans": "奇点",
+        "Category": "content"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "在《时间简史》中，根据霍金的观点,对偶性强烈地暗示了（ ）的存在。",
+        "Type": 2,
+        "Options": [
+            "奇点理论",
+            "引力理论",
+            "量子理论",
+            "统一理论"
+        ],
+        "Ans": "统一理论",
+        "Category": "content"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "在《时间简史》中，根据开普勒定律,以太阳为焦点、以椭圆轨道运行的所有行星,其各自椭圆轨道半长轴的( ）与时间周期的平方之比是一个常量",
+        "Type": 2,
+        "Options": [
+            "二次方",
+            "三次方",
+            "四次方",
+            "五次方"
+        ],
+        "Ans": "三次方",
+        "Category": "content"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "在《时间简史》中，历史上最早的观测天文学是源于( ）",
+        "Type": 2,
+        "Options": [
+            "哥白尼",
+            "第谷",
+            "伽利略",
+            "哈勃"
+        ],
+        "Ans": "伽利略",
+        "Category": "content"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "在《时间简史》中，哈勃首次发现所有的星系与地球的距离在（ ）、不规则变化",
+        "Type": 2,
+        "Options": [
+            "不规则变化",
+            "保持不变",
+            "不断减小",
+            "不断增大"
+        ],
+        "Ans": "不断增大",
+        "Category": "content"
+    }
+}

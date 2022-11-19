@@ -14,67 +14,57 @@
     },
     "1": {
         "Bookid": 1,
-        "Question": "",
-        "Type": 2,
+        "Question": "在《平凡的世界》中，孙少安扎根于黄土地，勇于担起责任，带领乡亲办砖厂一起发家致富。 ",
+        "Type": 1,
         "Options": [
-            "",
-            "",
-            "",
-            ""
+            "true",
+            "false"
         ],
-        "Ans": "",
-        "Category": ""
+        "Ans": "true",
+        "Category": "content"
     },
     "2": {
         "Bookid": 1,
-        "Question": "",
-        "Type": 2,
+        "Question": "在《平凡的世界》中，孙少平在县立高中读书时，冒着生命危险救起了曾经当众羞辱他的同学侯玉英。 ",
+        "Type": 1,
         "Options": [
-            "",
-            "",
-            "",
-            ""
+            "true",
+            "false"
         ],
-        "Ans": "",
-        "Category": ""
+        "Ans": "true",
+        "Category": "content"
     },
     "3": {
         "Bookid": 1,
-        "Question": "",
-        "Type": 2,
+        "Question": "在《平凡的世界》中，孙少平高中毕业后立即远离故乡外出闯荡，再也没有回到故乡。 ",
+        "Type": 1,
         "Options": [
-            "",
-            "",
-            "",
-            ""
+            "true",
+            "false"
         ],
-        "Ans": "",
-        "Category": ""
+        "Ans": "false",
+        "Category": "content"
     },
     "4": {
         "Bookid": 1,
-        "Question": "",
-        "Type": 2,
+        "Question": "在《平凡的世界》中，顾养民、田晓霞、金波和孙少平同学聚会，四人情绪高昂，唱歌表达对美好高中生活的怀念之情。 ",
+        "Type": 1,
         "Options": [
-            "",
-            "",
-            "",
-            ""
+            "true",
+            "false"
         ],
-        "Ans": "",
-        "Category": ""
+        "Ans": "false",
+        "Category": "content"
     },
     "5": {
         "Bookid": 1,
-        "Question": "",
-        "Type": 2,
+        "Question": "2019年9月23日，《平凡的世界》入选“新中国70年70部长篇小说典藏”。 ",
+        "Type": 1,
         "Options": [
-            "",
-            "",
-            "",
-            ""
+            "true",
+            "false"
         ],
-        "Ans": "",
-        "Category": ""
+        "Ans": "true",
+        "Category": "anecdote"
     }
 }

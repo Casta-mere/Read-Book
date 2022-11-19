@@ -1,1 +1,70 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "《昨日的世界：一个欧洲人的回忆》是奥地利作家斯蒂芬·茨威格创作的自传体文学作品。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "《昨日的世界：一个欧洲人的回忆》写成于1939年至1941年间，是茨威格临终前被流放的最后几年里完成的。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "在茨威格离世以后，1942年《昨日的世界：一个欧洲人的回忆》才得以在斯德哥尔摩面世。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "《昨日的世界：一个欧洲人的回忆》尝试以客观的心态描述当年欧洲的文化艺术，并通过“我”的看法呈现给读者。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "main"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "在《昨日的世界：一个欧洲人的回忆》中，茨威格把个人命运和时代融为一体，通过自己所经历的人与事，展示了他生活过的城市和国家的文化和生活风貌，记录了从第一次世界大战前夜到第二次世界大战时动荡的欧洲社会，描述了他与一些世界级的诗人、作家、雕塑家、音乐家交往的情景，批露了世界文化名人鲜为人知的生活轶事，同时穿插了作者各种细腻的心迹。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    }
+}

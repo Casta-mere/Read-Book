@@ -1,1 +1,80 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "在《浮生六记》中，现存“六记中疑为伪作的是（ ）",
+        "Type": 2,
+        "Options": [
+            "闫房记乐",
+            "闲情记趣",
+            "坎坷记愁",
+            "中山记历"
+        ],
+        "Ans": "中山记历",
+        "Category": "anecdote"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "在《浮生六记》中，沈复家住（ ）",
+        "Type": 2,
+        "Options": [
+            "沧浪亭畔",
+            "拙政园边",
+            "狮子林外",
+            "网师园内"
+        ],
+        "Ans": "沧浪亭畔",
+        "Category": "detail"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "在《浮生六记》中，陈芸诗句“霜染菊花肥”的前半句是（ ）",
+        "Type": 2,
+        "Options": [
+            "竹瘦烟补密",
+            "秋侵人影瘦",
+            "雨余干嶂碧",
+            "苍立箨龙秀"
+        ],
+        "Ans": "秋侵人影瘦",
+        "Category": "content"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "在《浮生六记》中，陈芸在婚前吃帝的原因是（ ）",
+        "Type": 2,
+        "Options": [
+            "为父母祈福",
+            "为沈复祈福",
+            "为自己祈福",
+            "宗教信仰"
+        ],
+        "Ans": "为沈复祈福",
+        "Category": "content"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "在《浮生六记》中，陈芸搭早饭的双鲜酱是（ ）",
+        "Type": 2,
+        "Options": [
+            "白糖拌腐乳",
+            "卤瓜拌腐乳",
+            "蒜泥拌腐孚",
+            "白糖拌卤瓜"
+        ],
+        "Ans": "卤瓜拌腐乳",
+        "Category": "detail"
+    }
+}

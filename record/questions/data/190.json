@@ -1,1 +1,80 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "在《雷雨》序幕中,“一位苍白的老年人走进来,穿着很考究的旧皮大衣,进门脱下帽子,头发斑白,眼睛平静而忧郁,他的下颏有苍白的短须,脸上满是皱纹”,进来的是（ ）",
+        "Type": 2,
+        "Options": [
+            "鲁贵",
+            "鲁大海",
+            "周朴园",
+            "周萍"
+        ],
+        "Ans": "周朴园",
+        "Category": "detail"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "在《雷雨》中,周繁漪比周萍大（ ）岁",
+        "Type": 2,
+        "Options": [
+            "十几",
+            "七八",
+            "六七",
+            "五六"
+        ],
+        "Ans": "六七",
+        "Category": "detail"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "在《雷雨》中,谁被作者称之为“淤水塘边的癞蛤蟆”?",
+        "Type": 2,
+        "Options": [
+            "鲁大海",
+            "周朴园",
+            "鲁贵",
+            "周萍"
+        ],
+        "Ans": "鲁贵",
+        "Category": "figure"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "《雷雨》中,最“雷雨”的人物是谁?",
+        "Type": 2,
+        "Options": [
+            "鲁大海",
+            "周繁漪",
+            "周萍",
+            "鲁贵"
+        ],
+        "Ans": "周繁漪",
+        "Category": "figure"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "在《雷雨》中,侍萍的姓是（ ）",
+        "Type": 2,
+        "Options": [
+            "钱",
+            "鲁",
+            "梅",
+            "周"
+        ],
+        "Ans": "梅",
+        "Category": "figure"
+    }
+}

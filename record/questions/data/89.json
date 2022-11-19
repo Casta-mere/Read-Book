@@ -1,1 +1,70 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "《四世同堂》是中国作家老舍创作的一部百万字的小说。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "《四世同堂》是一部表现抗战北平沦陷区普通民众生活与抗战的长篇小说，全书共三部。该书以北平小羊圈胡同为背景，通过复杂的矛盾纠葛，以胡同内的祁家为主，钱家、冠家以及其他居民为辅，刻画了当时社会各阶层众多普通人的形象。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "《四世同堂》1949年曾在英国出版节译本，书名为《黄色风暴》，被誉为“好评最多的小说之一，也是美国同一时期所出版的最优秀的小说之一”。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "false",
+        "Category": "anecdote"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "1982年《四世同堂》未删节本出版，才得以全貌为中国读者所知。2016年，《四世同堂》中的《饥荒》的21段到36段，约十万字的英文原稿被找回。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "anecdote"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "《四世同堂》的创作开始于1944年。老舍对于小说的创作准备则开始于1941年，此时正是北平沦陷的第五个年头，抗日战争进入了战略相持阶段，文学在全民抗敌、同仇敌忾的情势下，表现出统一的步调和普遍高昂的爱国情绪，老舍在这样的环境下萌发了创作一篇关于抗战题材的小说的想法，但是苦于缺乏合适的题材故而一度搁置。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    }
+}

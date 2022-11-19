@@ -1,1 +1,70 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "《球状闪电》是科幻作家刘慈欣写的一本以球状闪电为中心展开的长篇科学幻想小说。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "《球状闪电》的主角陈博士，有着一段惨不忍睹的童年经历，他亲眼看到一个神秘的闪电球从窗外飘了进来然后将他的爸妈烧成了灰烬。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "figure"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "《球状闪电》的主角就是当下社会形态中的人，不是“前人类”，也不是“后人类”，更不是“新物种”，但根据詹明信另一观点：“科幻小说是认识后现代的一条重要途径，是继历史小说之后表达乌托邦的重要文类。”",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "figure"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "刘慈欣成功地将极端的空灵和厚重的现实结合起来，同时注重表现科学的内涵和美感，努力创造出一种具有中国特色的科幻文学样式。其作品因宏伟大气、想像绚丽而获得广泛赞誉，并多次获得中国科幻银河奖。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "在《球状闪电》中，林云是林峰将军女儿，军衔少校，因幼年经历而对武器研发充满狂热。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "figure"
+    }
+}

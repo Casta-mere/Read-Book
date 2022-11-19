@@ -1,1 +1,70 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "《一桩事先张扬的凶杀案》的作者是加夫列尔·加西亚·马尔克斯。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "《一桩事先张扬的凶杀案》通过描写一位小镇青年在镇上所有人都知晓有人要杀死他而他却一无所知的情况下被残忍杀害的故事，反映了拉丁美洲孤独、落后的社会现实。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "《一桩事先张扬的凶杀案》原型为1951年加西亚·马尔克斯的一个朋友在全镇人面前惨遭杀害的真实事件。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "anecdote"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "写《一桩事先张扬的凶杀案》的当年，马尔克斯荣获诺贝尔文学奖。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "false",
+        "Category": "writer"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "《一桩事先张扬的凶杀案》是一本内容由真实事件改编而来的小说，作者通过讲述一个无辜的年轻人在镇上所有人都得知有人要杀害他但他却一无所知的情况下被残忍杀害的故事，揭示了命运本身的神秘性以及由于人民群众对罪恶行为的看客心态所导致的悲剧的酿成。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "main"
+    }
+}

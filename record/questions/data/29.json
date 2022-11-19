@@ -1,1 +1,76 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "“有的人情愿作野草,等着地下的火烧。”这里的“野草”指的是鲁迅先生的散文《野草》。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "false",
+        "Category": "content"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "《野草》除了《风筝》采取现实主义手法,其它大量篇章则是采用浪漫主义手法。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "false",
+        "Category": "content"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "鲁迅的《野草》写于1924年9月至1926年4月,连载于()",
+        "Type": 2,
+        "Options": [
+            "《新青年》",
+            "《小说月报》",
+            "《申报·自由谈》",
+            "《语丝》"
+        ],
+        "Ans": "《语丝》",
+        "Category": "anecdote"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "()年岀版的《野草》的则标志着现代散文诗的成熟。",
+        "Type": 2,
+        "Options": [
+            "1925",
+            "1926",
+            "1927",
+            "1928"
+        ],
+        "Ans": "1927",
+        "Category": "anecdote"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "《野草》收连《题辞》在內的散文诗作品()篇。",
+        "Type": 2,
+        "Options": [
+            "33",
+            "34",
+            "23",
+            "24"
+        ],
+        "Ans": "24",
+        "Category": "anecdote"
+    }
+}

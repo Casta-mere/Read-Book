@@ -1,1 +1,80 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "在《水浒传》中，曾在寺院侍弄过菜园子的梁山好汉有（ ）",
+        "Type": 2,
+        "Options": [
+            "鲁智深",
+            "林冲",
+            "陶宗旺",
+            "张青"
+        ],
+        "Ans": "鲁智深",
+        "Category": "detail"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "水浒英雄中,天罡星有( )位。",
+        "Type": 2,
+        "Options": [
+            "33",
+            "34",
+            "35",
+            "36"
+        ],
+        "Ans": "36",
+        "Category": "detail"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "水浒英雄中,地煞星有( )位。",
+        "Type": 2,
+        "Options": [
+            "69",
+            "70",
+            "71",
+            "72"
+        ],
+        "Ans": "72",
+        "Category": "detail"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "智扑擎天柱的好汉是（ ）",
+        "Type": 2,
+        "Options": [
+            "燕青",
+            "林冲",
+            "武松",
+            "刘唐"
+        ],
+        "Ans": "燕青",
+        "Category": "detail"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "风流双枪将的英雄是( ）",
+        "Type": 2,
+        "Options": [
+            "董平",
+            "徐宁",
+            "花荣",
+            "王英"
+        ],
+        "Ans": "董平",
+        "Category": "detail"
+    }
+}

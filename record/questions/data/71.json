@@ -1,1 +1,80 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "在《射雕英雄传》中，甫始引用的是何人写的《蝶恋花》词,描写的是越女采莲的情景?",
+        "Type": 2,
+        "Options": [
+            "苏轼",
+            "柳永",
+            "欧阳修",
+            "李煜"
+        ],
+        "Ans": "欧阳修",
+        "Category": "detail"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "在《射雕英雄传》中，全书故事基本是发生在南宋什么年间?",
+        "Type": 2,
+        "Options": [
+            "光宗",
+            "宁宗",
+            "理宗",
+            "度宗"
+        ],
+        "Ans": "理宗",
+        "Category": "detail"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "在《射雕英雄传》中，武三通一直保持着何沅君什么物件?",
+        "Type": 2,
+        "Options": [
+            "手帕",
+            "耳坠",
+            "书画",
+            "围兜"
+        ],
+        "Ans": "围兜",
+        "Category": "detail"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "在《射雕英雄传》中，以下哪个不是桃花岛上的景点?",
+        "Type": 2,
+        "Options": [
+            "弹指阁",
+            "两忘峰",
+            "清啸亭",
+            "碧箫台"
+        ],
+        "Ans": "碧箫台",
+        "Category": "detail"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "在《射雕英雄传》中，杨过捉到的一只凶猛小蟋蟀叫什么?",
+        "Type": 2,
+        "Options": [
+            "蝎子蟀",
+            "蜈蚣蟀",
+            "蛇蟀",
+            "蚂蟥蟀"
+        ],
+        "Ans": "蛇蟀",
+        "Category": "detail"
+    }
+}

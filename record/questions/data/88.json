@@ -1,1 +1,80 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "在海外老子的( )受众非常多,据说印刷数量仅次于圣经。",
+        "Type": 2,
+        "Options": [
+            "《道德经》",
+            "《论语》",
+            "《尚书》",
+            "《左传》"
+        ],
+        "Ans": "《道德经》",
+        "Category": "writer"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "下列内容,哪一项不是出自老子《道德经》( )",
+        "Type": 2,
+        "Options": [
+            "道可道,非常道。名可名,非常名。",
+            "民不畏死,奈何以死惧之?",
+            "臭腐复化为神奇,神奇复化为臭腐",
+            "不出户,知天下;不窥牖,见天道正确"
+        ],
+        "Ans": "臭腐复化为神奇,神奇复化为臭腐",
+        "Category": "content"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "《道德经》中“道”可以理解为( )",
+        "Type": 2,
+        "Options": [
+            "宇宙本源",
+            "万物规律",
+            "人生境界",
+            "做事规则"
+        ],
+        "Ans": "宇宙本源",
+        "Category": "main"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "下列哪些《道德经》中的语句体现了“反者道之动″( )。",
+        "Type": 2,
+        "Options": [
+            "大曰逝,逝曰远,远曰反",
+            "有之以为利,无之以为用",
+            "知其雄,守其雌",
+            "夫唯不争,故天下莫能与之争"
+        ],
+        "Ans": "大曰逝,逝曰远,远曰反",
+        "Category": "content"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "以下哪一选项是老子《道德经》的“兵道”思想对我们的启示",
+        "Type": 2,
+        "Options": [
+            "以正治国,以奇用兵",
+            "虚实静笃",
+            "善利万物",
+            "同心同德"
+        ],
+        "Ans": "以正治国,以奇用兵",
+        "Category": "content"
+    }
+}

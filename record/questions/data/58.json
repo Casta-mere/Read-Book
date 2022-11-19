@@ -1,1 +1,70 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "《树上的男爵》是意大利文学家伊塔洛·卡尔维诺的一篇长篇小说，是《我们的祖先》三部曲之一。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "《树上的男爵》以传统叙事手法隐喻了现代社会里人的迷失自我、完整性丧失以及焦虑迷茫的生存状态，展现了现代社会中处于生存困境下的人类个体追求自我存在空间和价值的历程。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "《树上的男爵》在时间轴上，体现了通过对个人自我抉择矢志不移的努力从而达到非个人主义完整道路的主题。小说思维活跃、思想深刻，深刻的刻画了现实的种种弊端，启迪人们对人类的命运和现实社会予以深入思考。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "在《树上的男爵》中，柯希莫成长在一个典型的老式家庭之中，父亲是伯爵，母亲是将军，父母对儿女严加管教的同时缺少关爱，在这样的环境之中，柯希莫逐渐形成了叛逆的性格，因反对姐姐对动物的残害而拒食蜗牛的柯希莫被父亲怒斥，从而爬上了树开始了远离地面的生活，这表征着对文明社会的叛离和对原始生命野性的回归。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "第二次世界大战在意大利的爆发致使卡尔维诺中止了在都灵大学农学系的求学生涯，加入了意大利民主党。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "false",
+        "Category": "writer"
+    }
+}

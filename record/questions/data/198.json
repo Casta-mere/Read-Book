@@ -1,1 +1,80 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "现存《论语》共多少篇?",
+        "Type": 2,
+        "Options": [
+            "19",
+            "20",
+            "25",
+            "28"
+        ],
+        "Ans": "20",
+        "Category": "detail"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "孔子最得意的弟子是下列哪一位?",
+        "Type": 2,
+        "Options": [
+            "子路",
+            "曾晳",
+            "颜回",
+            "公西华"
+        ],
+        "Ans": "颜回",
+        "Category": "detail"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "孔子在何处设教?",
+        "Type": 2,
+        "Options": [
+            "杏坛",
+            "桃坛",
+            "梨坛",
+            "田园"
+        ],
+        "Ans": "杏坛",
+        "Category": "detail"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "从何时起,《论语》被钦定为科举考试必读教科书?",
+        "Type": 2,
+        "Options": [
+            "宋",
+            "元",
+            "明",
+            "清"
+        ],
+        "Ans": "元",
+        "Category": "detail"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "孔子所删修的《春秋》是依据哪国史料整理而成的?",
+        "Type": 2,
+        "Options": [
+            "鲁朝",
+            "宋",
+            "齐",
+            "秦"
+        ],
+        "Ans": "鲁朝",
+        "Category": "detail"
+    }
+}

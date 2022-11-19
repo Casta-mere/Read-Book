@@ -1,1 +1,70 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "《失明症漫记》是萨拉马戈的代表作。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "若泽·萨拉马戈，葡萄牙语世界唯一的诺贝尔文学奖得主，被视为与马尔克斯、卡尔维诺齐名的大师。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "萨拉马戈的代表作《失明症漫记》，虚构了整座城市突然陷入失明的离奇故事。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "《失明症漫记》是诺贝尔文学奖得主萨拉马戈代表作，比肩《百年孤独》，入选诺贝尔学院“所有时代百部最佳文学作品”。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "《失明症漫记》像一个寓言，却直达现实，让读者深刻意识到人类社会竟是如此脆弱、荒诞：繁忙的路口，绿灯亮了，中间车道的头一辆汽车却停止不前，司机在挡风玻璃后面挥舞着手臂，围观的人打开车门之后，才知道他在喊：我瞎了！没有人会相信，他的眼睛清晰明亮，巩膜像瓷器一样洁白致密，然而他却一再绝望地喊着：我瞎了！我瞎了！一位路人送他回家，却被传染上失明的怪疾。眼科医生成了第三个牺牲品。失明症迅速蔓延，整个城市陷入了一场空前的灾难……",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    }
+}

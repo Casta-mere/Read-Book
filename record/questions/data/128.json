@@ -1,1 +1,80 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "《茶馆》中的民族资本家是( )",
+        "Type": 2,
+        "Options": [
+            "秦仲义",
+            "王利发",
+            "常四爷",
+            "马五爷"
+        ],
+        "Ans": "秦仲义",
+        "Category": "figure"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "《茶馆》的主人公是( )。",
+        "Type": 2,
+        "Options": [
+            "王利发",
+            "常四爷",
+            "秦仲义",
+            "吴祥子"
+        ],
+        "Ans": "王利发",
+        "Category": "figure"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "《茶馆》最大特点是以( )方言进行的创作。",
+        "Type": 2,
+        "Options": [
+            "济南",
+            "北京",
+            "闽南",
+            "东北"
+        ],
+        "Ans": "北京",
+        "Category": "detail"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "老舍的《茶馆》的时间跨度是( )。",
+        "Type": 2,
+        "Options": [
+            "一年多",
+            "一星期",
+            "一个月",
+            "几十年"
+        ],
+        "Ans": "一年多",
+        "Category": "detail"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "老舍的话剧《茶馆》共有几幕?",
+        "Type": 2,
+        "Options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "Ans": "3",
+        "Category": "detail"
+    }
+}

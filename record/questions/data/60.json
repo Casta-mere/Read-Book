@@ -1,1 +1,80 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "曾评价《史记》为“史家之绝唱,无韵之离骚”的人是:",
+        "Type": 2,
+        "Options": [
+            "李白",
+            "鲁迅",
+            "老舍",
+            "巴金"
+        ],
+        "Ans": "鲁迅",
+        "Category": "anecdote"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "在《史记》中，成语“破釜沉舟”讲的是谁的故事（ ）",
+        "Type": 2,
+        "Options": [
+            "刘邦",
+            "萧何",
+            "张良",
+            "勾践"
+        ],
+        "Ans": "张良",
+        "Category": "content"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "在《史记》中，“运筹帷幄之中,决胜千里之外”讲的著名历史人物是（ ）",
+        "Type": 2,
+        "Options": [
+            "韩信",
+            "张良",
+            "孙膑",
+            "萧何"
+        ],
+        "Ans": "张良",
+        "Category": "content"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "在《史记》中，“烽火戏诸侯”故事中讲到的昏君是（ ）",
+        "Type": 2,
+        "Options": [
+            "纣王",
+            "周幽王",
+            "夫差",
+            "燕昭王"
+        ],
+        "Ans": "周幽王",
+        "Category": "content"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "在《史记》中，中国历史上第一个皇帝是( )",
+        "Type": 2,
+        "Options": [
+            "秦始皇",
+            "刘邦",
+            "周武王",
+            "商纣王"
+        ],
+        "Ans": "秦始皇",
+        "Category": "content"
+    }
+}

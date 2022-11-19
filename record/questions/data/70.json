@@ -1,1 +1,77 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "在《西游记》中，孙悟空的第一个师傅是( )",
+        "Type": 2,
+        "Options": [
+            "唐僧",
+            "如来",
+            "菩提祖师"
+        ],
+        "Ans": "菩提祖师",
+        "Category": "detail"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "在《西游记》中，玄奘西行取经途经（ ）国。",
+        "Type": 2,
+        "Options": [
+            "90",
+            "100",
+            "110",
+            "120"
+        ],
+        "Ans": "110",
+        "Category": "detail"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "在《西游记》中，假美猴王是( )",
+        "Type": 2,
+        "Options": [
+            "通臂猿猴",
+            "六耳猕猴",
+            "灵明石猴"
+        ],
+        "Ans": "六耳猕猴",
+        "Category": "detail"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "在《西游记》中，鲤鱼怪被( )收服了。",
+        "Type": 2,
+        "Options": [
+            "如来",
+            "释迦",
+            "观音"
+        ],
+        "Ans": "观音",
+        "Category": "detail"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "在《西游记》中，孙悟空摘仙果打掉了( )个?",
+        "Type": 2,
+        "Options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "Ans": "1",
+        "Category": "detail"
+    }
+}

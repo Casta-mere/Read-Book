@@ -1,1 +1,80 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "在《海的女儿》中，海底的公主们,只有长到多少岁才能浮上水面看看世界（ ）",
+        "Type": 2,
+        "Options": [
+            "13",
+            "14",
+            "15",
+            "16"
+        ],
+        "Ans": "15",
+        "Category": "detail"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "在《海的女儿》中，美人鱼公主的姐姐们为了救她,用自己美丽的长发向巫婆换来了什么( )",
+        "Type": 2,
+        "Options": [
+            "手枪",
+            "刀",
+            "毒药",
+            "炸弹"
+        ],
+        "Ans": "刀",
+        "Category": "detail"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "《海的女儿》作者是哪个国家的（ ）",
+        "Type": 2,
+        "Options": [
+            "丹麦",
+            "中国",
+            "日本",
+            "英国"
+        ],
+        "Ans": "丹麦",
+        "Category": "writer"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "在《海的女儿》中，以下哪些人物是《海的女儿》里出现的（ ）",
+        "Type": 2,
+        "Options": [
+            "女巫",
+            "小红帽",
+            "渔夫",
+            "海盗"
+        ],
+        "Ans": "女巫",
+        "Category": "figure"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "在《海的女儿》中，海底巫婆的住所里没有有哪个“宠物”( ）",
+        "Type": 2,
+        "Options": [
+            "小鸡",
+            "珊瑚虫",
+            "水虫",
+            "癞蛤蟆"
+        ],
+        "Ans": "小鸡",
+        "Category": "detail"
+    }
+}

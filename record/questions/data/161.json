@@ -1,1 +1,80 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "在《草房子》中，秃鹤的父亲给秃鹤擦（ ）让秃鹤长出头发",
+        "Type": 2,
+        "Options": [
+            "姜",
+            "茶叶",
+            "醋",
+            "土豆"
+        ],
+        "Ans": "姜",
+        "Category": "detail"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "在《草房子》中，桑桑是（ ）的儿子",
+        "Type": 2,
+        "Options": [
+            "桑乔",
+            "温幼菊",
+            "蒋一轮",
+            "邱二爷"
+        ],
+        "Ans": "桑乔",
+        "Category": "detail"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "在《草房子》中，油麻地小学因为（ ）没有拿到会操第一。",
+        "Type": 2,
+        "Options": [
+            "桑桑",
+            "杜小康",
+            "纸月",
+            "秃鹤"
+        ],
+        "Ans": "秃鹤",
+        "Category": "detail"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "在《草房子》中，油麻地小学会操（ ）没有参加",
+        "Type": 2,
+        "Options": [
+            "桑桑",
+            "杜小康",
+            "阿恕",
+            "秃鹤"
+        ],
+        "Ans": "桑桑",
+        "Category": "detail"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "在《草房子》中，《红菱船》的女主角是十八岁的姑娘（ ）",
+        "Type": 2,
+        "Options": [
+            "采苓",
+            "百灵",
+            "白雀",
+            "纸月"
+        ],
+        "Ans": "白雀",
+        "Category": "detail"
+    }
+}

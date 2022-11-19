@@ -1,1 +1,80 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "《悲惨世界》的主人公冉阿让因为偷了什么而服了19年的苦役?",
+        "Type": 2,
+        "Options": [
+            "一瓶葡萄酒",
+            "一杯牛奶",
+            "一片面包",
+            "一块饼干"
+        ],
+        "Ans": "一片面包",
+        "Category": "content"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "在《悲惨世界》中，冉阿让被推选为市长后不久,又因什么而被捕入狱。",
+        "Type": 2,
+        "Options": [
+            "偷窃",
+            "杀人",
+            "防火",
+            "贪污"
+        ],
+        "Ans": "偷窃",
+        "Category": "content"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "在《悲惨世界》中，珂塞特是谁的女儿?()",
+        "Type": 2,
+        "Options": [
+            "雨果",
+            "芳汀",
+            "冉阿让",
+            "院长"
+        ],
+        "Ans": "芳汀",
+        "Category": "figure"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "在《悲惨世界》中，这个世上,凡是伟大的人都有一个高尚的灵魂,而谁正是这样一个伟大的人?( )",
+        "Type": 2,
+        "Options": [
+            "马吕斯",
+            "芳汀",
+            "冉阿让",
+            "米里哀"
+        ],
+        "Ans": "冉阿让",
+        "Category": "figure"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "在《悲惨世界》中，主教米里哀收留了冉阿让,冉阿让却偷走了主教的什么?",
+        "Type": 2,
+        "Options": [
+            "金币",
+            "金饰品",
+            "银币",
+            "怀表"
+        ],
+        "Ans": "银币",
+        "Category": "content"
+    }
+}

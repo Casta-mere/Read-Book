@@ -1,1 +1,74 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "《罗生门》表现的人性缺点是（ ）",
+        "Type": 2,
+        "Options": [
+            "自私,狠毒,欺骗",
+            "怯懦,好色,贪财",
+            "卑劣,虚荣,偷盗",
+            "全选"
+        ],
+        "Ans": "全选",
+        "Category": "main"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "小说《罗生门》的故事发生在东京。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "false",
+        "Category": "detail"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "《罗生门》的作者是?",
+        "Type": 2,
+        "Options": [
+            "川端康成",
+            "芥川龙之介",
+            "夏目漱石",
+            "森鸥外"
+        ],
+        "Ans": "芥川龙之介",
+        "Category": "writer"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "小说《罗生门》经历过改写,改写成了一种开放式的结局。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "false",
+        "Category": "content"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "与《罗生门》相关的两个故事是（ ）",
+        "Type": 2,
+        "Options": [
+            "希罗多德的《历史》中记载的吕底亚国王坎道列斯的故事和中国古代《唐传奇》中沈下贤的《冯燕传》",
+            "《伊利亚特》和《水浒传》"
+        ],
+        "Ans": "希罗多德的《历史》中记载的吕底亚国王坎道列斯的故事和中国古代《唐传奇》中沈下贤的《冯燕传》",
+        "Category": "anecdote"
+    }
+}

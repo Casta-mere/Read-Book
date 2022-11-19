@@ -1,1 +1,80 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "在《射雕英雄传》中，书中第一句“钱塘冮浩浩江水,东流入海”,其中“钱塘江”古时又可称作什么江?",
+        "Type": 2,
+        "Options": [
+            "兰江",
+            "新安江",
+            "临江",
+            "浙江"
+        ],
+        "Ans": "浙江",
+        "Category": "anecdote"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "在《射雕英雄传》中，书中第一句“钱塘江浩浩江水,东流入海”,其中“钱塘江”一词最早见于哪里记载?",
+        "Type": 2,
+        "Options": [
+            "《列子》",
+            "《史记》",
+            "《天工开物》",
+            "《山海经》"
+        ],
+        "Ans": "《山海经》",
+        "Category": "anecdote"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "在《射雕英雄传》中，张十五唱道:“小桃无主自开花,烟草茫茫带晩鸦。几处败垣围故井,向来一是人家”,这首七言诗是谁的作品?",
+        "Type": 2,
+        "Options": [
+            "说书人(即金庸所写)",
+            "陆游",
+            "辛弃疾",
+            "戴复古"
+        ],
+        "Ans": "戴复古",
+        "Category": "anecdote"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "在《射雕英雄传》中，书中一开始就为我们描述了什么季节的景象?",
+        "Type": 2,
+        "Options": [
+            "春",
+            "夏",
+            "秋",
+            "冬"
+        ],
+        "Ans": "秋",
+        "Category": "detail"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "在《射雕英雄传》中，朱聪手里拿的是把油纸黑折扇,折扇是在什么朝代经朝鲜由日本传入我国的?",
+        "Type": 2,
+        "Options": [
+            "东汉",
+            "三国",
+            "唐朝",
+            "北宋"
+        ],
+        "Ans": "北宋",
+        "Category": "anecdote"
+    }
+}

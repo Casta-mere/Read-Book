@@ -1,1 +1,70 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "《13 67》是2014年6月9日皇冠出版的图书，作者是陳浩基。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "新生代作家陳浩基為我們展現了他無比的潛力和企圖心，六個短篇串連出一位警探傳奇的一生，充滿意外性與戲劇性的情節，緊緊扣住我們的脈息，而在虛實交錯的故事中，我們看見了關於使命、關於服從、關於公義與自由的叩問，更看見個人的抉擇、時代的移轉、城市的變遷，如何深深地在命運的畫布上烙下斑駁的印痕。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "在《13 67》中，67和13，是书中故事的起讫年份，1967和2013。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "在《13 67》中，作者把时间沙漏倒转，从主角——香港传奇警探关振铎弥留之际讲起，用6个独立成篇的破案故事往历史回溯，串起了香港半个世纪里的时光变迁，从〇〇年代的社会转变、九〇年代的主权移交，再到八〇年代的悍匪横行、七〇年代的警廉风波，最终回到六〇年代的左派暴动。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "《13 67》的作者陳浩基在后记中所写：“今天的香港，跟故事中的一九六七年的香港，同样吊诡。我们就像绕了一个圈，回到原点。“",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "anecdote"
+    }
+}

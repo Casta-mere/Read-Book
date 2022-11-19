@@ -1,1 +1,80 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "在《笑傲江湖》中，“福威镖局”的旗杆上飘扬着什么旗?",
+        "Type": 2,
+        "Options": [
+            "黄",
+            "青",
+            "红",
+            "紫"
+        ],
+        "Ans": "青",
+        "Category": "detail"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "在《笑傲江湖》中，旗上的“福威镖局”四字是用什么线绣的?",
+        "Type": 2,
+        "Options": [
+            "红",
+            "金黄",
+            "紫",
+            "黑"
+        ],
+        "Ans": "黑",
+        "Category": "detail"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "在《笑傲江湖》中，匾额“福威镖局”四个金漆大字下面写着哪两个小字?",
+        "Type": 2,
+        "Options": [
+            "总局",
+            "总部",
+            "总号",
+            "总舵"
+        ],
+        "Ans": "总号",
+        "Category": "detail"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "在《笑傲江湖》中，林平之出去打猎,带着何物?",
+        "Type": 2,
+        "Options": [
+            "猎狗",
+            "猎鹰",
+            "枭",
+            "秃鹫"
+        ],
+        "Ans": "猎鹰",
+        "Category": "detail"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "林平之的坐骑是什么色的?",
+        "Type": 2,
+        "Options": [
+            "黑色",
+            "灰色",
+            "雪白",
+            "赤红"
+        ],
+        "Ans": "雪白",
+        "Category": "detail"
+    }
+}

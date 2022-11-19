@@ -1,1 +1,70 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "《最好的告别》一书是由作者阿图·葛文德创作的关于衰老与死亡，你必须知道的常识。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "在《最好的告别》中，阿图·葛文德选择了常人往往不愿面对的话题——衰老与死亡，梳理了美国社会养老的方方面面和发展历程，以及医学界对末期病人的不当处置。相信会给老龄化日益加剧的中国社会以启迪。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "阿图·葛文德，白宫最年轻的健康政策顾问，影响奥巴马医改政策的关键人物，受到金融大鳄查理·芒格大力褒奖的医学工作者，《时代周刊》2010年全球“100位最具影响力人物”榜单中唯一的医生。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "作为一名医生，阿图·葛文德关注的是医疗的局限以及人的尊严。作为凡人，我们都将面对人生的终点，《最好的告别》给我们重要的启示。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "阿图·葛文德是美国麦克阿瑟天才奖获得者，2003年美国最佳短篇奖得主，2002及2009年美国最佳科学短篇奖得主，2009年荣获哈斯丁斯中心大奖，2004年被《新闻周刊》评为“20位最具影响力的南亚人物”之一。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    }
+}

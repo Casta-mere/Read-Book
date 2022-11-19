@@ -1,1 +1,80 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "在《城南旧事》中,关于骆驼为何脖子下系铃铛的原因,我的看法是为（ ）",
+        "Type": 2,
+        "Options": [
+            "辟邪",
+            "防止狼的攻击",
+            "装饰",
+            "消除寂寞,增添情趣"
+        ],
+        "Ans": "消除寂寞,增添情趣",
+        "Category": "content"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "在《城南旧事》中,我小时候家里请的老妈子是（ ）",
+        "Type": 2,
+        "Options": [
+            "吴妈",
+            "李妈",
+            "宋妈",
+            "王马"
+        ],
+        "Ans": "宋妈",
+        "Category": "detail"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "在《城南旧事》中,我在惠安馆遇见的疯子叫什么?",
+        "Type": 2,
+        "Options": [
+            "秀贞",
+            "秀英",
+            "文静",
+            "淑英"
+        ],
+        "Ans": "秀贞",
+        "Category": "detail"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "在《城南旧事》中,秀贞为了什么事而发疯的?",
+        "Type": 2,
+        "Options": [
+            "没有进学",
+            "被男人抛弃",
+            "生养的孩子被人丢掉",
+            "父亲突然去世"
+        ],
+        "Ans": "生养的孩子被人丢掉",
+        "Category": "detail"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "在《城南旧事》中,妞儿的父亲靠什么赚钱?",
+        "Type": 2,
+        "Options": [
+            "拉胡琴",
+            "表演杂技",
+            "卖狗皮膏药",
+            "拉黄包车"
+        ],
+        "Ans": "拉胡琴",
+        "Category": "detail"
+    }
+}

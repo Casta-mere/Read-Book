@@ -1,1 +1,74 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "《安娜·卡列尼娜》中,以家庭为主线的剧情是( )。",
+        "Type": 2,
+        "Options": [
+            "安娜-弗龙斯基",
+            "列文-基蒂",
+            "奥布隆斯基-多莉",
+            "赫留朵夫-玛丝洛娃"
+        ],
+        "Ans": "奥布隆斯基-多莉",
+        "Category": "content"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "《安娜·卡列尼娜》中,奥布隆斯基是一个（ ）",
+        "Type": 2,
+        "Options": [
+            "悲观主义者",
+            "快乐主义者",
+            "深刻的思想家",
+            "家庭观念淡薄的人"
+        ],
+        "Ans": "快乐主义者",
+        "Category": "figure"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "《安娜·卡列尼娜》的题记“伸冤在我,我必报应。”语出《圣经·旧约》“创世纪”。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "false",
+        "Category": "detail"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "《安娜·卡列尼娜》中,奥布隆斯基是安娜的弟弟。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "false",
+        "Category": "figure"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "《安娜卡列尼娜》的作者是列夫·托尔斯泰,是19世纪俄国伟大的现实主义作家。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    }
+}

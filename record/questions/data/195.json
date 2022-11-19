@@ -1,1 +1,80 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "在《一千零一夜》中，魔法师为了确保阿拉丁去取神灯的宝库里的安全,送给阿拉丁（ ）",
+        "Type": 2,
+        "Options": [
+            "一枚胸针",
+            "一枚戒指",
+            "一块宝石",
+            "一盏油灯"
+        ],
+        "Ans": "一枚戒指",
+        "Category": "detail"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "《阿里巴巴和四十大盗》中强盗开山洞的口令是( ）",
+        "Type": 2,
+        "Options": [
+            "豌豆,开门吧!",
+            "燕麦,开门吧!",
+            "芝麻,开门吧!",
+            "黄豆,开门吧!"
+        ],
+        "Ans": "芝麻,开门吧!",
+        "Category": "detail"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "《一千零—夜》故事里最终勇敢的嫁给国王山鲁亚尔的姑娘是( )的大女儿",
+        "Type": 2,
+        "Options": [
+            "邻国国王",
+            "地主",
+            "强盗头子",
+            "宰相"
+        ],
+        "Ans": "宰相",
+        "Category": "detail"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "在《一千零一夜》的《商人和魔鬼的故事》中,商人乞求魔鬼放他回家,让他( )",
+        "Type": 2,
+        "Options": [
+            "回家洗澡",
+            "和妻子告别",
+            "了结债务",
+            "做完家务"
+        ],
+        "Ans": "了结债务",
+        "Category": "detail"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "《一千零一夜》的《第一个老人和羚羊的故事》中,老人告诉魔鬼,这只羚羊是他的( )。",
+        "Type": 2,
+        "Options": [
+            "儿子",
+            "女儿",
+            "妻子",
+            "妈妈"
+        ],
+        "Ans": "儿子",
+        "Category": "detail"
+    }
+}

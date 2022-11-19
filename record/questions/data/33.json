@@ -1,1 +1,76 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "下面不属于小说《白鹿原》中的人物的是()",
+        "Type": 2,
+        "Options": [
+            "鹿子霖",
+            "白孝文",
+            "田晓霞",
+            "田小娥"
+        ],
+        "Ans": "田晓霞",
+        "Category": "figure"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "大量现代语和具有活力的关中方言的使用,使得《白鹿原》的语言具有民族特性和地方特性。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "false",
+        "Category": "main"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "《白鹿原》中中国农村宗法制的代表者是()",
+        "Type": 2,
+        "Options": [
+            "白嘉轩",
+            "朱先生",
+            "鹿子霖",
+            "田小娥"
+        ],
+        "Ans": "白嘉轩",
+        "Category": "figure"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "《白鹿原》中刻画了一个灵性人物,她的名字叫()。",
+        "Type": 2,
+        "Options": [
+            "田润",
+            "田晓霞",
+            "白灵",
+            "孙兰香"
+        ],
+        "Ans": "白灵",
+        "Category": "figure"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "《白鹿原》的作者是陈忠实。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    }
+}

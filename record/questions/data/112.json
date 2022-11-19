@@ -1,1 +1,80 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "在《边城》中，住在塔下管渡船的老人,年纪有多大?",
+        "Type": 2,
+        "Options": [
+            "60",
+            "70",
+            "50",
+            "80"
+        ],
+        "Ans": "70",
+        "Category": "detail"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "在《边城》中，“那个女孩子”的母亲,是老船夫的什么人?",
+        "Type": 2,
+        "Options": [
+            "外孙女",
+            "外甥女",
+            "侄女",
+            "独生女"
+        ],
+        "Ans": "独生女",
+        "Category": "detail"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "在《边城》中，茶峒山城距离这个渡口有多远?",
+        "Type": 2,
+        "Options": [
+            "三里路",
+            "一里路",
+            "五里路",
+            "八里路"
+        ],
+        "Ans": "一里路",
+        "Category": "detail"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "在《边城》中，掌管水码头的人名叫什么?",
+        "Type": 2,
+        "Options": [
+            "什长",
+            "翠翠",
+            "顺顺",
+            "大发"
+        ],
+        "Ans": "顺顺",
+        "Category": "detail"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "在《边城》中，两年前的那个端午节,翠翠等祖父时,遇见的那个在夜色中捉白鸭子的人是谁？",
+        "Type": 2,
+        "Options": [
+            "大老天保",
+            "二老傩送",
+            "船总顺顺",
+            "一个老兵"
+        ],
+        "Ans": "二老傩送",
+        "Category": "detail"
+    }
+}

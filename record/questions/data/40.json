@@ -1,1 +1,76 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "《彷徨》1926年出版,收()年创作的小说11篇。",
+        "Type": 2,
+        "Options": [
+            "1924~1925",
+            "1923~1925",
+            "1924~1926",
+            "1923~1926"
+        ],
+        "Ans": "1924~1925",
+        "Category": "anecdote"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "《彷徨》是鲁迅的短篇小说集,共11篇。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "anecdote"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "《彷徨》的取材与写作意向是()。",
+        "Type": 2,
+        "Options": [
+            "对封建制度和伦理道德的批判与揭露",
+            "对辛亥革命历史经验的总结及提出改造国民性的问题",
+            "对知识分子道路和命运的探索",
+            "全对"
+        ],
+        "Ans": "全对",
+        "Category": "main"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "《彷徨》的底色和基调是()。",
+        "Type": 2,
+        "Options": [
+            "深谋远虑",
+            "忧愤深广",
+            "明亮欢快",
+            "平静如水"
+        ],
+        "Ans": "忧愤深广",
+        "Category": "main"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "《彷徨》是鲁迅的第一篇小说集。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "false",
+        "Category": "anecdote"
+    }
+}

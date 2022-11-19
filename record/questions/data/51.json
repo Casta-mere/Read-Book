@@ -1,1 +1,70 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "《故事新编》是鲁迅创作的历史小说集，收录了作者从1922年至1935年所作的8篇历史小说；首次出版于1936年1月；后被编入《鲁迅全集》第一卷。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "《故事新编》主要以神话为题材，想象丰富，收入了鲁迅作品中所有的以远古为背景创作的小说，是一部“神话，传说及史实的演义”的总集。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "《故事新编》是一部具有开创意义的小说集，被誉为“中国现代历史小说的开山之作”；它继承并发展了中国古代喜剧传统，也于历史小说集中有古今错杂之笔。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "anecdote"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "《故事新编》重新编写了一些神话故事和历史故事，作品内容从古代的神话传说到20世纪30年代的现实，涉及到许多“古人”“故事”，又穿插了不少现代人的生活情节。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "main"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "《故事新编》中《补天》描写了女娲先是创造人类，而人类由于矛盾发动战争，导致天柱折断，为了早日补上残缺的天，消除战争带来的祸患，她日日夜夜堆芦柴，柴堆高多少，她也就瘦多少，等到终于将天补成一色青碧，她却因过度劳累辞世，后代便有了秦始皇和汉武帝寻山而不得的故事。通过女娲抟土作人时充满着创造的喜悦，补天的辛勤展示了劳动的壮美。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    }
+}

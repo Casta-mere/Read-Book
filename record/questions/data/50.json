@@ -1,1 +1,80 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "在《许三观卖血记》中，许三观在哪里上班（ ）",
+        "Type": 2,
+        "Options": [
+            "丝厂",
+            "手套厂",
+            "布厂",
+            "螺帽厂"
+        ],
+        "Ans": "丝厂",
+        "Category": "detail"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "在《许三观卖血记》中，许三观跟着根龙、阿方去卖血,他们打算送什么给李血头（ ）",
+        "Type": 2,
+        "Options": [
+            "茶叶",
+            "西瓜",
+            "大米",
+            "布料"
+        ],
+        "Ans": "西瓜",
+        "Category": "detail"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "在《许三观卖血记》中，李血头送给许三观的见面礼是（ ）",
+        "Type": 2,
+        "Options": [
+            "两个西瓜",
+            "免抽一管血",
+            "三个猪肚",
+            "一瓶黄酒"
+        ],
+        "Ans": "免抽一管血",
+        "Category": "content"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "在《许三观卖血记》中，谁看上了村里的桂花,想娶她做老婆（ ）",
+        "Type": 2,
+        "Options": [
+            "根龙",
+            "许三观",
+            "阿方",
+            "李血头"
+        ],
+        "Ans": "根龙",
+        "Category": "detail"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "在《许三观卖血记》中，许三观和许玉兰的约会开始于（ ）",
+        "Type": 2,
+        "Options": [
+            "看电影",
+            "听评书",
+            "吃小笼包子",
+            "散步"
+        ],
+        "Ans": "吃小笼包子",
+        "Category": "detail"
+    }
+}

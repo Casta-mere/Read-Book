@@ -1,1 +1,70 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "《罗杰疑案》是英国作家阿加莎·克里斯蒂创作的长篇侦探小说，也是其成名作和代表作。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "《罗杰疑案》讲的是一个星期五的晚上，罗杰被“我”和他的管家帕克发现死在他的书房中。因为“我”对罗杰比较了解以及“我”的不在现场的证明，“我”成了波洛的助手。随着案件的剥茧抽丝，嫌疑人的逐渐排除，最后结局出人意料。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "在《罗杰疑案》中，弗拉尔斯太太是个住在金艾博特村子的一个有钱的寡妇，在一个星期四的晚上，因服用了过多的巴比妥，被人发现死在自己的床上。第二天晚上，罗杰·艾克罗伊德，一个人人认为他会娶弗拉尔斯太太的鳏夫，在弗恩利大院的书房被人杀害。两起死亡案件的关联使故事的发展疑云重重。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "《罗杰疑案》中的叙事方式是一种叙述性诡计，犯罪凶手以第一人称“我”为叙述者进行一种独特的内视角叙述。采用这样的视角，读者会产生代入感，主观介人故事，作品中的人物塑造和阐述会更加多面。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "《罗杰疑案》的最后，读者才恍然大悟：原来整本书都是“我”的自白书。这样的叙事视角新颖独特，风险虽大，成功的运用大大增加了小说的可读性。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    }
+}

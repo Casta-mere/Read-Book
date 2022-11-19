@@ -1,1 +1,72 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "《霸王別姬》开头母亲为了送程蝶衣去戏班剁去他第六根手指,象征了（ ）",
+        "Type": 2,
+        "Options": [
+            "母亲的狠心",
+            "身体的残缺",
+            "男性身份的阉割",
+            "孩童的弱小与无助"
+        ],
+        "Ans": "男性身份的阉割",
+        "Category": "main"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "《霸王别姬》中的“虞姬”,在京剧中属于什么角色行当?",
+        "Type": 2,
+        "Options": [
+            "花旦",
+            "青衣"
+        ],
+        "Ans": "青衣",
+        "Category": "detail"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "《霸王别姬》是当代作家李碧华创作的长篇小说。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "writer"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "《霸王别姬》以20世纪20年代至80年代的北京城为背景，讲述了程蝶衣、段小楼、菊仙三个人物之间哀艳的悲情故事。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "content"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "1993年，根据《霸王别姬》改编，由陈凯歌执导、张国荣主演的同名电影在中国香港等地区上映。",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "anecdote"
+    }
+}

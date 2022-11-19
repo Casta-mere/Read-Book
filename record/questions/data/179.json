@@ -1,1 +1,80 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "在《理想国》中，剑桥学派注重( )。",
+        "Type": 2,
+        "Options": [
+            "语境",
+            "文本",
+            "哲理",
+            "人物"
+        ],
+        "Ans": "语境",
+        "Category": "detail"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "在《理想国》中，比雷埃夫斯港这些人的政治倾向是( )",
+        "Type": 2,
+        "Options": [
+            "和平和友善",
+            "专制与独裁",
+            "保守和封闭",
+            "民主和平等"
+        ],
+        "Ans": "民主和平等",
+        "Category": "content"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "在《理想国》中，玻勒马霍斯认为正义是( )。",
+        "Type": 2,
+        "Options": [
+            "强者利益",
+            "守诚信",
+            "公平",
+            "助友攻敌"
+        ],
+        "Ans": "助友攻敌",
+        "Category": "detail"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "在《理想国》中，用金属比作人的灵魂,人的灵魂有( )种",
+        "Type": 2,
+        "Options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "Ans": "4",
+        "Category": "detail"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "在《理想国》中，在爱欲中得到满足的是( )。",
+        "Type": 2,
+        "Options": [
+            "大我",
+            "城邦",
+            "小我",
+            "群体"
+        ],
+        "Ans": "小我",
+        "Category": "detail"
+    }
+}

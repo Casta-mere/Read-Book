@@ -1,1 +1,80 @@
-{    "0": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "1": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "2": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "3": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "4": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    },    "5": {        "Bookid": 1,        "Question": "",        "Type": 2,        "Options": [            "",            "",            "",            ""        ],        "Ans": "",        "Category": ""    }}
+{
+    "0": {
+        "Bookid": 1,
+        "Question": "",
+        "Type": 2,
+        "Options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Ans": "",
+        "Category": ""
+    },
+    "1": {
+        "Bookid": 1,
+        "Question": "在《鹿鼎记》中，“秦失其鹿,天下共逐之”是何书上的记载?",
+        "Type": 2,
+        "Options": [
+            "《史记》",
+            "《汉书》",
+            "《资治通鉴》",
+            "《后汉书》"
+        ],
+        "Ans": "《汉书》",
+        "Category": "detail"
+    },
+    "2": {
+        "Bookid": 1,
+        "Question": "在《鹿鼎记》中，“天下兴亡,匹夫有责”出自何人之口?",
+        "Type": 2,
+        "Options": [
+            "顾炎武",
+            "吕留良",
+            "黄宗羲",
+            "查士标"
+        ],
+        "Ans": "顾炎武",
+        "Category": "detail"
+    },
+    "3": {
+        "Bookid": 1,
+        "Question": "在《鹿鼎记》中，湖州庄家花了几千两银子,从哪位相国后人将明史原稿买了下来?",
+        "Type": 2,
+        "Options": [
+            "查",
+            "郑",
+            "吴",
+            "朱"
+        ],
+        "Ans": "朱",
+        "Category": "detail"
+    },
+    "4": {
+        "Bookid": 1,
+        "Question": "在《鹿鼎记》中，文房四宝中,湖州以产何物著名?",
+        "Type": 2,
+        "Options": [
+            "笔",
+            "墨",
+            "纸",
+            "砚"
+        ],
+        "Ans": "笔",
+        "Category": "detail"
+    },
+    "5": {
+        "Bookid": 1,
+        "Question": "在《鹿鼎记》中，庄廷龙所处何镇?",
+        "Type": 2,
+        "Options": [
+            "同里",
+            "南浔",
+            "西塘",
+            "甪直"
+        ],
+        "Ans": "南浔",
+        "Category": "detail"
+    }
+}
