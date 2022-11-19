@@ -312,7 +312,7 @@
         });
 
         $.get('/submit', JSON.stringify({"titleID_choice":arr1}), function(data){
-          alert("success");
+          alert("success");$(window).attr("location","/process");
         },"text");
       }
       
