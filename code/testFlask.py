@@ -71,7 +71,7 @@ def test():
     globals.test=1
     test=globals.ctrl.get_question_random()
     globals.ques=test
-    globals.starttime=time.time()
+    globals.starttime=int(time.time())
     if globals.status == 1:
         return render_template(
             "profile.html",
@@ -120,18 +120,8 @@ def testLook():
 # 提交
 @search.route('/submit', methods=['GET', 'POST'])
 def submit():
-    # ImmutableMultiDict([('{"choice":["9_3"]}', '')]) -- 原始数据
-    # con=request.args.to_dict() # -- {'{"choice":["9_3"]}': ''}
-    # temp=json.loads(list(con.keys())[0]) # -- {'choice': ['9_3']}
-    # temp1=temp["choice"][0] # -- 9_3 -->多个temp["choice"][i]
-    # temp2=temp1.split(".")[1] # -- 3
-    # temp3=temp2.rstrip()
-    # print(temp3)
-    
-    # 多个就写循环
 
     returnData=json.loads(list(request.args.to_dict().keys())[0])
-
     test=globals.ques
     returnData.update({'test':test})
     returnData.update({"userid":globals.User["id"]})
@@ -142,15 +132,6 @@ def submit():
     returnData.update({"questionnum":len(globals.ques)})
     globals.ctrl.check(returnData)
 
-
-    # choice=dict()
-    # for item in returnData["titleID_choice"]:
-    #     temp = int(item.split("_")[0])
-    #     temp1 = item.split("_")[1]
-    #     choice[temp]=temp1
-    # print(choice)
-    # {'题目id':'选项文本'}
-    
     return render_template(
         "index.html",
         status=globals.status

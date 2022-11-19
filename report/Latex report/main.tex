@@ -145,13 +145,19 @@ Key words: Python, Webcrawer, Question/Questionnaire Generating, Object-Orinted 
     \setlength{\tabcolsep}{9mm}{
         \begin{tabular}{|c|c|c|c|c|}
             \hline
-            日期       & 版本 & 修订内容   & 执行人 & 修订人 \\
+            日期       & 版本 & 修订内容             & 执行人 & 修订人 \\
             \hline
-            2022.11.06 & 1.0  & 分析需求   & 王旭刚 & 韦杨婧 \\
+            2022.11.06 & 1.0  & 分析需求             & 王旭刚 & 韦杨婧 \\
             \hline
-            2022.11.16 & 2.1  & 修改README & 王旭刚 & 韦杨婧 \\
+            2022.11.16 & 2.1  & 修改README           & 王旭刚 & 韦杨婧 \\
             \hline
-            2022.11.17 & 2.1  & 完善摘要   & 王旭刚 & 王旭刚 \\
+            2022.11.17 & 2.2  & 完善摘要             & 王旭刚 & 王旭刚 \\
+            \hline
+            2022.11.17 & 2.3  & 问题数据增加至前29本 & 池胤杰 & 王旭刚 \\
+            \hline
+            2022.11.18 & 3.1  & 成功在服务器部署     & 王旭刚 & 韦杨婧 \\
+            \hline
+            2022.11.19 & 3.2  & 问题数据增加至200本  & 池胤杰 & 王旭刚 \\
             \hline
         \end{tabular}}
 
@@ -287,6 +293,48 @@ Key words: Python, Webcrawer, Question/Questionnaire Generating, Object-Orinted 
         \end{tabular}
     }
     \label{tab:tabforquestion}
+\end{table}
+
+
+\begin{table}[H]
+    \centering
+    \caption{测试数据储存---数据库设计}
+    \setlength{\tabcolsep}{7mm}{
+        \begin{tabular}{|c|c|c|}
+            \hline
+            Attriubute  & Type  & Translation              \\
+            \hline
+            Userid      & int   & 用户id                   \\
+            \hline
+            Score       & float & 得分                     \\
+            \hline
+            Start       & int   & 开始时间(使用unix时间戳) \\
+            \hline
+            End         & int   & 结束时间(使用unix时间戳) \\
+            \hline
+            Duration    & int   & 答题时长(秒)             \\
+            \hline
+            A1          & int   &                          \\
+            \hline
+            A2          & int   &                          \\
+            \hline
+            A3          & int   &                          \\
+            \hline
+            A4          & int   &                          \\
+            \hline
+            A5          & int   &                          \\
+            \hline
+            questionnum & int   & 问题数量                 \\
+            \hline
+            rightnum    & int   & 正确数量                 \\
+            \hline
+            wrongnum    & int   & 错误数量                 \\
+            \hline
+            emptynum    & int   & 未回答数量               \\
+            \hline
+        \end{tabular}
+    }
+    \label{tab:tabfortest}
 \end{table}
 
 \section{系统实现}

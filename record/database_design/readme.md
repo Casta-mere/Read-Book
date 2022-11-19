@@ -51,3 +51,20 @@
 
 
 ## Test data
+
+| Attriubute  | Type  | Translation              |
+| :---------- | :---- | :----------------------- |
+| Userid      | int   | 用户id                   |
+| Score       | float | 得分                     |
+| Start       | int   | 开始时间(使用unix时间戳) |
+| End         | int   | 结束时间(使用unix时间戳) |
+| Duration    | int   | 答题时长(秒)             |
+| a1          | int   |                          |
+| a2          | int   |                          |
+| a3          | int   |                          |
+| a4          | int   |                          |
+| a5          | int   |                          |
+| questionnum | int   | 问题数量                 |
+| rightnum    | int   | 正确数量                 |
+| wrongnum    | int   | 错误数量                 |
+| emptynum    | int   | 未回答数量               |
