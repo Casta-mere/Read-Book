@@ -24,7 +24,11 @@ globals.stat = 0
 # 从题库抽出的问题
 globals.ques = 0
 
+globals.starttime=0
+
 globals.ctrl=control.control()
+
+
 
 # 主页
 @search.route('/', methods=['GET', 'POST'])
@@ -67,6 +71,7 @@ def test():
     globals.test=1
     test=globals.ctrl.get_question_random()
     globals.ques=test
+    globals.starttime=time.time()
     if globals.status == 1:
         return render_template(
             "profile.html",
@@ -91,7 +96,8 @@ def testStart():
         status=globals.status,
         test=globals.ques,
         head=head,
-        whole=whole
+        whole=whole,
+        length=len(globals.ques)
     )
 
 # 整卷阅览
@@ -125,14 +131,24 @@ def submit():
     # 多个就写循环
 
     returnData=json.loads(list(request.args.to_dict().keys())[0])
-    # print(returnData)
-    choice=dict()
-    
-    for item in returnData["titleID_choice"]:
-        temp = int(item.split("_")[0])
-        temp1 = item.split("_")[1]
-        choice[temp]=temp1
-    print(choice)
+
+    test=globals.ques
+    returnData.update({'test':test})
+    returnData.update({"userid":globals.User["id"]})
+
+    endtime=int(time.time())
+    returnData.update({"starttime":globals.starttime})
+    returnData.update({"endtime":endtime})
+    returnData.update({"questionnum":len(globals.ques)})
+    globals.ctrl.check(returnData)
+
+
+    # choice=dict()
+    # for item in returnData["titleID_choice"]:
+    #     temp = int(item.split("_")[0])
+    #     temp1 = item.split("_")[1]
+    #     choice[temp]=temp1
+    # print(choice)
     # {'题目id':'选项文本'}
     
     return render_template(
@@ -290,6 +306,9 @@ def logout():
     )    
 def run():
     search.run(debug=True)
+
+def server_run():
+    search.run(host='127.0.0.1', port=80)
 
 if __name__ == '__main__':
     run()

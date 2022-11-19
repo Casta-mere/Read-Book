@@ -122,7 +122,7 @@
   </section>
 
   <!--根据选项的多少空出相应大小的位置-->
-  {%for i in range(0,10)%}
+  {%for i in range(0,length)%}
   {%if test[i]["Option_num"] == 4%}
   <section id="s{{i+1}}" class="catagory_section layout_padding3">
   {%endif%}
@@ -166,7 +166,7 @@
         <!--最后一个加总提交样式-->
         <!-- 题数-1 -->
         {%if whole == 0%}
-          {%if i == 9%}
+          {%if i == length-1%}
           <br><br>
           <div class="btn-box">
             <!--a标签的样式已经被改成跟button差不多的玩意儿了-->
@@ -178,7 +178,7 @@
             <a onclick="sub()">提交</a>
           </div>
           <!-- i>0, i<题数-1 -->
-          {%elif i>0 and i<9%}
+          {%elif i>0 and i<length-1%}
           <div class="btn-box">
             <!--a标签的样式已经被改成跟button差不多的玩意儿了-->
             <a href="#s{{i}}">上一题</a>
@@ -190,7 +190,7 @@
             <a href="#s{{i+2}}">下一题</a>
           </div>
           {%endif%}
-        {%elif whole == 1 and i == 9%}
+        {%elif whole == 1 and i == length-1%}
         <div class="btn-box">
           <a href="#s1">整卷阅览</a>
           <div>&emsp;</div>

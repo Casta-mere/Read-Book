@@ -126,6 +126,24 @@ class my_sql():
         item.append(f'"{password}"')
         item.append(f'"{brief}"')
         self.Update_table("user", item)
+    
+    def Update_statistics(self,userid,score,start,end,duration,a1,a2,a3,a4,a5,questionnum,rightnum,wrongnum,emptynum):
+        item = []
+        item.append(userid)
+        item.append(score)
+        item.append(start)
+        item.append(end)
+        item.append(duration)
+        item.append(a1)
+        item.append(a2)
+        item.append(a3)
+        item.append(a4)
+        item.append(a5)
+        item.append(questionnum)
+        item.append(rightnum)
+        item.append(wrongnum)
+        item.append(emptynum)
+        self.Update_table("statistics", item)
 
 
 def reset_book():
@@ -192,3 +210,24 @@ def reset_question():
     sql = my_sql("readbook")
     sql.Create_table(tabname, column)
 
+
+def reset_statistics():
+    tabname= "statistics"
+    column = []
+    column.append(['userid', 'int'])
+    column.append(['score','float'])
+    column.append(['start','int'])
+    column.append(['end','int'])
+    column.append(['duration','int'])
+    column.append(['a1','int'])
+    column.append(['a2','int'])
+    column.append(['a3','int'])
+    column.append(['a4','int'])
+    column.append(['a5','int']) 
+    column.append(['questionnum','int'])
+    column.append(['rightnum','int'])
+    column.append(['wrongnum','int'])
+    column.append(['emptynum','int'])
+
+    sql = my_sql("readbook")
+    sql.Create_table(tabname, column)

@@ -79,7 +79,34 @@ class control():
             ques=q.question(list(i))
             ans.append(ques.output())
         random.shuffle(ans)
+        if(len(ans)>25):
+            ans=ans[:25]
         return ans
+
+    
+    def check(self,info):
+
+        print("*************")
+        print(info)
+        print("*************")
+        userid=info["userid"]
+        score=99.9
+        start=info["starttime"]
+        end=info["endtime"]
+        duration=end-start
+        a1=100
+        a2=90
+        a3=80
+        a4=70
+        a5=60
+        questionnum=info["questionnum"]
+        correctnum=5
+        wrongnum=3
+        emptynum=questionnum-correctnum-wrongnum
+        # self.database.Update_statistics(userid,score,start,end,duration,a1,a2,a3,a4,a5,questionnum,correctnum,wrongnum,emptynum)
+
+
+
 # print(c.get_user_info_by_id(1))
 # print(c.new_user(1, 2, 3, 4, 5))
 # with open("book.txt", "w", encoding="utf-8") as f:
