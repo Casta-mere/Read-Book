@@ -81,13 +81,18 @@ class control():
         random.shuffle(ans)
         if(len(ans)>25):
             ans=ans[:25]
+        count=1
+        for i in ans:
+            i.update({"q_id":count})
+            count+=1
         return ans
 
     
     def check(self,info):
 
         print("*************")
-        print(info)
+        test=q.test(info)
+        test.print()
         print("*************")
         userid=info["userid"]
         score=99.9

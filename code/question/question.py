@@ -22,3 +22,37 @@ class question():
         ans["Ans"]=self.ans
         ans["Category"]=self.category
         return ans
+    
+
+class test():
+    def __init__(self,l):
+        self.questions={}
+        for i in l["test"]:
+            self.questions.update({i["q_id"]:i["Ans"]})
+        
+        self.score=0
+        self.right=0
+        self.wrong=0
+        self.null=0
+        self.answer={}
+        for i in l["titleID_choice"]:
+            temp=i.split("_",1)
+            self.answer.update({int(temp[0])+1:temp[1]})
+        self.all=len(self.questions)
+
+    def print(self):
+        for i in self.answer:
+            if(self.answer[i]==self.questions[i]):
+                self.right+=1
+            else:
+                self.wrong+=1
+        try:
+            self.score=self.right/self.all
+        except:
+            self.score=0
+        self.null=self.all-self.right-self.wrong
+        print(f"score : {self.score}")
+        print(f"right : {self.right}")
+        print(f"wrong : {self.wrong}")
+        print(f"null : {self.null}")
+        print(f"all : {self.all}")
