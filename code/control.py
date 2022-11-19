@@ -95,7 +95,7 @@ class control():
         test.print()
         print("*************")
         userid=info["userid"]
-        score=99.9
+        score,correctnum,wrongnum,emptynum=test.get_stat()
         start=info["starttime"]
         end=info["endtime"]
         duration=end-start
@@ -105,10 +105,8 @@ class control():
         a4=70
         a5=60
         questionnum=info["questionnum"]
-        correctnum=5
-        wrongnum=3
-        emptynum=questionnum-correctnum-wrongnum
-        # self.database.Update_statistics(userid,score,start,end,duration,a1,a2,a3,a4,a5,questionnum,correctnum,wrongnum,emptynum)
+        
+        self.database.Update_statistics(userid,score,start,end,duration,a1,a2,a3,a4,a5,questionnum,correctnum,wrongnum,emptynum)
 
 
 

@@ -46,8 +46,8 @@
 - [x] 服务器和本地上传时需要修改-后期可以改成双文件
 
         database 密码 wgAkYmSE
-        main 中的相对路径
-        上面那条 改host和port
+        main 中的相对路径(已解决)
+        上面那条 改host和port(已解决)
         
 - [x] ssh关闭时不结束进程
 

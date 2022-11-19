@@ -39,20 +39,24 @@ class test():
             temp=i.split("_",1)
             self.answer.update({int(temp[0])+1:temp[1]})
         self.all=len(self.questions)
-
-    def print(self):
         for i in self.answer:
             if(self.answer[i]==self.questions[i]):
                 self.right+=1
             else:
                 self.wrong+=1
         try:
-            self.score=self.right/self.all
+            self.score=self.right/self.all*100
         except:
             self.score=0
+
         self.null=self.all-self.right-self.wrong
+
+    def print(self):  
         print(f"score : {self.score}")
         print(f"right : {self.right}")
         print(f"wrong : {self.wrong}")
         print(f"null : {self.null}")
         print(f"all : {self.all}")
+
+    def get_stat(self):
+        return self.score,self.right,self.wrong,self.null
