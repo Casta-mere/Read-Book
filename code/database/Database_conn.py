@@ -254,5 +254,8 @@ def reset_statistics():
     column.append(['wrongnum','int'])
     column.append(['emptynum','int'])
 
+    test1=[1,96,1668926839,1668926999,160,5,5,5,5,4,5,5,5,5,5,25,24,1,0]
+
     sql = my_sql("readbook")
     sql.Create_table(tabname, column)
+    sql.Update_table(tabname, test1)

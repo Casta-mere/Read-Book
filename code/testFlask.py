@@ -149,6 +149,7 @@ def process():
 def statistics():
     globals.anytest=0
     globals.stat = 1
+    globals.test = 0
     if globals.status == 1:
         return render_template(
             "profile.html",

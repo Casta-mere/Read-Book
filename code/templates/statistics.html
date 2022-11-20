@@ -292,7 +292,7 @@
       },1000);
     });
   </script>
-
+  {%if anytest==0%}
   <!--雷达图动画-->
   <script type="text/javascript">
     //基于准备好的DOM，初始化ECharts图表
@@ -326,14 +326,15 @@
                 tooltip: { trigger: 'item' },
                 itemStyle: { normal: { areaStyle: { type: 'default' } } },
                 data: [  //设置第2个数据项的具体数据
-                    { value: [{{Testscore[0]}}, {{Testscore[1]}}, {{Testscore[2]}}, {{Testscore[3]}}, {{Testscore[4]}}], name: '累计' },
-                    { value: [{{Testscore[5]}}, {{Testscore[6]}}, {{Testscore[7]}}, {{Testscore[8]}}, {{Testscore[9]}}], name: '最近' }]
+                    { value: [{{Testscore[0]}}, {{Testscore[1]}}, {{Testscore[2]}}, {{Testscore[3]}}, {{Testscore[4]}}], name: '最近' },
+                    { value: [{{Testscore[5]}}, {{Testscore[6]}}, {{Testscore[7]}}, {{Testscore[8]}}, {{Testscore[9]}}], name: '累计' }]
 
             }]
     };
     //使用刚指定的配置项和数据显示图表
     myChart.setOption(option); 
 </script>
+  {%endif%}
 
 </body>
 
