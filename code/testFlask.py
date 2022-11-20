@@ -147,6 +147,7 @@ def process():
 
 @search.route('/statistics', methods=['GET', 'POST'])
 def statistics():
+    globals.anytest=0
     globals.stat = 1
     if globals.status == 1:
         return render_template(
@@ -162,17 +163,19 @@ def statistics():
                 status=globals.status,
                 anytest=globals.anytest
             )
-        return render_template(
-            'statistics.html',
-            status=globals.status,
-            username=globals.User["name"],
-            times=data["count"],
-            avgDuration=str(data["avgduration"]//60)+"分"+str(data["avgduration"]%60)+"秒",
-            avgAccuracy=int(data["avgscore"]),
-            lastDuration=str(data["lastduration"]//60)+"分"+str(data["lastduration"]%60)+"秒",
-            lastAccuracy=int(data["lastscore"]),
-            lastTime=time.strftime("%Y年%m月%d日 %H时%M分%S秒",time.localtime(data["lasttime"]))
-            )
+        else:
+            return render_template(
+                'statistics.html',
+                status=globals.status,
+                username=globals.User["name"],
+                times=data["count"],
+                avgDuration=str(data["avgduration"]//60)+"分"+str(data["avgduration"]%60)+"秒",
+                avgAccuracy=int(data["avgscore"]),
+                lastDuration=str(data["lastduration"]//60)+"分"+str(data["lastduration"]%60)+"秒",
+                lastAccuracy=int(data["lastscore"]),
+                lastTime=time.strftime("%Y年%m月%d日 %H时%M分%S秒",time.localtime(data["lasttime"])),
+                anytest=globals.anytest
+                )
 
 # 个人信息    
 @search.route('/profile', methods=['GET', 'POST'])
