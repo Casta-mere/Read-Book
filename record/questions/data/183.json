@@ -13,68 +13,122 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
-        "Question": "",
+        "Bookid": 183,
+        "Question": "在《冰与火之歌》中，琼恩雪诺捡到了几条冰原狼？",
         "Type": 2,
         "Options": [
-            "",
-            "",
-            "",
-            ""
+            "5",
+            "6",
+            "7",
+            "8"
         ],
-        "Ans": "",
-        "Category": ""
+        "Ans": "6",
+        "Category": "content"
     },
     "2": {
-        "Bookid": 1,
-        "Question": "",
+        "Bookid": 183,
+        "Question": "在《冰与火之歌》中，谁派了刺客去杀害布兰？",
         "Type": 2,
         "Options": [
-            "",
-            "",
-            "",
-            ""
+            "乔佛里",
+            "小指头",
+            "詹姆",
+            "凯特琳"
         ],
-        "Ans": "",
-        "Category": ""
+        "Ans": "乔佛里",
+        "Category": "detail"
     },
     "3": {
-        "Bookid": 1,
-        "Question": "",
-        "Type": 2,
+        "Bookid": 183,
+        "Question": "在《冰与火之歌》中，提利昂杀害了乔佛里",
+        "Type": 1,
         "Options": [
-            "",
-            "",
-            "",
-            ""
+            "true",
+            "false"
         ],
-        "Ans": "",
-        "Category": ""
+        "Ans": "false",
+        "Category": "detail"
     },
     "4": {
-        "Bookid": 1,
-        "Question": "",
-        "Type": 2,
+        "Bookid": 183,
+        "Question": "在《冰与火之歌》中，序章pov人物全死了",
+        "Type": 1,
         "Options": [
-            "",
-            "",
-            "",
-            ""
+            "true",
+            "false"
         ],
-        "Ans": "",
-        "Category": ""
+        "Ans": "true",
+        "Category": "figure"
     },
     "5": {
-        "Bookid": 1,
-        "Question": "",
+        "Bookid": 183,
+        "Question": "《冰与火之歌》，篇幅最长的是哪一卷？",
         "Type": 2,
         "Options": [
-            "",
-            "",
-            "",
-            ""
+            "权力的游戏",
+            "列王的纷争",
+            "冰雨的风暴",
+            "魔龙的狂舞"
         ],
-        "Ans": "",
-        "Category": ""
+        "Ans": "冰雨的风暴",
+        "Category": "main"
+    },"6": {
+        "Bookid": 183,
+        "Question": "在《冰与火之歌》中，谁杀死了莱莎？",
+        "Type": 2,
+        "Options": [
+            "乔佛里",
+            "小指头",
+            "詹姆",
+            "凯特琳"
+        ],
+        "Ans": "小指头",
+        "Category": "detail"
+    },"7": {
+        "Bookid": 183,
+        "Question": "在《冰与火之歌》中，凯特琳徒利最开始被许配给了谁",
+        "Type": 2,
+        "Options": [
+            "布兰登史塔克",
+            "班杨史塔克",
+            "艾德史塔克",
+            "罗柏史塔克"
+        ],
+        "Ans": "布兰登史塔克",
+        "Category": "figure"
+    },"8": {
+        "Bookid": 183,
+        "Question": "在《冰与火之歌》中，“一日三捷”是称赞谁的战功？",
+        "Type": 2,
+        "Options": [
+            "詹姆兰尼斯特",
+            "劳勃拜拉席恩",
+            "艾德史塔克",
+            "琼恩克林顿"
+        ],
+        "Ans": "劳勃拜拉席恩",
+        "Category": "content"
+    },"9": {
+        "Bookid": 183,
+        "Question": "在《冰与火之歌》中，没有谁是真正的主角，没有谁拥有主角光环",
+        "Type": 1,
+        "Options": [
+            "true",
+            "false"
+        ],
+        "Ans": "true",
+        "Category": "main"
+    },"10": {
+        "Bookid": 183,
+        "Question": "下列哪个不是乔治R.R.马丁的作品？",
+        "Type": 2,
+        "Options": [
+            "《冰与火之歌》",
+            "《游侠王子》",
+            "《故事》",
+            "《七王国的骑士》"
+        ],
+        "Ans": "《故事》",
+        "Category": "writer"
     }
 }

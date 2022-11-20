@@ -71,7 +71,7 @@ class control():
                     self.database.Update_table("question", info)
                 except:
                     print(f"error on {filename}, question {i}")
-
+    # 随机出题
     def get_question_random(self):
         questions = list(self.database.get_data("question"))
         ans = []
@@ -87,6 +87,36 @@ class control():
             count += 1
         return ans
 
+    # 根据类别出题
+    def get_question_by_category(self, category):
+        questions = list(self.database.get_data_by_attr("question", "category", category))
+        ans = []
+        for i in questions:
+            ques = q.question(list(i))
+            ans.append(ques.output())
+        random.shuffle(ans)
+        if(len(ans) > 25):
+            ans = ans[:25]
+        count = 1
+        for i in ans:
+            i.update({"q_id": count})
+            count += 1
+        return ans
+    # 根据书籍id出题
+    def get_question_by_bookid(self, bookid):
+        questions = list(self.database.get_data_by_attr("question", "bookid", bookid))
+        ans = []
+        for i in questions:
+            ques = q.question(list(i))
+            ans.append(ques.output())
+        random.shuffle(ans)
+        if(len(ans) > 25):
+            ans = ans[:25]
+        count = 1
+        for i in ans:
+            i.update({"q_id": count})
+            count += 1
+        return ans
     # 改卷 
     def check(self, info):
 
@@ -178,7 +208,6 @@ class control():
             returnvalue.update({"avgduration": int(sum[0]/len(ans))})
             returnvalue.update({"avgscore": sum[2]/sum[1]*100})
 
-            print(returnvalue)
             return returnvalue
         except:
             return None

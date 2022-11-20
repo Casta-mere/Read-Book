@@ -70,6 +70,8 @@ def bookDetail(id):
 def test():
     globals.test=1
     test=globals.ctrl.get_question_random()
+    # test=globals.ctrl.get_question_by_category("mian")
+    # test=globals.ctrl.get_question_by_bookid(183)
     globals.ques=test
     globals.starttime=int(time.time())
     if globals.status == 1:
@@ -262,7 +264,7 @@ def validation():
     try:
         if temp[4]==pw:
             globals.User={"id":temp[0],"name":temp[1],"gender":temp[2],"tele":temp[3],"pw":temp[4],"brief":temp[5]}
-            print(globals.User)
+            # print(globals.User)
             globals.status = 2
             
             if globals.test == 1:
