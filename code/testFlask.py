@@ -24,7 +24,7 @@ globals.stat = 0
 # 从题库抽出的问题
 globals.ques = 0
 
-globals.starttime=0
+globals.anytest = 0
 
 globals.ctrl=control.control()
 
@@ -155,8 +155,13 @@ def statistics():
         )
     if globals.status == 2:
         data = globals.ctrl.get_user_statistics(int(globals.User["id"]))
-        print(data)        
-        print(time.strftime("%Y年%m月%d日 %H时%M分%S秒",time.localtime(data["lasttime"])))
+        if data == None:
+            globals.anytest = 1
+            return render_template(
+                "statistics.html",
+                status=globals.status,
+                anytest=globals.anytest
+            )
         return render_template(
             'statistics.html',
             status=globals.status,

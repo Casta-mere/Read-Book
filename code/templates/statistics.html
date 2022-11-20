@@ -86,6 +86,7 @@
 
   <section class="blog_section layout_padding">
     <div class="container">
+      {%if anytest == 0%}
       <div class="heading_container heading_center">
         <h2>
           历史数据
@@ -119,6 +120,13 @@
         <div class="col-md-6">
         </div>
       </div>
+      {%else%}
+      <div class="heading_container heading_center">
+        <h2>
+          您还没有进行过任何测试，请先进行测试，或返回主页
+        </h2>
+      </div>
+      {%endif%}
       <!--
       <div class="row">
         <div class="col-md-6">
