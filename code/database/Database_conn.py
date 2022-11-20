@@ -117,6 +117,20 @@ class my_sql():
         conn.close()
         return list(data)
 
+    def get_sepcific_data_by_attr(self, table_name, item, attr_name, attr_value):
+        conn = pymysql.connect(host=host, user=user, password=password,
+                               database=self.database_name, charset='utf8')
+        cursor = conn.cursor()
+        values = ""
+        for i in item:
+            values += f'{i},'
+        cursor.execute(
+            f'select {values[:-1]} from {table_name} where {attr_name}="{attr_value}"')
+        data = cursor.fetchall()
+        cursor.close()
+        conn.close()
+        return list(data)
+        
     def Update_user(self, id, name, gender, telephone, password, brief):
         item = []
         item.append(id)
@@ -127,7 +141,7 @@ class my_sql():
         item.append(f'"{brief}"')
         self.Update_table("user", item)
     
-    def Update_statistics(self,userid,score,start,end,duration,a1,a2,a3,a4,a5,questionnum,rightnum,wrongnum,emptynum):
+    def Update_statistics(self,userid,score,start,end,duration,a1,a2,a3,a4,a5,b1,b2,b3,b4,b5,questionnum,rightnum,wrongnum,emptynum):
         item = []
         item.append(userid)
         item.append(score)
@@ -139,6 +153,11 @@ class my_sql():
         item.append(a3)
         item.append(a4)
         item.append(a5)
+        item.append(b1)
+        item.append(b2)
+        item.append(b3)
+        item.append(b4)
+        item.append(b5)
         item.append(questionnum)
         item.append(rightnum)
         item.append(wrongnum)
@@ -224,6 +243,12 @@ def reset_statistics():
     column.append(['a3','int'])
     column.append(['a4','int'])
     column.append(['a5','int']) 
+    column.append(['b1','int'])
+    column.append(['b2','int'])
+    column.append(['b3','int'])
+    column.append(['b4','int'])
+    column.append(['b5','int'])
+
     column.append(['questionnum','int'])
     column.append(['rightnum','int'])
     column.append(['wrongnum','int'])

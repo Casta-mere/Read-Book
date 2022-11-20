@@ -1,4 +1,6 @@
 import random
+
+
 class question():
     def __init__(self, l) :
         self.book_id = l[0]
@@ -26,10 +28,26 @@ class question():
 
 class test():
     def __init__(self,l):
+        self.category={}
+        self.category.update({"figure":[0,0]})
+        self.category.update({"writer":[0,0]})
+        self.category.update({"main":[0,0]})
+        self.category.update({"content":[0,0]})
+        self.category.update({"detail":[0,0]})
+
         self.questions={}
+
+        for i in l["test"]:
+            try:
+                self.category[i["Category"]][1]+=1
+            except:
+                e=1
+        self.questionscategory={}
         for i in l["test"]:
             self.questions.update({i["q_id"]:i["Ans"]})
+            self.questionscategory.update({i["q_id"]:i["Category"]})
         
+
         self.score=0
         self.right=0
         self.wrong=0
@@ -42,6 +60,10 @@ class test():
         for i in self.answer:
             if(self.answer[i]==self.questions[i]):
                 self.right+=1
+                try:
+                    self.category[self.questionscategory[i]][0]+=1
+                except:
+                    e=1
             else:
                 self.wrong+=1
         try:
@@ -50,6 +72,9 @@ class test():
             self.score=0
 
         self.null=self.all-self.right-self.wrong
+
+
+
 
     def print(self):  
         print(f"score : {self.score}")
@@ -60,3 +85,10 @@ class test():
 
     def get_stat(self):
         return self.score,self.right,self.wrong,self.null
+
+    def get_category(self):
+        ans=[]
+        for i in self.category:
+            ans.append(self.category[i][0])
+            ans.append(self.category[i][1])
+        return ans[0],ans[1],ans[2],ans[3],ans[4],ans[5],ans[6],ans[7],ans[8],ans[9]

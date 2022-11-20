@@ -99,15 +99,82 @@ class control():
         start=info["starttime"]
         end=info["endtime"]
         duration=end-start
-        a1=100
-        a2=90
-        a3=80
-        a4=70
-        a5=60
+        a1,b1,a2,b2,a3,b3,a4,b4,a5,b5=test.get_category()
         questionnum=info["questionnum"]
         
-        self.database.Update_statistics(userid,score,start,end,duration,a1,a2,a3,a4,a5,questionnum,correctnum,wrongnum,emptynum)
+        self.database.Update_statistics(userid,score,start,end,duration,a1,a2,a3,a4,a5,b1,b2,b3,b4,b5,questionnum,correctnum,wrongnum,emptynum)
 
+    def get_user_statistics(self,userid):
+        returnvalue={}
+        item=[]
+        item.append("a1")
+        item.append("b1")
+        item.append("a2")
+        item.append("b2")
+        item.append("a3")
+        item.append("b3")
+        item.append("a4")
+        item.append("b4")
+        item.append("a5")
+        item.append("b5")
+        sql_ans=self.database.get_sepcific_data_by_attr("statistics",item,"userid",userid)
+        returnvalue.update({"count":len(sql_ans)})
+        scores=[]
+        sum=[0,0,0,0,0,0,0,0,0,0]
+
+        for i in sql_ans:
+            scores.append(list(i))
+        
+        for i in scores:
+            for j in range(10):
+                sum[j]+=i[j]
+        one=scores[-1]
+        
+        scores=[]
+        for i in range(5):
+            if(one[2*i+1]!=0):
+                scores.append(int(one[2*i]/one[2*i+1]*100))
+            else:
+                scores.append(0)
+            
+        for i in range(5):
+            if(sum[2*i+1]!=0):
+                scores.append(int(sum[2*i]/sum[2*i+1]*100))
+            else:
+                scores.append(0)
+        returnvalue.update({"scores":scores})
+        item=[]
+        item.append("end")
+        
+        sql_ans=self.database.get_sepcific_data_by_attr("statistics",item,"userid",userid)
+        ans=[]
+        for i in sql_ans:
+            ans.append(i[0])
+        returnvalue.update({"lasttime":ans[-1]})
+
+        item=[]
+        item.append("duration")
+        item.append("questionnum")
+        item.append("rightnum")
+        sql_ans=self.database.get_sepcific_data_by_attr("statistics",item,"userid",userid)
+        ans=[]
+        for i in sql_ans:
+            ans.append(list(i))
+
+        returnvalue.update({"lastduration":ans[-1][0]})
+        returnvalue.update({"lastscore":ans[-1][2]/ans[-1][1]*100})
+        
+        sum=[0,0,0]
+        for i in ans:
+            sum[0]+=i[0]
+            sum[1]+=i[1]
+            sum[2]+=i[2]
+        returnvalue.update({"avgduration":int(sum[0]/len(ans))})
+        returnvalue.update({"avgscore":sum[2]/sum[1]*100})
+
+
+        print(returnvalue)
+        return returnvalue
 
 
 # print(c.get_user_info_by_id(1))

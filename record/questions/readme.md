@@ -1,14 +1,14 @@
 # Questions
 
 ## 类别
--  figure 人物
--  writer 作者
--  main 主旨
--  content 情节
--  detail 细节
--  style 风格
--  symbol 象征
--  anecdote (实在看不出来算啥就放这个)
+-  figure 人物 - 54
+-  writer 作者 - 316
+-  main 主旨 - 115
+-  content 情节 - 333
+-  detail 细节 - 116
+-  style 风格 
+-  symbol 象征 
+-  anecdote (实在看不出来算啥就放这个) - 61
 
 
 ## 搜索词
