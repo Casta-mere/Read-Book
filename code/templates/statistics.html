@@ -105,10 +105,14 @@
       <br><br>
       <div class="row">
         <div class="col-md-1"></div>
-        <div class="col-md-10">用户{{username}}：
-          &emsp;您最近于{{testRecently}}进行测试，用时{{timeCost}}，正确率为{{accuracy}}
+        <div class="col-md-10" id="avgAcc">用户{{username}}：
+          &emsp;您的测试次数为{{times}}，平均用时{{avgTime}}，平均正确率为{{avgAccuracy}}
         </div>
+        <!--从这个div获取值-->
         <div class="col-md-1"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">&emsp;</div>
       </div>
       <!--
       <div class="row">

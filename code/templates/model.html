@@ -1,61 +1,58 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Insert title here</title>
-<style type="text/css">
-	.selected{font-weight:bold; background: #ff99cc; color:#fff;}
-</style>
+    <meta charset="utf-8">
+    <!-- 引入 ECharts 文件 -->
+    <script src="https://cdn.bootcss.com/echarts/4.8.0/echarts.js"></script>
 
-<!--原来没有引用库，不是model的问题-->
-<!--如果是flask，可以直接static，因为flask默认会在static中找，但如果是jQuery，就得用../static，相当于是普通文件去找-->
 </head>
-<body>
-    <script src="../static/js/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript">
-        $(function(){  
-            $("#test li").click(function() {
-                $(this).siblings('li').removeClass('selected');  
-                $(this).addClass('selected');                                   
-            });
-        }); 
-        </script>
-    <form>
-        <ul id="test">
-            <li class="selected" name="1" value="A">A</li>
-            <input type="hidden" name="1" value="A"/>
-            <li name="2" value="B">B</li>
-            <li name="3" value="C">C</li>	
-        </ul>
-	<form>
-	<button class="btn" onclick="login()"><a href="/">sss</a></button>
 
-    <script>
-        function login(){
-            var arr = [];
-            $(".selected").each(function(){
-                    var val = $(this).text()
-                    arr.push(val);
-            });
-            $.ajax({
-                url:"http://127.0.0.1:5000/test",
-                type:"post",
-                dataType:"json",
-     
-                //data为要传递给后端的数据，使用JSON.stringify()转换为json格式
-                data:JSON.stringify({
-                        "choice":   arr,
-                    }),
-                success:function (data){
-                    alert("登录成功")
-                },
-                error:function (){
-                    alert($(".selected").val())
-                    console.log("***********")
+<body>
+    <!---为ECharts准备一个具备大小（宽高）的DOM-->
+    <div id="main" style="width: 400px; height: 500px"></div>
+    <script type="text/javascript">
+        //基于准备好的DOM，初始化ECharts图表
+        var myChart = echarts.init(document.getElementById("main"));
+        //指定图表的配置项和数据
+        var option = {  //指定图表的配置项和数据
+            color: ["rgb(244, 37, 52)", 'rgb(255, 214, 27, 1)', 'rgb(140, 222, 224)', '#660099', '#FA8072', 'grey'],  //使用自己预定义的颜色
+            backgroundColor: 'rgba(128, 128, 128, 0.1)',  //rgba设置透明度0.1
+            title: {  //配置标题组件
+                text: '雷达图', top: 15,
+                textStyle: { color: 'rgb(48, 64, 87)' }, left: 'center'
+            },
+            tooltip: { trigger: 'axis' },  //配置标题组件
+            //配置图例组件
+            legend: { top: 460, left: 140, data: ['小米', '苹果'] },
+            radar: [  //设置雷达图坐标系组件，只适用于雷达图
+                {
+                    nameGap: 3, shape: 'polygon',  //'polygon'|'circle'
+                    name: {
+                        textStyle: {
+                            fontSize: 12, color: '#fff', backgroundColor: 'rgb(68, 109, 183)',
+                            borderRadius: 3, padding: [2, 2]
+                        }
+                    },
+                    //设置雷达图指示器，指定雷达图中的多个变量
+                    indicator: [{ text: '外观', max: 100 },
+                    { text: '拍照', max: 100 }, { text: '系统', max: 100 },
+                    { text: '性能', max: 100 }, { text: '屏幕', max: 100 }],
+                    center: ['50%', '50%'], radius: 80  //指定第2个雷达图的位置
                 }
-            })
-        }
+            ],
+            series: [  //配置数据系列
+                {   //设置第2个数据项：小米与苹果
+                    type: 'radar',
+                    tooltip: { trigger: 'item' },
+                    itemStyle: { normal: { areaStyle: { type: 'default' } } },
+                    data: [  //设置第2个数据项的具体数据
+                        { value: [75, 90, 90, 65, 75], name: '小米' },
+                        { value: [95, 80, 70, 100, 93], name: '苹果' }]
+                }]
+        };
+        //使用刚指定的配置项和数据显示图表
+        myChart.setOption(option); 
     </script>
- 
 </body>
+
 </html>
