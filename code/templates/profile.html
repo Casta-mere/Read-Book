@@ -13,7 +13,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Bostorek</title>
+  <title>Read-Book</title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.css" />
@@ -36,11 +36,12 @@
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="/">
             <span>
-              Bostorek
+              Read-Book
             </span>
           </a>
 
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class=""> </span>
           </button>
 
@@ -82,7 +83,7 @@
   </div>
 
   <!-- contact section -->
-  
+
   <section class="contact_section layout_padding">
     <div class="container">
       <div class="row">
@@ -90,39 +91,39 @@
         <div class="col-md-6 ">
           <div class="heading_container ">
             <h1 class="">
-            <b>Profile</b>
+              <b>Profile</b>
             </h1> <br><br>
           </div>
-            <h4>
-              <b>ID:</b> {{id}}
-            </h4> <br>
-            <h4>
-              <b>Name:</b> {{name}}
-            </h4> <br>
-            <h4>
-              <b>Gender:</b> {{gender}}
-            </h4> <br>
-            <h4>
-              <b>Tele:</b> {{tele}}
-            </h4> <br>
-            <h4>
-              <b>Brief introduction:</b> {{brief}}
-            </h4>
-            <br>
-            <br>
-            <div class="btn-box">
-              <a href="/logout">
-                <button>
-                  Logout
-                </button>
-              </a>
-            </div>
+          <h4>
+            <b>ID:</b> {{id}}
+          </h4> <br>
+          <h4>
+            <b>Name:</b> {{name}}
+          </h4> <br>
+          <h4>
+            <b>Gender:</b> {{gender}}
+          </h4> <br>
+          <h4>
+            <b>Tele:</b> {{tele}}
+          </h4> <br>
+          <h4>
+            <b>Brief introduction:</b> {{brief}}
+          </h4>
+          <br>
+          <br>
+          <div class="btn-box">
+            <a href="/logout">
+              <button>
+                Logout
+              </button>
+            </a>
+          </div>
         </div>
         {%elif status == 1%}
         <div class="col-md-6 ">
           <div class="heading_container ">
             <h2 class="">
-            Please login first ^_^
+              Please login first ^_^
             </h2>
           </div>
           <form action="/validation" method="post">
@@ -134,9 +135,9 @@
             </div>
             <div class="btn-box">
               <a href="/validation">
-              <button>
-                SEND
-              </button>
+                <button>
+                  SEND
+                </button>
               </a>
             </div>
             <div>
@@ -144,7 +145,8 @@
               <br>
               {%if error== 1%}<h6>Error! Please input again</h6>{%endif%}
               <br>
-              <h6>No account? Sign up <a href="/register">here</a> ^_^</h6> <!--多写个route函数给signup--> 
+              <h6>No account? Sign up <a href="/register">here</a> ^_^</h6>
+              <!--多写个route函数给signup-->
             </div>
           </form>
         </div>
@@ -152,7 +154,7 @@
         <div class="col-md-6 ">
           <div class="heading_container ">
             <h2 class="">
-            Please register first ^_^
+              Please register first ^_^
             </h2>
           </div>
           <form action="/registration">
@@ -172,13 +174,14 @@
               <input id="teleReg" name="teleReg" value="{{teleReg}}" type="text" placeholder="Phone Number" />
             </div>
             <div id="briefReg" name="briefReg">
-              <input id="briefReg" name="briefReg" value="{{briefReg}}" type="text" class="message-box" placeholder="Brief introduction" />
+              <input id="briefReg" name="briefReg" value="{{briefReg}}" type="text" class="message-box"
+                placeholder="Brief introduction" />
             </div>
             <div class="btn-box">
               <a href="/registration">
-              <button>
-                SEND
-              </button>
+                <button>
+                  SEND
+                </button>
               </a>
             </div>
             <div>
@@ -190,7 +193,8 @@
               <h6>Error! Please check again</h6>
               {%endif%}
               <br>
-              <h6>Already have an account? Login <a href="/login">here</a>^_^</h6> <!--多写个route函数给signup-->
+              <h6>Already have an account? Login <a href="/login">here</a>^_^</h6>
+              <!--多写个route函数给signup-->
             </div>
           </form>
         </div>
@@ -217,20 +221,17 @@
               About Us
             </h4>
             <p>
-              Vitae aut explicabo fugit facere alias distinctio, exem commodi mollitia minusem dignissimos atque asperiores incidunt vel voluptate iste
+              Contact us on these social-medias.
             </p>
             <div class="info_social">
-              <a href="">
+              <a href="https://www.facebook.com/profile.php?id=100064520177692">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
               </a>
-              <a href="">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
+              <a href="https://user.qzone.qq.com/1659455853">
+                <i class="fa fa-qq" aria-hidden="true"></i>
               </a>
-              <a href="">
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
+              <a href="https://github.com/Achinoise1">
+                <i class="fa fa-github" aria-hidden="true"></i>
               </a>
             </div>
           </div>
@@ -241,22 +242,29 @@
               Address
             </h4>
             <div class="contact_link_box">
-              <a href="">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <a href="https://www.zstu.edu.cn/">
+                <i class="fa fa-university" aria-hidden="true"></i>
                 <span>
-                  Location
+                  ZSTU
                 </span>
               </a>
-              <a href="">
+
+              <a href="https://github.com/Casta-mere/Read-Book">
+                <i class="fa fa-github" aria-hidden="true"></i>
+                <span>
+                  View our Github page
+                </span>
+              </a>
+              <a href="" style="pointer-events : none">
                 <i class="fa fa-phone" aria-hidden="true"></i>
                 <span>
-                  Call +01 1234567890
+                  Call +86 13834230484
                 </span>
               </a>
-              <a href="">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
+              <a href="" style="pointer-events : none">
+                <i class="fa fa-address-book-o" aria-hidden="true"></i>
                 <span>
-                  demo@gmail.com
+                  E-mail castamego@gmail.com
                 </span>
               </a>
             </div>
@@ -269,7 +277,7 @@
             </h4>
             <form action="#">
               <input type="text" placeholder="Enter email" />
-              <button type="submit">
+              <button type="submit" onclick="subscribe()">
                 Subscribe
               </button>
             </form>
@@ -286,12 +294,16 @@
     <div class="container">
       <p>
         &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
+        <a href="https://github.com/Casta-mere">Castamere</a>
       </p>
     </div>
   </footer>
   <!-- footer section -->
-
+  <script>
+    function subscribe() {
+      alert("Subscribe Success!");
+    }
+  </script>
   <!-- jQery -->
   <script src="static/js/jquery-3.4.1.min.js"></script>
   <!-- bootstrap js -->

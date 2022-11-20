@@ -13,7 +13,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Bostorek</title>
+  <title>Read-Book</title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.css" />
@@ -36,11 +36,12 @@
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="/">
             <span>
-              Bostorek
+              Read-Book
             </span>
           </a>
 
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class=""> </span>
           </button>
 
@@ -85,63 +86,63 @@
 
   <section class="about_section layout_padding">
     <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="img-box">
-                    <img src="/static/images/pic/{{i+1}}.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-md-6">
-                <h5 class ="text-center">排名：{{detail[0]}}</h5>
-                <h5 class ="text-center">书名：{{detail[1]}}</h5>
-                <h5 class ="text-center">作者：{{detail[2]}}</h5>
-                {%if foreign == 1%}
-                <h5 class ="text-center">原作名：{{detail[16]}}</h5>
-                <h5 class ="text-center">译者：{{detail[17]}}</h5>
-                {%endif%}
-                <h5 class ="text-center">国家：{{detail[3]}}</h5>
-                <h5 class ="text-center">出版社：{{detail[4]}}</h5>
-                <h5 class ="text-center">出版年份：{{detail[5]}}</h5>
-                <h5 class ="text-center">页数：{{detail[6]}}</h5>
-                <h5 class ="text-center">价格：{{detail[7]}}</h5>
-                <h5 class ="text-center">装帧：{{detail[8]}}</h5>
-                <h5 class ="text-center">丛书：{{detail[9]}}</h5>
-                <h5 class ="text-center">isbn码：{{detail[10]}}</h5>
-                <h5 class ="text-center">评分：{{detail[11]}}</h5>
-                <h5 class ="text-center">评论数：{{detail[12]}}</h5>
-            </div>
-        </div>    
-        <br>
-        <br>
-        <div class="row">
-          <div class="col-md-12">
-            <h5>简介：{{detail[13]}}</h5>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="img-box">
+            <img src="/static/images/pic/{{i+1}}.jpg" alt="">
           </div>
         </div>
-        <br>
-        <br>
-        <div class="row align-items-center">
-          {%for j in range(0,5)%} 
-          <div class="col">
-            <h5 class ="text-center">&nbsp;</h5>
-          </div>   
-          {%endfor%}
-          <div class="col-md-offset-1">
-            <div class="btn-box m-auto">
-              <a href="/books">
-                <button>
-                  返回
-                </button>
-              </a>
-            </div>
-          </div> 
-          {%for j in range(0,5)%}  
-          <div class="col">
-            <h5 class ="text-center">&nbsp;</h5>
-          </div>   
-          {%endfor%}
+        <div class="col-md-6">
+          <h5 class="text-center">排名：{{detail[0]}}</h5>
+          <h5 class="text-center">书名：{{detail[1]}}</h5>
+          <h5 class="text-center">作者：{{detail[2]}}</h5>
+          {%if foreign == 1%}
+          <h5 class="text-center">原作名：{{detail[16]}}</h5>
+          <h5 class="text-center">译者：{{detail[17]}}</h5>
+          {%endif%}
+          <h5 class="text-center">国家：{{detail[3]}}</h5>
+          <h5 class="text-center">出版社：{{detail[4]}}</h5>
+          <h5 class="text-center">出版年份：{{detail[5]}}</h5>
+          <h5 class="text-center">页数：{{detail[6]}}</h5>
+          <h5 class="text-center">价格：{{detail[7]}}</h5>
+          <h5 class="text-center">装帧：{{detail[8]}}</h5>
+          <h5 class="text-center">丛书：{{detail[9]}}</h5>
+          <h5 class="text-center">isbn码：{{detail[10]}}</h5>
+          <h5 class="text-center">评分：{{detail[11]}}</h5>
+          <h5 class="text-center">评论数：{{detail[12]}}</h5>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-md-12">
+          <h5>简介：{{detail[13]}}</h5>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="row align-items-center">
+        {%for j in range(0,5)%}
+        <div class="col">
+          <h5 class="text-center">&nbsp;</h5>
+        </div>
+        {%endfor%}
+        <div class="col-md-offset-1">
+          <div class="btn-box m-auto">
+            <a href="/books">
+              <button>
+                返回
+              </button>
+            </a>
+          </div>
+        </div>
+        {%for j in range(0,5)%}
+        <div class="col">
+          <h5 class="text-center">&nbsp;</h5>
+        </div>
+        {%endfor%}
 
-    </div>
+      </div>
   </section>
 
   <!-- end about section -->
@@ -157,20 +158,17 @@
               About Us
             </h4>
             <p>
-              Vitae aut explicabo fugit facere alias distinctio, exem commodi mollitia minusem dignissimos atque asperiores incidunt vel voluptate iste
+              Contact us on these social-medias.
             </p>
             <div class="info_social">
-              <a href="">
+              <a href="https://www.facebook.com/profile.php?id=100064520177692">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
               </a>
-              <a href="">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
+              <a href="https://user.qzone.qq.com/1659455853">
+                <i class="fa fa-qq" aria-hidden="true"></i>
               </a>
-              <a href="">
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
+              <a href="https://github.com/Achinoise1">
+                <i class="fa fa-github" aria-hidden="true"></i>
               </a>
             </div>
           </div>
@@ -181,22 +179,29 @@
               Address
             </h4>
             <div class="contact_link_box">
-              <a href="">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <a href="https://www.zstu.edu.cn/">
+                <i class="fa fa-university" aria-hidden="true"></i>
                 <span>
-                  Location
+                  ZSTU
                 </span>
               </a>
-              <a href="">
+
+              <a href="https://github.com/Casta-mere/Read-Book">
+                <i class="fa fa-github" aria-hidden="true"></i>
+                <span>
+                  View our Github page
+                </span>
+              </a>
+              <a href="" style="pointer-events : none">
                 <i class="fa fa-phone" aria-hidden="true"></i>
                 <span>
-                  Call +01 1234567890
+                  Call +86 13834230484
                 </span>
               </a>
-              <a href="">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
+              <a href="" style="pointer-events : none">
+                <i class="fa fa-address-book-o" aria-hidden="true"></i>
                 <span>
-                  demo@gmail.com
+                  E-mail castamego@gmail.com
                 </span>
               </a>
             </div>
@@ -209,10 +214,9 @@
             </h4>
             <form action="#">
               <input type="text" placeholder="Enter email" />
-              <button type="submit">
+              <button type="submit" onclick="subscribe()">
                 Subscribe
               </button>
-              
             </form>
           </div>
         </div>
@@ -227,12 +231,16 @@
     <div class="container">
       <p>
         &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
+        <a href="https://github.com/Casta-mere">Castamere</a>
       </p>
     </div>
   </footer>
   <!-- footer section -->
-
+  <script>
+    function subscribe() {
+      alert("Subscribe Success!");
+    }
+  </script>
   <!-- jQery -->
   <script src="static/js/jquery-3.4.1.min.js"></script>
   <!-- bootstrap js -->

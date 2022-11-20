@@ -32,6 +32,8 @@
 + [ ] 可以添加admin, 让admin可以手动添加题目？
 + [ ] 借用script，写个function，获取选中的li --> 传给后端  --> 后端用request.get_json()获取 --> 用一个globals存好 --> 传入testLook --> 最终提交
 
++ [ ] 首页加一个今天读什么
+
 ## Environment Requirement
 
 - flask
