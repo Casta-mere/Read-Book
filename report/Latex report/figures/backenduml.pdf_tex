@@ -1,0 +1,150 @@
+%% Creator: Inkscape 1.2.1 (9c6d41e410, 2022-07-14), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'backenduml.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{641.99970015bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.14925404)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{backenduml.pdf}}%
+    \put(0.47615188,1.11640482){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}control\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{backenduml.pdf}}%
+    \put(0.30247534,1.07779539){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}database\end{tabular}}}}%
+    \put(0.30247534,1.05164061){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}user_id : list\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{backenduml.pdf}}%
+    \put(0.30247534,1.01303118){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}check(info)\end{tabular}}}}%
+    \put(0.30247534,0.9868764){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}get_all_user_id()\end{tabular}}}}%
+    \put(0.30247534,0.96072154){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}get_book_brief_info()\end{tabular}}}}%
+    \put(0.30247534,0.93456676){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}get_book_detail_info(id)\end{tabular}}}}%
+    \put(0.30247534,0.90841199){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}get_question_by_bookid(bookid)\end{tabular}}}}%
+    \put(0.30247534,0.88225721){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}get_question_by_category(category)\end{tabular}}}}%
+    \put(0.30247534,0.85610244){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}get_question_random()\end{tabular}}}}%
+    \put(0.30247534,0.82994757){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}get_user_info_by_id(id)\end{tabular}}}}%
+    \put(0.30247534,0.8037928){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}get_user_statistics(userid)\end{tabular}}}}%
+    \put(0.30247534,0.77763803){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}load_question(filename)\end{tabular}}}}%
+    \put(0.30247534,0.75148325){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}new_user(name, gender, tele, pw, brief)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{backenduml.pdf}}%
+    \put(0.25819528,0.64670837){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}database\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{backenduml.pdf}}%
+    \put(0.17723997,0.47623517){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}my_sql\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{backenduml.pdf}}%
+    \put(0.01868199,0.43762573){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}database_name\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{backenduml.pdf}}%
+    \put(0.01868199,0.39901627){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Create_Database()\end{tabular}}}}%
+    \put(0.01868199,0.37286148){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Create_table(table_name, columns)\end{tabular}}}}%
+    \put(0.01868199,0.34670668){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Drop_Database()\end{tabular}}}}%
+    \put(0.01868199,0.32055188){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Drop_table(table_name)\end{tabular}}}}%
+    \put(0.01868199,0.29439711){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Update_statistics(info)\end{tabular}}}}%
+    \put(0.01868199,0.26824231){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Update_table(table_name, item)\end{tabular}}}}%
+    \put(0.01868199,0.24208751){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Update_user(info)\end{tabular}}}}%
+    \put(0.01868199,0.21593272){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}execute_sql(sql)\end{tabular}}}}%
+    \put(0.01868199,0.18977793){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}get_data(table_name)\end{tabular}}}}%
+    \put(0.01868199,0.16362313){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}get_data_by_attr(info)\end{tabular}}}}%
+    \put(0.01868199,0.13746835){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}get_sepcific_data_by_attr(info)\end{tabular}}}}%
+    \put(0.01868199,0.11131355){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}get_specific_data(table_name, item)\end{tabular}}}}%
+    \put(0.01868199,0.08515876){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}translate(column_list)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{backenduml.pdf}}%
+    \put(0.66919916,0.3977708){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}question\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{backenduml.pdf}}%
+    \put(0.61652231,0.35916134){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ans\end{tabular}}}}%
+    \put(0.61652231,0.33300654){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}book_id\end{tabular}}}}%
+    \put(0.61652231,0.30685177){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}category\end{tabular}}}}%
+    \put(0.61652231,0.28069697){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}option : list\end{tabular}}}}%
+    \put(0.61652231,0.25454218){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}option_num\end{tabular}}}}%
+    \put(0.61652231,0.22838738){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}question\end{tabular}}}}%
+    \put(0.61652231,0.20223259){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}type\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{backenduml.pdf}}%
+    \put(0.61652231,0.16362313){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}output()\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{backenduml.pdf}}%
+    \put(0.66919916,0.64655268){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}question\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{backenduml.pdf}}%
+    \put(0.87781477,0.4500804){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}test\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{backenduml.pdf}}%
+    \put(0.77431156,0.41147091){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}all : int\end{tabular}}}}%
+    \put(0.77431156,0.38531614){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}answer : dict\end{tabular}}}}%
+    \put(0.77431156,0.35916134){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}category : dict\end{tabular}}}}%
+    \put(0.77431156,0.33300654){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}null : int\end{tabular}}}}%
+    \put(0.77431156,0.30685177){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}questions : dict\end{tabular}}}}%
+    \put(0.77431156,0.28069697){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}questionscategory : dict\end{tabular}}}}%
+    \put(0.77431156,0.25454218){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}right : int\end{tabular}}}}%
+    \put(0.77431156,0.22838738){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}score : int\end{tabular}}}}%
+    \put(0.77431156,0.20223259){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}wrong : int\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{backenduml.pdf}}%
+    \put(0.77431156,0.16362313){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}get_category()\end{tabular}}}}%
+    \put(0.77431156,0.13746835){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}get_stat()\end{tabular}}}}%
+    \put(0.77431156,0.11131355){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}print()\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{backenduml.pdf}}%
+    \put(0.47615188,0.64655268){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}webcrawer\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{backenduml.pdf}}%
+    \put(0.47615188,0.54162215){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}book\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{backenduml.pdf}}%
+    \put(0.38897577,0.50301271){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}author : str\end{tabular}}}}%
+    \put(0.38897577,0.47685789){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}brief : str\end{tabular}}}}%
+    \put(0.38897577,0.45070312){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}category : str\end{tabular}}}}%
+    \put(0.38897577,0.42454835){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}comment_num : int\end{tabular}}}}%
+    \put(0.38897577,0.39839353){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}country : str\end{tabular}}}}%
+    \put(0.38897577,0.37223875){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}douban_bookid : str\end{tabular}}}}%
+    \put(0.38897577,0.34608396){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}frame : str\end{tabular}}}}%
+    \put(0.38897577,0.31992916){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}id : int\end{tabular}}}}%
+    \put(0.38897577,0.29377436){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}isbn : str\end{tabular}}}}%
+    \put(0.38897577,0.26761956){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}link : str\end{tabular}}}}%
+    \put(0.38897577,0.24146479){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}name : str\end{tabular}}}}%
+    \put(0.38897577,0.21530999){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}name_o : str\end{tabular}}}}%
+    \put(0.38897577,0.1891552){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}page : str\end{tabular}}}}%
+    \put(0.38897577,0.1630004){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}price : str\end{tabular}}}}%
+    \put(0.38897577,0.13684561){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}publisher : str\end{tabular}}}}%
+    \put(0.38897577,0.11069082){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}star : float, int\end{tabular}}}}%
+    \put(0.38897577,0.08453602){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}trans : str\end{tabular}}}}%
+    \put(0.38897577,0.05838123){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}year : str\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{backenduml.pdf}}%
+    \put(0.38897577,0.01977178){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}output()\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{backenduml.pdf}}%
+  \end{picture}%
+\endgroup%

@@ -28,7 +28,7 @@
 | :----------- | :------ | :------------- | :------------------------- |
 | Id           | int     | 关联书本的id   |                            |
 | Question     | varchar | 问题           |                            |
-| Type         | int     | 类别           | 0-判断, 1-单选, 2-多选     |
+| Type         | int     | 类别           | 0-判断, 1-单选             |
 | Question_num | int     | 选项数量       |                            |
 | C1           | varchar | 选项1          |                            |
 | C2           | varchar | 选项2          |                            |
@@ -59,12 +59,17 @@
 | Start       | int   | 开始时间(使用unix时间戳) |
 | End         | int   | 结束时间(使用unix时间戳) |
 | Duration    | int   | 答题时长(秒)             |
-| a1          | int   |                          |
-| a2          | int   |                          |
-| a3          | int   |                          |
-| a4          | int   |                          |
-| a5          | int   |                          |
-| questionnum | int   | 问题数量                 |
-| rightnum    | int   | 正确数量                 |
-| wrongnum    | int   | 错误数量                 |
-| emptynum    | int   | 未回答数量               |
+| A1          | int   |                          |
+| A2          | int   |                          |
+| A3          | int   |                          |
+| A4          | int   |                          |
+| A5          | int   |                          |
+| B1          | int   |                          |
+| B2          | int   |                          |
+| B3          | int   |                          |
+| B4          | int   |                          |
+| B5          | int   |                          |
+| Questionnum | int   | 问题数量                 |
+| Rightnum    | int   | 正确数量                 |
+| Wrongnum    | int   | 错误数量                 |
+| Emptynum    | int   | 未回答数量               |
