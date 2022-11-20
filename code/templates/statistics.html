@@ -283,15 +283,17 @@
   <script src="static/js/custom.js"></script>
   <!-- End Google Map -->
 
+  <!--进度条动画-->
   <script>
     $(function(){
       /*$('#start').attr('value')*/
       $("#start").animate({
           width:"100%"   /*传进来*/
       },1000);
-  });
+    });
   </script>
 
+  <!--雷达图动画-->
   <script type="text/javascript">
     //基于准备好的DOM，初始化ECharts图表
     var myChart = echarts.init(document.getElementById("main"));
@@ -312,9 +314,9 @@
                     }
                 },
                 //设置雷达图指示器，指定雷达图中的多个变量
-                indicator: [{ text: '外观', max: 100 },
-                { text: '拍照', max: 100 }, { text: '系统', max: 100 },
-                { text: '性能', max: 100 }, { text: '屏幕', max: 100 }],
+                indicator: [{ text: '人物形象', max: 100 },
+                { text: '作者', max: 100 }, { text: '主旨', max: 100 },
+                { text: '情节', max: 100 }, { text: '细节', max: 100 }],
                 center: ['50%', '40%'], radius: 120  //指定第2个雷达图的位置
             }
         ],
@@ -324,8 +326,9 @@
                 tooltip: { trigger: 'item' },
                 itemStyle: { normal: { areaStyle: { type: 'default' } } },
                 data: [  //设置第2个数据项的具体数据
-                    { value: [75, 90, 90, 65, 75], name: '累计' },
-                    { value: [95, 80, 70, 100, 93], name: '最近' }]
+                    { value: [{{Testscore[0]}}, {{Testscore[1]}}, {{Testscore[2]}}, {{Testscore[3]}}, {{Testscore[4]}}], name: '累计' },
+                    { value: [{{Testscore[5]}}, {{Testscore[6]}}, {{Testscore[7]}}, {{Testscore[8]}}, {{Testscore[9]}}], name: '最近' }]
+
             }]
     };
     //使用刚指定的配置项和数据显示图表

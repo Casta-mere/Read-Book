@@ -42,7 +42,7 @@ def index():
 @search.route('/books', methods=['GET', 'POST'])
 def books():
     books=globals.ctrl.get_book_brief_info()
-    print(books)
+    # print(books)
     return render_template(
         'books.html',
         status=globals.status,
@@ -174,7 +174,8 @@ def statistics():
                 lastDuration=str(data["lastduration"]//60)+"分"+str(data["lastduration"]%60)+"秒",
                 lastAccuracy=int(data["lastscore"]),
                 lastTime=time.strftime("%Y年%m月%d日 %H时%M分%S秒",time.localtime(data["lasttime"])),
-                anytest=globals.anytest
+                anytest=globals.anytest,
+                Testscore=data["scores"]
                 )
 
 # 个人信息    

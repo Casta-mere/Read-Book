@@ -78,8 +78,8 @@ def get_bookpic():
             r = f.readline().strip('\n')
 
 
-c=control.control()
-c.get_user_statistics(1)
+# c=control.control()
+# c.get_user_statistics(1)
 # d=db.my_sql("readbook")
 # d.Create_Database()
 
