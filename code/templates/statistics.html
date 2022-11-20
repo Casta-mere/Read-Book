@@ -24,6 +24,7 @@
   <link href="static/css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="static/css/responsive.css" rel="stylesheet" />
+  <script src="https://cdn.bootcss.com/echarts/4.8.0/echarts.js"></script>
 
 </head>
 
@@ -93,7 +94,7 @@
       <br><br>
       <div class="row">
         <div class="g-container">
-          <div id="start" class="g-progress" style="--progress: 100%"></div>
+          <div id="start" class="g-progress" style="--progress: {{avgAccuracy}}%"></div>
           <!--<progress value="100" max="100" id="start" ></progress>-->     <!--value="{{percentage}}"-->
         </div>
       </div>
@@ -106,13 +107,17 @@
       <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-10" id="avgAcc">用户{{username}}：
-          &emsp;您的测试次数为{{times}}，平均用时{{avgTime}}，平均正确率为{{avgAccuracy}}
+          &emsp;您共测试{{times}}次，平均用时{{avgDuration}}，正确率为{{avgAccuracy}}%。最近一次在{{lastTime}}测试，用时{{lastDuration}}，正确率为{{lastAccuracy}}%。
         </div>
         <!--从这个div获取值-->
         <div class="col-md-1"></div>
       </div>
       <div class="row">
-        <div class="col-md-12">&emsp;</div>
+        <div class="col-md-6">
+          <div id="main" style="width: 400px; height: 400px" class="radar"></div>
+        </div>
+        <div class="col-md-6">
+        </div>
       </div>
       <!--
       <div class="row">
@@ -274,10 +279,50 @@
     $(function(){
       /*$('#start').attr('value')*/
       $("#start").animate({
-          width:"70%"   /*传进来*/
+          width:"100%"   /*传进来*/
       },1000);
   });
   </script>
+
+  <script type="text/javascript">
+    //基于准备好的DOM，初始化ECharts图表
+    var myChart = echarts.init(document.getElementById("main"));
+    //指定图表的配置项和数据
+    var option = {  //指定图表的配置项和数据
+        color: ["rgb(244, 37, 52)", 'rgb(255, 214, 27)'],  //使用自己预定义的颜色
+        backgroundColor: 'rgb(245, 246, 249)',  //rgba设置透明度0.1
+        tooltip: { trigger: 'axis' },  //配置标题组件
+        //配置图例组件
+        legend: { top: '300px', left: 'center', data: ['累计', '最近'] },
+        radar: [  //设置雷达图坐标系组件，只适用于雷达图
+            {
+                nameGap: 3, shape: 'polygon',  //'polygon'|'circle'
+                name: {
+                    textStyle: {
+                        fontSize: 13, color: '#fff', backgroundColor: 'rgb(68, 109, 183)',
+                        borderRadius: 3, padding: [2, 2]
+                    }
+                },
+                //设置雷达图指示器，指定雷达图中的多个变量
+                indicator: [{ text: '外观', max: 100 },
+                { text: '拍照', max: 100 }, { text: '系统', max: 100 },
+                { text: '性能', max: 100 }, { text: '屏幕', max: 100 }],
+                center: ['50%', '40%'], radius: 120  //指定第2个雷达图的位置
+            }
+        ],
+        series: [  //配置数据系列
+            {   //设置第2个数据项：小米与苹果
+                type: 'radar',
+                tooltip: { trigger: 'item' },
+                itemStyle: { normal: { areaStyle: { type: 'default' } } },
+                data: [  //设置第2个数据项的具体数据
+                    { value: [75, 90, 90, 65, 75], name: '累计' },
+                    { value: [95, 80, 70, 100, 93], name: '最近' }]
+            }]
+    };
+    //使用刚指定的配置项和数据显示图表
+    myChart.setOption(option); 
+</script>
 
 </body>
 

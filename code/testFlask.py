@@ -147,21 +147,27 @@ def process():
 
 @search.route('/statistics', methods=['GET', 'POST'])
 def statistics():
-    # globals.stat = 1
-    # if globals.status == 1:
-    #     return render_template(
-    #         "profile.html",
-    #         status=globals.status
-    #     )
-    # if globals.status == 2:
-    return render_template(
-        'statistics.html',
-        status=globals.status,
-        username=globals.User["name"],
-        testRecently=0,
-        timeCost=0,
-        accuracy=0
+    globals.stat = 1
+    if globals.status == 1:
+        return render_template(
+            "profile.html",
+            status=globals.status
         )
+    if globals.status == 2:
+        data = globals.ctrl.get_user_statistics(int(globals.User["id"]))
+        print(data)        
+        print(time.strftime("%Y年%m月%d日 %H时%M分%S秒",time.localtime(data["lasttime"])))
+        return render_template(
+            'statistics.html',
+            status=globals.status,
+            username=globals.User["name"],
+            times=data["count"],
+            avgDuration=str(data["avgduration"]//60)+"分"+str(data["avgduration"]%60)+"秒",
+            avgAccuracy=int(data["avgscore"]),
+            lastDuration=str(data["lastduration"]//60)+"分"+str(data["lastduration"]%60)+"秒",
+            lastAccuracy=int(data["lastscore"]),
+            lastTime=time.strftime("%Y年%m月%d日 %H时%M分%S秒",time.localtime(data["lasttime"]))
+            )
 
 # 个人信息    
 @search.route('/profile', methods=['GET', 'POST'])
@@ -253,15 +259,16 @@ def validation():
                 globals.test = 0
                 return redirect(url_for('test'))
             
-            # elif globals.stat == 1:
-            #     globals.stat = 0
-            #     return redirect(url_for('statistics'))
+            elif globals.stat == 1:
+                globals.stat = 0
+                return redirect(url_for('statistics'))
             
-            return render_template(
-                "index.html",
-                status=globals.status,
-                error=globals.error
-                )
+            else:
+                return render_template(
+                    "index.html",
+                    status=globals.status,
+                    error=globals.error
+                    )
         else:
             globals.error=1
             return render_template(

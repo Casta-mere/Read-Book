@@ -1063,6 +1063,7 @@ pre code {
     flex: 0 0 25%;
     max-width: 25%;
   }
+  
   .col-md-4 {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
@@ -1108,6 +1109,11 @@ pre code {
     flex: 0 0 100%;
     max-width: 100%;
   }
+  /*start*/
+  /* .radar{
+    margin:0 auto;
+  } */
+  /*over*/
   .order-md-first {
     -ms-flex-order: -1;
     order: -1;
