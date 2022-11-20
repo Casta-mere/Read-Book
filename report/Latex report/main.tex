@@ -103,11 +103,11 @@
     池胤杰\textsuperscript{3}
     \\
     \bigskip
-    \textbf{1*} Leader, back-end design and implementation
+    \textbf{1*} Leader, back-end and webcrawer design and implementation
     \\
     \textbf{2} Team member, front-end design and implementation
     \\
-    \textbf{3} Team member, question data collect
+    \textbf{3} Team member, question data collect, data cleaning
     \\
     \bigskip
     %
@@ -125,7 +125,7 @@
 
 Our team's course design is called ``Read-Book'', an Intelligent Knowledge Scouting Assistant. Our work can be roughly devided to these parts:  1. We used webcrawer to gather data of the top 200 rated books from book.douban.com. and store data into database. 2. Based on those 200 books, we developed different ways to collect and generate question about them. 3. Derive templates to pick questions to form questionnaire. 4. Create GUI interface through Web-App. 5. Analysis, assess and evaluate user statistics from multi angles. 6. Implement an Intuitive Data Visualization for user.
 
-We used \emph{Python} as the main programming language. Use \emph{flask} library to manipulate html, css; javascript for front-end, \emph{requests, BeautifulSoup4} library for webcrawing data; and \emph{pymysql} library for back-end programming. For more information, you can click  \href{https://github.com/Casta-mere/Read-Book}{\textbf{\emph{here}}} to view our Github Repository. \\ \vspace{1.0cm}
+We used \emph{Python} as the main programming language. Use \emph{flask} library to manipulate html, css, javascript for front-end; \emph{requests, BeautifulSoup4} library for webcrawing data; and \emph{pymysql} library for back-end programming. For more information, you can click  \href{https://github.com/Casta-mere/Read-Book}{\textbf{\emph{here}}} to view our Github Repository and click \href{http://47.116.46.195/}{\textbf{\emph{here}}} to view our product page. \\ \vspace{1.0cm}
 
 Key words: Python, Webcrawer, Question/Questionnaire Generating, Object-Orinted Programming, Web--App
 
@@ -141,23 +141,27 @@ Key words: Python, Webcrawer, Question/Questionnaire Generating, Object-Orinted 
 
 \begin{table}[H]
     \centering
-    \caption{课题执行(文档修订)记录表}
-    \setlength{\tabcolsep}{9mm}{
+    \caption{课题执行(文档修订)记录表(按姓氏拼音顺序排列)}
+    \setlength{\tabcolsep}{4mm}{
         \begin{tabular}{|c|c|c|c|c|}
             \hline
-            日期       & 版本 & 修订内容             & 执行人 & 修订人 \\
+            日期       & 版本 & 修订内容             & 执行人                 & 修订人                 \\
             \hline
-            2022.11.06 & 1.0  & 分析需求             & 王旭刚 & 韦杨婧 \\
+            2022.11.06 & 1.0  & 分析需求             & 池胤杰、王旭刚、韦杨婧 & 王旭刚 \\
             \hline
-            2022.11.16 & 2.1  & 修改README           & 王旭刚 & 韦杨婧 \\
+            2022.11.07 & 1.1  & 系统框架设计         & 池胤杰、王旭刚、韦杨婧 & 王旭刚 \\
             \hline
-            2022.11.17 & 2.2  & 完善摘要             & 王旭刚 & 王旭刚 \\
+            2022.11.08 & 1.2  & 用户、书籍数据库设计 & 王旭刚、韦杨婧         & 韦杨婧         \\
             \hline
-            2022.11.17 & 2.3  & 问题数据增加至前29本 & 池胤杰 & 王旭刚 \\
+            2022.11.16 & 2.1  & 修改README           & 王旭刚                 & 韦杨婧                 \\
             \hline
-            2022.11.18 & 3.1  & 成功在服务器部署     & 王旭刚 & 韦杨婧 \\
+            2022.11.17 & 2.2  & 完善摘要             & 王旭刚                 & 王旭刚                 \\
             \hline
-            2022.11.19 & 3.2  & 问题数据增加至200本  & 池胤杰 & 王旭刚 \\
+            2022.11.17 & 2.3  & 问题数据增加至前29本 & 池胤杰                 & 王旭刚                 \\
+            \hline
+            2022.11.18 & 3.1  & 成功在服务器部署     & 王旭刚                 & 韦杨婧                 \\
+            \hline
+            2022.11.19 & 3.2  & 问题数据增加至200本  & 池胤杰                 & 王旭刚                 \\
             \hline
         \end{tabular}}
 
@@ -182,8 +186,32 @@ Key words: Python, Webcrawer, Question/Questionnaire Generating, Object-Orinted 
 \section{系统设计}
 \subsection{概要设计}
 \subsubsection{系统框架设计}
+
+本项目为一个基于python的web应用，主要由前端和后端组成，前端主要负责用户界面的展示，后端主要负责数据的处理和存储。前端使用使用flask框架，同时使用html、css、javascript，后端使用python语言，数据库使用mysql。
+
+在书籍数据，问题数据获取方面，使用了python的requests、selenium库，通过爬虫的方式获取数据，再使用BeautifulSoup4、re等库进行数据处理与清洗，最后后使用python的pymysql库将数据存储到mysql数据库中。
+
+在后端的全部设计中，我们在动手前先进行了讨论，确定了我们的系统的架构，以及各个模块的功能，最后确定了我们的系统的框架图，如图所示，整体体现了面向对象的设计思想。
+%  \ref{fig:fig1}所示。
+
 \subsubsection{系统功能设计}
+
+经过需求分析和头脑风暴过后，我们共同确定了我们的系统的功能：
+\begin{itemize}
+    \item 书籍/问题数据的获取
+    \item 用户注册
+    \item 用户登录/登出
+    \item 全部书籍信息概览
+    \item 书籍信息测试(按照多种方式：按照书籍、按照题目类型、全部题库随机抽样等)
+    \item 测试结果分析以及可视化展示
+\end{itemize}
+
 \subsection{功能设计}
+
+
+
+
+
 \subsubsection{功能1}
 \subsubsection{功能2}
 \subsection{数据库设计}
@@ -227,9 +255,9 @@ Key words: Python, Webcrawer, Question/Questionnaire Generating, Object-Orinted 
         \hline
         Link          & 链接        & varchar & \Checkmark   & \Checkmark   \\
         \hline
-        Name o        & 原作名      & varchar & \XSolid      & \Checkmark   \\
+        Name o        & 原作名      & varchar & \XSolidBrush      & \Checkmark   \\
         \hline
-        Trans         & 译者        & varchar & \XSolid      & \Checkmark   \\
+        Trans         & 译者        & varchar & \XSolidBrush      & \Checkmark   \\
         \hline
     \end{tabular}
 
