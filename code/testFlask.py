@@ -114,10 +114,7 @@ def testSelected():
         test=globals.ctrl.get_question_by_category(testType)
     globals.ques=test
     globals.starttime=int(time.time())
-    return render_template(
-        "index.html",
-        status=globals.status
-    )
+    return redirect(url_for('index'))
  
 # 正式测试
 @search.route('/testStart', methods=['GET', 'POST'])
@@ -153,12 +150,7 @@ def submit():
     returnData.update({"questionnum":len(globals.ques)})
     globals.ctrl.check(returnData)
 
-    return render_template(
-        "index.html",
-        status=globals.status,
-        test=test,
-        choice=choice
-    )
+    return redirect(url_for('index'))
 
 # 处理数据
 @search.route('/process', methods=['GET', 'POST'])
@@ -291,32 +283,40 @@ def validation():
     id=request.form.get('id')
     temp=globals.ctrl.get_user_info_by_id(id)
     try:
+        # 是否输对密码
         if temp[4]==pw:
             globals.User={"id":temp[0],"name":temp[1],"gender":temp[2],"tele":temp[3],"pw":temp[4],"brief":temp[5]}
             globals.status = 2
-            
+
+            # 如果从test栏进入，返回test界面
             if globals.test == 1:
                 globals.test = 0
                 return redirect(url_for('test'))
             
+            # 如果从stat栏进入，返回stat界面
             elif globals.stat == 1:
                 globals.stat = 0
                 return redirect(url_for('statistics'))
             
+            # 否则返回首页
             else:
-                return render_template(
-                    "index.html",
-                    status=globals.status,
-                    error=globals.error
-                    )
+                try:
+                    return redirect(url_for('index'))
+                except:
+                    return redirect(url_for('login'))
+
+        # 输错密码
         else:
+            print(2)
             globals.error=1
             return render_template(
                 "profile.html",
                 status=globals.status,
                 error=globals.error
                 )
+    # 没输入密码
     except:
+        print(3)
         globals.error=1
         return render_template(
             "profile.html",
@@ -328,10 +328,7 @@ def validation():
 @search.route("/logout",methods=['GET', 'POST'])
 def logout():
     globals.status=1
-    return render_template(
-        "index.html",
-        status=globals.status
-    )  
+    return redirect(url_for('index'))
   
 def run():
     search.run(debug=True)
