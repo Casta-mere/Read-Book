@@ -24,6 +24,7 @@
     \usepackage{bbding}
     \usepackage{hyperref}
     \usepackage{texnames}
+    \usepackage{amssymb}
     %%%%% MACROS %%%%%%
     \algrenewcommand\Return{\State \algorithmicreturn{} }
     \algnewcommand{\LineComment}[1]{\State \(\triangleright\) #1}
@@ -97,14 +98,12 @@
 \begin{itemize}
     \item Python 3.10
     \item Mysql server 8.0.26
-    \item Python packages:
-          \begin{itemize}
-              \item flask
-              \item pymysql
-              \item cryptography
-              \item Beautifulsoup4
-              \item requests
-          \end{itemize}
+    \item Python packages:\\
+          flask
+          , pymysql
+          , cryptography
+          , Beautifulsoup4
+          , requests
 \end{itemize}
 
 \section{项目部署}
@@ -120,12 +119,28 @@
           pip install requests\\
 
 \end{enumerate}
-\subsection{准备操作}
-注意：在当前文件夹(Read-Book文件夹)下使用Vscode(或者你自己的Python IDE)打开文件夹
+\subsection{项目部署}
+\begin{enumerate}
+    \item 如图1所示，在当前文件夹(Read-Book文件夹)下使用Vscode(或者你自己的Python IDE)打开文件夹
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\columnwidth]{figures/zstu-logo.png}
-\end{figure}
+          \begin{figure}[H]
+              \centering
+              \includegraphics[width=0.35\columnwidth]{figures/fileopen.png}
+              \caption{IDE打开文件夹(图为Visual Studio Code)}
+          \end{figure}
+    \item 打开 code-database-Databaseconn.py, 修改数据库host, user, password为你自己的信息
+
+          \begin{figure}[H]
+              \centering
+              \includegraphics[width=0.9\columnwidth]{figures/sql.png}
+              \caption{修改数据库信息}
+          \end{figure}
+    \item 直接运行code文件夹下的main.py
+          \begin{figure}[H]
+              \centering
+              \includegraphics[width=1\columnwidth]{figures/demo.png}
+              \caption{运行成功~可以开香槟了}
+          \end{figure}
+\end{enumerate}
 
 \end{document}
