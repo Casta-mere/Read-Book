@@ -1,0 +1,90 @@
+    \documentclass[twoside,11pt]{article}
+    %%%%% PACKAGES %%%%%%
+    \usepackage{ctex}
+    \usepackage{pgm2016}
+    \usepackage{amsmath}
+    \usepackage{algorithm}
+    \usepackage[noend]{algpseudocode}
+    \usepackage{subcaption}
+    \usepackage[english]{babel}	
+    \usepackage{paralist}	
+    \usepackage[lowtilde]{url}
+    \usepackage{fixltx2e}
+    \usepackage{listings}
+    \usepackage{color}
+    \usepackage{enumerate}
+    \usepackage{booktabs}
+    \usepackage{multicol}
+    \usepackage{auto-pst-pdf}
+    \usepackage{pst-all}
+    \usepackage{pstricks-add}
+	\usepackage{comment}
+	\usepackage{fancybox}
+    \usepackage[hidelinks]{hyperref}
+    \usepackage{bbding}
+    \usepackage{hyperref}
+    \usepackage{texnames}
+    %%%%% MACROS %%%%%%
+    \algrenewcommand\Return{\State \algorithmicreturn{} }
+    \algnewcommand{\LineComment}[1]{\State \(\triangleright\) #1}
+    \renewcommand{\thesubfigure}{\roman{subfigure}}
+    \definecolor{codegreen}{rgb}{0,0.6,0}
+    \definecolor{codegray}{rgb}{0.5,0.5,0.5}
+    \definecolor{codepurple}{rgb}{0.58,0,0.82}
+    \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+    \lstdefinestyle{mystyle}{
+       backgroundcolor=\color{backcolour},  
+       commentstyle=\color{codegreen},
+       keywordstyle=\color{magenta},
+       numberstyle=\tiny\color{codegray},
+       stringstyle=\color{codepurple},
+       basicstyle=\footnotesize,
+       breakatwhitespace=false,        
+       breaklines=true,                
+       captionpos=b,                    
+       keepspaces=true,                
+       numbers=left,                    
+       numbersep=5pt,                  
+       showspaces=false,                
+       showstringspaces=false,
+       showtabs=false,                  
+       tabsize=2
+    }
+    \lstset{style=mystyle}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\newcommand\courseName{Programming in Python}
+\newcommand\semester{Fall 2022}
+\newcommand\assignmentNumber{1}
+\newcommand\studentName{韦杨婧}
+\newcommand\studentEmail{Email:today.Projekt.red@gmail.com}
+\newcommand\studentNumber{2020329621199}
+\newcommand\projectname{Read-Book ``智能知识侦查助手''}
+\newcommand\studentClass{计算机科学与技术全英文授课班20(1)}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\newenvironment{boxedlaw}[1]
+{\begin{Sbox}\begin{minipage}{#1}\setcounter{mpfootnote}{\value{footnote}}}
+		{\end{minipage}\end{Sbox}\begin{center}\shadowbox{\TheSbox}
+		\setcounter{footnote}{\value{mpfootnote}}\end{center}}
+
+\renewcommand*\thempfootnote{\fnsymbol{mpfootnote}}
+
+
+
+\ShortHeadings{Coursework of ZSTU - \courseName}{\projectname}
+
+\begin{document}
+\title{\Huge Python 程序设计 --- 个人总结报告 \\ \huge Read-Book ``智能知识侦查助手''(9) }
+
+\author{\name \studentName \email \studentEmail \\
+    \studentNumber \class  \studentClass
+}
+
+\maketitle
+
+\section{个人工作介绍}
+\section{团队评价}
+\section{个人总结}
+\end{document}

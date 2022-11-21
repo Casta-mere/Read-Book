@@ -1,0 +1,100 @@
+    \documentclass[twoside,11pt]{article}
+    %%%%% PACKAGES %%%%%%
+    \usepackage{ctex}
+    \usepackage{pgm2016}
+    \usepackage{amsmath}
+    \usepackage{algorithm}
+    \usepackage[noend]{algpseudocode}
+    \usepackage{subcaption}
+    \usepackage[english]{babel}	
+    \usepackage{paralist}	
+    \usepackage[lowtilde]{url}
+    \usepackage{fixltx2e}
+    \usepackage{listings}
+    \usepackage{color}
+    \usepackage{enumerate}
+    \usepackage{booktabs}
+    \usepackage{multicol}
+    \usepackage{auto-pst-pdf}
+    \usepackage{pst-all}
+    \usepackage{pstricks-add}
+	\usepackage{comment}
+	\usepackage{fancybox}
+    \usepackage[hidelinks]{hyperref}
+    \usepackage{bbding}
+    \usepackage{hyperref}
+    \usepackage{texnames}
+    %%%%% MACROS %%%%%%
+    \algrenewcommand\Return{\State \algorithmicreturn{} }
+    \algnewcommand{\LineComment}[1]{\State \(\triangleright\) #1}
+    \renewcommand{\thesubfigure}{\roman{subfigure}}
+    \definecolor{codegreen}{rgb}{0,0.6,0}
+    \definecolor{codegray}{rgb}{0.5,0.5,0.5}
+    \definecolor{codepurple}{rgb}{0.58,0,0.82}
+    \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+    \lstdefinestyle{mystyle}{
+       backgroundcolor=\color{backcolour},  
+       commentstyle=\color{codegreen},
+       keywordstyle=\color{magenta},
+       numberstyle=\tiny\color{codegray},
+       stringstyle=\color{codepurple},
+       basicstyle=\footnotesize,
+       breakatwhitespace=false,        
+       breaklines=true,                
+       captionpos=b,                    
+       keepspaces=true,                
+       numbers=left,                    
+       numbersep=5pt,                  
+       showspaces=false,                
+       showstringspaces=false,
+       showtabs=false,                  
+       tabsize=2
+    }
+    \lstset{style=mystyle}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\newcommand\courseName{Programming in Python}
+\newcommand\semester{Fall 2022}
+\newcommand\assignmentNumber{1}
+\newcommand\studentName{王旭刚}
+\newcommand\studentEmail{Email:castamerego@gmail.com}
+\newcommand\studentNumber{2020329621074}
+\newcommand\projectname{Read-Book ``智能知识侦查助手''}
+\newcommand\studentClass{计算机科学与技术全英文授课班20(1)}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\newenvironment{boxedlaw}[1]
+{\begin{Sbox}\begin{minipage}{#1}\setcounter{mpfootnote}{\value{footnote}}}
+		{\end{minipage}\end{Sbox}\begin{center}\shadowbox{\TheSbox}
+		\setcounter{footnote}{\value{mpfootnote}}\end{center}}
+
+\renewcommand*\thempfootnote{\fnsymbol{mpfootnote}}
+
+
+
+\ShortHeadings{Coursework of ZSTU - \courseName}{\projectname}
+
+\begin{document}
+\title{\Huge Python 程序设计 --- 个人总结报告 \\ \huge Read-Book ``智能知识侦查助手''(9) }
+
+\author{\name \studentName \email \studentEmail \\
+    \studentNumber \class  \studentClass
+}
+
+\maketitle
+
+\section{个人工作介绍}
+本人在项目中的主要职责为豆瓣书籍信息爬取，后端设计与实现，项目的服务器部署。
+
+\section{团队评价}
+作为组长，我认为我们组的合作较好。从前期的前后端、数据库设计，到后面的头脑风暴讨论，我们都有较好的合作。我们使用了git来同步进度，在github仓库里面记录了我们遇到的问题，找到的解决方式。两名组员中，韦杨婧同学负责前端设计，池胤杰同学负责书籍问题信息的搜集与清洗，作为后端的负责人，我需要与他们沟通好需要的数据以及提供需要提供的接口，在短短几周内，我们有着超过140条commit记录。在项目推进的全程中，三名同学都十分积极主动，热情高涨。
+
+\section{个人总结}
+在做本次项目中收获了很多，在中期的一次讨论中我们想到了把最后的成品如果部署到服务器上，可以通过公网ip直接访问的话，将非常酷炫，我也是经过了很多天的折磨，debug才最终实现了。
+
+Python所拥有的多种库，从前端的flask到后端的pymysql，再到爬虫的beautifulsoup4，他体现着一种方便、便捷的思想，你不需要搞清楚底层的实现逻辑，而可以专注于自己的设计。比如在部署到服务器的时候，flask甚至可以直接开放至127.0.0.0:80 以便http请求的处理。
+
+
+本次做项目中，我们都尝试了很多新的事情，git，\LaTeX，Linux的使用。带给了我们几个对于格式化论文撰写，多人协作coding，服务器使用的经验，在将来课程设计、毕业设计、甚至是工作中都是用得上的。
+\end{document}
