@@ -23,13 +23,16 @@
 
 ## 文件描述
 
-| 文件名       | 文件描述                                 |
-| :----------- | :--------------------------------------- |
-| database     | 数据库相关                               |
-| question     | 问题相关                                 |
-| static       | 样式(css)及图片                          |
-| templates    | HTML相关                                 |
-| webcrawer    | 爬虫相关                                 |
-| control.py   | 控制类, 对前后端, 爬虫等进行封装后的使用 |
-| main.py      | 总接入口                                 |
-| testFlask.py | 前端的接入口                             |
+| 文件名          | 文件描述                                 |
+| :-------------- | :--------------------------------------- |
+| database        | 数据库相关                               |
+| question        | 问题相关                                 |
+| static          | 样式(css)及图片                          |
+| templates       | HTML相关                                 |
+| webcrawer       | 爬虫相关                                 |
+| control.py      | 控制类, 对前后端, 爬虫等进行封装后的使用 |
+| main.py         | 本地运行                                 |
+| reset_server.py | 重置服务器端数据                         |
+| reset.py        | 重置本地端数据                           |
+| server.py       | 服务器运行                               |
+| testFlask.py    | 前端的接入口                             |
