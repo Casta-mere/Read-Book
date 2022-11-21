@@ -1,0 +1,21 @@
+digraph "classes_Pyreverse" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{control|database\luser_id : list\l|check(info)\lget_all_user_id()\lget_book_brief_info()\lget_book_detail_info(id)\lget_question_by_bookid(bookid)\lget_question_by_category(category)\lget_question_random()\lget_user_info_by_id(id)\lget_user_statistics(userid)\lload_question(filename)\lnew_user(name, gender, tele, pw, brief)\l}", shape="record"];
+"1" [label="{database}", shape="record"];
+"2" [label="{my_sql|database_name\l|Create_Database()\lCreate_table(table_name, columns)\lDrop_Database()\lDrop_table(table_name)\lUpdate_statistics(info)\lUpdate_table(table_name, item)\lUpdate_user(info)\lexecute_sql(sql)\lget_data(table_name)\lget_data_by_attr(info)\lget_sepcific_data_by_attr(info)\lget_specific_data(table_name, item)\ltranslate(column_list)\l}", shape="record"];
+"3" [label="{question|ans\lbook_id\lcategory\loption : list\loption_num\lquestion\ltype\l|output()\l}", shape="record"];
+"4" [label="{test|all : int\lanswer : dict\lcategory : dict\lnull : int\lquestions : dict\lquestionscategory : dict\lright : int\lscore : int\lwrong : int\l|get_category()\lget_stat()\lprint()\l}", shape="record"];
+"5" [label="webcrawer", shape="box"];
+"6" [label="{book|author : str\lbrief : str\lcategory : str\lcomment_num : int\lcountry : str\ldouban_bookid : str\lframe : str\lid : int\lisbn : str\llink : str\lname : str\lname_o : str\lpage : str\lprice : str\lpublisher : str\lstar : float, int\ltrans : str\lyear : str\l|output()\l}", shape="record"];
+"7"[label="question", shape="box"];
+
+"2" -> "1" [arrowhead="open", arrowtail="none"];
+"1" -> "0" [arrowhead="open", arrowtail="none"];
+"3" -> "7" [arrowhead="open", arrowtail="none"];
+"4" -> "7" [arrowhead="open", arrowtail="none"];
+"6" -> "5" [arrowhead="open", arrowtail="none"];
+"5" -> "0" [arrowhead="open", arrowtail="none"];
+"7" -> "0" [arrowhead="open", arrowtail="none"];
+
+}
