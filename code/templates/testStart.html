@@ -39,7 +39,15 @@
                 $(this).attr('name','li-selected');
             });
         }); 
-        </script>
+    </script>
+
+    <script type="text/javascript">
+      $(function(){  
+          $("#whole a").click(function() {
+              {%set whole=1%}
+          });
+      }); 
+  </script>
         
   <div class="hero_area">
     <!-- header section strats -->
@@ -167,36 +175,36 @@
         <!-- 题数-1 -->
         {%if whole == 0%}
           {%if i == length-1%}
-          <br><br>
+            <br><br>
+            <div class="btn-box">
+              <!--a标签的样式已经被改成跟button差不多的玩意儿了-->
+              <a href="#s{{i}}">上一题</a>
+              <div>&emsp;</div>
+              <!--整卷阅览需要把所有的上下题按钮藏起来-->
+              <a href="#s1" id="whole">整卷阅览</a>
+              <div>&emsp;</div>
+              <a onclick="sub()">提交</a>
+            </div>
+          <!-- i>0, i<题数-1 -->
+          {%elif i>0 and i<length-1%}
+            <div class="btn-box">
+              <!--a标签的样式已经被改成跟button差不多的玩意儿了-->
+              <a href="#s{{i}}">上一题</a>
+              <div>&emsp;</div>
+              <a href="#s{{i+2}}">下一题</a>
+            </div>
+          {%else%}
+            <div class="btn-box">
+              <a href="#s{{i+2}}">下一题</a>
+            </div>
+          {%endif%}
+        {%elif whole == 1 and i == length-1%}
           <div class="btn-box">
-            <!--a标签的样式已经被改成跟button差不多的玩意儿了-->
-            <a href="#s{{i}}">上一题</a>
-            <div>&emsp;</div>
-            <!--整卷阅览需要把所有的上下题按钮藏起来-->
-            <a href="#s1">整卷阅览</a>
+            <a href="#s1" id="whole">整卷阅览</a>
             <div>&emsp;</div>
             <a onclick="sub()">提交</a>
           </div>
-          <!-- i>0, i<题数-1 -->
-          {%elif i>0 and i<length-1%}
-          <div class="btn-box">
-            <!--a标签的样式已经被改成跟button差不多的玩意儿了-->
-            <a href="#s{{i}}">上一题</a>
-            <div>&emsp;</div>
-            <a href="#s{{i+2}}">下一题</a>
-          </div>
-          {%else%}
-          <div class="btn-box">
-            <a href="#s{{i+2}}">下一题</a>
-          </div>
-          {%endif%}
-        {%elif whole == 1 and i == length-1%}
-        <div class="btn-box">
-          <a href="#s1">整卷阅览</a>
-          <div>&emsp;</div>
-          <a onclick="sub()">提交</a>
         {%endif%}
-      </div>
     </div>
   </section>
   {%endfor%}

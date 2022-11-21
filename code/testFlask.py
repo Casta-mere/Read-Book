@@ -102,23 +102,6 @@ def testStart():
         length=len(globals.ques)
     )
 
-# 整卷阅览
-@search.route('/testLook', methods=['GET', 'POST'])
-def testLook():
-    whole=1
-    head=['A','B','C','D']
-    # 在这里就把选项都摘出来    
-    # for item in returnData["choice"]:
-    #     item = item.split(".")[1].rstrip()
-    
-    return render_template(
-        "testStart.html",
-        status=globals.status,
-        test=globals.ques,
-        head=head,
-        whole=whole
-    )
-
 # 提交
 @search.route('/submit', methods=['GET', 'POST'])
 def submit():
