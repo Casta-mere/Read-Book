@@ -67,14 +67,9 @@ def bookDetail(id):
 
 # 测试界面
 @search.route('/test', methods=['GET', 'POST'])
-def test():
-    globals.test=1
-    test=globals.ctrl.get_question_random()
-    # test=globals.ctrl.get_question_by_category("mian")
-    # test=globals.ctrl.get_question_by_bookid(183)
-    globals.ques=test
-    globals.starttime=int(time.time())
+def test(): 
     if globals.status == 1:
+        globals.test=1
         return render_template(
             "profile.html",
             status=globals.status
@@ -85,12 +80,27 @@ def test():
             status=globals.status,
             )
 
+@search.route('/testSelected', methods=['GET', 'POST'])
+def testSelected():
+    data=json.loads(list(request.args.to_dict().keys())[0])
+    testType=data["selected"][0]
+    if testType=="random":
+        test=globals.ctrl.get_question_random()
+    else:
+        test=globals.ctrl.get_question_by_category(testType)
+    # test=globals.ctrl.get_question_by_bookid(183)
+    globals.ques=test
+    globals.starttime=int(time.time())
+    
+    return render_template(
+        "index.html",
+        status=globals.status
+    )
+    
+
 # 正式测试
 @search.route('/testStart', methods=['GET', 'POST'])
 def testStart():
-    # con=json.loads(request.get_json())
-    # print(1)
-    # print(con["choice"])
     whole=0
     head=['A','B','C','D']
     return render_template(

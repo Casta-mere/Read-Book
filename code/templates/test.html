@@ -34,6 +34,8 @@
       $(".img-box").click(function(){
         $(".img-box").removeClass('selected');  
         $(this).addClass('selected'); 
+        $(".img-box").removeAttr("name");  
+        $(this).attr('name','selected'); 
       });
   });
   </script>
@@ -107,7 +109,7 @@
         <div class="row">
           <div class="col-sm-6 col-md-4 ">
             <div class="box ">
-              <div class="img-box selected">
+              <div class="img-box selected" value="random">
                 <img src="/static/images/cat1.png" alt="">
               </div>
               <div class="detail-box">
@@ -119,7 +121,7 @@
           </div>
           <div class="col-sm-6 col-md-4 ">
             <div class="box ">
-              <div class="img-box">
+              <div class="img-box" value="figure">
                 <img src="/static/images/cat2.png" alt="">
               </div>
               <div class="detail-box">
@@ -131,7 +133,7 @@
           </div>
           <div class="col-sm-6 col-md-4 ">
             <div class="box ">
-              <div class="img-box">
+              <div class="img-box" value="writer">
                 <img src="/static/images/cat3.png" alt="">
               </div>
               <div class="detail-box">
@@ -143,7 +145,7 @@
           </div>
           <div class="col-sm-6 col-md-4 ">
             <div class="box ">
-              <div class="img-box">
+              <div class="img-box" value="main">
                 <img src="/static/images/cat4.png" alt="">
               </div>
               <div class="detail-box">
@@ -155,7 +157,7 @@
           </div>
           <div class="col-sm-6 col-md-4 ">
             <div class="box ">
-              <div class="img-box">
+              <div class="img-box" value="content">
                 <img src="/static/images/cat5.png" alt="">
               </div>
               <div class="detail-box">
@@ -167,7 +169,7 @@
           </div>
           <div class="col-sm-6 col-md-4 ">
             <div class="box ">
-              <div class="img-box">
+              <div class="img-box" value="detail">
                 <img src="/static/images/cat6.png" alt="">
               </div>
               <div class="detail-box">
@@ -181,7 +183,7 @@
         <div class="catagory_container">
           <div class="btn-box">
             <!--a标签的样式已经被改成跟button差不多的玩意儿了-->
-            <a href="/testStart">开始测试</a>
+            <a onclick="selected()">开始测试</a>
           </div>
         </div>
       </div>
@@ -283,6 +285,25 @@
   <script>
     function subscribe() {
       alert("Subscribe Success!");
+    }
+  </script>
+
+  <script>
+    function selected() {
+      var arr1 = [];
+      $(".selected").each(function(){
+        var va1 = $(this).attr('value');
+        arr1.push(va1);
+      });
+      if (arr1.length == 0) {
+        alert("Please select one category!");
+      } else {
+        $.get('/testSelected', JSON.stringify({"selected":arr1}), function(data){
+          alert("提交成功！");$(window).attr("location","/testStart");
+        },"text");
+      }
+
+      
     }
   </script>
 
