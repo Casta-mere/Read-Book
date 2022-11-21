@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 130,
         "Question": "《国史大纲》的作者是钱穆。",
         "Type": 1,
         "Options": [
@@ -24,7 +24,7 @@
         "Category": "writer"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 130,
         "Question": "《国史大纲》是中国近代历史学家钱穆所撰写的一本通史性论著，著于抗日战争时期。",
         "Type": 1,
         "Options": [
@@ -35,7 +35,7 @@
         "Category": "writer"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 130,
         "Question": "钱穆任北京大学历史系教授，在战火纷飞中随国立西南联合大学辗转大半个中国。",
         "Type": 1,
         "Options": [
@@ -46,7 +46,7 @@
         "Category": "writer"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 130,
         "Question": "在云南昆明岩泉寺，钱穆开始将主要精力放在了中国通史的考证与写作之上。",
         "Type": 1,
         "Options": [
@@ -57,7 +57,7 @@
         "Category": "writer"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 130,
         "Question": "生活的窘困、物资的紧缺以及内忧外患的状况都使钱穆将对中国命运的思考贯穿于了全书始末。",
         "Type": 1,
         "Options": [

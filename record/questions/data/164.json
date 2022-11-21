@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 164,
         "Question": "《天朝的崩溃》的作者是茅海建。",
         "Type": 1,
         "Options": [
@@ -24,7 +24,7 @@
         "Category": "writer"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 164,
         "Question": "《天朝的崩溃》主要讲述了与鸦片战争相关的史实。",
         "Type": 1,
         "Options": [
@@ -35,7 +35,7 @@
         "Category": "content"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 164,
         "Question": "《天朝的崩溃》是作者系统研究鸦片战争十余年所得的成果。",
         "Type": 1,
         "Options": [
@@ -46,7 +46,7 @@
         "Category": "writer"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 164,
         "Question": "茅海建详尽考订了与战争相关的一系列重要史实，力图以当时的道德观念、思维方式与行为规范去理解历史，使许多在今人看来是荒谬的现象得以显示其在当时环境中的“合理性”。",
         "Type": 1,
         "Options": [
@@ -57,7 +57,7 @@
         "Category": "writer"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 164,
         "Question": "《天朝的崩溃》的研究可谓推陈出新，作者一系列独到创见可能在学术界引起争议，相信这种争议将有助于深化中国近代史研究。",
         "Type": 1,
         "Options": [

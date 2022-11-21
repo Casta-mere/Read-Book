@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 144,
         "Question": "《德米安》的作者是赫尔曼·黑塞。",
         "Type": 1,
         "Options": [
@@ -24,7 +24,7 @@
         "Category": "writer"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 144,
         "Question": "《德米安》讲述了少年辛克莱寻找通向自身之路的艰辛历程。",
         "Type": 1,
         "Options": [
@@ -35,7 +35,7 @@
         "Category": "content"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 144,
         "Question": "《德米安》中塑造的是一个深入内心寻找自我的个体。",
         "Type": 1,
         "Options": [
@@ -46,7 +46,7 @@
         "Category": "main"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 144,
         "Question": "在《德米安》中，黑塞通过主人公辛克莱在类似精神导师的德米安、皮斯托里乌斯、夏娃等人指导下，展示了他“争取个性化，争取成为人的斗争”的过程和人生选择的艰难性。",
         "Type": 1,
         "Options": [
@@ -57,7 +57,7 @@
         "Category": "figure"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 144,
         "Question": "《德米安》，换成向内的维度，开启了“通向内在之路”。",
         "Type": 1,
         "Options": [

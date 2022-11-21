@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 119,
         "Question": "在《王尔德童话》中，快乐王子是立在石柱上的( )。",
         "Type": 2,
         "Options": [
@@ -25,7 +25,7 @@
         "Category": "detail"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 119,
         "Question": "在《王尔德童话》中，夜莺为了帮助年轻的学生,用自己的( )和( )让红玫瑰开放。",
         "Type": 2,
         "Options": [
@@ -37,7 +37,7 @@
         "Category": "detail"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 119,
         "Question": "在《王尔德童话》中，巨人的花园中有( )。",
         "Type": 2,
         "Options": [
@@ -49,7 +49,7 @@
         "Category": "detail"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 119,
         "Question": "在《王尔德童话》中，贪婪的磨坊主每天都叫汉斯做事情,最后,汉斯因为黑夜去( )没有灯而被淹死了。",
         "Type": 2,
         "Options": [
@@ -61,7 +61,7 @@
         "Category": "detail"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 119,
         "Question": "在《王尔德童话》中，少年国王心疼百姓,穿着破烂的衣服,用( )完成一个圆环戴在头上。",
         "Type": 2,
         "Options": [

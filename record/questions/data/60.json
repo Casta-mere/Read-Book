@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 60,
         "Question": "曾评价《史记》为“史家之绝唱,无韵之离骚”的人是:",
         "Type": 2,
         "Options": [
@@ -26,7 +26,7 @@
         "Category": "anecdote"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 60,
         "Question": "在《史记》中，成语“破釜沉舟”讲的是谁的故事（ ）",
         "Type": 2,
         "Options": [
@@ -39,7 +39,7 @@
         "Category": "content"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 60,
         "Question": "在《史记》中，“运筹帷幄之中,决胜千里之外”讲的著名历史人物是（ ）",
         "Type": 2,
         "Options": [
@@ -52,7 +52,7 @@
         "Category": "content"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 60,
         "Question": "在《史记》中，“烽火戏诸侯”故事中讲到的昏君是（ ）",
         "Type": 2,
         "Options": [
@@ -65,7 +65,7 @@
         "Category": "content"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 60,
         "Question": "在《史记》中，中国历史上第一个皇帝是( )",
         "Type": 2,
         "Options": [

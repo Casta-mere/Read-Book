@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 55,
         "Question": "故事《金鹅》中的小傻瓜是从( )得到金鹅的。",
         "Type": 2,
         "Options": [
@@ -26,7 +26,7 @@
         "Category": "detail"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 55,
         "Question": "故事《睡美人》中睡美人沉睡了年后被王子救出?",
         "Type": 2,
         "Options": [
@@ -39,7 +39,7 @@
         "Category": "detail"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 55,
         "Question": "下列童话故事不是选自《格林童话》的是（ ）",
         "Type": 2,
         "Options": [
@@ -52,7 +52,7 @@
         "Category": "detail"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 55,
         "Question": "《小红帽》中,是( )救了小红帽和她的外婆。",
         "Type": 2,
         "Options": [
@@ -65,7 +65,7 @@
         "Category": "detail"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 55,
         "Question": "《灰姑娘》中人们叫灰姑娘为“灰姑娘”,是因为( )",
         "Type": 2,
         "Options": [

@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 106,
         "Question": "在《鹿鼎记》中，“秦失其鹿,天下共逐之”是何书上的记载?",
         "Type": 2,
         "Options": [
@@ -26,7 +26,7 @@
         "Category": "detail"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 106,
         "Question": "在《鹿鼎记》中，“天下兴亡,匹夫有责”出自何人之口?",
         "Type": 2,
         "Options": [
@@ -39,7 +39,7 @@
         "Category": "detail"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 106,
         "Question": "在《鹿鼎记》中，湖州庄家花了几千两银子,从哪位相国后人将明史原稿买了下来?",
         "Type": 2,
         "Options": [
@@ -52,7 +52,7 @@
         "Category": "detail"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 106,
         "Question": "在《鹿鼎记》中，文房四宝中,湖州以产何物著名?",
         "Type": 2,
         "Options": [
@@ -65,7 +65,7 @@
         "Category": "detail"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 106,
         "Question": "在《鹿鼎记》中，庄廷龙所处何镇?",
         "Type": 2,
         "Options": [

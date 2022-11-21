@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 198,
         "Question": "现存《论语》共多少篇?",
         "Type": 2,
         "Options": [
@@ -26,7 +26,7 @@
         "Category": "detail"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 198,
         "Question": "孔子最得意的弟子是下列哪一位?",
         "Type": 2,
         "Options": [
@@ -39,7 +39,7 @@
         "Category": "detail"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 198,
         "Question": "孔子在何处设教?",
         "Type": 2,
         "Options": [
@@ -52,7 +52,7 @@
         "Category": "detail"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 198,
         "Question": "从何时起,《论语》被钦定为科举考试必读教科书?",
         "Type": 2,
         "Options": [
@@ -65,7 +65,7 @@
         "Category": "detail"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 198,
         "Question": "孔子所删修的《春秋》是依据哪国史料整理而成的?",
         "Type": 2,
         "Options": [

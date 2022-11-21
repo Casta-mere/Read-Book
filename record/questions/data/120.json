@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 120,
         "Question": "《交叉小径的花园》是阿根廷作家博尔赫斯创作的一部带有科幻色彩的小说。",
         "Type": 1,
         "Options": [
@@ -24,7 +24,7 @@
         "Category": "writer"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 120,
         "Question": "《交叉小径的花园》的主人公是中国人。",
         "Type": 1,
         "Options": [
@@ -35,7 +35,7 @@
         "Category": "figure"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 120,
         "Question": "《交叉小径的花园》述了一战期间在英国为德国当间谍的主人公余准在同伴被捕、自己被追杀的情况下，为了把重要情报告知德国上司，而不惜杀死汉学家艾伯特的经过。",
         "Type": 1,
         "Options": [
@@ -46,7 +46,7 @@
         "Category": "content"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 120,
         "Question": "《交叉小径的花园》的讲述又以余准被捕后狱中供词的方式展开，且以欧洲战争史上的一个重大事件的推迟为切入点，引人入胜。",
         "Type": 1,
         "Options": [
@@ -57,7 +57,7 @@
         "Category": "content"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 120,
         "Question": "《交叉小径的花园》表面上采用了侦探小说的形式：一战中，中国博士余准做了德国间谍，遭到英国军官马登的追踪。",
         "Type": 1,
         "Options": [

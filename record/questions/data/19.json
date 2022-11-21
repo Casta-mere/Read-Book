@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 19,
         "Question": "在《明朝那些事儿》中，1635年，洪承畴手下将领不包括：",
         "Type": 2,
         "Options": [
@@ -26,7 +26,7 @@
         "Category": "figure"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 19,
         "Question": "在《明朝那些事儿》中，下列人物与杨嗣昌无关的是：",
         "Type": 2,
         "Options": [
@@ -39,7 +39,7 @@
         "Category": "figure"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 19,
         "Question": "在《明朝那些事儿》中，下列人物没有当过督师的是：",
         "Type": 2,
         "Options": [
@@ -52,7 +52,7 @@
         "Category": "figure"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 19,
         "Question": "在《明朝那些事儿》中，下列不属于东林三君的是：",
         "Type": 2,
         "Options": [
@@ -65,7 +65,7 @@
         "Category": "figure"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 19,
         "Question": "在《明朝那些事儿》中，下列没做过帝师的是：",
         "Type": 2,
         "Options": [

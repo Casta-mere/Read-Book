@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 128,
         "Question": "《茶馆》中的民族资本家是( )",
         "Type": 2,
         "Options": [
@@ -26,7 +26,7 @@
         "Category": "figure"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 128,
         "Question": "《茶馆》的主人公是( )。",
         "Type": 2,
         "Options": [
@@ -39,7 +39,7 @@
         "Category": "figure"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 128,
         "Question": "《茶馆》最大特点是以( )方言进行的创作。",
         "Type": 2,
         "Options": [
@@ -52,7 +52,7 @@
         "Category": "detail"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 128,
         "Question": "老舍的《茶馆》的时间跨度是( )。",
         "Type": 2,
         "Options": [
@@ -65,7 +65,7 @@
         "Category": "detail"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 128,
         "Question": "老舍的话剧《茶馆》共有几幕?",
         "Type": 2,
         "Options": [

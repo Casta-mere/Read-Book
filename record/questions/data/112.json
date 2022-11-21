@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 112,
         "Question": "在《边城》中，住在塔下管渡船的老人,年纪有多大?",
         "Type": 2,
         "Options": [
@@ -26,7 +26,7 @@
         "Category": "detail"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 112,
         "Question": "在《边城》中，“那个女孩子”的母亲,是老船夫的什么人?",
         "Type": 2,
         "Options": [
@@ -39,7 +39,7 @@
         "Category": "detail"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 112,
         "Question": "在《边城》中，茶峒山城距离这个渡口有多远?",
         "Type": 2,
         "Options": [
@@ -52,7 +52,7 @@
         "Category": "detail"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 112,
         "Question": "在《边城》中，掌管水码头的人名叫什么?",
         "Type": 2,
         "Options": [
@@ -65,7 +65,7 @@
         "Category": "detail"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 112,
         "Question": "在《边城》中，两年前的那个端午节,翠翠等祖父时,遇见的那个在夜色中捉白鸭子的人是谁？",
         "Type": 2,
         "Options": [

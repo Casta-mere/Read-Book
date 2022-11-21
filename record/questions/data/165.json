@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 165,
         "Question": "《麦琪的礼物》是欧·亨利创作的短篇小说。",
         "Type": 1,
         "Options": [
@@ -24,7 +24,7 @@
         "Category": "writer"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 165,
         "Question": "《麦琪的礼物》讲述了一对穷困的年轻夫妇忍痛割爱互赠圣诞礼物的故事，反映了英国下层人民生活的艰难，赞美了主人公善良的心地和纯真爱情。",
         "Type": 1,
         "Options": [
@@ -35,7 +35,7 @@
         "Category": "content"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 165,
         "Question": "欧·亨利生于美国北卡罗莱纳州格林斯伯勒，曾当过银行职员、药剂师等。",
         "Type": 1,
         "Options": [
@@ -46,7 +46,7 @@
         "Category": "writer"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 165,
         "Question": "欧·亨利为人正直清廉。",
         "Type": 1,
         "Options": [
@@ -57,7 +57,7 @@
         "Category": "writer"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 165,
         "Question": "欧·亨利与契诃夫和巴尔扎克并列世界三大短篇小说巨匠。",
         "Type": 1,
         "Options": [

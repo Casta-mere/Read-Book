@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 12,
         "Question": "在《白夜行》中，西本文代和唐泽雪穗是什么关系？",
         "Type": 2,
         "Options": [
@@ -26,7 +26,7 @@
         "Category": "figure"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 12,
         "Question": "在《白夜行》中，桐原亮司家里是做什么的？",
         "Type": 2,
         "Options": [
@@ -39,7 +39,7 @@
         "Category": "detail"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 12,
         "Question": "唐泽雪穗和下面哪位结过婚？",
         "Type": 2,
         "Options": [
@@ -52,7 +52,7 @@
         "Category": "content"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 12,
         "Question": "以下哪段话出自《白夜行》？",
         "Type": 2,
         "Options": [
@@ -65,7 +65,7 @@
         "Category": "content"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 12,
         "Question": "在《白夜行》中，唐泽雪穗怀过孕。",
         "Type": 1,
         "Options": [

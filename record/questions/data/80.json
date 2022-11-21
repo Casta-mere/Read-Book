@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 80,
         "Question": "《秦中寄远上人》的作者是( )",
         "Type": 2,
         "Options": [
@@ -26,7 +26,7 @@
         "Category": "writer"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 80,
         "Question": "《过香积寺》的作者是（ ）",
         "Type": 2,
         "Options": [
@@ -39,7 +39,7 @@
         "Category": "writer"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 80,
         "Question": "《送梓州李使君》的作者是( )",
         "Type": 2,
         "Options": [
@@ -52,7 +52,7 @@
         "Category": "writer"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 80,
         "Question": "《蜀相》的作者是()",
         "Type": 2,
         "Options": [
@@ -65,7 +65,7 @@
         "Category": "writer"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 80,
         "Question": "《列女操》的作者是( )",
         "Type": 2,
         "Options": [

@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 13,
         "Question": "下列对《小王子》一书的表述，不正确的一项是（　　）",
         "Type": 2,
         "Options": [
@@ -26,7 +26,7 @@
         "Category": "content"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 13,
         "Question": "《小王子》中，小王子与狐狸告别时，狐狸作为礼物送给小王子的那个“秘密”是：凡事只有用心去观察才能看的清楚，只用眼睛去看是看不到事物的本质的。",
         "Type": 1,
         "Options": [
@@ -37,7 +37,7 @@
         "Category": "content"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 13,
         "Question": "《小王子》中地理学家建议小王子去的星球是（　　）",
         "Type": 2,
         "Options": [
@@ -50,7 +50,7 @@
         "Category": "content"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 13,
         "Question": "《小王子》中，小王子在穿越沙漠时（   ）",
         "Type": 2,
         "Options": [
@@ -63,7 +63,7 @@
         "Category": "content"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 13,
         "Question": "小王子在地球上呆了多久（   ）",
         "Type": 2,
         "Options": [

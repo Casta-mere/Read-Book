@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 4,
         "Question": "下列关于《百年孤独》的表述不正确的一项是（ ）",
         "Type": 2,
         "Options": [
@@ -26,7 +26,7 @@
         "Category": "content"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 4,
         "Question": "《百年孤独》中的两个流浪汉是被社会挤压扁了的“非人”象征。",
         "Type": 1,
         "Options": [
@@ -37,7 +37,7 @@
         "Category": "main"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 4,
         "Question": "《百年孤独》中的大大小小的循环怪圈，象征了哥伦比亚甚至整个拉美的社会现实。",
         "Type": 1,
         "Options": [
@@ -48,7 +48,7 @@
         "Category": "main"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 4,
         "Question": "《百年孤独》中描写了各种各样黄色的东西，预示着新生、兴盛。",
         "Type": 1,
         "Options": [
@@ -59,7 +59,7 @@
         "Category": "main"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 4,
         "Question": "1982年，马尔克斯凭借《百年孤独》夺得诺贝尔文学奖",
         "Type": 1,
         "Options": [

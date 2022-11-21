@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 187,
         "Question": "《孙子兵法》的最早注释本是那一本书?作者是谁?",
         "Type": 2,
         "Options": [
@@ -26,7 +26,7 @@
         "Category": "anecdote"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 187,
         "Question": "一位伟人曾对《孙子兵法》如此评价:“就中国历史来考究,;两千多年的兵书,有十三篇,那十三篇兵书,便成立中国的军事哲学。所以照那十三篇兵书讲,是先有战斗的事实,然后才成那本书。”这位伟人是谁?",
         "Type": 2,
         "Options": [
@@ -39,7 +39,7 @@
         "Category": "anecdote"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 187,
         "Question": "在《孙子兵法》中,孙子提出的作战等级中,最低级的是( ）",
         "Type": 2,
         "Options": [
@@ -52,7 +52,7 @@
         "Category": "content"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 187,
         "Question": "下列哪些句子不是《孙子兵法》里的选节?",
         "Type": 2,
         "Options": [
@@ -65,7 +65,7 @@
         "Category": "content"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 187,
         "Question": "《孙子兵法》军事思想的核心是（ ）",
         "Type": 2,
         "Options": [

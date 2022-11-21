@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 77,
         "Question": "《一个叫欧维的男人决定去死》的作者是弗雷德里克·巴克曼。",
         "Type": 1,
         "Options": [
@@ -24,7 +24,7 @@
         "Category": "writer"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 77,
         "Question": "《一个叫欧维的男人决定去死》被拍成了电视剧。",
         "Type": 1,
         "Options": [
@@ -35,7 +35,7 @@
         "Category": "anecdote"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 77,
         "Question": "《一个叫欧维的男人决定去死》被拍成了电影。",
         "Type": 1,
         "Options": [
@@ -46,7 +46,7 @@
         "Category": "anecdote"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 77,
         "Question": "弗雷德里克▪巴克曼，瑞典著名80后博主、专栏作家，近五年来瑞典最成功的作家，著有《外婆的道歉信》、《一个叫欧维的男人决定去死》等作品。",
         "Type": 1,
         "Options": [
@@ -57,7 +57,7 @@
         "Category": "writer"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 77,
         "Question": "《一个叫欧维的男人决定去死》是弗雷德里克·巴克曼的处女作。",
         "Type": 1,
         "Options": [

@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 115,
         "Question": "《金色梦乡》是日本作家伊坂幸太郎创作的长篇小说，2007年11月首次出版。",
         "Type": 1,
         "Options": [
@@ -24,7 +24,7 @@
         "Category": "writer"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 115,
         "Question": "《金色梦乡》讲述了一场一个普通人奇迹般的逃亡。",
         "Type": 1,
         "Options": [
@@ -35,7 +35,7 @@
         "Category": "content"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 115,
         "Question": "在《金色梦乡》中，平凡的快递员青柳雅春突然被栽赃为暗杀首相的凶手，无奈开始逃亡。",
         "Type": 1,
         "Options": [
@@ -46,7 +46,7 @@
         "Category": "content"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 115,
         "Question": "《金色梦乡》情节紧凑、悬念迭起，形形色色的人物具有人性的不同侧面，在主人公灰暗荒诞的人生中也不时闪现着人性的温暖光芒。",
         "Type": 1,
         "Options": [
@@ -57,7 +57,7 @@
         "Category": "main"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 115,
         "Question": "在《金色梦乡》中，日本新任首相在仙台街头被暗杀，凶器是搭载炸弹的遥控飞机。警方立刻认定一个叫青柳雅春的人是凶手。",
         "Type": 1,
         "Options": [

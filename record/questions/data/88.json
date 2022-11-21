@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 88,
         "Question": "在海外老子的( )受众非常多,据说印刷数量仅次于圣经。",
         "Type": 2,
         "Options": [
@@ -26,7 +26,7 @@
         "Category": "writer"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 88,
         "Question": "下列内容,哪一项不是出自老子《道德经》( )",
         "Type": 2,
         "Options": [
@@ -39,7 +39,7 @@
         "Category": "content"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 88,
         "Question": "《道德经》中“道”可以理解为( )",
         "Type": 2,
         "Options": [
@@ -52,7 +52,7 @@
         "Category": "main"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 88,
         "Question": "下列哪些《道德经》中的语句体现了“反者道之动″( )。",
         "Type": 2,
         "Options": [
@@ -65,7 +65,7 @@
         "Category": "content"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 88,
         "Question": "以下哪一选项是老子《道德经》的“兵道”思想对我们的启示",
         "Type": 2,
         "Options": [

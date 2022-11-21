@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 146,
         "Question": "《少年凯歌》的作者是陈凯歌。",
         "Type": 1,
         "Options": [
@@ -24,7 +24,7 @@
         "Category": "writer"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 146,
         "Question": "陈凯歌，1952年生于北京，祖籍福建。1965年考入北京四中，1969年春到云南插队，1971年参军；1976年回北京；1978年考入北京电影学院导演系，1982年毕业后到北京电影制片厂工作。",
         "Type": 1,
         "Options": [
@@ -35,7 +35,7 @@
         "Category": "writer"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 146,
         "Question": "自传体小说《少年凯歌》是关于陈凯歌在文革中的回忆。",
         "Type": 1,
         "Options": [
@@ -46,7 +46,7 @@
         "Category": "content"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 146,
         "Question": "在《少年凯歌》中能读到陈凯歌身边的伙伴各个的遭遇与困境，与其说陈凯歌是文革的亲身经历者，倒不如说是文革清醒的反思者。",
         "Type": 1,
         "Options": [
@@ -57,7 +57,7 @@
         "Category": "content"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 146,
         "Question": "《少年凯歌》是自传体小说。",
         "Type": 1,
         "Options": [

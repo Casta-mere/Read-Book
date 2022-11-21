@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 8,
         "Question": "下面这首诗选自《三国演义》，它所称赞的人物是（ ）藐视吴臣若小儿，单刀赴会敢平欺。当年一段英雄气，尤胜相如在渑池。",
         "Type": 2,
         "Options": [
@@ -26,7 +26,7 @@
         "Category": "figure"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 8,
         "Question": "《三国演义》中有一位英雄，他是蜀国“五虎上将”之一，刘备为其加封号为“虎威将军”，他的英名是在单骑救主一战中奠定的，在截江夺主后更是声名远播。这位德才、胆识、谋略都高过同辈的真英雄是（ ）",
         "Type": 2,
         "Options": [
@@ -39,7 +39,7 @@
         "Category": "figure"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 8,
         "Question": "《三国演义》“三英战吕布”中的“三英”是指（ ）",
         "Type": 2,
         "Options": [
@@ -52,7 +52,7 @@
         "Category": "content"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 8,
         "Question": "下列有关《三国演义》的内容说法正确的一项是（ ）",
         "Type": 2,
         "Options": [
@@ -65,7 +65,7 @@
         "Category": "content"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 8,
         "Question": "《三国演义》是我国第一部章回体长篇历史演义小说。该书以西汉末年到东晋建立期间的社会历史为背景。",
         "Type": 1,
         "Options": [

@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 180,
         "Question": "《罗生门》表现的人性缺点是（ ）",
         "Type": 2,
         "Options": [
@@ -26,7 +26,7 @@
         "Category": "main"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 180,
         "Question": "小说《罗生门》的故事发生在东京。",
         "Type": 1,
         "Options": [
@@ -37,7 +37,7 @@
         "Category": "detail"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 180,
         "Question": "《罗生门》的作者是?",
         "Type": 2,
         "Options": [
@@ -50,7 +50,7 @@
         "Category": "writer"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 180,
         "Question": "小说《罗生门》经历过改写,改写成了一种开放式的结局。",
         "Type": 1,
         "Options": [
@@ -61,7 +61,7 @@
         "Category": "content"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 180,
         "Question": "与《罗生门》相关的两个故事是（ ）",
         "Type": 2,
         "Options": [

@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 133,
         "Question": "在《海的女儿》中，海底的公主们,只有长到多少岁才能浮上水面看看世界（ ）",
         "Type": 2,
         "Options": [
@@ -26,7 +26,7 @@
         "Category": "detail"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 133,
         "Question": "在《海的女儿》中，美人鱼公主的姐姐们为了救她,用自己美丽的长发向巫婆换来了什么( )",
         "Type": 2,
         "Options": [
@@ -39,7 +39,7 @@
         "Category": "detail"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 133,
         "Question": "《海的女儿》作者是哪个国家的（ ）",
         "Type": 2,
         "Options": [
@@ -52,7 +52,7 @@
         "Category": "writer"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 133,
         "Question": "在《海的女儿》中，以下哪些人物是《海的女儿》里出现的（ ）",
         "Type": 2,
         "Options": [
@@ -65,7 +65,7 @@
         "Category": "figure"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 133,
         "Question": "在《海的女儿》中，海底巫婆的住所里没有有哪个“宠物”( ）",
         "Type": 2,
         "Options": [

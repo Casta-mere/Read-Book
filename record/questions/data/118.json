@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 118,
         "Question": "《毛泽东选集》的作者是毛泽东。",
         "Type": 1,
         "Options": [
@@ -24,7 +24,7 @@
         "Category": "writer"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 118,
         "Question": "《毛泽东选集》是毛泽东思想的重要载体，是毛泽东思想的集中展现，亦是对20世纪的中国影响最大的书籍之一。",
         "Type": 1,
         "Options": [
@@ -35,7 +35,7 @@
         "Category": "writer"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 118,
         "Question": "《毛泽东选集》在建国前即有大量出版，1944年于邯郸创建的晋察冀日报社出版首版《毛泽东选集》。",
         "Type": 1,
         "Options": [
@@ -46,7 +46,7 @@
         "Category": "writer"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 118,
         "Question": "《毛泽东选集》包括了毛泽东同志在中国革命各个时期中的重要著作。",
         "Type": 1,
         "Options": [
@@ -57,7 +57,7 @@
         "Category": "content"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 118,
         "Question": "《毛泽东选集》在建国后共出版了五卷，编入的是毛泽东同志在新民主主义革命时期、社会主义革命和社会主义建设时期的主要著作。",
         "Type": 1,
         "Options": [

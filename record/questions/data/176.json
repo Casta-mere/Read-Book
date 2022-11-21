@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 176,
         "Question": "《银河系漫游指南》是由英国作家道格拉斯·亚当斯所写的科幻小说。",
         "Type": 1,
         "Options": [
@@ -24,7 +24,7 @@
         "Category": "writer"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 176,
         "Question": "《银河系漫游指南》是5本“银河系漫游指南系列”科幻喜剧系列小说中的第二本",
         "Type": 1,
         "Options": [
@@ -35,7 +35,7 @@
         "Category": "anecdote"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 176,
         "Question": "在《银河系漫游指南》中，地球被沃贡人毁灭了，因为要在它所在的地方修建一条超空间快速通道。主人公阿瑟·邓特活下来了，因为他有一位名叫福特·派法特的朋友。",
         "Type": 1,
         "Options": [
@@ -46,7 +46,7 @@
         "Category": "content"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 176,
         "Question": "《银河系漫游指南》的最初版本来自英国广播公司(BBC)一个名为《地球末日》的播出计划，包括6个结局均为地球毁灭的各自独立的故事，",
         "Type": 1,
         "Options": [
@@ -57,7 +57,7 @@
         "Category": "anecdote"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 176,
         "Question": "格拉斯·亚当斯是一位非常受欢迎的演讲者，尤其是在科技和环保等题材方面。",
         "Type": 1,
         "Options": [

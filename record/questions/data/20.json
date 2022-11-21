@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 20,
         "Question": "在《沉默的大多数》中，和任何话语相比，饥饿都是更大的真理。",
         "Type": 1,
         "Options": [
@@ -24,7 +24,7 @@
         "Category": "main"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 20,
         "Question": "在《沉默的大多数》中，假设善恶是可以判断的，那么明辨是非的前提就是发展智力，增广见识。",
         "Type": 1,
         "Options": [
@@ -35,7 +35,7 @@
         "Category": "main"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 20,
         "Question": "在《沉默的大多数》中，因为狂信，人就不想讲道理。",
         "Type": 1,
         "Options": [
@@ -46,7 +46,7 @@
         "Category": "main"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 20,
         "Question": "在《沉默的大多数》中，一个人的快乐或悲伤，只要不是装出来的，就必有其道理。",
         "Type": 1,
         "Options": [
@@ -57,7 +57,7 @@
         "Category": "main"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 20,
         "Question": "在《沉默的大多数》中，人类历史上任何一种天才的发现都不是金钱直接作用的结果。",
         "Type": 1,
         "Options": [

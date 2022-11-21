@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 7,
         "Question": "在《飘》中，以下说法不正确的一项是",
         "Type": 2,
         "Options": [
@@ -26,7 +26,7 @@
         "Category": "main"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 7,
         "Question": "在《飘》中斯嘉丽的父亲杰拉尔德说“天底下只有土地最了不起,只有土地值得你岀力,值得你战斗一一值得你并命!”斯嘉丽之后奋力保护的土地叫什么",
         "Type": 2,
         "Options": [
@@ -39,7 +39,7 @@
         "Category": "detail"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 7,
         "Question": "在《飘》中，在亚特兰大举行的义卖筹款中,斯嘉丽捐出什么进行义卖",
         "Type": 2,
         "Options": [
@@ -52,7 +52,7 @@
         "Category": "detail"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 7,
         "Question": "有着一头美丽红发的妓女贝尔沃特琳想去医院帮忙,并捐赠钱才,但昰埃尔辛太太把她撵了岀去,最后她不得不向谁发岀了求助",
         "Type": 2,
         "Options": [
@@ -65,7 +65,7 @@
         "Category": "content"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 7,
         "Question": "一直以来南方军队者都有着迷之自信,认为能够快速的打败北方佬,其中哪位北方将军让南方的迷之自信受到了重挫",
         "Type": 2,
         "Options": [

@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 33,
         "Question": "下面不属于小说《白鹿原》中的人物的是()",
         "Type": 2,
         "Options": [
@@ -26,7 +26,7 @@
         "Category": "figure"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 33,
         "Question": "大量现代语和具有活力的关中方言的使用,使得《白鹿原》的语言具有民族特性和地方特性。",
         "Type": 1,
         "Options": [
@@ -37,7 +37,7 @@
         "Category": "main"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 33,
         "Question": "《白鹿原》中中国农村宗法制的代表者是()",
         "Type": 2,
         "Options": [
@@ -50,7 +50,7 @@
         "Category": "figure"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 33,
         "Question": "《白鹿原》中刻画了一个灵性人物,她的名字叫()。",
         "Type": 2,
         "Options": [
@@ -63,7 +63,7 @@
         "Category": "figure"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 33,
         "Question": "《白鹿原》的作者是陈忠实。",
         "Type": 1,
         "Options": [

@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 83,
         "Question": "《美的历程》是李泽厚创作的文艺理论著作。",
         "Type": 1,
         "Options": [
@@ -24,7 +24,7 @@
         "Category": "writer"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 83,
         "Question": "《美的历程》全书共分十章，每一章评述一个重要时期的艺术风神或某一艺术门类的发展。",
         "Type": 1,
         "Options": [
@@ -35,7 +35,7 @@
         "Category": "content"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 83,
         "Question": "《美的历程》全书按历史时期分为十个部分。",
         "Type": 1,
         "Options": [
@@ -46,7 +46,7 @@
         "Category": "content"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 83,
         "Question": "在《美的历程》中，作者以细密的考察论述了绘画、雕塑、建筑、文学、书法等艺术门类在各个时代的兴起与演变。",
         "Type": 1,
         "Options": [
@@ -57,7 +57,7 @@
         "Category": "content"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 83,
         "Question": "在《美的历程》中，作者认为，艺术趣味和审美理想的转变，并非艺术本身所能决定，决定它们的归根到底仍然是现实生活，故而考察一个时代的文艺，必先考察那个时代的社会经济、政治情况。本书的每一章都大致遵循着这一思想构架而展开。",
         "Type": 1,
         "Options": [

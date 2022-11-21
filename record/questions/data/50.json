@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 50,
         "Question": "在《许三观卖血记》中，许三观在哪里上班（ ）",
         "Type": 2,
         "Options": [
@@ -26,7 +26,7 @@
         "Category": "detail"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 50,
         "Question": "在《许三观卖血记》中，许三观跟着根龙、阿方去卖血,他们打算送什么给李血头（ ）",
         "Type": 2,
         "Options": [
@@ -39,7 +39,7 @@
         "Category": "detail"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 50,
         "Question": "在《许三观卖血记》中，李血头送给许三观的见面礼是（ ）",
         "Type": 2,
         "Options": [
@@ -52,7 +52,7 @@
         "Category": "content"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 50,
         "Question": "在《许三观卖血记》中，谁看上了村里的桂花,想娶她做老婆（ ）",
         "Type": 2,
         "Options": [
@@ -65,7 +65,7 @@
         "Category": "detail"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 50,
         "Question": "在《许三观卖血记》中，许三观和许玉兰的约会开始于（ ）",
         "Type": 2,
         "Options": [

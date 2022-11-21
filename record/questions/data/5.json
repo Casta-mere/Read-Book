@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 5,
         "Question": "在三体中，汪淼和丁仪在房子里打台球时，共打了几（ ）次。",
         "Type": 2,
         "Options": [
@@ -26,7 +26,7 @@
         "Category": "detail"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 5,
         "Question": "在三体中，杨冬的男朋友是谁？",
         "Type": 2,
         "Options": [
@@ -39,7 +39,7 @@
         "Category": "figure"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 5,
         "Question": "在三体星系的历史上，有多少颗行星已经被三体太阳气态层膨胀时毁灭了？",
         "Type": 2,
         "Options": [
@@ -52,7 +52,7 @@
         "Category": "detail"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 5,
         "Question": "朝叶哲泰的脑壳上抽了最要命一鞭子的人是：（  ）",
         "Type": 2,
         "Options": [
@@ -65,7 +65,7 @@
         "Category": "figure"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 5,
         "Question": "第（ ）号文明是三体文明的里程碑？",
         "Type": 2,
         "Options": [

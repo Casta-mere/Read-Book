@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 65,
         "Question": "《厌女》处理了广泛的日本题材，其中既有文学性的，比如谈到小说家吉行淳之介、永井荷风、林真理子等，更多的则是社会性的。",
         "Type": 1,
         "Options": [
@@ -24,7 +24,7 @@
         "Category": "main"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 65,
         "Question": "《厌女》的作者是上野千鹤子",
         "Type": 1,
         "Options": [
@@ -35,7 +35,7 @@
         "Category": "writer"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 65,
         "Question": "在《厌女》中，上野千鹤子谈到的许多现象，尤其是家庭的、婚姻的，在中国也有很类似的情况。知性的读者会从这些论述中获得强烈共鸣并得到理论上的指引。",
         "Type": 1,
         "Options": [
@@ -46,7 +46,7 @@
         "Category": "main"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 65,
         "Question": "《厌女》不是一部纯理论性著作，而是运用女性主义理论针对日本当代的各种社会现象的实践性分析。",
         "Type": 1,
         "Options": [
@@ -57,7 +57,7 @@
         "Category": "main"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 65,
         "Question": "《厌女》是一部纯理论性著作。",
         "Type": 1,
         "Options": [

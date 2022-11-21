@@ -13,7 +13,7 @@
         "Category": ""
     },
     "1": {
-        "Bookid": 1,
+        "Bookid": 70,
         "Question": "在《西游记》中，孙悟空的第一个师傅是( )",
         "Type": 2,
         "Options": [
@@ -25,7 +25,7 @@
         "Category": "detail"
     },
     "2": {
-        "Bookid": 1,
+        "Bookid": 70,
         "Question": "在《西游记》中，玄奘西行取经途经（ ）国。",
         "Type": 2,
         "Options": [
@@ -38,7 +38,7 @@
         "Category": "detail"
     },
     "3": {
-        "Bookid": 1,
+        "Bookid": 70,
         "Question": "在《西游记》中，假美猴王是( )",
         "Type": 2,
         "Options": [
@@ -50,7 +50,7 @@
         "Category": "detail"
     },
     "4": {
-        "Bookid": 1,
+        "Bookid": 70,
         "Question": "在《西游记》中，鲤鱼怪被( )收服了。",
         "Type": 2,
         "Options": [
@@ -62,7 +62,7 @@
         "Category": "detail"
     },
     "5": {
-        "Bookid": 1,
+        "Bookid": 70,
         "Question": "在《西游记》中，孙悟空摘仙果打掉了( )个?",
         "Type": 2,
         "Options": [
