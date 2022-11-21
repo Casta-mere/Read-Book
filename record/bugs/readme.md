@@ -13,6 +13,10 @@
     cmd进入mysql:
     
         mysql -h localhost -u root -p
+        
+        linux查看mysql初始化密码
+        sudo cat /etc/mysql/debian.cnf
+
 
 ## 11.16 
 
