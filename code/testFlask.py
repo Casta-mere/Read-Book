@@ -335,6 +335,9 @@ def logout():
   
 def run():
     search.run(debug=True)
+    
+def run_local():
+    search.run()
 
 def server_run():
     search.run(host='0.0.0.0', port=80)

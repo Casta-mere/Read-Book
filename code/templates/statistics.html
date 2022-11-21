@@ -109,92 +109,106 @@
           </div>
           <br>
           <div>
-            &emsp;您共测试{{times}}次，平均用时{{avgDuration}}，正确率为{{avgAccuracy}}%。最近一次在{{lastTime}}测试，用时{{lastDuration}}，正确率为{{lastAccuracy}}%。
+            &emsp;您共测试<b>{{times}}</b>次，平均用时<b>{{avgDuration}}</b>，正确率为<b>{{avgAccuracy}}%</b>。最近一次在<b>{{lastTime}}</b>测试，用时<b>{{lastDuration}}</b>，正确率为<b>{{lastAccuracy}}%</b>。
           </div>
           <br>
           <div>
             &emsp;综合来看，您对总体知识的掌握程度
             {%if avgAccuracy<60%}
-            仍有待提高。
+            <b>仍有待提高。</b>
             {%elif avgAccuracy<70%}
-            为一般。
+            <b>为一般。</b>
             {%elif avgAccuracy<80%}
-            为较好。
+            <b>为较好。</b>
             {%elif avgAccuracy<90%}
-            为良好。
+            <b>为良好。</b>
             {%else%}
-            为优秀。
+            <b>为优秀。</b>
             {%endif%}
             <br>
           </div>
           <div>
             &emsp;其中，您对各类书籍中人物部分知识掌握程度
             {%if Testscore[0]<60%}
-            仍有待提高。
+            <b>仍有待提高。</b>
             {%elif Testscore[0]<70%}
-            为一般。
+            <b>为一般。</b>
             {%elif Testscore[0]<80%}
-            为较好。
+            <b>为较好。</b>
             {%elif Testscore[0]<90%}
-            为良好。
+            <b>为良好。</b>
             {%else%}
-            为优秀。
+            <b>为优秀。</b>
             {%endif%}
           </div>
           <div>
             &emsp;您对各类书籍作者部分知识掌握程度
             {%if Testscore[1]<60%}
-            仍有待提高。
+            <b>仍有待提高。</b>
             {%elif Testscore[1]<70%}
-            为一般。
+            <b>为一般。</b>
             {%elif Testscore[1]<80%}
-            为较好。
+            <b>为较好。</b>
             {%elif Testscore[1]<90%}
-            为良好。
+            <b>为良好。</b>
             {%else%}
-            为优秀。
+            <b>为优秀。</b>
             {%endif%}
           </div>
           <div>
             &emsp;您对各类书籍主旨部分知识掌握程度
             {%if Testscore[2]<60%}
-            仍有待提高。
+            <b>仍有待提高。</b>
             {%elif Testscore[2]<70%}
-            为一般。
+            <b>为一般。</b>
             {%elif Testscore[2]<80%}
-            为较好。
+            <b>为较好。</b>
             {%elif Testscore[2]<90%}
-            为良好。
+            <b>为良好。</b>
             {%else%}
-            为优秀。
+            <b>为优秀。</b>
             {%endif%}
           </div>
           <div>
             &emsp;您对各类书籍中的情节部分知识掌握程度
             {%if Testscore[3]<60%}
-            仍有待提高。
+            <b>仍有待提高。</b>
             {%elif Testscore[3]<70%}
-            为一般。
+            <b>为一般。</b>
             {%elif Testscore[3]<80%}
-            为较好。
+            <b>为较好。</b>
             {%elif Testscore[3]<90%}
-            为良好。
+            <b>为良好。</b>
             {%else%}
-            为优秀。
+            <b>为优秀。</b>
             {%endif%}
           </div>
           <div>
             &emsp;您对各类书籍中的细节部分知识掌握程度
             {%if Testscore[4]<60%}
-            仍有待提高。
+            <b>仍有待提高。</b>
             {%elif Testscore[4]<70%}
-            为一般。
+            <b>为一般。</b>
             {%elif Testscore[4]<80%}
-            为较好。
+            <b>为较好。</b>
             {%elif Testscore[4]<90%}
-            为良好。
+            <b>为良好。</b>
             {%else%}
-            为优秀。
+            <b>为优秀。</b>
+            {%endif%}
+          </div>
+          <br>
+          <div style="font-size:20px;">
+            {%if avgAccuracy<60%}
+            <b>如果不读书，行万里路，也只是个邮差——钱钟书</b>
+            {%elif avgAccuracy<70%}
+            <b>只要打开书，就随时打开了一个崭新的世界——《人民日报》</b>
+            {%elif avgAccuracy<80%}
+            <b>无论是驱赶迷茫，还是对抗平庸，读书都是最简单也最实用的方法</b>
+            {%elif avgAccuracy<90%}
+            <b>世界上任何一个书籍都不能给你带来好运，但他们能让你悄悄地成为自己——赫尔曼·黑塞</b>
+            {%else%}
+            <b>脚步丈量不到的地方，书可以；眼睛到不了的地方，书可以——《人民日报》</b>
             {%endif%}
           </div>
         </div>
