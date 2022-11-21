@@ -334,6 +334,10 @@ a:focus {
   width: 100%;
 }
 
+.slider_section .img-box .img1 {
+  width: 75%;
+}
+
 .slider_section .carousel_btn_box {
   position: absolute;
   bottom: 0;

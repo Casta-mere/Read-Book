@@ -88,18 +88,24 @@
                       Read-Book
                     </h5>
                     <h1>
-                      Intro <br>
-                      Reading Needs
+                      今天读什么？
                     </h1>
+                    {%if detail[13]|length >200%}
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quam velit saepe dolorem deserunt
-                      quo quidem ad optio.
+                      {{detail[13]|truncate(200)}}..
                     </p>
+                    {%else%}
+                    <p>
+                      {{detail[13]}}
+                    </p>
+                    {%endif%}
+                    <a class="empty" href="/bookDetail/{{bookReID}}">详情</a>
                   </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
                   <div class="img-box">
-                    <img src="static/images/slider-img.png" alt="">
+                    <img src="static/images/pic/{{bookReID+1}}.jpg" class="img1" alt="">
                   </div>
                 </div>
               </div>
@@ -115,15 +121,14 @@
                       Read-Book
                     </h5>
                     <h1>
-                      Test <br>
-                      Reading Needs
+                      测一测 <br>
+                      掌握了多少知识？
                     </h1>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quam velit saepe dolorem deserunt
-                      quo quidem ad optio.
+                      随机选取题目测试，看看你对这些知识的了解程度。
                     </p>
                     <a href="/test">
-                      Read More
+                      测试
                     </a>
                   </div>
                 </div>
@@ -151,36 +156,7 @@
     <!-- end slider section -->
   </div>
 
-  <!-- about section -->
-
-  <section class="about_section layout_padding">
-    <div class="container ">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="img-box">
-            <img src="static/images/about-img.png" alt="">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="detail-box">
-            <div class="heading_container">
-              <h2>
-                About Our Bookstore
-              </h2>
-            </div>
-            <p>
-              At cumque tenetur iste molestiae, vel eum reiciendis assumenda! Numquam, repudiandae. Consequuntur
-              obcaecati recusandae aliquam, amet doloribus eius dolores officiis cumque? Quibusdam praesentium pariatur
-              sapiente mollitia, amet hic iusto voluptas! Iusto quo earum vitae excepturi, ipsam aliquid deleniti
-              assumenda culpa deserunt.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end about section -->
+  <br><br>
 
   <!-- info section -->
 

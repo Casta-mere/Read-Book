@@ -87,12 +87,14 @@
             <img src="/static/images/pic/{{i+1}}.jpg" alt="">
           </div>
           <br>
-          <h5 class="text-center">排名：{{book[i][0]}}</h5>
-          <h5 class="text-center">书名：{{book[i][1]}}</h5>
-          <h5 class="text-center">作者：{{book[i][2]}}</h5>
-          <a href="/bookDetail/{{i}}"><button class="tocheck">点击详情</button></a>
-          <h5 class="text-center">&nbsp;</h5>
-          <h5 class="text-center">&nbsp;</h5>
+          <div class="detail-box" style="text-align: center;">
+            <h5 class="text-center">排名：{{book[i][0]}}</h5>
+            <h5 class="text-center">书名：{{book[i][1]}}</h5>
+            <h5 class="text-center">作者：{{book[i][2]}}</h5>
+            <a href="/bookDetail/{{i}}">点击详情</a>
+            <h5 class="text-center">&nbsp;</h5>
+            <h5 class="text-center">&nbsp;</h5>
+          </div>
         </div>
         {%endfor%}
         <!--<div class="col-md-6">

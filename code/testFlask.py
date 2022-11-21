@@ -5,7 +5,8 @@ from flask import (
     Flask, render_template, request, redirect, url_for, globals)
 import control 
 import json
-import multiprocessing
+# import multiprocessing
+import random
 
 search = Flask(__name__)
 
@@ -32,14 +33,16 @@ globals.ctrl=control.control()
 # 选择的内容
 globals.choice = 0
 
-
-
 # 主页
 @search.route('/', methods=['GET', 'POST'])
 def index():
+    temp=random.randint(0, 200)
+    detail=globals.ctrl.get_book_detail_info(temp+1)
     return render_template(
         'index.html',
-        status=globals.status
+        status=globals.status,
+        detail=detail,
+        bookReID=temp
         )
 
 # 书籍概览    
