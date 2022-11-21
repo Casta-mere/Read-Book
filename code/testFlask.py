@@ -46,7 +46,6 @@ def index():
 @search.route('/books', methods=['GET', 'POST'])
 def books():
     books=globals.ctrl.get_book_brief_info()
-    # print(books)
     return render_template(
         'books.html',
         status=globals.status,
@@ -106,14 +105,12 @@ def testID(id):
 def testSelected():
     data=json.loads(list(request.args.to_dict().keys())[0])
     testType=data["selected"][0]
-    if testType=="random":
+    if testType=="random":                                          #随机出题测试
         test=globals.ctrl.get_question_random()
-    else:
+    else:                                                           #指定类型随机出题测试
         test=globals.ctrl.get_question_by_category(testType)
-    
     globals.ques=test
     globals.starttime=int(time.time())
-    # print(globals.ques)
     return render_template(
         "index.html",
         status=globals.status
@@ -138,8 +135,7 @@ def testStart():
 def submit():
 
     returnData=json.loads(list(request.args.to_dict().keys())[0])           # {'titleID_choice': ['20_true']}
-    choice=returnData["titleID_choice"]                             # ['2_true', '5_true', '7_true', '9_芝麻,开门吧!', '20_true', '21_鲁贵', '24_true'] 0--24
-    # print(globals.choice)
+    choice=returnData["titleID_choice"]                                     # ['2_true', '5_true', '7_true', '9_芝麻,开门吧!', '20_true', '21_鲁贵', '24_true'] 0--24
     globals.choice=dict()
     for item in choice:
         globals.choice[item.split("_")[0]]=item.split("_")[1]
@@ -166,13 +162,6 @@ def submit():
 def process():
     whole=0
     head=['A','B','C','D']
-    for i in range(0,5):
-        try:
-            if globals.choice[str(i)]==globals.ques[i]["Ans"]:
-                print(globals.ques[i]["Ans"])
-        except:
-            print(1)
-        print(globals.choice)
     return render_template(
         "process.html",
         status=globals.status,
@@ -265,12 +254,10 @@ def registration():
     if pw==pw2:
         name=request.args.get("nameReg")
         gender=request.args.get("genderReg")
-        print(1)
         tele=request.args.get("teleReg")
         brief=request.args.get("briefReg")
         if(name and gender and tele and brief and pw and pw2):
             id=globals.ctrl.new_user(name,gender,tele,pw,brief)
-            print(1)
             globals.status=1
             return render_template(
                 "validation.html",
@@ -303,7 +290,6 @@ def validation():
     try:
         if temp[4]==pw:
             globals.User={"id":temp[0],"name":temp[1],"gender":temp[2],"tele":temp[3],"pw":temp[4],"brief":temp[5]}
-            # print(globals.User)
             globals.status = 2
             
             if globals.test == 1:
@@ -352,7 +338,3 @@ def server_run():
 
 if __name__ == '__main__':
     run()
-    # t1=multiprocessing.Process(target=run)
-    # t2=multiprocessing.Process(target=run)
-    # t1.start()
-    # t2.start()

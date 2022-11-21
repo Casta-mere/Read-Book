@@ -3,10 +3,13 @@ import pymysql
 
 # Change the following to your own database connection info
 host = 'localhost'
+# local
 user = 'root'
 password = ''
+# server
+# user = 'debian-sys-maint'
+# password = 'P9l61rDpABnQXBq3'
 # password = 'wgAkYmSE'
-
 
 class my_sql():
     def __init__(self, database_name):

@@ -149,20 +149,26 @@
                     <ul id="test">
                   {%for j in range(0,test[i]["Option_num"])%}
                     <!--bootstrap.css 2427行附近-->
-                    {%if test[i]["Ans"] == test[i]["Options"][j] %}
-                        {%if choice[i|string] != test[i]["Ans"]%}
+                    {%if test[i]["Ans"] == test[i]["Options"][j] and choice[i|string] != test[i]["Ans"] and i|string not in choice %}
+                    <li class="ori li-empty" value="{{i}}_{{test[i]["Options"][j]}}">
+                        {{head[j]}}. &nbsp; {{test[i]["Options"][j]}}
+                    </li>
+                    {%elif test[i]["Ans"] == test[i]["Options"][j] and choice[i|string] != test[i]["Ans"] and i|string in choice%}
+                    <li class="ori li-right" value="{{i}}_{{test[i]["Options"][j]}}">
+                        {{head[j]}}. &nbsp; {{test[i]["Options"][j]}}
+                    </li>
+                    {%elif test[i]["Ans"] == test[i]["Options"][j] and choice[i|string] == test[i]["Ans"]%}
+                    <li class="ori li-right" value="{{i}}_{{test[i]["Options"][j]}}">
+                        {{head[j]}}. &nbsp; {{test[i]["Options"][j]}}
+                    </li>
+                    {%elif test[i]["Options"][j] == choice[i|string]%}
                         <li class="ori li-wrong" value="{{i}}_{{test[i]["Options"][j]}}">
                             {{head[j]}}. &nbsp; {{test[i]["Options"][j]}}
                         </li>
-                        {%elif choice[i|string] == test[i]["Ans"]%}
-                        <li class="ori li-right" value="{{i}}_{{test[i]["Options"][j]}}">
+                    {%else%}
+                        <li class="ori" value="{{i}}_{{test[i]["Options"][j]}}">
                             {{head[j]}}. &nbsp; {{test[i]["Options"][j]}}
                         </li>
-                        {%endif%}
-                    {%else%}
-                    <li class="ori" value="{{i}}_{{test[i]["Options"][j]}}">
-                        {{head[j]}}. &nbsp; {{test[i]["Options"][j]}}
-                      </li>
                     {%endif%}
                   {%endfor%}
                     </ul>

@@ -194,7 +194,7 @@ li {
   background-color: #a6acaf;
   border-color: #000000;
   border-width: 2px;
-  box-shadow: 0 0 0 0.2rem #4dc13e;
+  box-shadow: 0 0 0 0.2rem rgb(52, 168, 83);
   margin: 8px;
   Border-radius: 4px;
   padding: 4px;
@@ -206,12 +206,29 @@ li {
   color:#000
 }
 
+.li-empty {
+  color: #000;
+  background-color: #a6acaf;
+  border-color: #000000;
+  border-width: 2px;
+  box-shadow: 0 0 0 0.2rem rgb(67, 133, 246);
+  margin: 8px;
+  Border-radius: 4px;
+  padding: 4px;
+}
+/*可以把前面的.li-ori的transparent覆盖*/
+.li-empty:hover {
+  color: #A6ACAF;
+  background-color: #A6ACAF;
+  color:#000
+}
+
 .li-wrong {
   color: #000;
   background-color: #a6acaf;
   border-color: #000000;
   border-width: 2px;
-  box-shadow: 0 0 0 0.2rem #c13e3e;
+  box-shadow: 0 0 0 0.2rem rgb(234, 66, 53);
   margin: 8px;
   Border-radius: 4px;
   padding: 4px;
