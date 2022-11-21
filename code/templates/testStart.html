@@ -40,14 +40,11 @@
             });
         }); 
     </script>
-
-    <script type="text/javascript">
-      $(function(){  
-          $("#whole a").click(function() {
-              {%set whole=1%}
-          });
-      }); 
-  </script>
+    <script>
+      function wholepage(){
+        $(window).attr("location","#s1");
+      }
+    </script>
         
   <div class="hero_area">
     <!-- header section strats -->
@@ -128,6 +125,7 @@
         </div>
     </div>
   </section>
+  <div>{{whole}}</div>
 
   <!--根据选项的多少空出相应大小的位置-->
   {%for i in range(0,length)%}
@@ -181,7 +179,7 @@
               <a href="#s{{i}}">上一题</a>
               <div>&emsp;</div>
               <!--整卷阅览需要把所有的上下题按钮藏起来-->
-              <a href="#s1" id="whole">整卷阅览</a>
+              <a onclick="wholepage()">整卷阅览</a>
               <div>&emsp;</div>
               <a onclick="sub()">提交</a>
             </div>
@@ -200,7 +198,7 @@
           {%endif%}
         {%elif whole == 1 and i == length-1%}
           <div class="btn-box">
-            <a href="#s1" id="whole">整卷阅览</a>
+            <a onclick="wholepage()">整卷阅览</a>
             <div>&emsp;</div>
             <a onclick="sub()">提交</a>
           </div>
@@ -329,7 +327,7 @@
         });
 
         $.get('/submit', JSON.stringify({"titleID_choice":arr1}), function(data){
-          alert("提交成功！");$(window).attr("location","/process");
+          $(window).attr("location","/process");
         },"text");
       }
       

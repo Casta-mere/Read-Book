@@ -299,13 +299,13 @@
         alert("Please select one category!");
       } else {
         $.get('/testSelected', JSON.stringify({"selected":arr1}), function(data){
-          alert("提交成功！");$(window).attr("location","/testStart");
+          ;$(window).attr("location","/testStart");
         },"text");
-      }
-
-      
+      }      
     }
   </script>
+
+
 
   <!-- jQery -->
   <script src="/static/js/jquery-3.4.1.min.js"></script>

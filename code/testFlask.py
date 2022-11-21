@@ -79,6 +79,20 @@ def test():
             'test.html',
             status=globals.status,
             )
+        
+@search.route('/testID/<int:id>',methods=['GET', 'POST'])
+def testID(id):
+    whole=0
+    head=['A','B','C','D']
+    globals.ques=globals.ctrl.get_question_by_bookid(id)
+    return render_template(
+        "testStart.html",
+        status=globals.status,
+        test=globals.ques,
+        head=head,
+        whole=whole,
+        length=len(globals.ques)
+    )
 
 @search.route('/testSelected', methods=['GET', 'POST'])
 def testSelected():
@@ -88,7 +102,7 @@ def testSelected():
         test=globals.ctrl.get_question_random()
     else:
         test=globals.ctrl.get_question_by_category(testType)
-    # test=globals.ctrl.get_question_by_bookid(183)
+    
     globals.ques=test
     globals.starttime=int(time.time())
     

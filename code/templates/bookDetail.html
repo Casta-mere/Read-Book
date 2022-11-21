@@ -24,6 +24,7 @@
   <link href="/static/css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="/static/css/responsive.css" rel="stylesheet" />
+  <script src="/static/js/jquery-3.4.1.min.js"></script>
 
 </head>
 
@@ -93,7 +94,7 @@
           </div>
         </div>
         <div class="col-md-6">
-          <h5 class="text-center">排名：{{detail[0]}}</h5>
+          <h5 class="text-center" name="ID" value="{{detail[0]}}">排名：{{detail[0]}}</h5>
           <h5 class="text-center">书名：{{detail[1]}}</h5>
           <h5 class="text-center">作者：{{detail[2]}}</h5>
           {%if foreign == 1%}
@@ -134,6 +135,14 @@
                 返回
               </button>
             </a>
+            {%if status == 2%}
+            <!--<a onclick="testSingle()">-->
+            <a href="/testID/{{i+1}}">
+              <button>
+                测试
+              </button>
+            </a>
+            {%endif%}
           </div>
         </div>
         {%for j in range(0,5)%}
@@ -251,6 +260,7 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
   </script>
   <!-- End Google Map -->
+
 
 </body>
 
