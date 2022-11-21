@@ -100,18 +100,103 @@
       </div>
       <br><br>
       <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-10" id="avgAcc">用户{{username}}：
-          &emsp;您共测试{{times}}次，平均用时{{avgDuration}}，正确率为{{avgAccuracy}}%。最近一次在{{lastTime}}测试，用时{{lastDuration}}，正确率为{{lastAccuracy}}%。
-        </div>
-        <!--从这个div获取值-->
-        <div class="col-md-1"></div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-5">
           <div id="main" style="width: 400px; height: 400px" class="radar"></div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-7">
+          <div>
+            用户{{username}}：
+          </div>
+          <br>
+          <div>
+            &emsp;您共测试{{times}}次，平均用时{{avgDuration}}，正确率为{{avgAccuracy}}%。最近一次在{{lastTime}}测试，用时{{lastDuration}}，正确率为{{lastAccuracy}}%。
+          </div>
+          <br>
+          <div>
+            &emsp;综合来看，您对总体知识的掌握程度
+            {%if avgAccuracy<60%}
+            仍有待提高。
+            {%elif avgAccuracy<70%}
+            为一般。
+            {%elif avgAccuracy<80%}
+            为较好。
+            {%elif avgAccuracy<90%}
+            为良好。
+            {%else%}
+            为优秀。
+            {%endif%}
+            <br>
+          </div>
+          <div>
+            &emsp;其中，您对各类书籍中人物部分知识掌握程度
+            {%if Testscore[0]<60%}
+            仍有待提高。
+            {%elif Testscore[0]<70%}
+            为一般。
+            {%elif Testscore[0]<80%}
+            为较好。
+            {%elif Testscore[0]<90%}
+            为良好。
+            {%else%}
+            为优秀。
+            {%endif%}
+          </div>
+          <div>
+            &emsp;您对各类书籍作者部分知识掌握程度
+            {%if Testscore[1]<60%}
+            仍有待提高。
+            {%elif Testscore[1]<70%}
+            为一般。
+            {%elif Testscore[1]<80%}
+            为较好。
+            {%elif Testscore[1]<90%}
+            为良好。
+            {%else%}
+            为优秀。
+            {%endif%}
+          </div>
+          <div>
+            &emsp;您对各类书籍主旨部分知识掌握程度
+            {%if Testscore[2]<60%}
+            仍有待提高。
+            {%elif Testscore[2]<70%}
+            为一般。
+            {%elif Testscore[2]<80%}
+            为较好。
+            {%elif Testscore[2]<90%}
+            为良好。
+            {%else%}
+            为优秀。
+            {%endif%}
+          </div>
+          <div>
+            &emsp;您对各类书籍中的情节部分知识掌握程度
+            {%if Testscore[3]<60%}
+            仍有待提高。
+            {%elif Testscore[3]<70%}
+            为一般。
+            {%elif Testscore[3]<80%}
+            为较好。
+            {%elif Testscore[3]<90%}
+            为良好。
+            {%else%}
+            为优秀。
+            {%endif%}
+          </div>
+          <div>
+            &emsp;您对各类书籍中的细节部分知识掌握程度
+            {%if Testscore[4]<60%}
+            仍有待提高。
+            {%elif Testscore[4]<70%}
+            为一般。
+            {%elif Testscore[4]<80%}
+            为较好。
+            {%elif Testscore[4]<90%}
+            为良好。
+            {%else%}
+            为优秀。
+            {%endif%}
+          </div>
         </div>
       </div>
       {%else%}
@@ -240,46 +325,46 @@
   </script>
   {%if anytest==0%}
   <!--雷达图动画-->
-  <script type="text/javascript">
-    //基于准备好的DOM，初始化ECharts图表
-    var myChart = echarts.init(document.getElementById("main"));
-    //指定图表的配置项和数据
-    var option = {  //指定图表的配置项和数据
-        color: ["rgb(244, 37, 52)", 'rgb(255, 214, 27)'],  //使用自己预定义的颜色
-        backgroundColor: 'rgb(245, 246, 249)',  //rgba设置透明度0.1
-        tooltip: { trigger: 'axis' },  //配置标题组件
-        //配置图例组件
-        legend: { top: '300px', left: 'center', data: ['累计', '最近'] },
-        radar: [  //设置雷达图坐标系组件，只适用于雷达图
-            {
-                nameGap: 3, shape: 'polygon',  //'polygon'|'circle'
-                name: {
-                    textStyle: {
-                        fontSize: 13, color: '#fff', backgroundColor: 'rgb(68, 109, 183)',
-                        borderRadius: 3, padding: [2, 2]
-                    }
-                },
-                //设置雷达图指示器，指定雷达图中的多个变量
-                indicator: [{ text: '人物形象', max: 100 },
-                { text: '作者', max: 100 }, { text: '主旨', max: 100 },
-                { text: '情节', max: 100 }, { text: '细节', max: 100 }],
-                center: ['50%', '40%'], radius: 120  //指定第2个雷达图的位置
-            }
-        ],
-        series: [  //配置数据系列
-            {   //设置第2个数据项：小米与苹果
-                type: 'radar',
-                tooltip: { trigger: 'item' },
-                itemStyle: { normal: { areaStyle: { type: 'default' } } },
-                data: [  //设置第2个数据项的具体数据
-                    { value: [{{Testscore[0]}}, {{Testscore[1]}}, {{Testscore[2]}}, {{Testscore[3]}}, {{Testscore[4]}}], name: '最近' },
-                    { value: [{{Testscore[5]}}, {{Testscore[6]}}, {{Testscore[7]}}, {{Testscore[8]}}, {{Testscore[9]}}], name: '累计' }]
+    <script type="text/javascript">
+      //基于准备好的DOM，初始化ECharts图表
+      var myChart = echarts.init(document.getElementById("main"));
+      //指定图表的配置项和数据
+      var option = {  //指定图表的配置项和数据
+          color: ["rgb(244, 37, 52)", 'rgb(255, 214, 27)'],  //使用自己预定义的颜色
+          backgroundColor: 'rgb(245, 246, 249)',  //rgba设置透明度0.1
+          tooltip: { trigger: 'axis' },  //配置标题组件
+          //配置图例组件
+          legend: { top: '300px', left: 'center', data: ['累计', '最近'] },
+          radar: [  //设置雷达图坐标系组件，只适用于雷达图
+              {
+                  nameGap: 3, shape: 'polygon',  //'polygon'|'circle'
+                  name: {
+                      textStyle: {
+                          fontSize: 13, color: '#fff', backgroundColor: 'rgb(68, 109, 183)',
+                          borderRadius: 3, padding: [2, 2]
+                      }
+                  },
+                  //设置雷达图指示器，指定雷达图中的多个变量
+                  indicator: [{ text: '人物形象', max: 100 },
+                  { text: '作者', max: 100 }, { text: '主旨', max: 100 },
+                  { text: '情节', max: 100 }, { text: '细节', max: 100 }],
+                  center: ['50%', '40%'], radius: 120  //指定第2个雷达图的位置
+              }
+          ],
+          series: [  //配置数据系列
+              {   //设置第2个数据项：小米与苹果
+                  type: 'radar',
+                  tooltip: { trigger: 'item' },
+                  itemStyle: { normal: { areaStyle: { type: 'default' } } },
+                  data: [  //设置第2个数据项的具体数据
+                      { value: [{{Testscore[0]}}, {{Testscore[1]}}, {{Testscore[2]}}, {{Testscore[3]}}, {{Testscore[4]}}], name: '最近' },
+                      { value: [{{Testscore[5]}}, {{Testscore[6]}}, {{Testscore[7]}}, {{Testscore[8]}}, {{Testscore[9]}}], name: '累计' }]
 
-            }]
-    };
-    //使用刚指定的配置项和数据显示图表
-    myChart.setOption(option); 
-</script>
+              }]
+      };
+      //使用刚指定的配置项和数据显示图表
+      myChart.setOption(option); 
+    </script>
   {%endif%}
 
 </body>

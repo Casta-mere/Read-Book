@@ -52,16 +52,14 @@
     }
     \lstset{style=mystyle}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \newcommand\courseName{Programming in Python}
 \newcommand\semester{Fall 2022}
 \newcommand\assignmentNumber{1}
-\newcommand\studentName{王旭刚}
+\newcommand\studentName{\Large \centering 任课教师: 张涵翠\\王旭刚 2020329621074\\韦杨婧 2020329621199\\池胤杰 2020329621049\\计算机科学与技术全英文授课班20(1)\\}
 \newcommand\studentEmail{Email:castamerego@gmail.com}
-\newcommand\studentNumber{2020329621074}
+\newcommand\studentNumber{2020329621074, 2020329621199, 2020329621049}
 \newcommand\projectname{Read-Book ``智能知识侦查助手''}
-\newcommand\studentClass{计算机科学与技术全英文授课班20(1)}
+\newcommand\studentClass{\centering}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
 \newenvironment{boxedlaw}[1]
@@ -74,28 +72,60 @@
 
 
 \ShortHeadings{Coursework of ZSTU - \courseName}{\projectname}
-
+    
 \begin{document}
-\title{\Huge Python 程序设计 --- 个人总结报告 \\ \huge Read-Book ``智能知识侦查助手''(9) }
 
-\author{\name \studentName \email \studentEmail \\
-    \studentNumber \class  \studentClass
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\columnwidth]{figures/zstu-logo.png}
+\end{figure}
+
+\title{\Huge Python 程序设计  --- 项目部署文档\\ \vspace{1.5cm} Read-Book ``智能知识侦查助手''(9) \\ \vspace{1.5cm} \huge 2022-2023-1 \\ \vspace{0.8cm}}
+
+\author{\name \studentName{}
+    \addr
 }
 
 \maketitle
-
-\section{个人工作介绍}
-本人在项目中的主要职责为豆瓣书籍信息爬取，后端设计与实现，项目的服务器部署。
-
-\section{团队评价}
-作为组长，我认为我们组的合作较好。从前期的前后端、数据库设计，到后面的头脑风暴讨论，我们都有较好的合作。我们使用了git来同步进度，在github仓库里面记录了我们遇到的问题，找到的解决方式。两名组员中，韦杨婧同学负责前端设计，池胤杰同学负责书籍问题信息的搜集与清洗，作为后端的负责人，我需要与他们沟通好需要的数据以及提供需要提供的接口，在短短几周内，我们有着超过140条commit记录。在项目推进的全程中，三名同学都十分积极主动，热情高涨。
-
-\section{个人总结}
-在做本次项目中收获了很多，在中期的一次讨论中我们想到了把最后的成品如果部署到服务器上，可以通过公网ip直接访问的话，将非常酷炫，我也是经过了很多天的折磨，debug才最终实现了。
-
-Python所拥有的多种库，从前端的flask到后端的pymysql，再到爬虫的beautifulsoup4，他体现着一种方便、便捷的思想，你不需要搞清楚底层的实现逻辑，而可以专注于自己的设计。比如在部署到服务器的时候，flask甚至可以直接开放至127.0.0.0:80 以便http请求的处理。
-
-
-本次做项目中，我们都尝试了很多新的事情，git，\LaTeX，Linux的使用。带给了我们几个对于格式化论文撰写，多人协作coding，服务器使用的经验，在将来课程设计、毕业设计、甚至是工作中都是用得上的。
 \thispagestyle{empty}
+\newpage
+
+\section{前言}
+本项目的全部代码已经开源至Github，点击\href{https://github.com/Casta-mere/Read-Book}{\textbf{\emph{此处}}}访问我们的Github仓库。项目已经部署至服务器，点击\href{http://47.116.46.195/}{\textbf{\emph{此处}}}，在线体验我们的Read-Book ``智能知识侦查助手''。
+
+\section{环境需求}
+\begin{itemize}
+    \item Python 3.10
+    \item Mysql server 8.0.26
+    \item Python packages:
+          \begin{itemize}
+              \item flask
+              \item pymysql
+              \item cryptography
+              \item Beautifulsoup4
+              \item requests
+          \end{itemize}
+\end{itemize}
+
+\section{项目部署}
+\subsection{环境配置}
+\begin{enumerate}
+    \item 安装Python 3.10 点击\href{https://zhuanlan.zhihu.com/p/273378438}{\textbf{\emph{此处}}}查看教程
+    \item 安装Mysql server 8.0.26 点击\href{https://zhuanlan.zhihu.com/p/188416607}{\textbf{\emph{此处}}}查看教程
+    \item 安装Python packages: 在终端中输入:\\
+          pip install flask\\
+          pip install pymysql\\
+          pip install cryptography\\
+          pip install Beautifulsoup4\\
+          pip install requests\\
+
+\end{enumerate}
+\subsection{准备操作}
+注意：在当前文件夹(Read-Book文件夹)下使用Vscode(或者你自己的Python IDE)打开文件夹
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\columnwidth]{figures/zstu-logo.png}
+\end{figure}
+
 \end{document}

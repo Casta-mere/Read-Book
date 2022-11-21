@@ -39,17 +39,15 @@
 - pymysql
 - beautifulsoup4
 - requests
-
+- cryptography
 
 ## 文件描述
 
-| 文件名   | 文件描述  |
-| :------- | :-------- |
-| code     | 代码      |
-| report   | 报告, PPT |
-| record   | 过程记录  |
-| resource | 相关材料  |
+| 文件名          | 文件描述       |
+| :-------------- | :------------- |
+| code            | 代码           |
+| report          | 报告, PPT      |
+| record          | 过程记录       |
+| resource        | 相关材料       |
+| requirement.txt | 需要的python库 |
 
-## server
-
-        Aaa6953217
