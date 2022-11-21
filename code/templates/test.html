@@ -28,6 +28,20 @@
 </head>
 
 <body class="sub_page">
+  <script type="text/javascript">
+    $(function(){  
+        $(".unselected div").click(function() {
+            $(this).attr('class','selected');
+        });
+    }); 
+  </script>
+  <script type="text/javascript">
+    $(function(){  
+        $(".selected div").click(function() {
+            $(this).attr('class','unselected');
+        });
+    }); 
+  </script>
         
   <div class="hero_area">
     <!-- header section strats -->
@@ -102,14 +116,9 @@
                 <img src="/static/images/cat1.png" alt="">
               </div>
               <div class="detail-box">
-                <h5>
-                  Textbooks
+                <h5 id="random" >
+                  随机
                 </h5>
-                <p>
-                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                  The
-                  point of using
-                </p>
               </div>
             </div>
           </div>
@@ -119,14 +128,9 @@
                 <img src="/static/images/cat2.png" alt="">
               </div>
               <div class="detail-box">
-                <h5>
-                  Science
+                <h5 id="figure">
+                  人物形象
                 </h5>
-                <p>
-                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                  The
-                  point of using
-                </p>
               </div>
             </div>
           </div>
@@ -136,14 +140,9 @@
                 <img src="/static/images/cat3.png" alt="">
               </div>
               <div class="detail-box">
-                <h5>
-                  History
+                <h5 id="writer">
+                  作者
                 </h5>
-                <p>
-                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                  The
-                  point of using
-                </p>
               </div>
             </div>
           </div>
@@ -153,14 +152,9 @@
                 <img src="/static/images/cat4.png" alt="">
               </div>
               <div class="detail-box">
-                <h5>
-                  Biography
+                <h5 id="main">
+                  主旨
                 </h5>
-                <p>
-                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                  The
-                  point of using
-                </p>
               </div>
             </div>
           </div>
@@ -170,14 +164,9 @@
                 <img src="/static/images/cat5.png" alt="">
               </div>
               <div class="detail-box">
-                <h5>
-                  Adventure
+                <h5 id="content">
+                  情节
                 </h5>
-                <p>
-                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                  The
-                  point of using
-                </p>
               </div>
             </div>
           </div>
@@ -187,14 +176,9 @@
                 <img src="/static/images/cat6.png" alt="">
               </div>
               <div class="detail-box">
-                <h5>
-                  Fantasy
+                <h5 id="detail">
+                  细节
                 </h5>
-                <p>
-                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                  The
-                  point of using
-                </p>
               </div>
             </div>
           </div>
