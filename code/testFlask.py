@@ -24,6 +24,8 @@ globals.stat = 0
 # 从题库抽出的问题
 globals.ques = 0
 
+globals.starttime=0
+
 globals.anytest = 0
 
 globals.ctrl=control.control()
@@ -85,6 +87,7 @@ def testID(id):
     whole=0
     head=['A','B','C','D']
     globals.ques=globals.ctrl.get_question_by_bookid(id)
+    globals.starttime=int(time.time())
     return render_template(
         "testStart.html",
         status=globals.status,
