@@ -2,7 +2,7 @@
 
 ## 11.06
 
-- [ ] 两台电脑数据库互访
+- [x] 两台电脑数据库互访
 
     pymysql.connect(host=db_ip,user='root',password='',charset='utf8')  两台电脑连接同一个网络，将host更改为目标电脑的ip  
 
@@ -64,13 +64,13 @@
 - [x] 测试题目限制为了10道题，可能有的书不够10道题
 
 ## 11.20
-- [ ] uml类图生成
+- [x] uml类图生成
 
         pyreverse -o dot -p Pyreverse 路径/
         ctrl+k v 开启预览
         http://www.webgraphviz.com/ 在线预览
         https://svgtopng.com/ svg to png
 
-- [ ] latex插入svg图片
+- [x] latex插入svg图片
 
         https://blog.csdn.net/dl962454/article/details/114479159

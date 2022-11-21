@@ -128,7 +128,7 @@ Our team's course design is called ``Read-Book'', an Intelligent Knowledge Scout
 
 We used \emph{Python} as the main programming language. Use \emph{flask} library to manipulate html, css, javascript for front-end; \emph{requests, BeautifulSoup4} library for webcrawing data; and \emph{pymysql} library for back-end programming. For more information, you can click  \href{https://github.com/Casta-mere/Read-Book}{\textbf{\emph{here}}} to view our Github Repository and click \href{http://47.116.46.195/}{\textbf{\emph{here}}} to view our product page. \\ \vspace{1.0cm}
 
-Key words: Python, Webcrawer, Question/Questionnaire Generating, Object-Orinted Programming, Web--App\cite{BOOK}
+Key words: Python, Webcrawer, Question/Questionnaire Generating, Object-Orinted Programming\cite{wikiforoop}, Web--App
 
 
 \pagenumbering{Roman}
@@ -461,15 +461,58 @@ Key words: Python, Webcrawer, Question/Questionnaire Generating, Object-Orinted 
 
 \section{系统实现}
 \subsection{前端实现}
-\subsection{后端实现}
-\subsubsection{UML类图}
+\subsubsection{页面 1 -- Log/Register}
+\subsubsection{页面 2 -- Home}
+\subsubsection{页面 3 -- Book}
+\subsubsection{页面 4 -- Test}
+\subsubsection{页面 5 -- Statistics}
+\subsubsection{页面 6 -- Profile}
+
+\newpage
+\subsection{后端实现 -- UML类图}
 \begin{figure}[htbp]
     \includegraphics[width=1\columnwidth]{figures/backenduml.pdf}
     \caption{后端UML图}
     \label{fig:backenduml}
 \end{figure}
+\subsection{前后端交互}
 
+\subsubsection{用户注册/登录/登出}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\columnwidth]{SwimLaneDiagram/Usecase_1.jpg}
+    \caption{前后端交互：用户注册/登录/登出}
+    \label{fig:userlogin}
+\end{figure}
 \newpage
+\subsubsection{全部书籍信息预览}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\columnwidth]{SwimLaneDiagram/Usecase_2.jpg}
+    \caption{前后端交互：全部书籍信息预览}
+    \label{fig:bookinfo}
+\end{figure}
+\newpage
+
+\subsubsection{书籍信息测试}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\columnwidth]{SwimLaneDiagram/Usecase_3.jpg}
+    \caption{前后端交互：书籍信息测试}  
+    \label{fig:test}
+\end{figure}
+\newpage
+
+\subsubsection{测试结果分析以及可视化展示}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\columnwidth]{SwimLaneDiagram/Usecase_4.jpg}
+    \caption{测试结果分析以及可视化展示}  
+    \label{fig:statistics}
+\end{figure}
+\newpage
+
 \section{结束语}
 
 \subsection{总结}
