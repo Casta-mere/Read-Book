@@ -189,6 +189,40 @@ li {
   color:#000
 }
 
+.li-right {
+  color: #000;
+  background-color: #a6acaf;
+  border-color: #000000;
+  border-width: 2px;
+  box-shadow: 0 0 0 0.2rem #4dc13e;
+  margin: 8px;
+  Border-radius: 4px;
+  padding: 4px;
+}
+/*可以把前面的.li-ori的transparent覆盖*/
+.li-right:hover {
+  color: #A6ACAF;
+  background-color: #A6ACAF;
+  color:#000
+}
+
+.li-wrong {
+  color: #000;
+  background-color: #a6acaf;
+  border-color: #000000;
+  border-width: 2px;
+  box-shadow: 0 0 0 0.2rem #c13e3e;
+  margin: 8px;
+  Border-radius: 4px;
+  padding: 4px;
+}
+/*可以把前面的.li-ori的transparent覆盖*/
+.li-wrong:hover {
+  color: #A6ACAF;
+  background-color: #A6ACAF;
+  color:#000
+}
+
 /*新增结束*/
 a {
   color: #007bff;

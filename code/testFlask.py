@@ -5,7 +5,7 @@ from flask import (
     Flask, render_template, request, redirect, url_for, globals)
 import control 
 import json
-
+import multiprocessing
 
 search = Flask(__name__)
 
@@ -23,12 +23,14 @@ globals.test = 0
 globals.stat = 0
 # 从题库抽出的问题
 globals.ques = 0
-
-globals.starttime=0
-
+# 测试的开始时间
+globals.starttime = 0
+# 是否进行过测试
 globals.anytest = 0
-
+# 引入control的函数
 globals.ctrl=control.control()
+# 选择的内容
+globals.choice = 0
 
 
 
@@ -72,6 +74,7 @@ def bookDetail(id):
 def test(): 
     if globals.status == 1:
         globals.test=1
+        globals.stat=0
         return render_template(
             "profile.html",
             status=globals.status
@@ -81,7 +84,8 @@ def test():
             'test.html',
             status=globals.status,
             )
-        
+
+# 书籍详情页进入测试        
 @search.route('/testID/<int:id>',methods=['GET', 'POST'])
 def testID(id):
     whole=0
@@ -97,6 +101,7 @@ def testID(id):
         length=len(globals.ques)
     )
 
+# 选取测试题目的类型
 @search.route('/testSelected', methods=['GET', 'POST'])
 def testSelected():
     data=json.loads(list(request.args.to_dict().keys())[0])
@@ -108,13 +113,12 @@ def testSelected():
     
     globals.ques=test
     globals.starttime=int(time.time())
-    
+    # print(globals.ques)
     return render_template(
         "index.html",
         status=globals.status
     )
-    
-
+ 
 # 正式测试
 @search.route('/testStart', methods=['GET', 'POST'])
 def testStart():
@@ -133,7 +137,13 @@ def testStart():
 @search.route('/submit', methods=['GET', 'POST'])
 def submit():
 
-    returnData=json.loads(list(request.args.to_dict().keys())[0])
+    returnData=json.loads(list(request.args.to_dict().keys())[0])           # {'titleID_choice': ['20_true']}
+    choice=returnData["titleID_choice"]                             # ['2_true', '5_true', '7_true', '9_芝麻,开门吧!', '20_true', '21_鲁贵', '24_true'] 0--24
+    # print(globals.choice)
+    globals.choice=dict()
+    for item in choice:
+        globals.choice[item.split("_")[0]]=item.split("_")[1]
+    
     test=globals.ques
     returnData.update({'test':test})
     returnData.update({"userid":globals.User["id"]})
@@ -146,17 +156,34 @@ def submit():
 
     return render_template(
         "index.html",
-        status=globals.status
+        status=globals.status,
+        test=test,
+        choice=choice
     )
 
 # 处理数据
 @search.route('/process', methods=['GET', 'POST'])
 def process():
+    whole=0
+    head=['A','B','C','D']
+    for i in range(0,5):
+        try:
+            if globals.choice[str(i)]==globals.ques[i]["Ans"]:
+                print(globals.ques[i]["Ans"])
+        except:
+            print(1)
+        print(globals.choice)
     return render_template(
-        "index.html",
-        status=globals.status
+        "process.html",
+        status=globals.status,
+        whole=whole,
+        head=head,
+        length=len(globals.ques),
+        test=globals.ques,
+        choice=globals.choice
     )
 
+# 数据分析
 @search.route('/statistics', methods=['GET', 'POST'])
 def statistics():
     globals.anytest=0
@@ -208,6 +235,8 @@ def profile():
 @search.route('/login', methods=['GET', 'POST'])
 def login():
     globals.status = 1
+    globals.test = 0
+    globals.stat = 0
     return render_template(
         'profile.html',
         status=globals.status,
@@ -313,7 +342,8 @@ def logout():
     return render_template(
         "index.html",
         status=globals.status
-    )    
+    )  
+  
 def run():
     search.run(debug=True)
 
@@ -322,3 +352,7 @@ def server_run():
 
 if __name__ == '__main__':
     run()
+    # t1=multiprocessing.Process(target=run)
+    # t2=multiprocessing.Process(target=run)
+    # t1.start()
+    # t2.start()
