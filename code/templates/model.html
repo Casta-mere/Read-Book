@@ -1,54 +1,53 @@
 <html>
-
 <head>
-    <meta charset="utf-8">
-    <!-- 引入 ECharts 文件 -->
-    <script src="https://cdn.bootcss.com/echarts/4.8.0/echarts.js"></script>
-
+<script src="../static/js/jquery-3.4.1.min.js"></script>
 </head>
+<style>
+.nav {
+    width:35px;
+    height:35px;
+    line-height: 35px;
+    text-align: center;
+    border:1px solid #7B7B7B;
+    float:left;
+}
+.content{
+    width:100;
+    margin:0 auto;
+ }
 
+#tip{
+    width:200px;
+ }
+
+.m{
+    background-color: #0066cc;
+}
+
+</style>
 <body>
-    <!---为ECharts准备一个具备大小（宽高）的DOM-->
-    <div id="main" style="width: 400px; height: 300px"></div>
-    <script type="text/javascript">
-        //基于准备好的DOM，初始化ECharts图表
-        var myChart = echarts.init(document.getElementById("main"));
-        //指定图表的配置项和数据
-        var option = {  //指定图表的配置项和数据
-            color: ["rgb(244, 37, 52)", 'rgb(255, 214, 27, 1)'],  //使用自己预定义的颜色
-            backgroundColor: 'rgba(128, 128, 128, 0.1)',  //rgba设置透明度0.1
-            tooltip: { trigger: 'axis' },  //配置标题组件
-            //配置图例组件
-            legend: { top: '260px', left: 'center', data: ['累计', '最近'] },
-            radar: [  //设置雷达图坐标系组件，只适用于雷达图
-                {
-                    nameGap: 3, shape: 'polygon',  //'polygon'|'circle'
-                    name: {
-                        textStyle: {
-                            fontSize: 12, color: '#fff', backgroundColor: 'rgb(68, 109, 183)',
-                            borderRadius: 3, padding: [2, 2]
-                        }
-                    },
-                    //设置雷达图指示器，指定雷达图中的多个变量
-                    indicator: [{ text: '外观', max: 100 },
-                    { text: '拍照', max: 100 }, { text: '系统', max: 100 },
-                    { text: '性能', max: 100 }, { text: '屏幕', max: 100 }],
-                    center: ['50%', '40%'], radius: 80  //指定第2个雷达图的位置
-                }
-            ],
-            series: [  //配置数据系列
-                {   //设置第2个数据项：小米与苹果
-                    type: 'radar',
-                    tooltip: { trigger: 'item' },
-                    itemStyle: { normal: { areaStyle: { type: 'default' } } },
-                    data: [  //设置第2个数据项的具体数据
-                        { value: [75, 90, 90, 65, 75], name: '累计' },
-                        { value: [95, 80, 70, 100, 93], name: '最近' }]
-                }]
-        };
-        //使用刚指定的配置项和数据显示图表
-        myChart.setOption(option); 
-    </script>
-</body>
+<div class ="content">
+<div id = "tip">
+<div class = "nav">1</div><div class = "nav">2</div><div class = "nav">3</div><div class = "nav">4</div><div class = "nav">5</div>
+<button style = "width:65px; height:30px; margin-top: 20px;margin-left: 50px;">提交</button>
+</div>
+</div>
 
+</body>
+<script type="text/javascript">
+$(document).ready(function(){
+    $(".nav").click(function(){
+    if ($(this).hasClass("m")) {
+        $(this).removeClass("m");
+    }else{
+        $(this).addClass("m");
+    }
+    });
+
+    $('button').click(function(){
+        var val = $('.m').text();
+        alert(val);
+    });
+});
+</script>
 </html>

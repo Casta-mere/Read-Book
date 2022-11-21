@@ -24,23 +24,18 @@
   <link href="/static/css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="/static/css/responsive.css" rel="stylesheet" />
+  <script src="/static/js/jquery-3.4.1.min.js"></script>
 
 </head>
 
 <body class="sub_page">
   <script type="text/javascript">
-    $(function(){  
-        $(".unselected div").click(function() {
-            $(this).attr('class','selected');
-        });
-    }); 
-  </script>
-  <script type="text/javascript">
-    $(function(){  
-        $(".selected div").click(function() {
-            $(this).attr('class','unselected');
-        });
-    }); 
+    $(document).ready(function(){
+      $(".img-box").click(function(){
+        $(".img-box").removeClass('selected');  
+        $(this).addClass('selected'); 
+      });
+  });
   </script>
         
   <div class="hero_area">
@@ -112,7 +107,7 @@
         <div class="row">
           <div class="col-sm-6 col-md-4 ">
             <div class="box ">
-              <div class="img-box">
+              <div class="img-box selected">
                 <img src="/static/images/cat1.png" alt="">
               </div>
               <div class="detail-box">
