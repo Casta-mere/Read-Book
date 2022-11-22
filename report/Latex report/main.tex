@@ -154,6 +154,16 @@ Key words: Python, Webcrawer, Question/Questionnaire Generating, Object-Orinted 
             \hline
             2022.11.08 & 1.2  & 用户、书籍数据库设计 & 王旭刚、韦杨婧         & 韦杨婧 \\
             \hline
+            2022.11.08 & 1.3  & 网页模板修改        & 韦杨婧                 & 韦杨婧 \\
+            \hline
+            2022.11.08 & 1.4  & 实现登录注册     & 韦杨婧             & 韦杨婧 \\
+            \hline
+            2022.11.08 & 1.5  & 查看个人信息功能     & 韦杨婧             & 韦杨婧 \\
+            \hline
+            2022.11.09 & 1.6  & 设计书籍页面     & 韦杨婧       & 韦杨婧 \\
+            \hline
+            2022.11.09 & 1.7  & 设计知识测试页面     & 韦杨婧             & 韦杨婧 \\
+            \hline
             2022.11.09 & 1.9  & 总结、问题添加       & 王旭刚                 & 王旭刚 \\
             \hline
             2022.11.16 & 2.1  & 修改README           & 王旭刚                 & 韦杨婧 \\
@@ -161,6 +171,8 @@ Key words: Python, Webcrawer, Question/Questionnaire Generating, Object-Orinted 
             2022.11.17 & 2.2  & 完善摘要             & 王旭刚                 & 王旭刚 \\
             \hline
             2022.11.17 & 2.3  & 问题数据增加至前29本 & 池胤杰                 & 王旭刚 \\
+            \hline
+            2022.11.17 & 2.4  & 前后台数据传递 & 韦杨婧              & 韦杨婧 \\
             \hline
             2022.11.18 & 3.1  & 成功在服务器部署     & 王旭刚                 & 韦杨婧 \\
             \hline
@@ -461,12 +473,118 @@ Key words: Python, Webcrawer, Question/Questionnaire Generating, Object-Orinted 
 
 \section{系统实现}
 \subsection{前端实现}
-\subsubsection{页面 1 -- Log/Register}
+
+本次设计基于Flask框架实现前后端分离。后端使用Flask框架，用路由绑定函数，实现跳转至不同页面时运行对应函数。前端使用Bootstrap框架，使用HTML5和CSS3实现页面布局和样式，使用JavaScript和jQuery实现页面交互效果。
+
+前端页面按照排版可主要分为三个部分，分别是标签栏，内容栏和尾部。标签栏处设定主页（Home）、书籍页（Book）、测试页（Test）、数据页（Statistics）、个人页（Profile）。内容栏根据不同的页面显示不同的内容。尾部处显示版权信息。而按照功能可分为主页、书籍概览页、测试页、数据页和登录、注册、个人信息页。主页、书籍概览页无需登录即可查看，而测试页、数据页、则需要登陆后才能进行下一步操作。
+
+\subsubsection{页面 1 -- Log/Register/Profile}
+
+进入网站后，点击login可进入登录界面，已注册用户可选择直接登录；未注册用户可选择先注册后登录。登陆后可点击标签栏的“profile”查看个人信息。
+
 \subsubsection{页面 2 -- Home}
+
+主页显示网站的设置了滚动播放。播放的内容分别为每日推荐读物（如图\ref{fig:homeRe}）和测试入口（如图\ref{fig:homeTest}）。点击每日推荐读物的详情标签可进入对应书籍的详细信息页；点击测试则进入测试页。
+
+\begin{figure}[htbp]
+    \begin{minipage}[t]{0.5\linewidth}
+        \centering
+        \includegraphics[width=0.9\columnwidth]{figures/homeRe.png}
+        \caption{每日推荐读物}\label{fig:homeRe}
+    \end{minipage}
+    \begin{minipage}[t]{0.5\linewidth}
+        \centering
+        \includegraphics[width=0.9\columnwidth]{figures/homeTest.png}
+        \caption{测试入口}\label{fig:homeTest}
+    \end{minipage}
+\end{figure}
+
 \subsubsection{页面 3 -- Book}
+
+书籍页显示豆瓣排名前200的书籍排名、书名、作者和对应图片等摘要信息以及跳转按钮（如图\ref{fig:bookBrief}）。点击按钮可进入对应书籍的详细信息页，除了摘要信息外还包含国家、出版社、出版年份、isbn码、豆瓣评分、简介等（如图\ref{fig:bookDetail}）。
+
+\begin{figure}[htbp]
+    \begin{minipage}[t]{0.5\linewidth}
+        \centering
+        \includegraphics[width=0.9\columnwidth]{figures/bookBrief.png}
+        \caption{书籍信息页（摘要）}\label{fig:bookBrief}
+    \end{minipage}
+    \begin{minipage}[t]{0.5\linewidth}
+        \centering
+        \includegraphics[width=0.9\columnwidth]{figures/bookDetail.png}
+        \caption{书籍详细信息页}\label{fig:bookDetail}
+    \end{minipage}
+\end{figure}
+
+未登录状态下，显示返回按钮；登录状态下则在此基础上额外显示测试按钮。点击返回可返回到200本书籍的摘要页面；点击测试，可以跳转到测试界面，测试内容仅与该书相关。
+
+
+
 \subsubsection{页面 4 -- Test}
+
+若未登录时直接点击测试页，网页跳转至登录界面，登陆后自动跳转到测试界面。此时用户可以选择测试题目的类型（共分为人物形象类、作者类、主旨类、情节类、细节类五个类别），点击开始测试即可做题。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\columnwidth]{figures/testCate.png}
+    \caption{选择类别进行测试}\label{fig:testCate}
+\end{figure}
+
+答题完毕后可以整卷阅览或提交。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\columnwidth]{figures/testSubmit.png}
+    \caption{测试完毕可选整卷阅览或提交}\label{fig:testSubmit}
+\end{figure}
+
+提交后将显示批卷结果，用户可以看到自己的答题情况。选择正确则选项显示绿色边框。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\columnwidth]{figures/testRight.png}
+    \caption{选择正确}\label{fig:testRight}
+\end{figure}
+
+选择错误则用户选择的选项显示红色边框，正确答案显示绿色边框。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\columnwidth]{figures/testError.png}
+    \caption{选择错误}\label{fig:testError}
+\end{figure}
+
+未选择则正确选项显示蓝色边框。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\columnwidth]{figures/testEmpty.png}
+    \caption{未选择}\label{fig:testEmpty}
+\end{figure}
+
 \subsubsection{页面 5 -- Statistics}
-\subsubsection{页面 6 -- Profile}
+
+与测试页相同，若未登录时直接点击数据页，网页跳转至登录界面，登陆后自动跳转到数据界面。若用户无历史测试数据，网页会提示用户先进行测试，如图\ref{fig:noTest}。
+
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.6\columnwidth]{figures/}
+%     \caption{}\label{fig:}
+% \end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\columnwidth]{figures/noTest.png}
+    \caption{无历史测试数据}\label{fig:noTest}
+\end{figure}
+
+若用户有历史测试数据，网页显示相关数据图与分析文字。其中进度条显示用户多次测试的累计正确率。雷达图则显示用户在五个类别下的累计正确率和最近一次测试的正确率。根据用户的累计正确率，将生成对应分析文本以及名人名言，如图\ref{fig:stat}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\columnwidth]{figures/stat.png}
+    \caption{历史数据页面}\label{fig:stat}
+\end{figure}
 
 \newpage
 \subsection{后端实现 -- UML类图}
@@ -532,6 +650,7 @@ Key words: Python, Webcrawer, Question/Questionnaire Generating, Object-Orinted 
 \begin{enumerate}
     \item 在前期准备中爬取了豆瓣Top200书籍的信息，但并未爬取完全，结果后期发现，豆瓣的Top200是根据评分数据一直在动态变化的。虽然后期通过豆瓣ID爬取出了全部的信息，但排名信息无法实时更新，后期会在此基础上继续改进。
     \item 在中期讨论中，想到把应用部署到服务器，便开始了对Linux服务器的探索，经过一周的尝试，最终有了我们自己的公网ip\href{http://47.116.46.195/}{\textbf{\emph{47.116.46.195}}}，但由于备案时间需要半个月，我们的域名\href{http://www.castamerego.com/}{\textbf{\emph{http://www.castamerego.com/}}}未能在答辩时正式启用。
+    \item 未能实现多用户登录。由于使用全局变量globals在函数间进行传参，多线程共享全局变量导致同时只能一个用户登录。期间尝试过多进程，将全局变量改写为类对象等。但未成功，后期会继续改进。
     \item 在过程中还存在很多问题，上面描述的只是部分，我们所遇到的全部问题可以点击\href{https://github.com/Casta-mere/Read-Book/tree/main/record/bugs}{\textbf{\emph{此处}}}，在我们的Github仓库中查看。
 \end{enumerate}
 
