@@ -36,3 +36,4 @@
 | reset.py        | 重置本地端数据                           |
 | server.py       | 服务器运行                               |
 | testFlask.py    | 前端的接入口                             |
+| tryFlask.py     | 后面再改的话                             |
