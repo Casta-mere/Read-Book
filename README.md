@@ -20,11 +20,6 @@
 + [x] 部署至服务器,拥有公网ip以及域名(备案中)
 + [x] 首页添加了今天读什么
 
-## Test 方法
-
-+ [x] 全部题库打乱
-+ [x] 选择某个类别
-+ [x] 选择某个书籍
 
 
 ## Thoughts
@@ -32,10 +27,16 @@
 + [x] 选项打乱 -- ascii码 11.06
 + [ ] 多选题
 + [ ] 问题可从书评中摘取
++ [ ] 多用户登录？
 + [x] 通过数据库内数据生成概念性问题，比如书对应作者，以及相反
 + [ ] 可以添加admin, 让admin可以手动添加题目？
-+ [ ] 借用script，写个function，获取选中的li --> 传给后端  --> 后端用request.get_json()获取 --> 用一个globals存好 --> 传入testLook --> 最终提交
++ [x] 借用script，写个function，获取选中的li --> 传给后端  --> 后端用request.get_json()获取 --> 用一个globals存好 --> 传入testLook --> 最终提交
 + [x] 首页加一个今天读什么
+## Test 方法
+
++ [x] 全部题库打乱
++ [x] 选择某个类别
++ [x] 选择某个书籍
 
 ## Environment Requirement
 
